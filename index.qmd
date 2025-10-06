@@ -1,11 +1,13 @@
 ---
-title: "PROJ_researchring_website"
+title: "The Research Ring"
 ---
 
-Test test
+## Welcome!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+You've found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you'll find here:
 
-```{r}
-1 + 1
-```
+1.  **Public-facing**--Content intended for public sharing (e.g., research articles, whitepapers, web apps)
+
+2.  **Ring-facing**--Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)
+
+Both types of content are meant to be freely accessed and none of it is private.

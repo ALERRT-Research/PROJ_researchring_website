@@ -1,0 +1,261 @@
+[
+  {
+    "objectID": "make_website.html",
+    "href": "make_website.html",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.\n\n\n\nGit installed on your computer\nA GitHub account\n\n\n\n\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management.\n\n\n\n\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push\n\n\n\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it.\n\n\n\n\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file.\n\n\n\n\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push\n\n\n\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save.\n\n\n\n\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link.\n\n\n\n\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website.\n\n\n\n\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  },
+  {
+    "objectID": "make_website.html#prerequisites",
+    "href": "make_website.html#prerequisites",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "Git installed on your computer\nA GitHub account"
+  },
+  {
+    "objectID": "make_website.html#create-a-new-quarto-project",
+    "href": "make_website.html#create-a-new-quarto-project",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "Open RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management."
+  },
+  {
+    "objectID": "make_website.html#create-github-repository",
+    "href": "make_website.html#create-github-repository",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push"
+  },
+  {
+    "objectID": "make_website.html#create-the-gh-pages-branch",
+    "href": "make_website.html#create-the-gh-pages-branch",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "On GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it."
+  },
+  {
+    "objectID": "make_website.html#set-up-github-actions-workflow",
+    "href": "make_website.html#set-up-github-actions-workflow",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file."
+  },
+  {
+    "objectID": "make_website.html#commit-and-push-workflow-file",
+    "href": "make_website.html#commit-and-push-workflow-file",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "git add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push"
+  },
+  {
+    "objectID": "make_website.html#configure-github-pages",
+    "href": "make_website.html#configure-github-pages",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "On GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save."
+  },
+  {
+    "objectID": "make_website.html#monitor-deployment",
+    "href": "make_website.html#monitor-deployment",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link."
+  },
+  {
+    "objectID": "make_website.html#how-it-works",
+    "href": "make_website.html#how-it-works",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "GitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website."
+  },
+  {
+    "objectID": "make_website.html#tips-troubleshooting",
+    "href": "make_website.html#tips-troubleshooting",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "The site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Research Ring",
+    "section": "",
+    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private."
+  },
+  {
+    "objectID": "lab_posts/posts.html",
+    "href": "lab_posts/posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "How to Publish a Quarto Website with GitHub Pages and Actions\n\n\n\nring-facing\n\n\nquarto\n\n\ngithub\n\n\n\nStep-by-step guide to fully automated Quarto publishing—no local rendering required.\n\n\n\nPeter T. Tanksley\n\n\nOct 6, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lab_posts/make_website.html",
+    "href": "lab_posts/make_website.html",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.\n\n\n\nGit installed on your computer\nA GitHub account\n\n\n\n\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management.\n\n\n\n\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push\n\n\n\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it.\n\n\n\n\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file.\n\n\n\n\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push\n\n\n\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save.\n\n\n\n\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link.\n\n\n\n\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website.\n\n\n\n\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#prerequisites",
+    "href": "lab_posts/make_website.html#prerequisites",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "Git installed on your computer\nA GitHub account"
+  },
+  {
+    "objectID": "lab_posts/make_website.html#create-a-new-quarto-project",
+    "href": "lab_posts/make_website.html#create-a-new-quarto-project",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "Open RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#create-github-repository",
+    "href": "lab_posts/make_website.html#create-github-repository",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push"
+  },
+  {
+    "objectID": "lab_posts/make_website.html#create-the-gh-pages-branch",
+    "href": "lab_posts/make_website.html#create-the-gh-pages-branch",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "On GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#set-up-github-actions-workflow",
+    "href": "lab_posts/make_website.html#set-up-github-actions-workflow",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#commit-and-push-workflow-file",
+    "href": "lab_posts/make_website.html#commit-and-push-workflow-file",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "git add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push"
+  },
+  {
+    "objectID": "lab_posts/make_website.html#configure-github-pages",
+    "href": "lab_posts/make_website.html#configure-github-pages",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "On GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#monitor-deployment",
+    "href": "lab_posts/make_website.html#monitor-deployment",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "In GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#how-it-works",
+    "href": "lab_posts/make_website.html#how-it-works",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "GitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website."
+  },
+  {
+    "objectID": "lab_posts/make_website.html#tips-troubleshooting",
+    "href": "lab_posts/make_website.html#tips-troubleshooting",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "The site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "The Research Ring",
+    "section": "",
+    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html",
+    "href": "lab_posts/2024-10-06_make_website/index.html",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "Noir-style hex blending Quarto and GitHub Pages.\nImage credit: Created with ChatGPT (OpenAI)."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#prerequisites",
+    "href": "lab_posts/2024-10-06_make_website/index.html#prerequisites",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nGit installed on your computer\nA GitHub account"
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-a-new-quarto-project",
+    "href": "lab_posts/2024-10-06_make_website/index.html#create-a-new-quarto-project",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "1. Create a New Quarto Project",
+    "text": "1. Create a New Quarto Project\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-github-repository",
+    "href": "lab_posts/2024-10-06_make_website/index.html#create-github-repository",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "2. Create GitHub Repository",
+    "text": "2. Create GitHub Repository\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push"
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-the-gh-pages-branch",
+    "href": "lab_posts/2024-10-06_make_website/index.html#create-the-gh-pages-branch",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "3. Create the gh-pages Branch",
+    "text": "3. Create the gh-pages Branch\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#set-up-github-actions-workflow",
+    "href": "lab_posts/2024-10-06_make_website/index.html#set-up-github-actions-workflow",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "4. Set Up GitHub Actions Workflow",
+    "text": "4. Set Up GitHub Actions Workflow\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#commit-and-push-workflow-file",
+    "href": "lab_posts/2024-10-06_make_website/index.html#commit-and-push-workflow-file",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "5. Commit and Push Workflow File",
+    "text": "5. Commit and Push Workflow File\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push"
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#configure-github-pages",
+    "href": "lab_posts/2024-10-06_make_website/index.html#configure-github-pages",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "6. Configure GitHub Pages",
+    "text": "6. Configure GitHub Pages\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#monitor-deployment",
+    "href": "lab_posts/2024-10-06_make_website/index.html#monitor-deployment",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "7. Monitor Deployment",
+    "text": "7. Monitor Deployment\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#how-it-works",
+    "href": "lab_posts/2024-10-06_make_website/index.html#how-it-works",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "How It Works",
+    "text": "How It Works\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website."
+  },
+  {
+    "objectID": "lab_posts/2024-10-06_make_website/index.html#tips-troubleshooting",
+    "href": "lab_posts/2024-10-06_make_website/index.html#tips-troubleshooting",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Tips & Troubleshooting",
+    "text": "Tips & Troubleshooting\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  }
+]

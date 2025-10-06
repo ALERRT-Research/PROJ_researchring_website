@@ -1,0 +1,156 @@
+---
+title: "How to Publish a Quarto Website with GitHub Pages and Actions"
+description: "Step-by-step guide to fully automated Quarto publishing—no local rendering required."
+format: html
+
+author:
+  - name: Peter T. Tanksley
+    affiliation: ALERRT Center, Texas State University
+date: 10/06/25
+categories: [ring-facing, quarto, github] # self-defined categories
+# citation: 
+#   url: https://petertanksley.github.io/posts/2024-09-17_lht_birthday_day/ 
+image: quarto_ghpages_noir.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+
+---
+
+![Noir-style hex blending Quarto and GitHub Pages.  
+*Image credit: Created with ChatGPT (OpenAI).*](quarto_ghpages_noir.png)
+
+# How to Publish a Quarto Website with GitHub Pages and GitHub Actions
+
+This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.
+
+## Prerequisites
+
+- Git installed on your computer
+- A GitHub account
+
+
+## 1. Create a New Quarto Project
+
+1. Open RStudio and go to:
+*File > New Project > New Directory > Quarto Website*
+2. For **Directory name**, use the form:
+    - For a personal site: `username.github.io`
+    - For an organization: `organizationname.github.io`
+3. Choose a folder to save the project locally.
+4. Make sure to check:
+    - Create a git repository
+    - Use renv with this project
+5. Click **Create Project**.
+This sets up your Quarto site with version control and reproducible package management.
+
+## 2. Create GitHub Repository
+
+1. In GitHub, create a new repository.
+2. Name it exactly the same as your project directory (e.g. `username.github.io`).
+3. Make the repository **Public** (required for free GitHub Pages).
+4. Click **Create repository**.
+
+**Connect your local project to this repository:**
+
+1. Copy the GitHub setup commands (shown after creating the repo).
+2. Open a terminal/Git Bash, go to your project folder, paste and run those commands.
+3. Add, commit, and push your files:
+
+```bash
+git add .
+git commit -m "Initial commit"
+git push
+```
+
+
+## 3. Create the `gh-pages` Branch
+
+1. On GitHub, open the branches dropdown (where it says *main*).
+2. Click **"View all branches"**, then **"New branch"**.
+3. Name it `gh-pages` and create it.
+
+## 4. Set Up GitHub Actions Workflow
+
+1. In your Quarto project folder, create the following structure:
+    - `.github/workflows/`
+    - Inside, add a file named `publish.yml`
+2. Add this content to `.github/workflows/publish.yml`
+*(Taken from the official Quarto documentation)*
+
+```yaml
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Restore renv snapshot
+        uses: r-lib/actions/setup-renv@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Save the file.
+
+## 5. Commit and Push Workflow File
+
+```bash
+git add .
+git commit -m "Add GitHub Actions workflow"
+git push
+```
+
+
+## 6. Configure GitHub Pages
+
+1. On GitHub, open your repository settings.
+2. Go to **Pages** in the sidebar.
+3. Set the publishing branch to `gh-pages`. Save.
+
+## 7. Monitor Deployment
+
+- In GitHub, open the **Actions** tab.
+- You'll see the workflow running automatically.
+- Wait until all steps pass (green checkmarks).
+- When complete, go back to **Settings > Pages** and find your published site link.
+
+
+## How It Works
+
+- GitHub Actions installs R and Quarto, restores R package versions (`renv`), renders your project, and deploys it—all automatically on every push.
+- **No local rendering required:** Just commit and push; GitHub builds and updates your website.
+
+
+## Tips \& Troubleshooting
+
+- The site will publish at:
+    - For personal sites: `https://username.github.io`
+    - For project sites: `https://username.github.io/repositoryname/`
+- If the workflow fails, check the **Actions** tab for error logs.
+- Confirm your repository is public and the Pages branch matches the workflow output.
+
+***
+
+*Guide adapted from Melissa Van Bussel and Quarto documentation, 2024.*

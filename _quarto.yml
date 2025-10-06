@@ -2,12 +2,15 @@ project:
   type: website
 
 website:
-  title: "PROJ_researchring_website"
+  title: "Research Ring"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    tools:
+    logo: "www/research_ring_hex.png"
+    right:
+      # - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
+      #   text: Home
       - about.qmd
+      - lab_posts/posts.qmd
 
 format:
   html:
@@ -17,5 +20,6 @@ format:
     css: styles.css
     toc: true
 
-
+execute: 
+  freeze: auto
 
