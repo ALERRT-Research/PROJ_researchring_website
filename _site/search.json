@@ -257,5 +257,37 @@
     "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
     "section": "Tips & Troubleshooting",
     "text": "Tips & Troubleshooting\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
+  },
+  {
+    "objectID": "getting_started.html",
+    "href": "getting_started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "Getting started",
+    "crumbs": [
+      "Research Processes",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "working_with_a_team.html",
+    "href": "working_with_a_team.html",
+    "title": "Working with a team",
+    "section": "",
+    "text": "Working with a team",
+    "crumbs": [
+      "Research Processes",
+      "Working with a team"
+    ]
+  },
+  {
+    "objectID": "research_processes.html",
+    "href": "research_processes.html",
+    "title": "Research Processes",
+    "section": "",
+    "text": "Hey there! You’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.\nThe sidebar tries to provide some organization for the different topics covered.",
+    "crumbs": [
+      "Research Processes"
+    ]
   }
 ]
