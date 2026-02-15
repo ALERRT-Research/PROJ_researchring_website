@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/getting_started.html</loc>
-    <lastmod>2026-02-13T23:04:39.353Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/research_processes.html</loc>
-    <lastmod>2026-02-13T23:04:39.361Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/lab_posts/2024-10-06_make_website/index.html</loc>
-    <lastmod>2026-02-13T23:04:39.353Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/working_with_a_team.html</loc>
-    <lastmod>2026-02-13T23:04:39.361Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/index.html</loc>
-    <lastmod>2026-02-13T23:04:39.353Z</lastmod>
+    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/research_process_getting_started.html</loc>
+    <lastmod>2026-02-15T22:53:10.902Z</lastmod>
   </url>
   <url>
     <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/lab_posts/posts.html</loc>
-    <lastmod>2026-02-13T23:04:39.360Z</lastmod>
+    <lastmod>2026-02-15T22:53:10.900Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/research_process_working_with_a_team.html</loc>
+    <lastmod>2026-02-15T22:53:10.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/index.html</loc>
+    <lastmod>2026-02-15T22:53:10.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/research_process_home.html</loc>
+    <lastmod>2026-02-15T22:53:10.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/lab_posts/2024-10-06_make_website/index.html</loc>
+    <lastmod>2026-02-15T22:53:10.894Z</lastmod>
   </url>
   <url>
     <loc>https://ALERRT-Research.github.io/PROJ_researchring_website/about.html</loc>
-    <lastmod>2026-02-13T23:04:39.353Z</lastmod>
+    <lastmod>2026-02-15T22:53:10.892Z</lastmod>
   </url>
 </urlset>
