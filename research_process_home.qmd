@@ -1,0 +1,32 @@
+---
+title: "Resources"
+---
+
+:::{.callout-tip}
+## Hey there! 
+You've found the "ring-facing" content of the website. This area is meant for team members but anyone is welcome! Here you'll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy "on-ramp" for any future team member of the Research Ring at ALERRT. 
+:::
+
+## Standard Operating Procedures (for Research)
+
+Every project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…
+
+While every project is different, the projects that take up most of our time fall into one of two categories: **research projects** and **grants** (see the table below for a breakdown and examples). 
+
++---------------------------------+------------------------------------+
+| Research Project                | Grant                              |
++:================================+:===================================+
+| Experimental                    | Government                         |
+|                                 |                                    |
+| -   Randomized controlled trial | -   Federal (e.g., FEMA, NSF, NIH) |
+| -   Survey experiment           | -   State/Local                    |
++---------------------------------+------------------------------------+
+| Observational                   | Private                            |
+|                                 |                                    |
+| -   Descriptive analysis        | -   Research                       |
+| -   Inferential analysis        | -   Industry (e.g., evaluation)    |
++---------------------------------+------------------------------------+
+
+: Project Types
+
+In the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out. 

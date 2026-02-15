@@ -81,14 +81,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The Research Ring",
     "section": "",
-    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private."
+    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private.",
+    "crumbs": [
+      "About",
+      "The Research Ring"
+    ]
   },
   {
     "objectID": "lab_posts/posts.html",
@@ -179,7 +186,11 @@
     "href": "index.html#welcome",
     "title": "The Research Ring",
     "section": "",
-    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private."
+    "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private.",
+    "crumbs": [
+      "About",
+      "The Research Ring"
+    ]
   },
   {
     "objectID": "lab_posts/2024-10-06_make_website/index.html",
@@ -265,7 +276,7 @@
     "section": "",
     "text": "Getting started",
     "crumbs": [
-      "Research Processes",
+      "About",
       "Getting started"
     ]
   },
@@ -276,18 +287,93 @@
     "section": "",
     "text": "Working with a team",
     "crumbs": [
-      "Research Processes",
+      "About",
       "Working with a team"
     ]
   },
   {
     "objectID": "research_processes.html",
     "href": "research_processes.html",
-    "title": "Research Processes",
+    "title": "Ring Resources",
     "section": "",
-    "text": "Hey there! You’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.\nThe sidebar tries to provide some organization for the different topics covered.",
+    "text": "Hey there! You’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.\nThe sidebar tries to provide some organization for the different topics covered."
+  },
+  {
+    "objectID": "research_process_getting_started.html",
+    "href": "research_process_getting_started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:\n\nObservational studies (ADD DOWNLOAD LINK)\nExperimental studies (ADD DOWNLOAD LINK)\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those next.\n\n\n\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account.\nADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE\n\n\n\nost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.\n\n\n\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
     "crumbs": [
-      "Research Processes"
+      "Resources",
+      "Conducting Research",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "research_process_getting_started.html#standard-operating-procedures-for-research",
+    "href": "research_process_getting_started.html#standard-operating-procedures-for-research",
+    "title": "Getting started",
+    "section": "",
+    "text": "Every project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…\nWhile every project is different, the projects that take up most of our time fall into one of two categories: research projects and grants (see the table below for a breakdown and examples). Grants are a special topic and will discussed in a separate entry. What follows is a discussion around the best practices, policies, and procedures for a research project.\n\nProject Types\n\n\n\n\n\n\nResearch Project\nGrant\n\n\n\n\nExperimental\n\nRandomized controlled trial\nSurvey experiment\n\nGovernment\n\nFederal (e.g., FEMA, NSF, NIH)\nState/Local\n\n\n\nObservational\n\nDescriptive analysis\nInferential analysis\n\nPrivate\n\nResearch\nIndustry (e.g., evaluation)",
+    "crumbs": [
+      "Conducting Research",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "research_process_getting_started.html#starting-a-project",
+    "href": "research_process_getting_started.html#starting-a-project",
+    "title": "Getting started",
+    "section": "Starting a project",
+    "text": "Starting a project\n\nAnalysis plan\nAn analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:\n\nObservational studies (ADD DOWNLOAD LINK)\nExperimental studies (ADD DOWNLOAD LINK)\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those next.\n\n\nPreregistration\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account.\nADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE\n\n\nIRB applications\nost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.\nProposing a project: usually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons, including: 1) making you think concretely about the project (enough to propose it), 2) getting feedback early on (i.e., prior to submitting IRBs or preregistration), and 3) soliciting contributions from interested team members. As a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests. Participation should be based on contributions; however, project teams should be kept lean, with every person making a substantive contribution (no freebies).",
+    "crumbs": [
+      "Conducting Research",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "research_process_working_with_a_team.html",
+    "href": "research_process_working_with_a_team.html",
+    "title": "Working with a team",
+    "section": "",
+    "text": "Working with a team",
+    "crumbs": [
+      "Resources",
+      "Conducting Research",
+      "Working with a team"
+    ]
+  },
+  {
+    "objectID": "research_process_getting_started.html#starting-a-research-project",
+    "href": "research_process_getting_started.html#starting-a-research-project",
+    "title": "Getting started",
+    "section": "",
+    "text": "An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:\n\nObservational studies (ADD DOWNLOAD LINK)\nExperimental studies (ADD DOWNLOAD LINK)\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those next.\n\n\n\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account.\nADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE\n\n\n\nost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.\n\n\n\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
+    "crumbs": [
+      "Resources",
+      "Conducting Research",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "research_process_home.html",
+    "href": "research_process_home.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Hey there!\n\n\n\nYou’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "research_process_home.html#standard-operating-procedures-for-research",
+    "href": "research_process_home.html#standard-operating-procedures-for-research",
+    "title": "Resources",
+    "section": "Standard Operating Procedures (for Research)",
+    "text": "Standard Operating Procedures (for Research)\nEvery project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…\nWhile every project is different, the projects that take up most of our time fall into one of two categories: research projects and grants (see the table below for a breakdown and examples).\n\nProject Types\n\n\n\n\n\n\nResearch Project\nGrant\n\n\n\n\nExperimental\n\nRandomized controlled trial\nSurvey experiment\n\nGovernment\n\nFederal (e.g., FEMA, NSF, NIH)\nState/Local\n\n\n\nObservational\n\nDescriptive analysis\nInferential analysis\n\nPrivate\n\nResearch\nIndustry (e.g., evaluation)\n\n\n\n\nIn the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out.",
+    "crumbs": [
+      "Resources"
     ]
   }
 ]

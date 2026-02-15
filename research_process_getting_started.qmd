@@ -1,0 +1,59 @@
+---
+title: "Getting started"
+
+format:
+  html:
+    mermaid: 
+      theme: neutral
+---
+
+## **Starting a research project**
+
+### Analysis plan
+
+An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.
+
+We have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:
+
+-   Observational studies (ADD DOWNLOAD LINK)
+-   Experimental studies (ADD DOWNLOAD LINK)
+
+While not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We'll talk about those next.
+
+### Preregistration
+
+For experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:
+
+-   Power analysis
+-   Confirmatory hypotheses
+-   Criteria for positive/negative results
+
+When posting a preregistration on the OSF website, make sure to use the ALERRT-research account.
+
+ADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE
+
+### IRB applications
+
+ost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.
+
+### Proposing a project
+
+Usually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:
+
+```{mermaid}
+graph LR
+    A[Initial idea] --> B[Draft analysis plan]
+    B --> C[Propose project to team]
+    C --> D[Develop IRB / Preregistration, etc.]
+```
+
+Proposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.
+
+:::{.callout-note}
+## Participation
+As a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here's the rub: **participation should be based on contributions**. Project teams should be kept lean, with every person making a substantive contribution (no freebies).
+:::
+
+At the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted--either a new team mate will need to take on the analysis role or the timeline can be adjusted.
+
+

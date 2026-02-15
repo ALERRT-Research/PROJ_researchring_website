@@ -10,14 +10,24 @@ website:
       # - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
       #   text: Home
       - about.qmd
-      - research_processes.qmd
+      - research_process_home.qmd
       - lab_posts/posts.qmd
   sidebar: 
-    - title: "Research Processes"     
+    - title: "Ring-Facing"     
       contents:
-        - research_processes.qmd
-        - getting_started.qmd
-        - working_with_a_team.qmd
+        - research_process_home.qmd
+        - section: "Conducting Research"
+          contents:
+            - research_process_getting_started.qmd
+            - research_process_working_with_a_team.qmd
+        - section: "Working with R"
+        - section: "Datasets"
+        - section: "Templates"
+        
+    - title: "Public-facing"
+      contents: 
+        - about.qmd
+        - index.qmd
 
 format:
   html:

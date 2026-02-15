@@ -1,7 +1,0 @@
----
-title: "Research Processes"
----
-
-Hey there! You've found the "ring-facing" content of the website. This area is meant for team members but anyone is welcome! Here you'll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy "on-ramp" for any future team member of the Research Ring at ALERRT. 
-
-The sidebar tries to provide some organization for the different topics covered.
