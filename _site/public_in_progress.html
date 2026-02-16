@@ -99,8 +99,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./research_process_home.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Ring Resources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./lab_posts/posts.html"> 
@@ -117,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./public_in_progress.html">Research in Progress</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./public_output.html">Research</a></li><li class="breadcrumb-item"><a href="./public_in_progress.html">Research in Progress</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -135,18 +139,52 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">The Research Ring</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Research</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_output.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Research Output</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_in_progress.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Research in Progress</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reports</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./public_briefs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Briefs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./public_annual_reports.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Annual Research Report</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_staff.html" class="sidebar-item-text sidebar-link">
@@ -155,20 +193,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_briefs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Briefs</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./public_grants.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Grants</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_annual_reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Annual Research Report</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -197,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a>
   <ul class="collapse">
   <li><a href="#project-title-deaths-of-despair-among-protective-service-occupations" id="toc-project-title-deaths-of-despair-among-protective-service-occupations" class="nav-link" data-scroll-target="#project-title-deaths-of-despair-among-protective-service-occupations">Project title: “Deaths of Despair among Protective Service Occupations”</a></li>
-  <li><a href="#project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality" id="toc-project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality" class="nav-link" data-scroll-target="#project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality">Project title: “<strong>Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”</strong></a></li>
+  <li><a href="#project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality" id="toc-project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality" class="nav-link" data-scroll-target="#project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality">Project title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -205,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./public_output.html">Research</a></li><li class="breadcrumb-item"><a href="./public_in_progress.html">Research in Progress</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Research in Progress</h1>
 </div>
@@ -239,6 +265,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
 <section id="project-title-deaths-of-despair-among-protective-service-occupations" class="level3">
 <h3 class="anchored" data-anchor-id="project-title-deaths-of-despair-among-protective-service-occupations">Project title: “Deaths of Despair among Protective Service Occupations”</h3>
+<hr>
+<div style="margin-left: 150px;">
 <section id="project-synopsis" class="level4">
 <h4 class="anchored" data-anchor-id="project-synopsis">Project Synopsis:</h4>
 <p>This project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.</p>
@@ -269,12 +297,15 @@ class B current;
 </div>
 </div>
 </section>
-<section id="links-na" class="level4">
-<h4 class="anchored" data-anchor-id="links-na">Links: N/A</h4>
+<section id="links" class="level4">
+<h4 class="anchored" data-anchor-id="links">Links:</h4>
 </section>
+</div>
 </section>
 <section id="project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality" class="level3">
-<h3 class="anchored" data-anchor-id="project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality">Project title: “<strong>Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”</strong></h3>
+<h3 class="anchored" data-anchor-id="project-title-police-situation-reports-an-experimental-evaluation-of-training-methods-in-virtual-reality">Project title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”</h3>
+<hr>
+<div style="margin-left: 150px;">
 <section id="project-synopsis-1" class="level4">
 <h4 class="anchored" data-anchor-id="project-synopsis-1">Project synopsis:</h4>
 <p>This project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.</p>
@@ -303,11 +334,12 @@ class A current;
 </div>
 </div>
 </section>
-<section id="links" class="level4">
-<h4 class="anchored" data-anchor-id="links">Links:</h4>
-
-
+<section id="links-1" class="level4">
+<h4 class="anchored" data-anchor-id="links-1">Links:</h4>
 </section>
+</div>
+
+
 </section>
 </section>
 

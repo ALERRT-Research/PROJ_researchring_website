@@ -383,6 +383,8 @@
     "section": "",
     "text": "Short descriptions of ongoing projects\nLinks to preregistrations?\nUpdates for long term projects\n\nIf there is a clear timeline for a long term project we could update when milestones are reached",
     "crumbs": [
+      "Home",
+      "Research",
       "Research in Progress"
     ]
   },
@@ -393,6 +395,8 @@
     "section": "",
     "text": "Short descriptions of ongoing projects\nLinks to preregistrations?\nUpdates for long term projects\n\nIf there is a clear timeline for a long term project we could update when milestones are reached",
     "crumbs": [
+      "Home",
+      "Research",
       "Research in Progress"
     ]
   },
@@ -401,8 +405,10 @@
     "href": "public_in_progress.html#research-projects",
     "title": "Research in Progress",
     "section": "Research Projects",
-    "text": "Research Projects\n\nProject title: “Deaths of Despair among Protective Service Occupations”\n\nProject Synopsis:\nThis project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A done;\nclass B current;\n\n\n\n\n\n\n\n\nLinks: N/A\n\n\n\nProject title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”\n\nProject synopsis:\nThis project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A current;\n\n\n\n\n\n\n\n\nLinks:",
+    "text": "Research Projects\n\nProject title: “Deaths of Despair among Protective Service Occupations”\n\n\n\nProject Synopsis:\nThis project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A done;\nclass B current;\n\n\n\n\n\n\n\n\nLinks:\n\n\n\n\nProject title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”\n\n\n\nProject synopsis:\nThis project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A current;\n\n\n\n\n\n\n\n\nLinks:",
     "crumbs": [
+      "Home",
+      "Research",
       "Research in Progress"
     ]
   },

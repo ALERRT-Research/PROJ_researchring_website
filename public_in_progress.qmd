@@ -18,6 +18,10 @@ format:
 
 ### Project title: "Deaths of Despair among Protective Service Occupations"
 
+------------------------------------------------------------------------
+
+::: {style="margin-left: 150px;"}
+
 #### Project Synopsis:
 
 This project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.
@@ -39,9 +43,15 @@ class A done;
 class B current;
 ```
 
-#### Links: N/A
+#### Links:
 
-### Project title: "**Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality"**
+:::
+
+### Project title: "Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality"
+
+------------------------------------------------------------------------
+
+::: {style="margin-left: 150px;"}
 
 #### Project synopsis:
 
@@ -63,3 +73,5 @@ class A current;
 ```
 
 #### Links:
+
+:::
