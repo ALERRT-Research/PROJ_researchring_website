@@ -7,13 +7,15 @@ website:
     tools:
     logo: "www/research_ring_hex.png"
     right:
-      # - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
-      #   text: Home
-      - about.qmd
+      - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
+        text: Home
+      # - about.qmd
       - research_process_home.qmd
       - lab_posts/posts.qmd
   sidebar: 
-    - title: "Ring-Facing"     
+    - title: "Ring-Facing"
+      collapse-level: 1
+      style: docked
       contents:
         - research_process_home.qmd
         - section: "Conducting Research"
@@ -25,9 +27,23 @@ website:
         - section: "Templates"
         
     - title: "Public-facing"
+      collapse-level: 1
+      style: docked
       contents: 
-        - about.qmd
+        # - about.qmd
         - index.qmd
+        - section: "Research"
+          contents: 
+            - public_output.qmd
+            - public_in_progress.qmd
+        - section: "Reports"
+          contents: 
+            - public_briefs.qmd
+            - public_annual_reports.qmd
+        - public_staff.qmd
+        - public_grants.qmd
+        - public_media.qmd
+        - public_work_with_us.qmd
 
 format:
   html:

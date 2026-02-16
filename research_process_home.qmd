@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Ring Resources"
 ---
 
 :::{.callout-tip}

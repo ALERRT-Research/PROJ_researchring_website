@@ -1,0 +1,11 @@
+---
+title: "Research Output"
+---
+
+Contents
+
+-   Replicate (actually, improve) on <https://alerrt.org/reading>
+-   Include summaries like on the current page
+-   Include things other than peer-reviewed pubs – white papers, AARs, anything we do
+-   Create infographics??
+-   Links to preprints for articles under review. These would be replaced when published and moved to the publication page

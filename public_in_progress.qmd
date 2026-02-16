@@ -1,0 +1,65 @@
+---
+title: "Research in Progress"
+
+format:
+  html:
+    mermaid: 
+      theme: neutral
+---
+
+## Contents
+
+-   Short descriptions of ongoing projects
+-   Links to preregistrations?
+-   Updates for long term projects
+    -   If there is a clear timeline for a long term project we could update when milestones are reached
+
+## Research Projects
+
+### Project title: "Deaths of Despair among Protective Service Occupations"
+
+#### Project Synopsis:
+
+This project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.
+
+#### Project Status:
+
+```{mermaid}
+flowchart LR
+
+A[Draft analysis plan] --> B[Execute analysis] 
+B[Execute analysis] --> C[Draft manuscript]
+C[Draft manuscript] --> G[Submit to journal]
+G[Submit to journal] --> H[Manuscript accepted]
+
+classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
+classDef current fill:#fff3b0,stroke:#b58900,color:#000;
+
+class A done;
+class B current;
+```
+
+#### Links: N/A
+
+### Project title: "**Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality"**
+
+#### Project synopsis:
+
+This project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants' ability to deliver an effective situation report.
+
+#### Project Status:
+
+```{mermaid}
+flowchart LR
+
+A[Draft analysis plan] --> B[Execute analysis] 
+B[Execute analysis] --> C[Draft manuscript]
+C[Draft manuscript] --> G[Submit to journal]
+G[Submit to journal] --> H[Manuscript accepted]
+
+classDef current fill:#fff3b0,stroke:#b58900,color:#000;
+
+class A current;
+```
+
+#### Links:

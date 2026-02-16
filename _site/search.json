@@ -93,7 +93,7 @@
     "section": "",
     "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private.",
     "crumbs": [
-      "About",
+      "Home",
       "The Research Ring"
     ]
   },
@@ -188,7 +188,7 @@
     "section": "",
     "text": "You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:\n\nPublic-facing–Content intended for public sharing (e.g., research articles, whitepapers, web apps)\nRing-facing–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)\n\nBoth types of content are meant to be freely accessed and none of it is private.",
     "crumbs": [
-      "About",
+      "Home",
       "The Research Ring"
     ]
   },
@@ -359,21 +359,211 @@
   {
     "objectID": "research_process_home.html",
     "href": "research_process_home.html",
-    "title": "Resources",
+    "title": "Ring Resources",
     "section": "",
     "text": "Hey there!\n\n\n\nYou’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.",
     "crumbs": [
-      "Resources"
+      "Ring Resources"
     ]
   },
   {
     "objectID": "research_process_home.html#standard-operating-procedures-for-research",
     "href": "research_process_home.html#standard-operating-procedures-for-research",
-    "title": "Resources",
+    "title": "Ring Resources",
     "section": "Standard Operating Procedures (for Research)",
     "text": "Standard Operating Procedures (for Research)\nEvery project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…\nWhile every project is different, the projects that take up most of our time fall into one of two categories: research projects and grants (see the table below for a breakdown and examples).\n\nProject Types\n\n\n\n\n\n\nResearch Project\nGrant\n\n\n\n\nExperimental\n\nRandomized controlled trial\nSurvey experiment\n\nGovernment\n\nFederal (e.g., FEMA, NSF, NIH)\nState/Local\n\n\n\nObservational\n\nDescriptive analysis\nInferential analysis\n\nPrivate\n\nResearch\nIndustry (e.g., evaluation)\n\n\n\n\nIn the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out.",
     "crumbs": [
-      "Resources"
+      "Ring Resources"
+    ]
+  },
+  {
+    "objectID": "public_in_progress.html",
+    "href": "public_in_progress.html",
+    "title": "Research in Progress",
+    "section": "",
+    "text": "Short descriptions of ongoing projects\nLinks to preregistrations?\nUpdates for long term projects\n\nIf there is a clear timeline for a long term project we could update when milestones are reached",
+    "crumbs": [
+      "Research in Progress"
+    ]
+  },
+  {
+    "objectID": "public_in_progress.html#contents",
+    "href": "public_in_progress.html#contents",
+    "title": "Research in Progress",
+    "section": "",
+    "text": "Short descriptions of ongoing projects\nLinks to preregistrations?\nUpdates for long term projects\n\nIf there is a clear timeline for a long term project we could update when milestones are reached",
+    "crumbs": [
+      "Research in Progress"
+    ]
+  },
+  {
+    "objectID": "public_in_progress.html#research-projects",
+    "href": "public_in_progress.html#research-projects",
+    "title": "Research in Progress",
+    "section": "Research Projects",
+    "text": "Research Projects\n\nProject title: “Deaths of Despair among Protective Service Occupations”\n\nProject Synopsis:\nThis project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A done;\nclass B current;\n\n\n\n\n\n\n\n\nLinks: N/A\n\n\n\nProject title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”\n\nProject synopsis:\nThis project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A current;\n\n\n\n\n\n\n\n\nLinks:",
+    "crumbs": [
+      "Research in Progress"
+    ]
+  },
+  {
+    "objectID": "public_research_output.html",
+    "href": "public_research_output.html",
+    "title": "Research Output",
+    "section": "",
+    "text": "Contents\n\nReplicate (actually, improve) on https://alerrt.org/reading\nInclude summaries like on the current page\nInclude things other than peer-reviewed pubs – white papers, AARs, anything we do\nCreate infographics??\nLinks to preprints for articles under review. These would be replaced when published and moved to the publication page",
+    "crumbs": [
+      "Research Output"
+    ]
+  },
+  {
+    "objectID": "public_grants.html",
+    "href": "public_grants.html",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Grants"
+    ]
+  },
+  {
+    "objectID": "public_grants.html#grant-portfolio",
+    "href": "public_grants.html#grant-portfolio",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Grants"
+    ]
+  },
+  {
+    "objectID": "public_staff.html",
+    "href": "public_staff.html",
+    "title": "Research Staff",
+    "section": "",
+    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
+    "crumbs": [
+      "Research Staff"
+    ]
+  },
+  {
+    "objectID": "public_staff.html#contents",
+    "href": "public_staff.html#contents",
+    "title": "Research Staff",
+    "section": "",
+    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
+    "crumbs": [
+      "Research Staff"
+    ]
+  },
+  {
+    "objectID": "public_briefs.html",
+    "href": "public_briefs.html",
+    "title": "Research Briefs",
+    "section": "",
+    "text": "Research briefs\nLink to Pete’s substack",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Research Briefs"
+    ]
+  },
+  {
+    "objectID": "public_briefs.html#contents",
+    "href": "public_briefs.html#contents",
+    "title": "Research Briefs",
+    "section": "",
+    "text": "Research briefs\nLink to Pete’s substack",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Research Briefs"
+    ]
+  },
+  {
+    "objectID": "public_annual_reports.html",
+    "href": "public_annual_reports.html",
+    "title": "Annual Research Report",
+    "section": "",
+    "text": "I’d like to start putting together something that showcases\n\nAnnual publications\nGrants\nPartnerships\nStudent contributions\n\nWe could retroactively do this for the last 5 years pretty easily.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Annual Research Report"
+    ]
+  },
+  {
+    "objectID": "public_annual_reports.html#contents",
+    "href": "public_annual_reports.html#contents",
+    "title": "Annual Research Report",
+    "section": "",
+    "text": "I’d like to start putting together something that showcases\n\nAnnual publications\nGrants\nPartnerships\nStudent contributions\n\nWe could retroactively do this for the last 5 years pretty easily.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Annual Research Report"
+    ]
+  },
+  {
+    "objectID": "public_work_with_us.html",
+    "href": "public_work_with_us.html",
+    "title": "Work with us",
+    "section": "",
+    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
+    "crumbs": [
+      "Work with us"
+    ]
+  },
+  {
+    "objectID": "public_work_with_us.html#contents",
+    "href": "public_work_with_us.html#contents",
+    "title": "Work with us",
+    "section": "",
+    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
+    "crumbs": [
+      "Work with us"
+    ]
+  },
+  {
+    "objectID": "public_media.html",
+    "href": "public_media.html",
+    "title": "Media Resources",
+    "section": "",
+    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
+    "crumbs": [
+      "Media Resources"
+    ]
+  },
+  {
+    "objectID": "public_media.html#contents",
+    "href": "public_media.html#contents",
+    "title": "Media Resources",
+    "section": "",
+    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
+    "crumbs": [
+      "Media Resources"
+    ]
+  },
+  {
+    "objectID": "public_output.html",
+    "href": "public_output.html",
+    "title": "Research Output",
+    "section": "",
+    "text": "Contents\n\nReplicate (actually, improve) on https://alerrt.org/reading\nInclude summaries like on the current page\nInclude things other than peer-reviewed pubs – white papers, AARs, anything we do\nCreate infographics??\nLinks to preprints for articles under review. These would be replaced when published and moved to the publication page",
+    "crumbs": [
+      "Home",
+      "Research Output"
+    ]
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "The Research Ring",
+    "section": "Contents",
+    "text": "Contents\n\nTop-level summary of the RR mission, areas of interest, and how we integrate with training.\nLink to the AA data portal\nLink to Github",
+    "crumbs": [
+      "Home",
+      "The Research Ring"
     ]
   }
 ]
