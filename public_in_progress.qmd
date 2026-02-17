@@ -31,16 +31,17 @@ This project will assess the burden of deaths of despair across major protective
 ```{mermaid}
 flowchart LR
 
-A[Draft analysis plan] --> B[Execute analysis] 
-B[Execute analysis] --> C[Draft manuscript]
-C[Draft manuscript] --> G[Submit to journal]
-G[Submit to journal] --> H[Manuscript accepted]
+A[/Draft analysis plan/] ~~~ B[/Execute analysis/] 
+B[/Execute analysis/] ~~~ C[/Draft manuscript/]
+C[/Draft manuscript/] ~~~ G[/Submit to journal/]
+G[/Submit to journal/] ~~~ H[/Manuscript accepted/]
 
 classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
 classDef current fill:#fff3b0,stroke:#b58900,color:#000;
 
 class A done;
 class B current;
+
 ```
 
 #### Links:
@@ -62,11 +63,12 @@ This project will experimentally evaluate different approaches for teaching poli
 ```{mermaid}
 flowchart LR
 
-A[Draft analysis plan] --> B[Execute analysis] 
-B[Execute analysis] --> C[Draft manuscript]
-C[Draft manuscript] --> G[Submit to journal]
-G[Submit to journal] --> H[Manuscript accepted]
+A[/Draft analysis plan/] ~~~ B[/Execute analysis/] 
+B[/Execute analysis/] ~~~ C[/Draft manuscript/]
+C[/Draft manuscript/] ~~~ G[/Submit to journal/]
+G[/Submit to journal/] ~~~ H[/Manuscript accepted/]
 
+classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
 classDef current fill:#fff3b0,stroke:#b58900,color:#000;
 
 class A current;

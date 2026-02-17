@@ -405,7 +405,7 @@
     "href": "public_in_progress.html#research-projects",
     "title": "Research in Progress",
     "section": "Research Projects",
-    "text": "Research Projects\n\nProject title: “Deaths of Despair among Protective Service Occupations”\n\n\n\nProject Synopsis:\nThis project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A done;\nclass B current;\n\n\n\n\n\n\n\n\nLinks:\n\n\n\n\nProject title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”\n\n\n\nProject synopsis:\nThis project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[Draft analysis plan] --&gt; B[Execute analysis] \nB[Execute analysis] --&gt; C[Draft manuscript]\nC[Draft manuscript] --&gt; G[Submit to journal]\nG[Submit to journal] --&gt; H[Manuscript accepted]\n\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A current;\n\n\n\n\n\n\n\n\nLinks:",
+    "text": "Research Projects\n\nProject title: “Deaths of Despair among Protective Service Occupations”\n\n\n\nProject Synopsis:\nThis project will assess the burden of deaths of despair across major protective service occupations (e.g., police, corrections, fire, EMS/paramedics) using large-scale administrative data.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[/Draft analysis plan/] ~~~ B[/Execute analysis/] \nB[/Execute analysis/] ~~~ C[/Draft manuscript/]\nC[/Draft manuscript/] ~~~ G[/Submit to journal/]\nG[/Submit to journal/] ~~~ H[/Manuscript accepted/]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A done;\nclass B current;\n\n\n\n\n\n\n\n\n\nLinks:\n\n\n\n\nProject title: “Police Situation Reports: An Experimental Evaluation of Training Methods in Virtual Reality”\n\n\n\nProject synopsis:\nThis project will experimentally evaluate different approaches for teaching police situation reports. At ALERRT, we use the LCAN method (Location, Conditions, Actions, and Needs) but there is currently very little experimental evidence for the effectiveness of this (or any other) method. Using a virtual reality situation as a stressor, we will evaluate how different methods of instruction impact participants’ ability to deliver an effective situation report.\n\n\nProject Status:\n\n\n\n\n\nflowchart LR\n\nA[/Draft analysis plan/] ~~~ B[/Execute analysis/] \nB[/Execute analysis/] ~~~ C[/Draft manuscript/]\nC[/Draft manuscript/] ~~~ G[/Submit to journal/]\nG[/Submit to journal/] ~~~ H[/Manuscript accepted/]\n\nclassDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;\nclassDef current fill:#fff3b0,stroke:#b58900,color:#000;\n\nclass A current;\n\n\n\n\n\n\n\n\nLinks:",
     "crumbs": [
       "Home",
       "Research",
@@ -429,6 +429,7 @@
     "section": "",
     "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
     "crumbs": [
+      "Home",
       "Grants"
     ]
   },
@@ -439,6 +440,7 @@
     "section": "",
     "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
     "crumbs": [
+      "Home",
       "Grants"
     ]
   },
@@ -449,6 +451,7 @@
     "section": "",
     "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
     "crumbs": [
+      "Home",
       "Research Staff"
     ]
   },
@@ -459,6 +462,7 @@
     "section": "",
     "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
     "crumbs": [
+      "Home",
       "Research Staff"
     ]
   },
@@ -517,6 +521,7 @@
     "section": "",
     "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
     "crumbs": [
+      "Home",
       "Work with us"
     ]
   },
@@ -527,6 +532,7 @@
     "section": "",
     "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
     "crumbs": [
+      "Home",
       "Work with us"
     ]
   },
@@ -537,6 +543,7 @@
     "section": "",
     "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
     "crumbs": [
+      "Home",
       "Media Resources"
     ]
   },
@@ -547,6 +554,7 @@
     "section": "",
     "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
     "crumbs": [
+      "Home",
       "Media Resources"
     ]
   },
@@ -558,6 +566,7 @@
     "text": "Contents\n\nReplicate (actually, improve) on https://alerrt.org/reading\nInclude summaries like on the current page\nInclude things other than peer-reviewed pubs – white papers, AARs, anything we do\nCreate infographics??\nLinks to preprints for articles under review. These would be replaced when published and moved to the publication page",
     "crumbs": [
       "Home",
+      "Research",
       "Research Output"
     ]
   },
