@@ -25,6 +25,7 @@ website:
             - research_process_executing_a_proj.qmd
             - research_process_working_with_a_team.qmd
             - research_process_publishing_in_a_journal.qmd
+            - research_process_wrapping_up.qmd
         - section: "Working with R"
           contents: 
             - r_quarto_website_github_pages.qmd
