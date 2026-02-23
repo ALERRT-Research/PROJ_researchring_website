@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>How to Publish a Quarto Website with GitHub Pages and Actions – Research Ring</title>
+<title>Publishing in a journal – Research Ring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -148,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">How to Publish a Quarto Website with GitHub Pages and Actions</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_publishing_in_a_journal.html">Publishing in a journal</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -168,13 +133,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Conducting Research</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./research_process_getting_started.html" class="sidebar-item-text sidebar-link">
@@ -195,7 +160,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./research_process_publishing_in_a_journal.html" class="sidebar-item-text sidebar-link">
+  <a href="./research_process_publishing_in_a_journal.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Publishing in a journal</span></a>
   </div>
 </li>
@@ -203,16 +168,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Working with R</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link active">
+  <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to Publish a Quarto Website with GitHub Pages and Actions</span></a>
   </div>
 </li>
@@ -236,25 +201,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#create-a-new-quarto-project" id="toc-create-a-new-quarto-project" class="nav-link" data-scroll-target="#create-a-new-quarto-project">1. Create a New Quarto Project</a></li>
-  <li><a href="#create-github-repository" id="toc-create-github-repository" class="nav-link" data-scroll-target="#create-github-repository">2. Create GitHub Repository</a></li>
-  <li><a href="#create-the-gh-pages-branch" id="toc-create-the-gh-pages-branch" class="nav-link" data-scroll-target="#create-the-gh-pages-branch">3. Create the <code>gh-pages</code> Branch</a></li>
-  <li><a href="#set-up-github-actions-workflow" id="toc-set-up-github-actions-workflow" class="nav-link" data-scroll-target="#set-up-github-actions-workflow">4. Set Up GitHub Actions Workflow</a></li>
-  <li><a href="#commit-and-push-workflow-file" id="toc-commit-and-push-workflow-file" class="nav-link" data-scroll-target="#commit-and-push-workflow-file">5. Commit and Push Workflow File</a></li>
-  <li><a href="#configure-github-pages" id="toc-configure-github-pages" class="nav-link" data-scroll-target="#configure-github-pages">6. Configure GitHub Pages</a></li>
-  <li><a href="#monitor-deployment" id="toc-monitor-deployment" class="nav-link" data-scroll-target="#monitor-deployment">7. Monitor Deployment</a></li>
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
-  <li><a href="#tips-troubleshooting" id="toc-tips-troubleshooting" class="nav-link" data-scroll-target="#tips-troubleshooting">Tips &amp; Troubleshooting</a></li>
+  <li><a href="#publishing-in-a-journal" id="toc-publishing-in-a-journal" class="nav-link active" data-scroll-target="#publishing-in-a-journal">Publishing in a journal</a>
+  <ul class="collapse">
+  <li><a href="#initial-submission" id="toc-initial-submission" class="nav-link" data-scroll-target="#initial-submission">Initial submission</a></li>
+  <li><a href="#revisions" id="toc-revisions" class="nav-link" data-scroll-target="#revisions">Revisions</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">How to Publish a Quarto Website with GitHub Pages and Actions</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_publishing_in_a_journal.html">Publishing in a journal</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">How to Publish a Quarto Website with GitHub Pages and Actions</h1>
+<h1 class="title">Publishing in a journal</h1>
 </div>
 
 
@@ -271,150 +231,131 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.</p>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Git installed on your computer</li>
-<li>A GitHub account</li>
-</ul>
+<section id="publishing-in-a-journal" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-in-a-journal">Publishing in a journal</h2>
+<section id="initial-submission" class="level3">
+<h3 class="anchored" data-anchor-id="initial-submission">Initial submission</h3>
+<p>Unless there is a compelling reason, the first author should also serve as the corresponding author. The first author will coordinate all required manuscript formatting for the specific journal. Additionally, some journal outlets have required documents (e.g., author acknowledgement) that will require all authors to sign.</p>
+<section id="preprint" class="level4">
+<h4 class="anchored" data-anchor-id="preprint">Preprint</h4>
+<p>Posting a preprint usually occurs simultaneously with the initial submission of a project to an outlet for publication. The purpose of preprints is to get results out as early as possible while manuscripts go through the review process. Preprints are usually not a problem with journals, but that is not universally the case, so always check the outlet’s preprint policy prior to preprinting manuscripts. Preprints should never be used for manuscripts that are considered in a “rough” state. An easy rule of thumb is the following: if the preprint were accepted to a high-visibility journal with no changes whatsoever, would you be embarrassed by the state it is in? If the answer is “yes”, it is not ready for preprinting. Preprints are public; they should be high quality.</p>
 </section>
-<section id="create-a-new-quarto-project" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-new-quarto-project">1. Create a New Quarto Project</h2>
-<ol type="1">
-<li>Open RStudio and go to: <em>File &gt; New Project &gt; New Directory &gt; Quarto Website</em></li>
-<li>For <strong>Directory name</strong>, use the form:
-<ul>
-<li>For a personal site: <code>username.github.io</code></li>
-<li>For an organization: <code>organizationname.github.io</code></li>
-</ul></li>
-<li>Choose a folder to save the project locally.</li>
-<li>Make sure to check:
-<ul>
-<li>Create a git repository</li>
-<li>Use renv with this project</li>
-</ul></li>
-<li>Click <strong>Create Project</strong>. This sets up your Quarto site with version control and reproducible package management.</li>
-</ol>
 </section>
-<section id="create-github-repository" class="level2">
-<h2 class="anchored" data-anchor-id="create-github-repository">2. Create GitHub Repository</h2>
-<ol type="1">
-<li>In GitHub, create a new repository.</li>
-<li>Name it exactly the same as your project directory (e.g.&nbsp;<code>username.github.io</code>).</li>
-<li>Make the repository <strong>Public</strong> (required for free GitHub Pages).</li>
-<li>Click <strong>Create repository</strong>.</li>
-</ol>
-<p><strong>Connect your local project to this repository:</strong></p>
-<ol type="1">
-<li>Copy the GitHub setup commands (shown after creating the repo).</li>
-<li>Open a terminal/Git Bash, go to your project folder, paste and run those commands.</li>
-<li>Add, commit, and push your files:</li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="revisions" class="level3">
+<h3 class="anchored" data-anchor-id="revisions">Revisions</h3>
+<p>After receiving an R&amp;R from a journal, the lead author should combine all reviewer comments into two documents: 1) a word document with reviewer and comment numbers clearly delineated (titled: reviewer_response.docx), and 2) a reviewer comment matrix (titled: reviewer_matrix.xlxs).</p>
+<section id="comment-matrix" class="level4">
+<h4 class="anchored" data-anchor-id="comment-matrix">Comment matrix</h4>
+<p>A reviewer comment matrix is a useful tool for identifying areas of overlap between the comments of different reviewers (i.e., areas that must be addressed). Create a comment matrix as follows:</p>
+<table class="caption-top table">
+<caption>Example comment matrix</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Theme (optional)</th>
+<th>Section</th>
+<th>Reviewer #1</th>
+<th>Reviewer #2</th>
+<th>Reviewer #3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Intro.</td>
+<td>Comment #1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Lit. Review.</td>
+<td>Comment #2</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Power analysis</td>
+<td>Methods</td>
+<td>Comment #3</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Power analysis</td>
+<td>Methods</td>
+<td></td>
+<td>Comment #4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Power analysis</td>
+<td>Methods</td>
+<td></td>
+<td></td>
+<td>Comment #5</td>
+</tr>
+</tbody>
+</table>
+<p>The comment matrix should be in long format with respect to the section, so there will be multiple entries for some sections (possibly multiple section entries for a single reviewer). Once all the comments are added, comments that are common across reviewers can be merged into the same row to simply the matrix as follows:</p>
+<table class="caption-top table">
+<caption>Example comment matrix (last row condensed)</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Theme (optional)</th>
+<th>Section</th>
+<th>Reviewer #1</th>
+<th>Reviewer #2</th>
+<th>Reviewer #3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Intro.</td>
+<td>Comment #1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Lit. Review.</td>
+<td>Comment #2</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Power analysis</td>
+<td>Methods</td>
+<td>Comment #3</td>
+<td>Comment #1</td>
+<td>Comment #1</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, if multiple entries for a section are present in the matrix, an optional “theme” column can be useful for organizing specific topics within a specific section. (Protip: add a filter to the matrix to make rearranging comments easy). The comment matrix is an extremely useful tool for viewing all the comments from an R&amp;R simultaneously (instead of linearly) and can help the team rank/prioritize the comments (or themes). An example comment matrix is provided in the research_prcesses directory.</p>
+<p>The reviewer response document should list all the reviewer comments in the order they are received. For example, Reviewer 1 comments will come first and be presented in the same order as received. This helps the reviewers quickly check if their comments/questions were addressed.</p>
 </section>
-<section id="create-the-gh-pages-branch" class="level2">
-<h2 class="anchored" data-anchor-id="create-the-gh-pages-branch">3. Create the <code>gh-pages</code> Branch</h2>
-<ol type="1">
-<li>On GitHub, open the branches dropdown (where it says <em>main</em>).</li>
-<li>Click <strong>“View all branches”</strong>, then <strong>“New branch”</strong>.</li>
-<li>Name it <code>gh-pages</code> and create it.</li>
-</ol>
-</section>
-<section id="set-up-github-actions-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-github-actions-workflow">4. Set Up GitHub Actions Workflow</h2>
-<ol type="1">
-<li>In your Quarto project folder, create the following structure:
-<ul>
-<li><code>.github/workflows/</code></li>
-<li>Inside, add a file named <code>publish.yml</code></li>
-</ul></li>
-<li>Add this content to <code>.github/workflows/publish.yml</code> <em>(Taken from the official Quarto documentation)</em></li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">on</span><span class="kw">:</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">workflow_dispatch</span><span class="kw">:</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">push</span><span class="kw">:</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">branches</span><span class="kw">:</span><span class="at"> main</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> Quarto Publish</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">jobs</span><span class="kw">:</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">build-deploy</span><span class="kw">:</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">permissions</span><span class="kw">:</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">contents</span><span class="kw">:</span><span class="at"> write</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">steps</span><span class="kw">:</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Check out repository</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> actions/checkout@v4</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Set up Quarto</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/setup@v2</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Set up R</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> r-lib/actions/setup-r@v2</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">use-public-rspm</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Restore renv snapshot</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> r-lib/actions/setup-renv@v2</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Render and Publish</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/publish@v2</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">target</span><span class="kw">:</span><span class="at"> gh-pages</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">env</span><span class="kw">:</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">GITHUB_TOKEN</span><span class="kw">:</span><span class="at"> ${{ secrets.GITHUB_TOKEN }}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ol start="3" type="1">
-<li>Save the file.</li>
-</ol>
-</section>
-<section id="commit-and-push-workflow-file" class="level2">
-<h2 class="anchored" data-anchor-id="commit-and-push-workflow-file">5. Commit and Push Workflow File</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add GitHub Actions workflow"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="configure-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="configure-github-pages">6. Configure GitHub Pages</h2>
-<ol type="1">
-<li>On GitHub, open your repository settings.</li>
-<li>Go to <strong>Pages</strong> in the sidebar.</li>
-<li>Set the publishing branch to <code>gh-pages</code>. Save.</li>
-</ol>
-</section>
-<section id="monitor-deployment" class="level2">
-<h2 class="anchored" data-anchor-id="monitor-deployment">7. Monitor Deployment</h2>
-<ul>
-<li>In GitHub, open the <strong>Actions</strong> tab.</li>
-<li>You’ll see the workflow running automatically.</li>
-<li>Wait until all steps pass (green checkmarks).</li>
-<li>When complete, go back to <strong>Settings &gt; Pages</strong> and find your published site link.</li>
-</ul>
-</section>
-<section id="how-it-works" class="level2">
-<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
-<ul>
-<li>GitHub Actions installs R and Quarto, restores R package versions (<code>renv</code>), renders your project, and deploys it—all automatically on every push.</li>
-<li><strong>No local rendering required:</strong> Just commit and push; GitHub builds and updates your website.</li>
-</ul>
-</section>
-<section id="tips-troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="tips-troubleshooting">Tips &amp; Troubleshooting</h2>
-<ul>
-<li>The site will publish at:
-<ul>
-<li>For personal sites: <code>https://username.github.io</code></li>
-<li>For project sites: <code>https://username.github.io/repositoryname/</code></li>
-</ul></li>
-<li>If the workflow fails, check the <strong>Actions</strong> tab for error logs.</li>
-<li>Confirm your repository is public and the Pages branch matches the workflow output.</li>
-</ul>
-<hr>
-<p><em>Guide adapted from Melissa Van Bussel and Quarto documentation, 2024.</em></p>
+<section id="response-letter" class="level4">
+<h4 class="anchored" data-anchor-id="response-letter">Response letter</h4>
+<p>Although not required by all journals, drafting a response letter is a nice touch. The response letter should be addressed to the editor that you have been corresponding with. The response letter should provide additional context if needed. It can serve as the introduction for the reviewer response document.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
