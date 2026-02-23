@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Research Ring – Research Ring</title>
+<title>How to Publish a Quarto Website with GitHub Pages and Actions – Research Ring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -95,11 +130,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research_process_home.html"> 
+    <a class="nav-link active" href="./research_process_home.html" aria-current="page"> 
 <span class="menu-text">Ring Resources</span></a>
   </li>  
 </ul>
@@ -113,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">The Research Ring</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">How to Publish a Quarto Website with GitHub Pages and Actions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -127,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">The Research Ring</span></a>
+  <a href="./research_process_home.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ring Resources</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">Research</span></a>
+ <span class="menu-text">Conducting Research</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -142,65 +177,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Output</span></a>
+  <a href="./research_process_getting_started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting started</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_in_progress.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research in Progress</span></a>
+  <a href="./research_process_executing_a_proj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Executing a project</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_process_working_with_a_team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Working with a team</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Reports</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working with R</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_briefs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Briefs</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_annual_reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Annual Research Report</span></a>
+  <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">How to Publish a Quarto Website with GitHub Pages and Actions</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Staff</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_grants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grants</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_media.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Media Resources</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_work_with_us.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Work with us</span></a>
-  </div>
-</li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Datasets</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Templates</span></span>
+  </li>
     </ul>
     </div>
 </nav>
@@ -211,17 +230,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
-  <li><a href="#contents" id="toc-contents" class="nav-link" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#create-a-new-quarto-project" id="toc-create-a-new-quarto-project" class="nav-link" data-scroll-target="#create-a-new-quarto-project">1. Create a New Quarto Project</a></li>
+  <li><a href="#create-github-repository" id="toc-create-github-repository" class="nav-link" data-scroll-target="#create-github-repository">2. Create GitHub Repository</a></li>
+  <li><a href="#create-the-gh-pages-branch" id="toc-create-the-gh-pages-branch" class="nav-link" data-scroll-target="#create-the-gh-pages-branch">3. Create the <code>gh-pages</code> Branch</a></li>
+  <li><a href="#set-up-github-actions-workflow" id="toc-set-up-github-actions-workflow" class="nav-link" data-scroll-target="#set-up-github-actions-workflow">4. Set Up GitHub Actions Workflow</a></li>
+  <li><a href="#commit-and-push-workflow-file" id="toc-commit-and-push-workflow-file" class="nav-link" data-scroll-target="#commit-and-push-workflow-file">5. Commit and Push Workflow File</a></li>
+  <li><a href="#configure-github-pages" id="toc-configure-github-pages" class="nav-link" data-scroll-target="#configure-github-pages">6. Configure GitHub Pages</a></li>
+  <li><a href="#monitor-deployment" id="toc-monitor-deployment" class="nav-link" data-scroll-target="#monitor-deployment">7. Monitor Deployment</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
+  <li><a href="#tips-troubleshooting" id="toc-tips-troubleshooting" class="nav-link" data-scroll-target="#tips-troubleshooting">Tips &amp; Troubleshooting</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">How to Publish a Quarto Website with GitHub Pages and Actions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">The Research Ring</h1>
+<h1 class="title">How to Publish a Quarto Website with GitHub Pages and Actions</h1>
 </div>
 
 
@@ -238,22 +265,148 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
-<p>You’ve found the Research Ring at the ALERRT Center. This website is a clearing house for all kinds of interesting information produced and/or collected by the Ring. There are two general types of content you’ll find here:</p>
-<ol type="1">
-<li><p><strong>Public-facing</strong>–Content intended for public sharing (e.g., research articles, whitepapers, web apps)</p></li>
-<li><p><strong>Ring-facing</strong>–Content that is created with ourselves (or other colleagues at the ALERRT Center) in mind (e.g., instructionals, templates)</p></li>
-</ol>
-<p>Both types of content are meant to be freely accessed and none of it is private.</p>
-</section>
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<p>This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.</p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
 <ul>
-<li>Top-level summary of the RR mission, areas of interest, and how we integrate with training.</li>
-<li>Link to the AA data portal</li>
-<li>Link to Github</li>
+<li>Git installed on your computer</li>
+<li>A GitHub account</li>
 </ul>
+</section>
+<section id="create-a-new-quarto-project" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-new-quarto-project">1. Create a New Quarto Project</h2>
+<ol type="1">
+<li>Open RStudio and go to: <em>File &gt; New Project &gt; New Directory &gt; Quarto Website</em></li>
+<li>For <strong>Directory name</strong>, use the form:
+<ul>
+<li>For a personal site: <code>username.github.io</code></li>
+<li>For an organization: <code>organizationname.github.io</code></li>
+</ul></li>
+<li>Choose a folder to save the project locally.</li>
+<li>Make sure to check:
+<ul>
+<li>Create a git repository</li>
+<li>Use renv with this project</li>
+</ul></li>
+<li>Click <strong>Create Project</strong>. This sets up your Quarto site with version control and reproducible package management.</li>
+</ol>
+</section>
+<section id="create-github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="create-github-repository">2. Create GitHub Repository</h2>
+<ol type="1">
+<li>In GitHub, create a new repository.</li>
+<li>Name it exactly the same as your project directory (e.g.&nbsp;<code>username.github.io</code>).</li>
+<li>Make the repository <strong>Public</strong> (required for free GitHub Pages).</li>
+<li>Click <strong>Create repository</strong>.</li>
+</ol>
+<p><strong>Connect your local project to this repository:</strong></p>
+<ol type="1">
+<li>Copy the GitHub setup commands (shown after creating the repo).</li>
+<li>Open a terminal/Git Bash, go to your project folder, paste and run those commands.</li>
+<li>Add, commit, and push your files:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="create-the-gh-pages-branch" class="level2">
+<h2 class="anchored" data-anchor-id="create-the-gh-pages-branch">3. Create the <code>gh-pages</code> Branch</h2>
+<ol type="1">
+<li>On GitHub, open the branches dropdown (where it says <em>main</em>).</li>
+<li>Click <strong>“View all branches”</strong>, then <strong>“New branch”</strong>.</li>
+<li>Name it <code>gh-pages</code> and create it.</li>
+</ol>
+</section>
+<section id="set-up-github-actions-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="set-up-github-actions-workflow">4. Set Up GitHub Actions Workflow</h2>
+<ol type="1">
+<li>In your Quarto project folder, create the following structure:
+<ul>
+<li><code>.github/workflows/</code></li>
+<li>Inside, add a file named <code>publish.yml</code></li>
+</ul></li>
+<li>Add this content to <code>.github/workflows/publish.yml</code> <em>(Taken from the official Quarto documentation)</em></li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">on</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">workflow_dispatch</span><span class="kw">:</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">push</span><span class="kw">:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">branches</span><span class="kw">:</span><span class="at"> main</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> Quarto Publish</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">jobs</span><span class="kw">:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">build-deploy</span><span class="kw">:</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">permissions</span><span class="kw">:</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">contents</span><span class="kw">:</span><span class="at"> write</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">steps</span><span class="kw">:</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Check out repository</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> actions/checkout@v4</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Set up Quarto</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/setup@v2</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Set up R</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> r-lib/actions/setup-r@v2</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">use-public-rspm</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Restore renv snapshot</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> r-lib/actions/setup-renv@v2</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Render and Publish</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/publish@v2</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">target</span><span class="kw">:</span><span class="at"> gh-pages</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">env</span><span class="kw">:</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">GITHUB_TOKEN</span><span class="kw">:</span><span class="at"> ${{ secrets.GITHUB_TOKEN }}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="3" type="1">
+<li>Save the file.</li>
+</ol>
+</section>
+<section id="commit-and-push-workflow-file" class="level2">
+<h2 class="anchored" data-anchor-id="commit-and-push-workflow-file">5. Commit and Push Workflow File</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add GitHub Actions workflow"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="configure-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="configure-github-pages">6. Configure GitHub Pages</h2>
+<ol type="1">
+<li>On GitHub, open your repository settings.</li>
+<li>Go to <strong>Pages</strong> in the sidebar.</li>
+<li>Set the publishing branch to <code>gh-pages</code>. Save.</li>
+</ol>
+</section>
+<section id="monitor-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="monitor-deployment">7. Monitor Deployment</h2>
+<ul>
+<li>In GitHub, open the <strong>Actions</strong> tab.</li>
+<li>You’ll see the workflow running automatically.</li>
+<li>Wait until all steps pass (green checkmarks).</li>
+<li>When complete, go back to <strong>Settings &gt; Pages</strong> and find your published site link.</li>
+</ul>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
+<ul>
+<li>GitHub Actions installs R and Quarto, restores R package versions (<code>renv</code>), renders your project, and deploys it—all automatically on every push.</li>
+<li><strong>No local rendering required:</strong> Just commit and push; GitHub builds and updates your website.</li>
+</ul>
+</section>
+<section id="tips-troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="tips-troubleshooting">Tips &amp; Troubleshooting</h2>
+<ul>
+<li>The site will publish at:
+<ul>
+<li>For personal sites: <code>https://username.github.io</code></li>
+<li>For project sites: <code>https://username.github.io/repositoryname/</code></li>
+</ul></li>
+<li>If the workflow fails, check the <strong>Actions</strong> tab for error logs.</li>
+<li>Confirm your repository is public and the Pages branch matches the workflow output.</li>
+</ul>
+<hr>
+<p><em>Guide adapted from Melissa Van Bussel and Quarto documentation, 2024.</em></p>
 
 
 </section>

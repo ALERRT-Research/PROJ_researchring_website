@@ -1,29 +1,5 @@
 [
   {
-    "objectID": "public_briefs.html",
-    "href": "public_briefs.html",
-    "title": "Research Briefs",
-    "section": "",
-    "text": "Research briefs\nLink to Pete’s substack",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Research Briefs"
-    ]
-  },
-  {
-    "objectID": "public_briefs.html#contents",
-    "href": "public_briefs.html#contents",
-    "title": "Research Briefs",
-    "section": "",
-    "text": "Research briefs\nLink to Pete’s substack",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Research Briefs"
-    ]
-  },
-  {
     "objectID": "public_output.html",
     "href": "public_output.html",
     "title": "Research Output",
@@ -33,42 +9,6 @@
       "Home",
       "Research",
       "Research Output"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "lab_posts/posts.html",
-    "href": "lab_posts/posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "How to Publish a Quarto Website with GitHub Pages and Actions\n\n\n\nring-facing\n\nquarto\n\ngithub\n\n\n\nStep-by-step guide to fully automated Quarto publishing—no local rendering required.\n\n\n\nPeter T. Tanksley\n\n\nOct 6, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "public_staff.html",
-    "href": "public_staff.html",
-    "title": "Research Staff",
-    "section": "",
-    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
-    "crumbs": [
-      "Home",
-      "Research Staff"
-    ]
-  },
-  {
-    "objectID": "public_staff.html#contents",
-    "href": "public_staff.html#contents",
-    "title": "Research Staff",
-    "section": "",
-    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
-    "crumbs": [
-      "Home",
-      "Research Staff"
     ]
   },
   {
@@ -108,23 +48,54 @@
     ]
   },
   {
-    "objectID": "research_process_home.html",
-    "href": "research_process_home.html",
-    "title": "Ring Resources",
+    "objectID": "public_work_with_us.html",
+    "href": "public_work_with_us.html",
+    "title": "Work with us",
     "section": "",
-    "text": "TipHey there!\n\n\n\nYou’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.",
+    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
     "crumbs": [
-      "Ring Resources"
+      "Home",
+      "Work with us"
     ]
   },
   {
-    "objectID": "research_process_home.html#standard-operating-procedures-for-research",
-    "href": "research_process_home.html#standard-operating-procedures-for-research",
-    "title": "Ring Resources",
-    "section": "Standard Operating Procedures (for Research)",
-    "text": "Standard Operating Procedures (for Research)\nEvery project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…\nWhile every project is different, the projects that take up most of our time fall into one of two categories: research projects and grants (see the table below for a breakdown and examples).\n\nProject Types\n\n\n\n\n\n\nResearch Project\nGrant\n\n\n\n\nExperimental\n\nRandomized controlled trial\nSurvey experiment\n\nGovernment\n\nFederal (e.g., FEMA, NSF, NIH)\nState/Local\n\n\n\nObservational\n\nDescriptive analysis\nInferential analysis\n\nPrivate\n\nResearch\nIndustry (e.g., evaluation)\n\n\n\n\nIn the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out.",
+    "objectID": "public_work_with_us.html#contents",
+    "href": "public_work_with_us.html#contents",
+    "title": "Work with us",
+    "section": "",
+    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
     "crumbs": [
-      "Ring Resources"
+      "Home",
+      "Work with us"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "public_grants.html",
+    "href": "public_grants.html",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Home",
+      "Grants"
+    ]
+  },
+  {
+    "objectID": "public_grants.html#grant-portfolio",
+    "href": "public_grants.html#grant-portfolio",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Home",
+      "Grants"
     ]
   },
   {
@@ -149,6 +120,180 @@
       "Home",
       "Reports",
       "Annual Research Report"
+    ]
+  },
+  {
+    "objectID": "public_media.html",
+    "href": "public_media.html",
+    "title": "Media Resources",
+    "section": "",
+    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
+    "crumbs": [
+      "Home",
+      "Media Resources"
+    ]
+  },
+  {
+    "objectID": "public_media.html#contents",
+    "href": "public_media.html#contents",
+    "title": "Media Resources",
+    "section": "",
+    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
+    "crumbs": [
+      "Home",
+      "Media Resources"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html",
+    "href": "r_quarto_website_github_pages.html",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#prerequisites",
+    "href": "r_quarto_website_github_pages.html#prerequisites",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nGit installed on your computer\nA GitHub account",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-a-new-quarto-project",
+    "href": "r_quarto_website_github_pages.html#create-a-new-quarto-project",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "1. Create a New Quarto Project",
+    "text": "1. Create a New Quarto Project\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-github-repository",
+    "href": "r_quarto_website_github_pages.html#create-github-repository",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "2. Create GitHub Repository",
+    "text": "2. Create GitHub Repository\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-the-gh-pages-branch",
+    "href": "r_quarto_website_github_pages.html#create-the-gh-pages-branch",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "3. Create the gh-pages Branch",
+    "text": "3. Create the gh-pages Branch\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#set-up-github-actions-workflow",
+    "href": "r_quarto_website_github_pages.html#set-up-github-actions-workflow",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "4. Set Up GitHub Actions Workflow",
+    "text": "4. Set Up GitHub Actions Workflow\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#commit-and-push-workflow-file",
+    "href": "r_quarto_website_github_pages.html#commit-and-push-workflow-file",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "5. Commit and Push Workflow File",
+    "text": "5. Commit and Push Workflow File\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#configure-github-pages",
+    "href": "r_quarto_website_github_pages.html#configure-github-pages",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "6. Configure GitHub Pages",
+    "text": "6. Configure GitHub Pages\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#monitor-deployment",
+    "href": "r_quarto_website_github_pages.html#monitor-deployment",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "7. Monitor Deployment",
+    "text": "7. Monitor Deployment\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#how-it-works",
+    "href": "r_quarto_website_github_pages.html#how-it-works",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "How It Works",
+    "text": "How It Works\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#tips-troubleshooting",
+    "href": "r_quarto_website_github_pages.html#tips-troubleshooting",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Tips & Troubleshooting",
+    "text": "Tips & Troubleshooting\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "research_process_home.html",
+    "href": "research_process_home.html",
+    "title": "Ring Resources",
+    "section": "",
+    "text": "TipHey there!\n\n\n\nYou’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.",
+    "crumbs": [
+      "Ring Resources"
+    ]
+  },
+  {
+    "objectID": "research_process_home.html#standard-operating-procedures-for-research",
+    "href": "research_process_home.html#standard-operating-procedures-for-research",
+    "title": "Ring Resources",
+    "section": "Standard Operating Procedures (for Research)",
+    "text": "Standard Operating Procedures (for Research)\nEvery project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…\nWhile every project is different, the projects that take up most of our time fall into one of two categories: research projects and grants (see the table below for a breakdown and examples).\n\nProject Types\n\n\n\n\n\n\nResearch Project\nGrant\n\n\n\n\nExperimental\n\nRandomized controlled trial\nSurvey experiment\n\nGovernment\n\nFederal (e.g., FEMA, NSF, NIH)\nState/Local\n\n\n\nObservational\n\nDescriptive analysis\nInferential analysis\n\nPrivate\n\nResearch\nIndustry (e.g., evaluation)\n\n\n\n\nIn the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out.",
+    "crumbs": [
+      "Ring Resources"
     ]
   },
   {
@@ -185,158 +330,27 @@
     ]
   },
   {
-    "objectID": "public_grants.html",
-    "href": "public_grants.html",
-    "title": "Grants",
+    "objectID": "research_process_executing_a_proj.html",
+    "href": "research_process_executing_a_proj.html",
+    "title": "Executing a project",
     "section": "",
-    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
-    "crumbs": [
-      "Home",
-      "Grants"
-    ]
-  },
-  {
-    "objectID": "public_grants.html#grant-portfolio",
-    "href": "public_grants.html#grant-portfolio",
-    "title": "Grants",
-    "section": "",
-    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
-    "crumbs": [
-      "Home",
-      "Grants"
-    ]
-  },
-  {
-    "objectID": "research_process_working_with_a_team.html",
-    "href": "research_process_working_with_a_team.html",
-    "title": "Working with a team",
-    "section": "",
-    "text": "Working with a team",
+    "text": "All projects really get going when they get a dedicated directory. Start by setting up a new directory for the project in the “current projects” directory of the research drive on OneDrive. Always use “snake case” (e.g., project_example) when naming directories. Within the main project directory, there should be three subdirectories: analysis, manuscript, and docs.\n\n\nThis directory is where all the analysis files (e.g., code, data, results, figures) are going to be housed. Every analysis subdirectory should contain four additional subdirectories: 1) code, 2) input, 3) output, and 4) temp. All project code (e.g., an Rproj file, R scripts) is in “code” directory. All data required to conduct the analysis should be in the “input” directory. The “output” directory should contain two subdirectories, “results” and “figures”, for tabular/text-based and graphical results, respectively. The “temp” directory is meant to house all temporary, intermediate, or else incomplete results—only when results are considered final do they get assigned to an output directory.\n\n\n\nThis directory is where the manuscript is housed. The filename of the actual manuscript should simply be “manuscript” and should have no versioning in its name. The idea is to have the manuscript itself be a living document and to periodically create ‘freezes’ of it that can be used as a record when major changes are implemented (e.g., adding a new section). The main document itself should never actually change names, and no other version of the manuscript should be edited. Two subdirectories should be located here as well. First, the “archive” directory should contain all the ‘freezes’ (versioning of freezes is best achieved by appending the date [e.g., “_mm_dd_yy”] to the end of the manuscript filename [manuscript_01_29_26.docx]). Second, a “submissions” directory should contain individual subdirectories for each outlet the manuscript is submitted to. Name each subdirectory after the journal (e.g., jcj for Journal of Criminal Justice). After the manuscript is prepared for a submission, a submission-specific freeze should be saved in the appropriate submission directory. Each submission should be kept distinct within an outlet’s directory (e.g., a “journal_outlet” directory might contain subdirectories for “submission_1” and “submission_2” if the project received an R&R after its initial submission).\n\n\n\nThis directory contains all project files that are not directly used in the project analysis or manuscript write-up. At least two subdirectories should go here: “lit” for all the project-specific journal articles and “admin” for all the other documents needed to conduct the project (e.g., IRB, analysis plan/preregistration, informed consent, schedules). Additional subdirectories can be added as need. For example, a “media” subdirectory can house relevant media (e.g., videos) used for the project if needed.\nAfter setting up a project, you should have a file structure that looks like this:\n\nexample_proj\n├── analysis\n│   ├── code\n│   ├── input\n│   ├── output\n│   │   ├── figures\n│   │   └── results\n│   └── temp\n├── docs\n│   ├── admin\n│   └── lit\n└── manuscript\n    ├── archive\n    └── submissions\n\nAdd files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.\nADD NOTE ABOUT ARCHIVE FOLDERS",
     "crumbs": [
       "Ring Resources",
       "Conducting Research",
-      "Working with a team"
+      "Executing a project"
     ]
   },
   {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html",
-    "href": "lab_posts/2024-10-06_make_website/index.html",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "objectID": "research_process_executing_a_proj.html#file-structure",
+    "href": "research_process_executing_a_proj.html#file-structure",
+    "title": "Executing a project",
     "section": "",
-    "text": "Noir-style hex blending Quarto and GitHub Pages.\nImage credit: Created with ChatGPT (OpenAI)."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#prerequisites",
-    "href": "lab_posts/2024-10-06_make_website/index.html#prerequisites",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nGit installed on your computer\nA GitHub account"
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-a-new-quarto-project",
-    "href": "lab_posts/2024-10-06_make_website/index.html#create-a-new-quarto-project",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "1. Create a New Quarto Project",
-    "text": "1. Create a New Quarto Project\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-github-repository",
-    "href": "lab_posts/2024-10-06_make_website/index.html#create-github-repository",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "2. Create GitHub Repository",
-    "text": "2. Create GitHub Repository\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push"
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#create-the-gh-pages-branch",
-    "href": "lab_posts/2024-10-06_make_website/index.html#create-the-gh-pages-branch",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "3. Create the gh-pages Branch",
-    "text": "3. Create the gh-pages Branch\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#set-up-github-actions-workflow",
-    "href": "lab_posts/2024-10-06_make_website/index.html#set-up-github-actions-workflow",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "4. Set Up GitHub Actions Workflow",
-    "text": "4. Set Up GitHub Actions Workflow\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#commit-and-push-workflow-file",
-    "href": "lab_posts/2024-10-06_make_website/index.html#commit-and-push-workflow-file",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "5. Commit and Push Workflow File",
-    "text": "5. Commit and Push Workflow File\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push"
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#configure-github-pages",
-    "href": "lab_posts/2024-10-06_make_website/index.html#configure-github-pages",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "6. Configure GitHub Pages",
-    "text": "6. Configure GitHub Pages\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#monitor-deployment",
-    "href": "lab_posts/2024-10-06_make_website/index.html#monitor-deployment",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "7. Monitor Deployment",
-    "text": "7. Monitor Deployment\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#how-it-works",
-    "href": "lab_posts/2024-10-06_make_website/index.html#how-it-works",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "How It Works",
-    "text": "How It Works\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website."
-  },
-  {
-    "objectID": "lab_posts/2024-10-06_make_website/index.html#tips-troubleshooting",
-    "href": "lab_posts/2024-10-06_make_website/index.html#tips-troubleshooting",
-    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
-    "section": "Tips & Troubleshooting",
-    "text": "Tips & Troubleshooting\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024."
-  },
-  {
-    "objectID": "public_work_with_us.html",
-    "href": "public_work_with_us.html",
-    "title": "Work with us",
-    "section": "",
-    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
+    "text": "All projects really get going when they get a dedicated directory. Start by setting up a new directory for the project in the “current projects” directory of the research drive on OneDrive. Always use “snake case” (e.g., project_example) when naming directories. Within the main project directory, there should be three subdirectories: analysis, manuscript, and docs.\n\n\nThis directory is where all the analysis files (e.g., code, data, results, figures) are going to be housed. Every analysis subdirectory should contain four additional subdirectories: 1) code, 2) input, 3) output, and 4) temp. All project code (e.g., an Rproj file, R scripts) is in “code” directory. All data required to conduct the analysis should be in the “input” directory. The “output” directory should contain two subdirectories, “results” and “figures”, for tabular/text-based and graphical results, respectively. The “temp” directory is meant to house all temporary, intermediate, or else incomplete results—only when results are considered final do they get assigned to an output directory.\n\n\n\nThis directory is where the manuscript is housed. The filename of the actual manuscript should simply be “manuscript” and should have no versioning in its name. The idea is to have the manuscript itself be a living document and to periodically create ‘freezes’ of it that can be used as a record when major changes are implemented (e.g., adding a new section). The main document itself should never actually change names, and no other version of the manuscript should be edited. Two subdirectories should be located here as well. First, the “archive” directory should contain all the ‘freezes’ (versioning of freezes is best achieved by appending the date [e.g., “_mm_dd_yy”] to the end of the manuscript filename [manuscript_01_29_26.docx]). Second, a “submissions” directory should contain individual subdirectories for each outlet the manuscript is submitted to. Name each subdirectory after the journal (e.g., jcj for Journal of Criminal Justice). After the manuscript is prepared for a submission, a submission-specific freeze should be saved in the appropriate submission directory. Each submission should be kept distinct within an outlet’s directory (e.g., a “journal_outlet” directory might contain subdirectories for “submission_1” and “submission_2” if the project received an R&R after its initial submission).\n\n\n\nThis directory contains all project files that are not directly used in the project analysis or manuscript write-up. At least two subdirectories should go here: “lit” for all the project-specific journal articles and “admin” for all the other documents needed to conduct the project (e.g., IRB, analysis plan/preregistration, informed consent, schedules). Additional subdirectories can be added as need. For example, a “media” subdirectory can house relevant media (e.g., videos) used for the project if needed.\nAfter setting up a project, you should have a file structure that looks like this:\n\nexample_proj\n├── analysis\n│   ├── code\n│   ├── input\n│   ├── output\n│   │   ├── figures\n│   │   └── results\n│   └── temp\n├── docs\n│   ├── admin\n│   └── lit\n└── manuscript\n    ├── archive\n    └── submissions\n\nAdd files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.\nADD NOTE ABOUT ARCHIVE FOLDERS",
     "crumbs": [
-      "Home",
-      "Work with us"
-    ]
-  },
-  {
-    "objectID": "public_work_with_us.html#contents",
-    "href": "public_work_with_us.html#contents",
-    "title": "Work with us",
-    "section": "",
-    "text": "How can agencies participate in studies\nHow can researchers collaborate with us\nContact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?",
-    "crumbs": [
-      "Home",
-      "Work with us"
-    ]
-  },
-  {
-    "objectID": "public_media.html",
-    "href": "public_media.html",
-    "title": "Media Resources",
-    "section": "",
-    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
-    "crumbs": [
-      "Home",
-      "Media Resources"
-    ]
-  },
-  {
-    "objectID": "public_media.html#contents",
-    "href": "public_media.html#contents",
-    "title": "Media Resources",
-    "section": "",
-    "text": "A list of media citations\nLinks to podcasts we appear on\nData visualizations or infographics for media to use without permission",
-    "crumbs": [
-      "Home",
-      "Media Resources"
+      "Ring Resources",
+      "Conducting Research",
+      "Executing a project"
     ]
   },
   {
@@ -361,6 +375,64 @@
       "Ring Resources",
       "Conducting Research",
       "Getting started"
+    ]
+  },
+  {
+    "objectID": "public_staff.html",
+    "href": "public_staff.html",
+    "title": "Research Staff",
+    "section": "",
+    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
+    "crumbs": [
+      "Home",
+      "Research Staff"
+    ]
+  },
+  {
+    "objectID": "public_staff.html#contents",
+    "href": "public_staff.html#contents",
+    "title": "Research Staff",
+    "section": "",
+    "text": "Profiles for everyone for potential collaborators and media contacts\n\nALERRT Staff\nCollaborators\nMaybe a map showing geographic distribution of collaborators?\n\nContact information",
+    "crumbs": [
+      "Home",
+      "Research Staff"
+    ]
+  },
+  {
+    "objectID": "public_briefs.html",
+    "href": "public_briefs.html",
+    "title": "Research Briefs",
+    "section": "",
+    "text": "Research briefs\nLink to Pete’s substack",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Research Briefs"
+    ]
+  },
+  {
+    "objectID": "public_briefs.html#contents",
+    "href": "public_briefs.html#contents",
+    "title": "Research Briefs",
+    "section": "",
+    "text": "Research briefs\nLink to Pete’s substack",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Research Briefs"
+    ]
+  },
+  {
+    "objectID": "research_process_working_with_a_team.html",
+    "href": "research_process_working_with_a_team.html",
+    "title": "Working with a team",
+    "section": "",
+    "text": "Working with a team",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Working with a team"
     ]
   }
 ]
