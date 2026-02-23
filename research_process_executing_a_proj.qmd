@@ -40,7 +40,11 @@ example_proj
 ```
 :::
 
-Add files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch. 
+Add files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. 
+
+{{< downloadthis resources/file_structure.zip dname="file_structure" label="Download file structure template" >}}
+
+When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch. 
 
 ADD NOTE ABOUT ARCHIVE FOLDERS
 
