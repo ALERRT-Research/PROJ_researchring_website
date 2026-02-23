@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ring Resources – Research Ring</title>
+<title>Executing a project – Research Ring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./research_process_home.html" aria-current="page"> 
 <span class="menu-text">Ring Resources</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lab_posts/posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -113,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_home.html">Ring Resources</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_executing_a_proj.html">Executing a project</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -127,19 +131,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./research_process_home.html" class="sidebar-item-text sidebar-link active">
+  <a href="./research_process_home.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ring Resources</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Conducting Research</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./research_process_getting_started.html" class="sidebar-item-text sidebar-link">
@@ -148,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./research_process_executing_a_proj.html" class="sidebar-item-text sidebar-link">
+  <a href="./research_process_executing_a_proj.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Executing a project</span></a>
   </div>
 </li>
@@ -161,21 +165,8 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Working with R</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How to Publish a Quarto Website with GitHub Pages and Actions</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Working with R</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
@@ -195,16 +186,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#standard-operating-procedures-for-research" id="toc-standard-operating-procedures-for-research" class="nav-link active" data-scroll-target="#standard-operating-procedures-for-research">Standard Operating Procedures (for Research)</a></li>
+  <li><a href="#file-structure" id="toc-file-structure" class="nav-link active" data-scroll-target="#file-structure">File structure</a>
+  <ul class="collapse">
+  <li><a href="#analysis-directory" id="toc-analysis-directory" class="nav-link" data-scroll-target="#analysis-directory">Analysis directory</a></li>
+  <li><a href="#manuscript-directory" id="toc-manuscript-directory" class="nav-link" data-scroll-target="#manuscript-directory">Manuscript directory</a></li>
+  <li><a href="#docs-directory" id="toc-docs-directory" class="nav-link" data-scroll-target="#docs-directory">Docs directory</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_executing_a_proj.html">Executing a project</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ring Resources</h1>
+<h1 class="title">Executing a project</h1>
 </div>
 
 
@@ -221,65 +217,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="file-structure" class="level2">
+<h2 class="anchored" data-anchor-id="file-structure">File structure</h2>
+<p>All projects really get going when they get a dedicated directory. Start by setting up a new directory for the project in the “current projects” directory of the research drive on OneDrive. Always use “snake case” (e.g., project_example) when naming directories. Within the main project directory, there should be three subdirectories: analysis, manuscript, and docs.</p>
+<section id="analysis-directory" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-directory">Analysis directory</h3>
+<p>This directory is where all the analysis files (e.g., code, data, results, figures) are going to be housed. Every analysis subdirectory should contain four additional subdirectories: 1) code, 2) input, 3) output, and 4) temp. All project code (e.g., an Rproj file, R scripts) is in “code” directory. All data required to conduct the analysis should be in the “input” directory. The “output” directory should contain two subdirectories, “results” and “figures”, for tabular/text-based and graphical results, respectively. The “temp” directory is meant to house all temporary, intermediate, or else incomplete results—only when results are considered final do they get assigned to an output directory.</p>
+</section>
+<section id="manuscript-directory" class="level3">
+<h3 class="anchored" data-anchor-id="manuscript-directory">Manuscript directory</h3>
+<p>This directory is where the manuscript is housed. The filename of the actual manuscript should simply be “manuscript” and should have no versioning in its name. The idea is to have the manuscript itself be a living document and to periodically create ‘freezes’ of it that can be used as a record when major changes are implemented (e.g., adding a new section). The main document itself should never actually change names, and no other version of the manuscript should be edited. Two subdirectories should be located here as well. First, the “archive” directory should contain all the ‘freezes’ (versioning of freezes is best achieved by appending the date [e.g., “_mm_dd_yy”] to the end of the manuscript filename [manuscript_01_29_26.docx]). Second, a “submissions” directory should contain individual subdirectories for each outlet the manuscript is submitted to. Name each subdirectory after the journal (e.g., jcj for Journal of Criminal Justice). After the manuscript is prepared for a submission, a submission-specific freeze should be saved in the appropriate submission directory. Each submission should be kept distinct within an outlet’s directory (e.g., a “journal_outlet” directory might contain subdirectories for “submission_1” and “submission_2” if the project received an R&amp;R after its initial submission).</p>
+</section>
+<section id="docs-directory" class="level3">
+<h3 class="anchored" data-anchor-id="docs-directory">Docs directory</h3>
+<p>This directory contains all project files that are not directly used in the project analysis or manuscript write-up. At least two subdirectories should go here: “lit” for all the project-specific journal articles and “admin” for all the other documents needed to conduct the project (e.g., IRB, analysis plan/preregistration, informed consent, schedules). Additional subdirectories can be added as need. For example, a “media” subdirectory can house relevant media (e.g., videos) used for the project if needed.</p>
+<p>After setting up a project, you should have a file structure that looks like this:</p>
+<div style="margin-left: 20em;">
+<pre class="text"><code>example_proj
+├── analysis
+│   ├── code
+│   ├── input
+│   ├── output
+│   │   ├── figures
+│   │   └── results
+│   └── temp
+├── docs
+│   ├── admin
+│   └── lit
+└── manuscript
+    ├── archive
+    └── submissions</code></pre>
 </div>
-<div class="callout-title-container flex-fill">
-Hey there!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You’ve found the “ring-facing” content of the website. This area is meant for team members but anyone is welcome! Here you’ll find a wiki-style collections of articles written by team members for team members. The point of this area is to collect useful information, standardize research practices, and provide an easy “on-ramp” for any future team member of the Research Ring at ALERRT.</p>
-</div>
-</div>
-<section id="standard-operating-procedures-for-research" class="level2">
-<h2 class="anchored" data-anchor-id="standard-operating-procedures-for-research">Standard Operating Procedures (for Research)</h2>
-<p>Every project is different. Much like the “Pirates Code”, everything set down in this document should be viewed “more like guidelines than actual rules.” However, unless there is a pretty compelling reason for deviating from the template provided below, don’t. Keeping a consistent set of S.O.P.s will ensure that every project we undertake will have strong interoperability. This is important in a lot of contexts (e.g., adding a new team member to a project, revisiting an old project), so stick to the plan. Or else…</p>
-<p>While every project is different, the projects that take up most of our time fall into one of two categories: <strong>research projects</strong> and <strong>grants</strong> (see the table below for a breakdown and examples).</p>
-<table class="caption-top table">
-<caption>Project Types</caption>
-<colgroup>
-<col style="width: 47%">
-<col style="width: 51%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Research Project</th>
-<th style="text-align: left;">Grant</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>Experimental</p>
-<ul>
-<li>Randomized controlled trial</li>
-<li>Survey experiment</li>
-</ul></td>
-<td style="text-align: left;"><p>Government</p>
-<ul>
-<li>Federal (e.g., FEMA, NSF, NIH)</li>
-<li>State/Local</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>Observational</p>
-<ul>
-<li>Descriptive analysis</li>
-<li>Inferential analysis</li>
-</ul></td>
-<td style="text-align: left;"><p>Private</p>
-<ul>
-<li>Research</li>
-<li>Industry (e.g., evaluation)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-<p>In the entries that follow, the approaches used by the Research Ring at ALERRT will be spelled out.</p>
+<p>Add files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.</p>
+<p>ADD NOTE ABOUT ARCHIVE FOLDERS</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

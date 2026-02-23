@@ -305,7 +305,7 @@
     "section": "",
     "text": "An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:\n\nObservational studies (ADD DOWNLOAD LINK)\nExperimental studies (ADD DOWNLOAD LINK)\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those next.\n\n\n\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account.\nADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE\n\n\n\nost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.\n\n\n\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
     "crumbs": [
-      "Resources",
+      "Ring Resources",
       "Conducting Research",
       "Getting started"
     ]
@@ -351,7 +351,7 @@
     "section": "",
     "text": "An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:\n\nObservational studies (ADD DOWNLOAD LINK)\nExperimental studies (ADD DOWNLOAD LINK)\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those next.\n\n\n\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account.\nADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE\n\n\n\nost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.\n\n\n\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
     "crumbs": [
-      "Resources",
+      "Ring Resources",
       "Conducting Research",
       "Getting started"
     ]
@@ -579,6 +579,162 @@
     "crumbs": [
       "Home",
       "The Research Ring"
+    ]
+  },
+  {
+    "objectID": "research_process_executing_a_proj.html",
+    "href": "research_process_executing_a_proj.html",
+    "title": "Executing a project",
+    "section": "",
+    "text": "All projects really get going when they get a dedicated directory. Start by setting up a new directory for the project in the “current projects” directory of the research drive on OneDrive. Always use “snake case” (e.g., project_example) when naming directories. Within the main project directory, there should be three subdirectories: analysis, manuscript, and docs.\n\n\nThis directory is where all the analysis files (e.g., code, data, results, figures) are going to be housed. Every analysis subdirectory should contain four additional subdirectories: 1) code, 2) input, 3) output, and 4) temp. All project code (e.g., an Rproj file, R scripts) is in “code” directory. All data required to conduct the analysis should be in the “input” directory. The “output” directory should contain two subdirectories, “results” and “figures”, for tabular/text-based and graphical results, respectively. The “temp” directory is meant to house all temporary, intermediate, or else incomplete results—only when results are considered final do they get assigned to an output directory.\n\n\n\nThis directory is where the manuscript is housed. The filename of the actual manuscript should simply be “manuscript” and should have no versioning in its name. The idea is to have the manuscript itself be a living document and to periodically create ‘freezes’ of it that can be used as a record when major changes are implemented (e.g., adding a new section). The main document itself should never actually change names, and no other version of the manuscript should be edited. Two subdirectories should be located here as well. First, the “archive” directory should contain all the ‘freezes’ (versioning of freezes is best achieved by appending the date [e.g., “_mm_dd_yy”] to the end of the manuscript filename [manuscript_01_29_26.docx]). Second, a “submissions” directory should contain individual subdirectories for each outlet the manuscript is submitted to. Name each subdirectory after the journal (e.g., jcj for Journal of Criminal Justice). After the manuscript is prepared for a submission, a submission-specific freeze should be saved in the appropriate submission directory. Each submission should be kept distinct within an outlet’s directory (e.g., a “journal_outlet” directory might contain subdirectories for “submission_1” and “submission_2” if the project received an R&R after its initial submission).\n\n\n\nThis directory contains all project files that are not directly used in the project analysis or manuscript write-up. At least two subdirectories should go here: “lit” for all the project-specific journal articles and “admin” for all the other documents needed to conduct the project (e.g., IRB, analysis plan/preregistration, informed consent, schedules). Additional subdirectories can be added as need. For example, a “media” subdirectory can house relevant media (e.g., videos) used for the project if needed.\nAfter setting up a project, you should have a file structure that looks like this:\n\nexample_proj\n├── analysis\n│   ├── code\n│   ├── input\n│   ├── output\n│   │   ├── figures\n│   │   └── results\n│   └── temp\n├── docs\n│   ├── admin\n│   └── lit\n└── manuscript\n    ├── archive\n    └── submissions\n\nAdd files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.\nADD NOTE ABOUT ARCHIVE FOLDERS",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Executing a project"
+    ]
+  },
+  {
+    "objectID": "research_process_executing_a_proj.html#file-structure",
+    "href": "research_process_executing_a_proj.html#file-structure",
+    "title": "Executing a project",
+    "section": "",
+    "text": "All projects really get going when they get a dedicated directory. Start by setting up a new directory for the project in the “current projects” directory of the research drive on OneDrive. Always use “snake case” (e.g., project_example) when naming directories. Within the main project directory, there should be three subdirectories: analysis, manuscript, and docs.\n\n\nThis directory is where all the analysis files (e.g., code, data, results, figures) are going to be housed. Every analysis subdirectory should contain four additional subdirectories: 1) code, 2) input, 3) output, and 4) temp. All project code (e.g., an Rproj file, R scripts) is in “code” directory. All data required to conduct the analysis should be in the “input” directory. The “output” directory should contain two subdirectories, “results” and “figures”, for tabular/text-based and graphical results, respectively. The “temp” directory is meant to house all temporary, intermediate, or else incomplete results—only when results are considered final do they get assigned to an output directory.\n\n\n\nThis directory is where the manuscript is housed. The filename of the actual manuscript should simply be “manuscript” and should have no versioning in its name. The idea is to have the manuscript itself be a living document and to periodically create ‘freezes’ of it that can be used as a record when major changes are implemented (e.g., adding a new section). The main document itself should never actually change names, and no other version of the manuscript should be edited. Two subdirectories should be located here as well. First, the “archive” directory should contain all the ‘freezes’ (versioning of freezes is best achieved by appending the date [e.g., “_mm_dd_yy”] to the end of the manuscript filename [manuscript_01_29_26.docx]). Second, a “submissions” directory should contain individual subdirectories for each outlet the manuscript is submitted to. Name each subdirectory after the journal (e.g., jcj for Journal of Criminal Justice). After the manuscript is prepared for a submission, a submission-specific freeze should be saved in the appropriate submission directory. Each submission should be kept distinct within an outlet’s directory (e.g., a “journal_outlet” directory might contain subdirectories for “submission_1” and “submission_2” if the project received an R&R after its initial submission).\n\n\n\nThis directory contains all project files that are not directly used in the project analysis or manuscript write-up. At least two subdirectories should go here: “lit” for all the project-specific journal articles and “admin” for all the other documents needed to conduct the project (e.g., IRB, analysis plan/preregistration, informed consent, schedules). Additional subdirectories can be added as need. For example, a “media” subdirectory can house relevant media (e.g., videos) used for the project if needed.\nAfter setting up a project, you should have a file structure that looks like this:\n\nexample_proj\n├── analysis\n│   ├── code\n│   ├── input\n│   ├── output\n│   │   ├── figures\n│   │   └── results\n│   └── temp\n├── docs\n│   ├── admin\n│   └── lit\n└── manuscript\n    ├── archive\n    └── submissions\n\nAdd files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder. When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.\nADD NOTE ABOUT ARCHIVE FOLDERS",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Executing a project"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html",
+    "href": "r_quarto_website_github_pages.html",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "",
+    "text": "This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#prerequisites",
+    "href": "r_quarto_website_github_pages.html#prerequisites",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nGit installed on your computer\nA GitHub account",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-a-new-quarto-project",
+    "href": "r_quarto_website_github_pages.html#create-a-new-quarto-project",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "1. Create a New Quarto Project",
+    "text": "1. Create a New Quarto Project\n\nOpen RStudio and go to: File &gt; New Project &gt; New Directory &gt; Quarto Website\nFor Directory name, use the form:\n\nFor a personal site: username.github.io\nFor an organization: organizationname.github.io\n\nChoose a folder to save the project locally.\nMake sure to check:\n\nCreate a git repository\nUse renv with this project\n\nClick Create Project. This sets up your Quarto site with version control and reproducible package management.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-github-repository",
+    "href": "r_quarto_website_github_pages.html#create-github-repository",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "2. Create GitHub Repository",
+    "text": "2. Create GitHub Repository\n\nIn GitHub, create a new repository.\nName it exactly the same as your project directory (e.g. username.github.io).\nMake the repository Public (required for free GitHub Pages).\nClick Create repository.\n\nConnect your local project to this repository:\n\nCopy the GitHub setup commands (shown after creating the repo).\nOpen a terminal/Git Bash, go to your project folder, paste and run those commands.\nAdd, commit, and push your files:\n\ngit add .\ngit commit -m \"Initial commit\"\ngit push",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#create-the-gh-pages-branch",
+    "href": "r_quarto_website_github_pages.html#create-the-gh-pages-branch",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "3. Create the gh-pages Branch",
+    "text": "3. Create the gh-pages Branch\n\nOn GitHub, open the branches dropdown (where it says main).\nClick “View all branches”, then “New branch”.\nName it gh-pages and create it.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#set-up-github-actions-workflow",
+    "href": "r_quarto_website_github_pages.html#set-up-github-actions-workflow",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "4. Set Up GitHub Actions Workflow",
+    "text": "4. Set Up GitHub Actions Workflow\n\nIn your Quarto project folder, create the following structure:\n\n.github/workflows/\nInside, add a file named publish.yml\n\nAdd this content to .github/workflows/publish.yml (Taken from the official Quarto documentation)\n\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Set up R\n        uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - name: Restore renv snapshot\n        uses: r-lib/actions/setup-renv@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n\nSave the file.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#commit-and-push-workflow-file",
+    "href": "r_quarto_website_github_pages.html#commit-and-push-workflow-file",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "5. Commit and Push Workflow File",
+    "text": "5. Commit and Push Workflow File\ngit add .\ngit commit -m \"Add GitHub Actions workflow\"\ngit push",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#configure-github-pages",
+    "href": "r_quarto_website_github_pages.html#configure-github-pages",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "6. Configure GitHub Pages",
+    "text": "6. Configure GitHub Pages\n\nOn GitHub, open your repository settings.\nGo to Pages in the sidebar.\nSet the publishing branch to gh-pages. Save.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#monitor-deployment",
+    "href": "r_quarto_website_github_pages.html#monitor-deployment",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "7. Monitor Deployment",
+    "text": "7. Monitor Deployment\n\nIn GitHub, open the Actions tab.\nYou’ll see the workflow running automatically.\nWait until all steps pass (green checkmarks).\nWhen complete, go back to Settings &gt; Pages and find your published site link.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#how-it-works",
+    "href": "r_quarto_website_github_pages.html#how-it-works",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "How It Works",
+    "text": "How It Works\n\nGitHub Actions installs R and Quarto, restores R package versions (renv), renders your project, and deploys it—all automatically on every push.\nNo local rendering required: Just commit and push; GitHub builds and updates your website.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
+    ]
+  },
+  {
+    "objectID": "r_quarto_website_github_pages.html#tips-troubleshooting",
+    "href": "r_quarto_website_github_pages.html#tips-troubleshooting",
+    "title": "How to Publish a Quarto Website with GitHub Pages and Actions",
+    "section": "Tips & Troubleshooting",
+    "text": "Tips & Troubleshooting\n\nThe site will publish at:\n\nFor personal sites: https://username.github.io\nFor project sites: https://username.github.io/repositoryname/\n\nIf the workflow fails, check the Actions tab for error logs.\nConfirm your repository is public and the Pages branch matches the workflow output.\n\n\nGuide adapted from Melissa Van Bussel and Quarto documentation, 2024.",
+    "crumbs": [
+      "Ring Resources",
+      "Working with R",
+      "How to Publish a Quarto Website with GitHub Pages and Actions"
     ]
   }
 ]

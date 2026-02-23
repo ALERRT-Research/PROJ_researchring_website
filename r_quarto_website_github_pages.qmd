@@ -1,24 +1,7 @@
 ---
 title: "How to Publish a Quarto Website with GitHub Pages and Actions"
-description: "Step-by-step guide to fully automated Quarto publishing—no local rendering required."
-format: html
-
-author:
-  - name: Peter T. Tanksley
-    affiliation: ALERRT Center, Texas State University
-date: 10/06/25
-categories: [ring-facing, quarto, github] # self-defined categories
-# citation: 
-#   url: https://petertanksley.github.io/posts/2024-09-17_lht_birthday_day/ 
-image: quarto_ghpages_noir.png
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 
 ---
-
-![Noir-style hex blending Quarto and GitHub Pages.  
-*Image credit: Created with ChatGPT (OpenAI).*](quarto_ghpages_noir.png)
-
-# How to Publish a Quarto Website with GitHub Pages and GitHub Actions
 
 This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.
 

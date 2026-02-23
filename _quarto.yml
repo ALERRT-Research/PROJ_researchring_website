@@ -11,7 +11,6 @@ website:
         text: Home
       # - about.qmd
       - research_process_home.qmd
-      - lab_posts/posts.qmd
   sidebar: 
     - title: "Ring-Facing"
       collapse-level: 1
@@ -21,8 +20,11 @@ website:
         - section: "Conducting Research"
           contents:
             - research_process_getting_started.qmd
+            - research_process_executing_a_proj.qmd
             - research_process_working_with_a_team.qmd
         - section: "Working with R"
+          contents: 
+            - r_quarto_website_github_pages.qmd
         - section: "Datasets"
         - section: "Templates"
         
