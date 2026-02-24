@@ -1,0 +1,31 @@
+---
+title: "Texas State Links"
+---
+
+Here is where we list several helpful links for Texas State University resources.
+
+## Employer information
+
+### [Institutional financial fact sheet (Division of Research)](https://www.research.txst.edu/osp/pre-award-support/preparing-a-proposal/fact-sheet.html){target="_blank"}
+
+-   EIN number
+-   Tax exempt status
+
+{{< downloadthis resources/txst_financial_factsheet_06_20_24.pdf dname="txst_financial_factsheet" label="Download fact sheet" >}}
+
+## Employee information
+
+### [SAP portal](https://www.txst.edu/sap.html){target="_blank"}
+
+-   Time sheets
+-   Success Factors (in-service training)
+-   W2
+
+### Travel Requests
+
+### Concur
+
+### [Parking Services](https://txstate.aimsparking.com/){target="_blank"}
+
+-   Purchase parking permits
+-   Pay parking tickets

@@ -31,6 +31,9 @@ website:
             - r_quarto_website_github_pages.qmd
         - section: "Datasets"
         - section: "Templates"
+        - section: "Texas State"
+          contents: 
+            - txst_links.qmd
         
     - title: "Public-facing"
       collapse-level: 1
