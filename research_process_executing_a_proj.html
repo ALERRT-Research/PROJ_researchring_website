@@ -198,6 +198,23 @@ ul.task-list li input[type="checkbox"] {
       <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Templates</span></span>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Texas State</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./txst_links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Texas State Links</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -271,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
     └── submissions</code></pre>
 </div>
 <p>Add files as needed, but all projects should have that basic structure at its core. A template file structure is available in the current projects OneDrive folder.</p>
-<p><a href="#dnldts51907" onclick="fetch('data:application/zip;base64,UEsDBBQAAAAAABpdPVwAAAAAAAAAAAAAAAAPACAAZmlsZV9zdHJ1Y3R1cmUvdXgLAAEE+QEAAAQUAAAAVVQNAAekm3tpRmKCaRaznGlQSwMEFAAAAAAAPV09XAAAAAAAAAAAAAAAABoAIABmaWxlX3N0cnVjdHVyZS9tYW51c2NyaXB0L3V4CwABBPkBAAAEFAAAAFVUDQAH55t7aRaznGkrs5xpUEsDBBQAAAAAAC9dPVwAAAAAAAAAAAAAAAAYACAAZmlsZV9zdHJ1Y3R1cmUvYW5hbHlzaXMvdXgLAAEE+QEAAAQUAAAAVVQNAAfKm3tpFrOcaSuznGlQSwMEFAAAAAAANV09XAAAAAAAAAAAAAAAABQAIABmaWxlX3N0cnVjdHVyZS9kb2NzL3V4CwABBPkBAAAEFAAAAFVUDQAH15t7aRaznGkrs5xpUEsBAhQDFAAAAAAAGl09XAAAAAAAAAAAAAAAAA8AGAAAAAAAAAAAAMBBAAAAAGZpbGVfc3RydWN0dXJlL3V4CwABBPkBAAAEFAAAAFVUBQABpJt7aVBLAQIUAxQAAAAAAD1dPVwAAAAAAAAAAAAAAAAaABgAAAAAAAAAAADAQU0AAABmaWxlX3N0cnVjdHVyZS9tYW51c2NyaXB0L3V4CwABBPkBAAAEFAAAAFVUBQAB55t7aVBLAQIUAxQAAAAAAC9dPVwAAAAAAAAAAAAAAAAYABgAAAAAAAAAAADAQaUAAABmaWxlX3N0cnVjdHVyZS9hbmFseXNpcy91eAsAAQT5AQAABBQAAABVVAUAAcqbe2lQSwECFAMUAAAAAAA1XT1cAAAAAAAAAAAAAAAAFAAYAAAAAAAAAAAAwEH7AAAAZmlsZV9zdHJ1Y3R1cmUvZG9jcy91eAsAAQT5AQAABBQAAABVVAUAAdebe2lQSwUGAAAAAAQABABtAQAATQEAAAAA').then(res => res.blob()).then(blob => {
+<p><a href="#dnldts48073" onclick="fetch('data:application/zip;base64,UEsDBBQAAAAAABpdPVwAAAAAAAAAAAAAAAAPACAAZmlsZV9zdHJ1Y3R1cmUvdXgLAAEE+QEAAAQUAAAAVVQNAAekm3tpRmKCaRaznGlQSwMEFAAAAAAAPV09XAAAAAAAAAAAAAAAABoAIABmaWxlX3N0cnVjdHVyZS9tYW51c2NyaXB0L3V4CwABBPkBAAAEFAAAAFVUDQAH55t7aRaznGkrs5xpUEsDBBQAAAAAAC9dPVwAAAAAAAAAAAAAAAAYACAAZmlsZV9zdHJ1Y3R1cmUvYW5hbHlzaXMvdXgLAAEE+QEAAAQUAAAAVVQNAAfKm3tpFrOcaSuznGlQSwMEFAAAAAAANV09XAAAAAAAAAAAAAAAABQAIABmaWxlX3N0cnVjdHVyZS9kb2NzL3V4CwABBPkBAAAEFAAAAFVUDQAH15t7aRaznGkrs5xpUEsBAhQDFAAAAAAAGl09XAAAAAAAAAAAAAAAAA8AGAAAAAAAAAAAAMBBAAAAAGZpbGVfc3RydWN0dXJlL3V4CwABBPkBAAAEFAAAAFVUBQABpJt7aVBLAQIUAxQAAAAAAD1dPVwAAAAAAAAAAAAAAAAaABgAAAAAAAAAAADAQU0AAABmaWxlX3N0cnVjdHVyZS9tYW51c2NyaXB0L3V4CwABBPkBAAAEFAAAAFVUBQAB55t7aVBLAQIUAxQAAAAAAC9dPVwAAAAAAAAAAAAAAAAYABgAAAAAAAAAAADAQaUAAABmaWxlX3N0cnVjdHVyZS9hbmFseXNpcy91eAsAAQT5AQAABBQAAABVVAUAAcqbe2lQSwECFAMUAAAAAAA1XT1cAAAAAAAAAAAAAAAAFAAYAAAAAAAAAAAAwEH7AAAAZmlsZV9zdHJ1Y3R1cmUvZG9jcy91eAsAAQT5AQAABBQAAABVVAUAAdebe2lQSwUGAAAAAAQABABtAQAATQEAAAAA').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       document.body.appendChild(a);
@@ -279,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
       a.download = 'file_structure.zip'; a.click();
       window.URL.revokeObjectURL(downloadURL);
       document.body.removeChild(a);
-        });"><button class="btn btn-default downloadthis  " id="dnldts51907"><i class="bi bi-download"></i> Download file structure template </button></a></p>
+        });"><button class="btn btn-default downloadthis  " id="dnldts48073"><i class="bi bi-download"></i> Download file structure template </button></a></p>
 <p>When creating a new project folder, copy and paste the template file structure into the new project folder so you do not have to create it from scratch.</p>
 <p>ADD NOTE ABOUT ARCHIVE FOLDERS</p>
 
