@@ -13,6 +13,10 @@ Here is where we list several helpful links for Texas State University resources
 
 {{< downloadthis resources/txst_financial_factsheet_06_20_24.pdf dname="txst_financial_factsheet" label="Download fact sheet" >}}
 
+### Tax exempt status (IRS letters)
+
+{{< downloadthis resources/irs_letters.zip dname="txst_irs_letters" label="Download IRS Letters" >}}
+
 ## Employee information
 
 ### [SAP portal](https://www.txst.edu/sap.html){target="_blank"}
