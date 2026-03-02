@@ -7,24 +7,28 @@ format:
       theme: neutral
 ---
 
+![](resources/research_process_getting_started_hex.png){ width=180px fig-align="center" }
+
 ## Analysis plan
 
 An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.
 
-We have created a set of template analysis plans for the Research Ring that cover observational and experimental research projects, the two major types of projects we are likely to undertake. Download these templates and follow the instructions provided whenever you start a new project.
+We have created a set of template analysis plans for the Research Ring that cover observational and experimental research projects, the two major types of projects we are likely to undertake. Download the appropriate template below and follow the instructions provided whenever you start a new project.
 
 :::: {.columns}
 
-::: {.column width="45%"}
-{{< downloadthis resources/template_analysis_plan_observational.docx dname="template_analysis_plan_observational" label="Download template for observational research" >}}
+::: {.column width="50%"}
+<div style="text-align: center;">
+**Observational Research** \
+{{< downloadthis resources/template_analysis_plan_observational.docx dname="template_analysis_plan_observational" label="Download template"  type="primary">}}
+</div>
 :::
 
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="45%"}
-{{< downloadthis resources/template_analysis_plan_experimental.docx dname="template_analysis_plan_experimental" label="Download template for experimental research" >}}
+::: {.column width="50%"}
+<div style="text-align: center;">
+**Experimental Research** \
+{{< downloadthis resources/template_analysis_plan_experimental.docx dname="template_analysis_plan_experimental" label="Download template"  type="primary">}}
+</div>
 :::
 
 ::::

@@ -11,11 +11,15 @@ Here is where we list several helpful links for Texas State University resources
 -   EIN number
 -   Tax exempt status
 
-{{< downloadthis resources/txst_financial_factsheet_06_20_24.pdf dname="txst_financial_factsheet" label="Download fact sheet" >}}
+<div style="text-align: center;">
+{{< downloadthis resources/txst_financial_factsheet_06_20_24.pdf dname="txst_financial_factsheet" label="Download fact sheet"  type="primary">}}
+</div>
 
 ### Tax exempt status (IRS letters)
 
-{{< downloadthis resources/irs_letters.zip dname="txst_irs_letters" label="Download IRS Letters" >}}
+<div style="text-align: center;">
+{{< downloadthis resources/irs_letters.zip dname="txst_irs_letters" label="Download IRS Letters"  type="primary">}}
+</div>
 
 ## Employee information
 
