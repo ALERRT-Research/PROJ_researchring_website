@@ -1,0 +1,11 @@
+---
+title: "Lexical Stowaways"
+---
+
+
+```{=html}
+<ol reversed>
+  <li>[Defugalty](https://doi.org/10.1016/j.jcrimjus.2025.102578){target="_blank"}: an informal, often humorous, or intentional mispronunciation of the word "difficulty".</li>
+  <li>[Kludges](https://doi.org/10.1177/1098611120944387){target="_blank"}: an ill-assorted collection of parts assembled to fulfill a particular purpose.</li>
+
+</ol>

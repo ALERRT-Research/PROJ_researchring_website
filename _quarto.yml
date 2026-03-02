@@ -34,6 +34,8 @@ website:
         - section: "Texas State"
           contents: 
             - txst_links.qmd
+        - lexical_stowaways.qmd
+            
         
     - title: "Public-facing"
       collapse-level: 1
