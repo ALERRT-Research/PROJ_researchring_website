@@ -7,34 +7,29 @@ format:
       theme: neutral
 ---
 
-## **Starting a research project**
-
-### Analysis plan
+## Analysis plan
 
 An analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.
 
-We have created a set of template analysis plans for the Research Ring that cover the two major types of analyses we are likely to undertake:
+We have created a set of template analysis plans for the Research Ring that cover observational and experimental research projects, the two major types of projects we are likely to undertake. Download these templates and follow the instructions provided whenever you start a new project.
 
--   Observational studies (ADD DOWNLOAD LINK)
--   Experimental studies (ADD DOWNLOAD LINK)
+:::: {.columns}
 
-While not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We'll talk about those next.
+::: {.column width="45%"}
+{{< downloadthis resources/template_analysis_plan_observational.docx dname="template_analysis_plan_observational" label="Download template for observational research" >}}
+:::
 
-### Preregistration
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
 
-For experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will utilize the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:
+::: {.column width="45%"}
+{{< downloadthis resources/template_analysis_plan_experimental.docx dname="template_analysis_plan_experimental" label="Download template for experimental research" >}}
+:::
 
--   Power analysis
--   Confirmatory hypotheses
--   Criteria for positive/negative results
+::::
 
-When posting a preregistration on the OSF website, make sure to use the ALERRT-research account.
-
-ADD SPECIFIC INSTRUCTIONS FOR POSTING ON OSF WEBSITE
-
-### IRB applications
-
-ost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan.
+While not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We'll talk about those below but first we need to talk about what the analysis plan is actually used for: proposing the project to the wider team.
 
 ### Proposing a project
 
@@ -56,4 +51,21 @@ As a rule, anyone on the team is allowed to request participation in a project. 
 
 At the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted--either a new team mate will need to take on the analysis role or the timeline can be adjusted.
 
+## After the initial project proposal
+
+So you've proposed a project, received feedback, and gotten the green light to move forward--well done! The next step is usually to formalize your analysis plan in one of two ways (and possibly both!). Analysis plans should be used to 1) post a preregistration for the project and/or 2) submit an IRB application. We'll breifly talk about each.
+
+### Preregistration
+
+For experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is **not** optional). We will use the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:
+
+-   Power analysis
+-   Confirmatory hypotheses
+-   Criteria for positive/negative results
+
+When posting a preregistration on the OSF website, make sure to use the ALERRT-research account. OSF offers several resources that can help in formalizing a preregistration, much like the templates above. However, we will generally not use these as they can be too rigid and typically contain alot of material that is not actually needed for a good preregistration--they are generally designed fit many possible research designs so they end up fitting no particular research design well. Instead, use the analysis plan you began at the start of your project and add in the elements listed above to ensure that it covers all of the necessary topics.
+
+### IRB applications
+
+Most observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan. To submit an IRB proposal to Texas State University, you'll need to access the [Kuali System](https://www.research.txst.edu/orc/irb-resources/irb-application.html){target="_blank"}.
 
