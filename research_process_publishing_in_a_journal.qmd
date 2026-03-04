@@ -25,8 +25,8 @@ A reviewer comment matrix is a useful tool for identifying areas of overlap betw
 |                  | Intro.       | Comment #1  |             |             |
 |                  | Lit. Review. | Comment #2  |             |             |
 | Power analysis   | Methods      | Comment #3  |             |             |
-| Power analysis   | Methods      |             | Comment #4  |             |
-| Power analysis   | Methods      |             |             | Comment #5  |
+| Power analysis   | Methods      |             | Comment #1  |             |
+| Power analysis   | Methods      |             |             | Comment #1  |
 
 : Example comment matrix
 
