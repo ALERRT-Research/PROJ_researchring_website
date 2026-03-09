@@ -1,6 +1,96 @@
 ---
 title: "Research Output"
+format:
+  html:
+    css: styles.css          
+    link-external-newwindow: true
+    callout-appearance: minimal
+    callout-icon: false
 ---
+
+# 2024
+
+::: {.callout-note collapse="true"}
+## #FalseFlag: Exploring themes in conspiracy theory tweets regarding the Robb Elementary active shooter event
+
+How do conspiracy theories affect the explanation of active shooter events? After confusing and tragic events like active attacks, the public can be more vulnerable to conspiratorial thinking. Two main themes are identified: False flag and Hypothesized reasoning. Results show that many posts following the attack in Uvalde tried to casually explain what happened. But how do these theories affect the people involved in these events?
+
+[View the article here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+:::
+
+::: {.callout-note collapse="true"}
+## Arm the educators… but not without conditions: a qualitative assessment of law enforcement officers’ support for armed teacher policies
+
+When discussing options for protecting the safety of those in schools from active attacks, one of the most controversial options is to arm teachers. Without any research to support its efficacy, more than half of the U.S. has authorized policies to arm teachers. The public opinion for this is incredibly divided, but what do the responding police officers think of changes like these? Ten subthemes were identified and were grouped into three larger categories: value of armed teachers, training, and other considerations. Results and implications are discussed further.
+
+[View the article here.](https://doi.org/10.1080/15614263.2023.2287218)
+:::
+
+::: {.callout-note collapse="true"}
+## Can a Virtual Reality Training Scenario Elicit Similar Stress Response as a Realistic Scenario-Based Training Scenario?
+
+The main benefit of scenario-based training is to create realistic and stressful situations for trainees. Recently, departments have started to use virtual reality (VR) to also create scenario training for officers. The aim of this study is to explore whether virtual reality can also induce stress in the same ways an in-person scenario can. Salivary markers of stress were collected before and after a participant experienced either the VR or the in-person scenario. Results were compared and overall stress responses were shown to be similar, thus further implications for training are discussed. 
+
+[View the article here.](https://doi.org/10.1177/10986111231182729)
+:::
+
+::: {.callout-note collapse="true"}
+## Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill
+
+The ingestion of L-theanine and L-tyrosine has been shown to reduce salivary stress markers and improve cognitive performance. This study aims to take a closer look at if that is true while performing a mental stress challenge in virtual reality. Participants were randomly assigned doses or placebo, then performed a virtual reality active shooter training drill. Saliva samples were taken before and after the drill and results were compared. It was found that L-theanine and L-tyrosine did not affect the markers of stress but could impact cognitive performance. 
+
+[View the article here.](https://doi.org/10.1080/10253890.2024.2375588)
+:::
+
+::: {.callout-note collapse="true"}
+## Stress response to virtual reality based active shooter training: Impact of caffeine consumption
+
+Virtual reality based active shooter training drills have
+been shown to induce stress in participants, but how does caffeine consumption affect
+these results? Caffeine can result in better physical and cognitive performance,
+so could it perform similarly in a virtual reality situation? Participants were
+randomly assigned caffeine or a placebo, and saliva samples were taken before
+and after performing a mental stress task in a virtual reality active shooter scenario.
+Results show that caffeine consumption increased levels of
+
+α-amylase after performing the mental stress task.
+
+[View the article here.](https://doi.org/10.1016/j.psyneuen.2023.106923)
+:::
+
+::: {.callout-note collapse="true"}
+## Oh, @#%$!: a replication and expansion of Martaindale et al. (2023)
+
+A previous study looking into the effects of an officer’s use of vulgar language during use of force is elaborated on further. Originally, the lack of audio in videos shown during the study was highlighted as a limitation. Now, audio was added over each video condition showing use of force, and the study was replicated. Results proved to be similar, showing that public perception of use of force is affected by the use of profanity by the officer. With the presence of vulgar language, regardless of if only read or heard, being perceived as less reasonable. 
+
+[View the article here.](https://doi.org/10.1108/PIJPSM-05-2024-0089) 
+:::
+
+# 2023
+
+::: {.callout-note collapse="true"}
+## Risk Factors for Cardiometabolic Disease in Professional Firefighters
+
+Firefighters are often diagnosed with cardiometabolic
+disease, which is linked to multiple risk factors. This study looks into how
+markers of oxidative stress, inflammation, and insulin resistance can also have
+information vital to cardiometabolic disease risk. Multiple fitness metrics were taken from firefighters of various years of experience, and the results show an importance of a strong cardiorespiratory fitness and low waist circumference could reduce the markers of cardiovascular disease.
+
+[View the article here.](https://doi.org/10.1097/JOM.0000000000002743)
+:::
+
+# 2022
+
+# 2021
+
+# 2020
+
+# 2019
+
+# 2017
+
+# 2011
+this one is paywalled
 
 Contents
 

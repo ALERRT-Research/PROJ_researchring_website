@@ -1,1 +1,21 @@
-/* css styles */
+/* styles.css */
+
+.callout-note {
+  --quarto-callout-color: #501214 !important;
+  
+  border-left: solid #501214 .3rem !important;
+  border-right: solid 0.5px black !important;
+  border-top: solid 0.5px black !important;
+  border-bottom: solid 0.5px black !important;
+  border-radius: .25rem;
+  background-color: transparent !important;
+}
+
+.callout-note .callout-header {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+.callout-note .callout-icon-container i {
+  color: #501214 !important;
+}
