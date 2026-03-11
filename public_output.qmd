@@ -6,12 +6,130 @@ format:
     link-external-newwindow: true
     callout-appearance: minimal
     callout-icon: false
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
+# 2026
+
+::: {.callout-note collapse="true"}
+## AI-Generated Human Stimuli for Experimental Social Science
+
+This study tested whether AI-generated images of police officers can serve as reliable and consistent visual stimuli in social science research, specifically for studying how people perceive officers of different races, genders, and body types. In a nationally representative U.S. sample, participants accurately identified the intended characteristics in each AI-created profile and responded to them in ways consistent with established research on social perception, rating muscular officers more favorably and responding more negatively to officers with higher body weight. The results support AI-generated images as a transparent, reproducible, and scalable tool for researchers who need controlled visual stimuli in experiments about policing and related topics.
+
+[View the article
+here.](https://doi.org/10.21428/cb6ab371.33dfc31f)
+:::
+
+::: {.callout-note collapse="true"}
+## Clarifying Methods and Interpretations in Law Enforcement Mortality Surveillance: Response to Kamal
+
+This brief responds to a published commentary raising methodological concerns about a 2025 ALERRT study on law enforcement officer mortality. The authors address questions about how occupation is recorded in mortality data and the potential for statistical bias, explaining the reasoning behind their original analytical decisions. They reaffirm that the study was descriptive rather than causal and offer additional comparisons to further contextualize the findings, noting that the work provides a valuable baseline for understanding officer mortality that future studies can build upon.
+
+[View the article
+here.](https://doi.org/10.1016/j.lana.2025.101330)
+:::
+
+::: {.callout-note collapse="true"}
+## Public Opinion and the Immediate Entry Dilemma: A Factorial Survey Experiment on Active Shooter Response
+
+This study measured what the general public thinks law enforcement officers should do when responding to active shooter events, using two national samples in which participants evaluated more than 15,800 fictional scenarios depicting different officer decisions. Law enforcement officers are most influenced by active threat cues like gunfire or injured victims, but citizens based their judgments primarily on the location of the event, strongly supporting immediate police entry in schools and at parades while being more accepting of a delayed response in settings like large shopping malls. These findings suggest that public expectations and law enforcement training may not always align, which has important implications for police legitimacy and community trust in the aftermath of high-profile events.
+
+[View the article
+here.](https://doi.org/10.1016/j.jcrimjus.2025.102578)
+:::
+
+::: {.callout-note collapse="true"}
+## Striking or Grappling? Comparing Public and Officers' Perceptions of Police Use of Force
+
+This experiment showed short video clips of a police encounter to nearly 1,000 civilians and 744 law enforcement officers, with the clips varying in the type of force used, either a punch or a takedown, as well as the races of the officer and the suspect. Both civilians and officers consistently rated the takedown as more professional and appropriate than the punch, with takedown officers receiving excellent ratings roughly 15 to 25 percentage points more often across both groups. The race of the officer or suspect did not significantly affect judgments in either group. The findings highlight that perceptions of police force are shaped heavily by how the force looks, not just whether it is legally justified, underscoring the importance of both technique and appearance in public and professional evaluations.
+
+[View the article
+here.](https://doi.org/10.1016/j.jcrimjus.2026.102601)
+:::
+
+# 2025
+
+::: {.callout-note collapse="true"}
+## Active Attacks with Motor Vehicles: A Short Report and Case Study of the 2025 New Year’s Day Attack in New Orleans, LA
+
+Prompted by the deadly New Year’s Day 2025 truck attack on Bourbon Street in New Orleans that killed 14 people, this report examines vehicle-based attacks in the United States using data from the ALERRT Active Attack dataset. Although vehicle attacks make up only a small percentage of all active attacks, they result in significantly more injuries than attacks involving other weapons and are increasingly associated with terrorist organizations. The report outlines patterns in U.S. vehicle-based attacks from 2000 to 2025 and offers practical prevention recommendations, including the strategic placement of physical barriers at crowded public events.
+
+[View the article
+here.](https://doi.org/10.21428/cb6ab371.e38dadd3)
+:::
+
+::: {.callout-note collapse="true"}
+## Markers of Fitness, Stress, and Cardiometabolic Disease Risk Among Law Enforcement Officers
+
+This study examined fitness and health data from 66 male law enforcement officers in Texas to better understand the relationship between physical fitness and risk of heart disease and metabolic illness. Officers with higher cardiorespiratory and muscular fitness had lower insulin resistance, which is a key marker for metabolic disease, while those with higher body fat showed greater levels of inflammation and insulin resistance. The results reinforce that maintaining physical fitness and a healthy body composition are important tools for protecting law enforcement officers from serious long-term health problems.
+
+[View the article
+here.](https://doi.org/10.1097/JOM.0000000000003357)
+:::
+
+::: {.callout-note collapse="true"}
+## Mortality Among Law Enforcement Officers in the United States: A Population-Wide Analysis of the National Occupational Mortality Surveillance Data, 2020 to 2023
+
+Using data from the National Occupational Mortality Surveillance program covering more than 15,000 law enforcement officer deaths from 2020 to 2023, this study provides one of the most comprehensive pictures to date of when, why, and among whom officers die. Law enforcement officers showed higher overall death rates compared to the general working-age population, with heart disease, cancer, suicide, and COVID-19 among the leading causes of death for male officers, and cancer being the leading cause for female officers. These findings highlight the urgent need for targeted prevention efforts addressing cardiovascular health, cancer screening, and mental health support within law enforcement.
+
+[View the article
+here.](https://doi.org/10.1016/j.lana.2025.101270)
+:::
+
+::: {.callout-note collapse="true"}
+## Relationships Between Physiological Stress Biomarkers and Cardiovascular Disease Risk Factors Among Career Firefighters
+
+This study examined the relationships between fitness, body composition, physiological stress, and cardiovascular disease risk among 97 career male firefighters. Firefighters with better cardiorespiratory fitness, greater muscular strength, and healthier body composition had lower markers of insulin resistance, inflammation, and oxidative stress, all of which are linked to heart disease. Notably, salivary stress biomarkers alone were not significantly associated with cardiovascular risk factors, suggesting that fitness and body composition play a more direct role in protecting firefighters' heart health than stress hormones measured in isolation.
+
+[View the article
+here.](https://doi.org/10.1097/jom.0000000000003389)
+:::
+
+::: {.callout-note collapse="true"}
+## Shift Schedule Change from 24/48 to 1/3/2/3 Improves Markers of Stress and Quality of Life in Career Firefighters
+
+This study followed career firefighters from the Kyle Fire Department as they transitioned from the traditional 24-hours-on/48-hours-off schedule to a rotating schedule offering longer recovery periods between shifts. Over seven months, firefighters on the new schedule showed significantly lower cortisol levels (a key stress hormone), improved sleep quality, and better overall quality of life. The findings suggest that giving firefighters more time to recover between shifts may meaningfully reduce the physical and mental toll of the job.
+
+[View the article
+here.](https://doi.org/10.1097/jom.0000000000003638)
+:::
+
+::: {.callout-note collapse="true"}
+## To What Are We Inferring? The Widespread Misuse of Inferential Testing in the Most Cited Criminology and Criminal Justice Journals
+
+This study reviewed articles published in 18 of the top-ranked criminology and criminal justice journals to assess how often researchers apply statistical significance tests without meeting the basic requirement of random selection or random assignment. Nearly three-quarters of the reviewed articles used these tests inappropriately, and most researchers focused on whether results were statistically significant rather than on whether they were practically meaningful. The authors call for better statistical training in graduate education, reform of publishing standards, and greater use of exploratory research methods to strengthen the quality of evidence informing criminal justice policy.
+
+[View the article
+here.](https://psycnet.apa.org/doi/10.1007/s12103-025-09845-4)
+:::
+
+::: {.callout-note collapse="true"}
+## Virtual Reality Based Active Shooter Training: Added Physical Stress Increases Anxiety but Not Stress Biomarkers
+
+This study compared the stress responses of 54 participants who either exercised alone or combined exercise with a virtual reality active shooter training drill. Both groups showed increases in biological stress markers, but those who experienced the combined physical and mental challenge reported significantly higher anxiety in the aftermath. The study also found that female participants showed lower stress biomarker responses than male participants overall. These findings suggest that mental stress, such as that encountered in high-stakes training scenarios, adds meaningfully to perceived anxiety beyond what physical exertion produces on its own.
+
+[View the article
+here.](https://doi.org/10.1016/j.psyneuen.2025.107628)
+:::
+
 # 2024
+
+::: {.callout-note collapse="true"}
+## Interviewing and Interrogation Practices and Beliefs, 20 Years Later
+
+This study surveyed 526 U.S. law enforcement officers to see whether beliefs and practices around interviewing and interrogation have changed over the past two decades, comparing results to a landmark 2007 survey. The findings show real progress: more than half of interrogations are now recorded on video, compared to fewer than one in ten in 2007, and officers today are much more likely to acknowledge that false confessions happen. These results suggest that law enforcement has been moving in a more science-informed direction when it comes to questioning practices, even though the exact reasons for that shift remain unclear.
+
+[View the article
+here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+:::
+
+::: {.callout-note collapse="true"}
+## Impact of the Menstrual Cycle Phases and Time of Day on Markers of Stress
+
+Researchers tested whether the phase of the menstrual cycle affects common stress and immune markers in 17 female participants by measuring saliva and vital signs across each phase of their cycle, both morning and afternoon. No significant differences were found based on menstrual cycle phase alone for any of the markers measured. However, time of day did matter, as certain stress markers were higher in the afternoon while immune markers were stronger in the morning. These findings are important for researchers who rely on these biological markers when studying female participants, as controlling for time of day may be necessary to ensure accurate results.
+
+[View the article
+here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+:::
 
 ::: {.callout-note collapse="true"}
 ## #FalseFlag: Exploring themes in conspiracy theory tweets regarding the Robb Elementary active shooter event
@@ -377,7 +495,7 @@ standard. This standard is based on what a well-trained, sensible officer would 
 
 this one is paywalled
 
-Contents
+# Contents
 
 -   Replicate (actually, improve) on <https://alerrt.org/reading>
 -   Include summaries like on the current page
