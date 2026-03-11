@@ -29,6 +29,7 @@ Fun facts about Hunter:
 :::
 
 ::: {.column width="30%"}
+![](resources/martaindale_headshot.png)
 :::
 ::::::
 
@@ -70,6 +71,7 @@ Fun facts about Jack:
 :::
 
 ::: {.column width="30%"}
+![](resources/johncox_headshot.png)
 :::
 ::::::
 
@@ -90,6 +92,7 @@ Fun facts about Joe:
 :::
 
 ::: {.column width="30%"}
+![](resources/eleuterio_headshot.png)
 :::
 ::::::
 
