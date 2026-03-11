@@ -58,13 +58,13 @@ Fun facts about Peter:
 
 :::::: columns
 ::: {.column width="60%"}
-Jack
+Jack is a Research Associate at the ALERRT Center, where he supports a variety of projects by providing data analysis, creating visualizations, and facilitating the use of technologies such as virtual reality and eye tracking. He is currently pursuing a Master’s degree in Criminal Justice & Criminology at Texas State University. His work has been published in scholarly outlets including *Applied Police Briefings*, the *American Journal of Criminal Justice*, and the *Journal of Criminal Justice*.
 
 Fun facts about Jack:
 
--   He
--   He
--   He
+-   He can solve a Rubik's cube
+-   He likes to build computers
+-   He likes to game on said computers
 :::
 
 ::: {.column width="10%"}
@@ -95,6 +95,13 @@ Fun facts about Joe:
 ![](resources/eleuterio_headshot.png)
 :::
 ::::::
+
+## Alumni
+::: {layout-ncol="2"}
+Pete Blair, Texas State University
+
+William "Bill" Sandel, Missouri State University
+:::
 
 ## Collaborators
 
