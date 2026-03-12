@@ -284,7 +284,7 @@ that required a key to activate the lock. Results showed that simple,
 push-button door locks can be secured with fewer errors and faster than
 a keyed door lock. Policy recommendations are included.
 
-[View the article here.](https://doi.org/10.53076/JMVR74565)
+[View the article here.](https://jmvr.org/2023/07/successfully-securing-a-classroom-door-in-a-lockdown-evaluating-two-types-of-door-locks/)
 :::
 
 # 2022
@@ -492,8 +492,6 @@ standard. This standard is based on what a well-trained, sensible officer would 
 
 [View the article here.](https://doi.org/10.1177/1098611111423737)
 :::
-
-this one is paywalled
 
 # Contents
 
