@@ -79,13 +79,15 @@ Fun facts about Jack:
 
 :::::: columns
 ::: {.column width="60%"}
-Joe
+Joe is a research associate at the ALERRT Center. His work focuses on police training, use of force, and other topics related to frontline policing. He favors primary data collection, usually through experimental designs in simulated environments. Joe holds a master’s in psychology from the Federal University of Paraná (Brazil) and is a Ph.D. student in criminal justice at Texas State University. Before joining ALERRT, he served as a captain with a state police department in Brazil, where he contributed to major reforms in defensive tactics training and conducted several practice-driven research projects. His work has been published in the *Journal of Criminal Justice*, *Women & Criminal Justice*, the *Journal of Motor Learning and Development*, and the *Brazilian Journal of Public Safety*.
 
 Fun facts about Joe:
 
--   He
--   He
--   He
+-   He’s not fun at all. His idea of fun would bore most people to death.
+-   Like most cops, he’s coffee-addicted, skeptical about humankind in general and speaks sarcasm as a first language.
+-   He’s a Brazilian jiu-jitsu black belt and won two world championships in lower rank divisions.
+-   He enjoys cooking and barbecuing. His stereotypes stop at Brazilian jiu-jitsu and Brazilian barbecue—Brazilian waxing is where he draws the line.
+-   He likes military history.
 :::
 
 ::: {.column width="10%"}
@@ -97,6 +99,7 @@ Fun facts about Joe:
 ::::::
 
 ## Alumni
+
 ::: {layout-ncol="2"}
 Pete Blair, Texas State University
 
