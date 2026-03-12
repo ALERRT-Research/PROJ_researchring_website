@@ -119,7 +119,7 @@ here.](https://doi.org/10.1016/j.psyneuen.2025.107628)
 This study surveyed 526 U.S. law enforcement officers to see whether beliefs and practices around interviewing and interrogation have changed over the past two decades, comparing results to a landmark 2007 survey. The findings show real progress: more than half of interrogations are now recorded on video, compared to fewer than one in ten in 2007, and officers today are much more likely to acknowledge that false confessions happen. These results suggest that law enforcement has been moving in a more science-informed direction when it comes to questioning practices, even though the exact reasons for that shift remain unclear.
 
 [View the article
-here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+here.](https://psycnet.apa.org/doi/10.1037/lhb0000570)
 :::
 
 ::: {.callout-note collapse="true"}
@@ -128,7 +128,7 @@ here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
 Researchers tested whether the phase of the menstrual cycle affects common stress and immune markers in 17 female participants by measuring saliva and vital signs across each phase of their cycle, both morning and afternoon. No significant differences were found based on menstrual cycle phase alone for any of the markers measured. However, time of day did matter, as certain stress markers were higher in the afternoon while immune markers were stronger in the morning. These findings are important for researchers who rely on these biological markers when studying female participants, as controlling for time of day may be necessary to ensure accurate results.
 
 [View the article
-here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+here.](https://doi.org/10.1080/10253890.2024.2449098)
 :::
 
 ::: {.callout-note collapse="true"}
@@ -271,7 +271,7 @@ enforcement agreed with the public that officers should immediately
 enter.
 
 [View the article
-here.](https://doi.org/10.1007/s11292-023-09592-8?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle)
+here.](https://doi.org/10.1007/s11292-023-09592-8)
 :::
 
 ::: {.callout-note collapse="true"}
@@ -334,7 +334,7 @@ using salivary based measures of stress (e.g., alpha-amylase and
 secretory immunoglobulin-A \[SIgA\]). Participating in the VR active
 shooter scenario resulted in an increase in salivary stress markers.
 
-[View the article here.](https://doi.org/10.1016/j.psyneuen.2023.106923)
+[View the article here.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8961715/)
 :::
 
 ::: {.callout-note collapse="true"}
