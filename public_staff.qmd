@@ -9,3 +9,108 @@ title: "Research Staff"
     -   Collaborators
     -   Maybe a map showing geographic distribution of collaborators?
 -   Contact information
+
+## Research Ring
+
+### Hunter Martaindale
+
+:::::: columns
+::: {.column width="60%"}
+Hunter
+
+Fun facts about Hunter:
+
+-   He
+-   He
+-   He
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+![](resources/martaindale_headshot.png)
+:::
+::::::
+
+### Peter T. Tanksley
+
+:::::: columns
+::: {.column width="60%"}
+Peter is a research scientist at the ALERRT Center. He works on topics like officer health and wellness, public and law enforcement opinion, and police training evaluation. His interests include applied statistical analysis, data visualization, and researching first responders from a public health perspective. He holds a doctorate in criminal justice from the University of Cincinnati and he completed a postdoctoral fellowship at the University of Texas at Austin where he studied social science genomics/epigenetics. His work has been published in scholarly journals like the *Journal of Experimental Criminology*, *PLoS ONE*, and *The Lancet Regional Health - Americas*.
+
+Fun facts about Peter:
+
+-   He judges people by whether or not they have seen (and are avid fans of) the Lord of the Rings trilogy directed by Peter Jackson
+-   He is the worst Cards Against Humanity player ever
+-   He is the third Pete/Peter at ALERRT (and thus is completely redundant)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+![](resources/tanksley_headshot.png)
+:::
+::::::
+
+### Jack Johncox
+
+:::::: columns
+::: {.column width="60%"}
+Jack is a Research Associate at the ALERRT Center, where he supports a variety of projects by providing data analysis, creating visualizations, and facilitating the use of technologies such as virtual reality and eye tracking. He is currently pursuing a Master’s degree in Criminal Justice & Criminology at Texas State University. His work has been published in scholarly outlets including *Applied Police Briefings*, the *American Journal of Criminal Justice*, and the *Journal of Criminal Justice*.
+
+Fun facts about Jack:
+
+-   He can solve a Rubik's cube
+-   He likes to build computers
+-   He likes to game on said computers
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+![](resources/johncox_headshot.png)
+:::
+::::::
+
+### Joe Eleuterio
+
+:::::: columns
+::: {.column width="60%"}
+Joe is a research associate at the ALERRT Center. His work focuses on police training, use of force, and other topics related to frontline policing. He favors primary data collection, usually through experimental designs in simulated environments. Joe holds a master’s in psychology from the Federal University of Paraná (Brazil) and is a Ph.D. student in criminal justice at Texas State University. Before joining ALERRT, he served as a captain with a state police department in Brazil, where he contributed to major reforms in defensive tactics training and conducted several practice-driven research projects. His work has been published in the *Journal of Criminal Justice*, *Women & Criminal Justice*, the *Journal of Motor Learning and Development*, and the *Brazilian Journal of Public Safety*.
+
+Fun facts about Joe:
+
+-   He’s not fun at all. His idea of fun would bore most people to death.
+-   Like most cops, he’s coffee-addicted, skeptical about humankind in general and speaks sarcasm as a first language.
+-   He’s a Brazilian jiu-jitsu black belt and won two world championships in lower rank divisions.
+-   He enjoys cooking and barbecuing. His stereotypes stop at Brazilian jiu-jitsu and Brazilian barbecue—Brazilian waxing is where he draws the line.
+-   He likes military history.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+![](resources/eleuterio_headshot.png)
+:::
+::::::
+
+## Alumni
+
+::: {layout-ncol="2"}
+Pete Blair, Texas State University
+
+William "Bill" Sandel, Missouri State University
+:::
+
+## Collaborators
+
+::: {layout-ncol="2"}
+Ian Adams, University of South Carolina\
+Matthew McAllister, Texas State University
+
+Scott Mourtgos, University of South Carolina
+:::
