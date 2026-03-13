@@ -6,6 +6,9 @@ format:
     link-external-newwindow: true
     callout-appearance: minimal
     callout-icon: false
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 # 2026
@@ -13,37 +16,74 @@ format:
 ::: {.callout-note collapse="true"}
 ## AI-Generated Human Stimuli for Experimental Social Science
 
-This study tested whether AI-generated images of police officers can serve as reliable and consistent visual stimuli in social science research, specifically for studying how people perceive officers of different races, genders, and body types. In a nationally representative U.S. sample, participants accurately identified the intended characteristics in each AI-created profile and responded to them in ways consistent with established research on social perception, rating muscular officers more favorably and responding more negatively to officers with higher body weight. The results support AI-generated images as a transparent, reproducible, and scalable tool for researchers who need controlled visual stimuli in experiments about policing and related topics.
+This study tested whether AI-generated images of police officers can
+serve as reliable and consistent visual stimuli in social science
+research, specifically for studying how people perceive officers of
+different races, genders, and body types. In a nationally representative
+U.S. sample, participants accurately identified the intended
+characteristics in each AI-created profile and responded to them in ways
+consistent with established research on social perception, rating
+muscular officers more favorably and responding more negatively to
+officers with higher body weight. The results support AI-generated
+images as a transparent, reproducible, and scalable tool for researchers
+who need controlled visual stimuli in experiments about policing and
+related topics.
 
-[View the article
-here.](https://doi.org/10.21428/cb6ab371.33dfc31f)
+[View the article here.](resources/articles/article_2026_ai_generated_human_stimuli_for_experimental_social_science.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Clarifying Methods and Interpretations in Law Enforcement Mortality Surveillance: Response to Kamal
 
-This brief responds to a published commentary raising methodological concerns about a 2025 ALERRT study on law enforcement officer mortality. The authors address questions about how occupation is recorded in mortality data and the potential for statistical bias, explaining the reasoning behind their original analytical decisions. They reaffirm that the study was descriptive rather than causal and offer additional comparisons to further contextualize the findings, noting that the work provides a valuable baseline for understanding officer mortality that future studies can build upon.
+This brief responds to a published commentary raising methodological
+concerns about a 2025 ALERRT study on law enforcement officer mortality.
+The authors address questions about how occupation is recorded in
+mortality data and the potential for statistical bias, explaining the
+reasoning behind their original analytical decisions. They reaffirm that
+the study was descriptive rather than causal and offer additional
+comparisons to further contextualize the findings, noting that the work
+provides a valuable baseline for understanding officer mortality that
+future studies can build upon.
 
-[View the article
-here.](https://doi.org/10.1016/j.lana.2025.101330)
+[View the article here.](resources/articles/article_2026_clarifying_methods_and_interpretations_in_law_enfrocement_mortality_surveillance_reponse_to_kamal.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Public Opinion and the Immediate Entry Dilemma: A Factorial Survey Experiment on Active Shooter Response
 
-This study measured what the general public thinks law enforcement officers should do when responding to active shooter events, using two national samples in which participants evaluated more than 15,800 fictional scenarios depicting different officer decisions. Law enforcement officers are most influenced by active threat cues like gunfire or injured victims, but citizens based their judgments primarily on the location of the event, strongly supporting immediate police entry in schools and at parades while being more accepting of a delayed response in settings like large shopping malls. These findings suggest that public expectations and law enforcement training may not always align, which has important implications for police legitimacy and community trust in the aftermath of high-profile events.
+This study measured what the general public thinks law enforcement
+officers should do when responding to active shooter events, using two
+national samples in which participants evaluated more than 15,800
+fictional scenarios depicting different officer decisions. Law
+enforcement officers are most influenced by active threat cues like
+gunfire or injured victims, but citizens based their judgments primarily
+on the location of the event, strongly supporting immediate police entry
+in schools and at parades while being more accepting of a delayed
+response in settings like large shopping malls. These findings suggest
+that public expectations and law enforcement training may not always
+align, which has important implications for police legitimacy and
+community trust in the aftermath of high-profile events.
 
-[View the article
-here.](https://doi.org/10.1016/j.jcrimjus.2025.102578)
+[View the article here.](resources/articles/article_2026_public_opinion_and_the_immediate_entry_dilemma_a_factorial_survey_experiment_on_active_shooter_response.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Striking or Grappling? Comparing Public and Officers' Perceptions of Police Use of Force
 
-This experiment showed short video clips of a police encounter to nearly 1,000 civilians and 744 law enforcement officers, with the clips varying in the type of force used, either a punch or a takedown, as well as the races of the officer and the suspect. Both civilians and officers consistently rated the takedown as more professional and appropriate than the punch, with takedown officers receiving excellent ratings roughly 15 to 25 percentage points more often across both groups. The race of the officer or suspect did not significantly affect judgments in either group. The findings highlight that perceptions of police force are shaped heavily by how the force looks, not just whether it is legally justified, underscoring the importance of both technique and appearance in public and professional evaluations.
+This experiment showed short video clips of a police encounter to nearly
+1,000 civilians and 744 law enforcement officers, with the clips varying
+in the type of force used, either a punch or a takedown, as well as the
+races of the officer and the suspect. Both civilians and officers
+consistently rated the takedown as more professional and appropriate
+than the punch, with takedown officers receiving excellent ratings
+roughly 15 to 25 percentage points more often across both groups. The
+race of the officer or suspect did not significantly affect judgments in
+either group. The findings highlight that perceptions of police force
+are shaped heavily by how the force looks, not just whether it is
+legally justified, underscoring the importance of both technique and
+appearance in public and professional evaluations.
 
-[View the article
-here.](https://doi.org/10.1016/j.jcrimjus.2026.102601)
+[View the article here.](resources/articles/article_2026_striking_or_grappling_comparing_public_and_officer_perceptions_of_police_use_of_force.pdf){target="_blank"}
 :::
 
 # 2025
@@ -51,64 +91,118 @@ here.](https://doi.org/10.1016/j.jcrimjus.2026.102601)
 ::: {.callout-note collapse="true"}
 ## Active Attacks with Motor Vehicles: A Short Report and Case Study of the 2025 New Year’s Day Attack in New Orleans, LA
 
-Prompted by the deadly New Year’s Day 2025 truck attack on Bourbon Street in New Orleans that killed 14 people, this report examines vehicle-based attacks in the United States using data from the ALERRT Active Attack dataset. Although vehicle attacks make up only a small percentage of all active attacks, they result in significantly more injuries than attacks involving other weapons and are increasingly associated with terrorist organizations. The report outlines patterns in U.S. vehicle-based attacks from 2000 to 2025 and offers practical prevention recommendations, including the strategic placement of physical barriers at crowded public events.
+Prompted by the deadly New Year’s Day 2025 truck attack on Bourbon
+Street in New Orleans that killed 14 people, this report examines
+vehicle-based attacks in the United States using data from the ALERRT
+Active Attack dataset. Although vehicle attacks make up only a small
+percentage of all active attacks, they result in significantly more
+injuries than attacks involving other weapons and are increasingly
+associated with terrorist organizations. The report outlines patterns in
+U.S. vehicle-based attacks from 2000 to 2025 and offers practical
+prevention recommendations, including the strategic placement of
+physical barriers at crowded public events.
 
-[View the article
-here.](https://doi.org/10.21428/cb6ab371.e38dadd3)
+[View the article here.](resources/articles/article_2025_active_attacks_with_motor_vehicles_a_short_report.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Markers of Fitness, Stress, and Cardiometabolic Disease Risk Among Law Enforcement Officers
 
-This study examined fitness and health data from 66 male law enforcement officers in Texas to better understand the relationship between physical fitness and risk of heart disease and metabolic illness. Officers with higher cardiorespiratory and muscular fitness had lower insulin resistance, which is a key marker for metabolic disease, while those with higher body fat showed greater levels of inflammation and insulin resistance. The results reinforce that maintaining physical fitness and a healthy body composition are important tools for protecting law enforcement officers from serious long-term health problems.
+This study examined fitness and health data from 66 male law enforcement
+officers in Texas to better understand the relationship between physical
+fitness and risk of heart disease and metabolic illness. Officers with
+higher cardiorespiratory and muscular fitness had lower insulin
+resistance, which is a key marker for metabolic disease, while those
+with higher body fat showed greater levels of inflammation and insulin
+resistance. The results reinforce that maintaining physical fitness and
+a healthy body composition are important tools for protecting law
+enforcement officers from serious long-term health problems.
 
-[View the article
-here.](https://doi.org/10.1097/JOM.0000000000003357)
+[View the article here.](resources/articles/article_2025_markers_of_fitness_stress_and_cardiometabolic_disease_risk_among_law_enforcement_officers.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Mortality Among Law Enforcement Officers in the United States: A Population-Wide Analysis of the National Occupational Mortality Surveillance Data, 2020 to 2023
 
-Using data from the National Occupational Mortality Surveillance program covering more than 15,000 law enforcement officer deaths from 2020 to 2023, this study provides one of the most comprehensive pictures to date of when, why, and among whom officers die. Law enforcement officers showed higher overall death rates compared to the general working-age population, with heart disease, cancer, suicide, and COVID-19 among the leading causes of death for male officers, and cancer being the leading cause for female officers. These findings highlight the urgent need for targeted prevention efforts addressing cardiovascular health, cancer screening, and mental health support within law enforcement.
+Using data from the National Occupational Mortality Surveillance program
+covering more than 15,000 law enforcement officer deaths from 2020 to
+2023, this study provides one of the most comprehensive pictures to date
+of when, why, and among whom officers die. Law enforcement officers
+showed higher overall death rates compared to the general working-age
+population, with heart disease, cancer, suicide, and COVID-19 among the
+leading causes of death for male officers, and cancer being the leading
+cause for female officers. These findings highlight the urgent need for
+targeted prevention efforts addressing cardiovascular health, cancer
+screening, and mental health support within law enforcement.
 
-[View the article
-here.](https://doi.org/10.1016/j.lana.2025.101270)
+[View the article here.](resources/articles/article_2025_mortality_among_leos_in_the_us_a_population_wide_analysis_of_the_noms_data.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Relationships Between Physiological Stress Biomarkers and Cardiovascular Disease Risk Factors Among Career Firefighters
 
-This study examined the relationships between fitness, body composition, physiological stress, and cardiovascular disease risk among 97 career male firefighters. Firefighters with better cardiorespiratory fitness, greater muscular strength, and healthier body composition had lower markers of insulin resistance, inflammation, and oxidative stress, all of which are linked to heart disease. Notably, salivary stress biomarkers alone were not significantly associated with cardiovascular risk factors, suggesting that fitness and body composition play a more direct role in protecting firefighters' heart health than stress hormones measured in isolation.
+This study examined the relationships between fitness, body composition,
+physiological stress, and cardiovascular disease risk among 97 career
+male firefighters. Firefighters with better cardiorespiratory fitness,
+greater muscular strength, and healthier body composition had lower
+markers of insulin resistance, inflammation, and oxidative stress, all
+of which are linked to heart disease. Notably, salivary stress
+biomarkers alone were not significantly associated with cardiovascular
+risk factors, suggesting that fitness and body composition play a more
+direct role in protecting firefighters' heart health than stress
+hormones measured in isolation.
 
-[View the article
-here.](https://doi.org/10.1097/jom.0000000000003389)
+[View the article here.](resources/articles/article_2025_relationships_between_physiological_stress_biomarkers_and_cardiovascular_disease_risk_factors_among_career_firefighters.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Shift Schedule Change from 24/48 to 1/3/2/3 Improves Markers of Stress and Quality of Life in Career Firefighters
 
-This study followed career firefighters from the Kyle Fire Department as they transitioned from the traditional 24-hours-on/48-hours-off schedule to a rotating schedule offering longer recovery periods between shifts. Over seven months, firefighters on the new schedule showed significantly lower cortisol levels (a key stress hormone), improved sleep quality, and better overall quality of life. The findings suggest that giving firefighters more time to recover between shifts may meaningfully reduce the physical and mental toll of the job.
+This study followed career firefighters from the Kyle Fire Department as
+they transitioned from the traditional 24-hours-on/48-hours-off schedule
+to a rotating schedule offering longer recovery periods between shifts.
+Over seven months, firefighters on the new schedule showed significantly
+lower cortisol levels (a key stress hormone), improved sleep quality,
+and better overall quality of life. The findings suggest that giving
+firefighters more time to recover between shifts may meaningfully reduce
+the physical and mental toll of the job.
 
-[View the article
-here.](https://doi.org/10.1097/jom.0000000000003638)
+[View the article here.](resources/articles/article_2025_shift_schedule_change_from_24_48_to_1323_improves_markers_of_stress_and_quality_of_life_in_career_firefighters.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## To What Are We Inferring? The Widespread Misuse of Inferential Testing in the Most Cited Criminology and Criminal Justice Journals
 
-This study reviewed articles published in 18 of the top-ranked criminology and criminal justice journals to assess how often researchers apply statistical significance tests without meeting the basic requirement of random selection or random assignment. Nearly three-quarters of the reviewed articles used these tests inappropriately, and most researchers focused on whether results were statistically significant rather than on whether they were practically meaningful. The authors call for better statistical training in graduate education, reform of publishing standards, and greater use of exploratory research methods to strengthen the quality of evidence informing criminal justice policy.
+This study reviewed articles published in 18 of the top-ranked
+criminology and criminal justice journals to assess how often
+researchers apply statistical significance tests without meeting the
+basic requirement of random selection or random assignment. Nearly
+three-quarters of the reviewed articles used these tests
+inappropriately, and most researchers focused on whether results were
+statistically significant rather than on whether they were practically
+meaningful. The authors call for better statistical training in graduate
+education, reform of publishing standards, and greater use of
+exploratory research methods to strengthen the quality of evidence
+informing criminal justice policy.
 
-[View the article
-here.](https://psycnet.apa.org/doi/10.1007/s12103-025-09845-4)
+[View the article here.](resources/articles/article_2025_to_what_are_we_inferring_the_widespread_misuse_of_inferential_testing_in_the_most_cited_criminology_and_criminal_justice_journals.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Virtual Reality Based Active Shooter Training: Added Physical Stress Increases Anxiety but Not Stress Biomarkers
 
-This study compared the stress responses of 54 participants who either exercised alone or combined exercise with a virtual reality active shooter training drill. Both groups showed increases in biological stress markers, but those who experienced the combined physical and mental challenge reported significantly higher anxiety in the aftermath. The study also found that female participants showed lower stress biomarker responses than male participants overall. These findings suggest that mental stress, such as that encountered in high-stakes training scenarios, adds meaningfully to perceived anxiety beyond what physical exertion produces on its own.
+This study compared the stress responses of 54 participants who either
+exercised alone or combined exercise with a virtual reality active
+shooter training drill. Both groups showed increases in biological
+stress markers, but those who experienced the combined physical and
+mental challenge reported significantly higher anxiety in the aftermath.
+The study also found that female participants showed lower stress
+biomarker responses than male participants overall. These findings
+suggest that mental stress, such as that encountered in high-stakes
+training scenarios, adds meaningfully to perceived anxiety beyond what
+physical exertion produces on its own.
 
-[View the article
-here.](https://doi.org/10.1016/j.psyneuen.2025.107628)
+[View the article here.](resources/articles/article_2025_virtual_reality_based_active_shooter_training_added_physical_stress_increases_anxiety_but_not_stress_biomarkers.pdf){target="_blank"}
 :::
 
 # 2024
@@ -116,19 +210,34 @@ here.](https://doi.org/10.1016/j.psyneuen.2025.107628)
 ::: {.callout-note collapse="true"}
 ## Interviewing and Interrogation Practices and Beliefs, 20 Years Later
 
-This study surveyed 526 U.S. law enforcement officers to see whether beliefs and practices around interviewing and interrogation have changed over the past two decades, comparing results to a landmark 2007 survey. The findings show real progress: more than half of interrogations are now recorded on video, compared to fewer than one in ten in 2007, and officers today are much more likely to acknowledge that false confessions happen. These results suggest that law enforcement has been moving in a more science-informed direction when it comes to questioning practices, even though the exact reasons for that shift remain unclear.
+This study surveyed 526 U.S. law enforcement officers to see whether
+beliefs and practices around interviewing and interrogation have changed
+over the past two decades, comparing results to a landmark 2007 survey.
+The findings show real progress: more than half of interrogations are
+now recorded on video, compared to fewer than one in ten in 2007, and
+officers today are much more likely to acknowledge that false
+confessions happen. These results suggest that law enforcement has been
+moving in a more science-informed direction when it comes to questioning
+practices, even though the exact reasons for that shift remain unclear.
 
-[View the article
-here.](https://psycnet.apa.org/doi/10.1037/lhb0000570)
+[View the article here.](resources/articles/article_2024_interviewing_and_interrogation_practices_and_beliefs_20_years_later.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Impact of the Menstrual Cycle Phases and Time of Day on Markers of Stress
 
-Researchers tested whether the phase of the menstrual cycle affects common stress and immune markers in 17 female participants by measuring saliva and vital signs across each phase of their cycle, both morning and afternoon. No significant differences were found based on menstrual cycle phase alone for any of the markers measured. However, time of day did matter, as certain stress markers were higher in the afternoon while immune markers were stronger in the morning. These findings are important for researchers who rely on these biological markers when studying female participants, as controlling for time of day may be necessary to ensure accurate results.
+Researchers tested whether the phase of the menstrual cycle affects
+common stress and immune markers in 17 female participants by measuring
+saliva and vital signs across each phase of their cycle, both morning
+and afternoon. No significant differences were found based on menstrual
+cycle phase alone for any of the markers measured. However, time of day
+did matter, as certain stress markers were higher in the afternoon while
+immune markers were stronger in the morning. These findings are
+important for researchers who rely on these biological markers when
+studying female participants, as controlling for time of day may be
+necessary to ensure accurate results.
 
-[View the article
-here.](https://doi.org/10.1080/10253890.2024.2449098)
+[View the article here.](resources/articles/article_2024_impact_of_the_menstrual_cycle_phases_and_time_of_day_on_markers_of_stress.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -142,8 +251,7 @@ show that many posts following the attack in Uvalde tried to casually
 explain what happened. But how do these theories affect the people
 involved in these events?
 
-[View the article
-here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2)
+[View the article here.](resources/articles/article_2024_falseflag_exploring_themes_in_conspiracy_theory_tweets_regarding_the_robb_elementary_school_active_shooter_event.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -159,7 +267,7 @@ were grouped into three larger categories: value of armed teachers,
 training, and other considerations. Results and implications are
 discussed further.
 
-[View the article here.](https://doi.org/10.1080/15614263.2023.2287218)
+[View the article here.](resources/articles/article_2024_arm_the_educators_but_not_without_conditions_a_qualitative_assessment_of_leos_support_for_armed_teacher_policies.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -175,7 +283,7 @@ experienced either the VR or the in-person scenario. Results were
 compared and overall stress responses were shown to be similar, thus
 further implications for training are discussed.
 
-[View the article here.](https://doi.org/10.1177/10986111231182729)
+[View the article here.](resources/articles/article_2024_can_a_virtual_reality_training_scenario_elicit_similar_stress_response_as_a_realistic_sbt.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -190,7 +298,7 @@ training drill. Saliva samples were taken before and after the drill and
 results were compared. It was found that L-theanine and L-tyrosine did
 not affect the markers of stress but could impact cognitive performance.
 
-[View the article here.](https://doi.org/10.1080/10253890.2024.2375588)
+[View the article here.](resources/articles/article_2024_impact_of_l_theanine_and_l_tyrosine_on_markers_of_stress_and_cognitive_performance_in_response_to_a_virtual_reality_based_active_shooter_training_dril.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -207,7 +315,7 @@ that caffeine consumption increased levels of
 
 α-amylase after performing the mental stress task.
 
-[View the article here.](https://doi.org/10.1016/j.psyneuen.2023.106923)
+[View the article here.](resources/articles/article_2024_stress_response_to_virtual_reality_based_active_shooter_training_impact_of_caffeine_consumption.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -222,7 +330,7 @@ showing that public perception of use of force is affected by the use of
 profanity by the officer. With the presence of vulgar language,
 regardless of if only read or heard, being perceived as less reasonable.
 
-[View the article here.](https://doi.org/10.1108/PIJPSM-05-2024-0089)
+[View the article here.](resources/articles/article_2024_oh_a_replication_and_expansion_of_martaindale_et_al_2023.pdf){target="_blank"}
 :::
 
 # 2023
@@ -239,7 +347,7 @@ the results show an importance of a strong cardiorespiratory fitness and
 low waist circumference could reduce the markers of cardiovascular
 disease.
 
-[View the article here.](https://doi.org/10.1097/JOM.0000000000002743)
+[View the article here.](resources/articles/article_2023_risk_factors_for_cardiometabolic_disease_in_professional_firefighters.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -254,7 +362,7 @@ response to being assigned one of two slow breathing methods or normal
 breathing. It is shown that both slow breathing methods resulted in much
 lower stress markers when compared to normal breathing practices.
 
-[View the article here.](https://doi.org/10.3390/healthcare11162351)
+[View the article here.](resources/articles/article_2023_slow_breathing_reduces_biomarkers_of_stress_in_response_to_a_virtual_reality_active_shooter_training_drill.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -270,8 +378,7 @@ like gunfire or injured victims. If there is an ongoing threat, law
 enforcement agreed with the public that officers should immediately
 enter.
 
-[View the article
-here.](https://doi.org/10.1007/s11292-023-09592-8)
+[View the article here.](resources/articles/article_2023_wait_for_backup_or_not_how_police_officers_view_their_role_when_responding_to_an_active_shooter_event.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -284,7 +391,7 @@ that required a key to activate the lock. Results showed that simple,
 push-button door locks can be secured with fewer errors and faster than
 a keyed door lock. Policy recommendations are included.
 
-[View the article here.](https://jmvr.org/2023/07/successfully-securing-a-classroom-door-in-a-lockdown-evaluating-two-types-of-door-locks/)
+[View the article here.](resources/articles/article_2023_successfully_securing_a_classroom_door_in_a_lockdown_evaluating_two_types_of_door_locks.pdf){target="_blank"}
 :::
 
 # 2022
@@ -300,7 +407,7 @@ Ultimately, we found that law enforcement overwhelmingly supports armed
 teacher policies, but the support is contingent upon concerns related to
 training.
 
-[View the article here.](https://doi.org/10.1057/s41284-022-00327-4?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle)
+[View the article here.](resources/articles/article_2022_should_firearms_be_allowed_in_k_12_public_schools_an_analysis_of_le_perceptions_of_armed_teacher_policies.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -318,8 +425,7 @@ their attitudes regarding the capabilities of armed teachers, training
 considerations, as well as firearm and proficiency certification
 policies.
 
-[View the article
-here.](https://doi.org/10.1057/s41300-022-00142-4?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle)
+[View the article here.](resources/articles/article_2022_armed_and_considered_capable_law_enforcement_officers_attitudes_about_armed_teacher_policies_in_the_us.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -334,7 +440,7 @@ using salivary based measures of stress (e.g., alpha-amylase and
 secretory immunoglobulin-A \[SIgA\]). Participating in the VR active
 shooter scenario resulted in an increase in salivary stress markers.
 
-[View the article here.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8961715/)
+[View the article here.](resources/articles/article_2022_vr_based_active_shooter_training_drill_increases_salivary_and_subjective_markers_of_stress.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -349,37 +455,55 @@ United States. We apply RE to better understand how these shootings
 occur so that police can improve their ability to anticipate, monitor,
 and respond during these attacks.
 
-[View the article here.](https://doi.org/10.1177/0032258X221087827)
+[View the article here.](resources/articles/article_2022_how_police_officers_are_shot_and_killed_during_active_shooter_events_implications_for_response_and_training.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Uvalde Texas - After Actions
 
-[View the article here.](https://alerrt.org/r/31)
+[View the article here.](resources/articles/article_2022_uvalde_aar.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## What Are We Talking About? Definitional Confusion Within Active and Mass Shooting Research
 
-Active-shooting events have become a big topic for many, including practitioners, researchers, and the media. With so many points of view, there is usually some confusion around what exactly some of the defining characteristics of these events are. The purpose of this paper is to explore and elaborate more to define these cases with recorded examples. Databases that exist are discussed as well, along with their inclusion criteria.
+Active-shooting events have become a big topic for many, including
+practitioners, researchers, and the media. With so many points of view,
+there is usually some confusion around what exactly some of the defining
+characteristics of these events are. The purpose of this paper is to
+explore and elaborate more to define these cases with recorded examples.
+Databases that exist are discussed as well, along with their inclusion
+criteria.
 
-[View the article here.](https://doi.org/10.53076/JMVR47829)
+[View the article here.](resources/articles/article_2022_what_are_we_talking_about_definitional_confusion_within_active_and_mass_shooting_research.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Firefighters With Higher Cardiorespiratory Fitness Demonstrate Lower Markers of Cardiovascular Disease Risk
 
-A stronger cardiorespiratory fitness level is associated with lower oxidative stress and cardiovascular disease. Yet this correlation has not been studied in firefighters. This study examines firefighters with higher and lower cardiorespiratory levels and their corresponding risk for cardiovascular disease. It was found that high fitness firefighters show significantly lower markers of cardiovascular disease risk and should maintain high cardiorespiratory fitness.
+A stronger cardiorespiratory fitness level is associated with lower
+oxidative stress and cardiovascular disease. Yet this correlation has
+not been studied in firefighters. This study examines firefighters with
+higher and lower cardiorespiratory levels and their corresponding risk
+for cardiovascular disease. It was found that high fitness firefighters
+show significantly lower markers of cardiovascular disease risk and
+should maintain high cardiorespiratory fitness.
 
-[View the article here.](https://doi.org/10.1097/jom.0000000000002632)
+[View the article here.](resources/articles/article_2022_firefighters_with_higher_cardiorespiratory_fitness_demonstrate_lower_markers_of_cardiovascular_disease_risk.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
-## @#%$!: The Impact of Officer Profanity on Civilians’ Perception of What Constitutes Reasonable Use of Force
+## \@#%\$!: The Impact of Officer Profanity on Civilians’ Perception of What Constitutes Reasonable Use of Force
 
-Does an officer’s use of profanity affect how the public responds and reacts to a use of force incident? This study examines two scenarios that show excessive language or a lack of language. The results from 234 responses show that the people considered the exact same video with excessive language to be less reasonable. Possible policy discussions are included due to police officer language can affect civilian perception.
+Does an officer’s use of profanity affect how the public responds and
+reacts to a use of force incident? This study examines two scenarios
+that show excessive language or a lack of language. The results from 234
+responses show that the people considered the exact same video with
+excessive language to be less reasonable. Possible policy discussions
+are included due to police officer language can affect civilian
+perception.
 
-[View the article here.](https://doi.org/10.1177/10986111221111332)
+[View the article here.](resources/articles/article_2022__the_impact_of_officer_profanity_on_civilians_perception_of_what_constitutes_reasonable_use_of_force.pdf){target="_blank"}
 :::
 
 # 2021
@@ -387,33 +511,68 @@ Does an officer’s use of profanity affect how the public responds and reacts t
 ::: {.callout-note collapse="true"}
 ## Women Demonstrate Lower Markers of Stress and Oxidative Stress During Active Shooter Training Drill
 
-Police frequently engage in high-stress situations that increase a variety of physiological and psychological stress markers. The current study examined differences in male and female salivary and blood markers of stress in response to an active shooter training drill that involved professional actors playing the role of one gunman and four victims. Thirty-one participants took part in the training drill. Blood and saliva samples were collected prior to and following the 50-second training drill. Results revealed increases in stress levels for both male and female participants. However, four of the seven stress markers were lower in female participants compared to male participants.
+Police frequently engage in high-stress situations that increase a
+variety of physiological and psychological stress markers. The current
+study examined differences in male and female salivary and blood markers
+of stress in response to an active shooter training drill that involved
+professional actors playing the role of one gunman and four victims.
+Thirty-one participants took part in the training drill. Blood and
+saliva samples were collected prior to and following the 50-second
+training drill. Results revealed increases in stress levels for both
+male and female participants. However, four of the seven stress markers
+were lower in female participants compared to male participants.
 
-[View the article here.](https://doi.org/10.1016/j.cpnec.2021.100046)
+[View the article here.](resources/articles/article_2021_women_demonstrate_lower_markers_of_stress_and_oxidative_stress_during_active_shooter_training_drill.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Improving the Accuracy of Firearm Identification in a Dynamic Use of Force Scenario
 
-Use-of-force decisions must often be made in a matter of seconds (or less). The presence of a weapon may impact this decision-making process. Therefore, the speed and accuracy of weapon identification is especially important in use-of-force scenarios. The current study examined whether a brief vision-training program could increase the speed and accuracy in which participants identify an object as a gun in a use-of-force scenario. Results revealed that the participants who received the training were about 16 percent faster and made about 33 percent less errors when identifying the object compared to the participants who did not receive the training. These findings suggest that a simple vision-training program can significantly improve participants’ ability to correctly identify the presence of a firearm in a dynamic use-of-force scenario.
+Use-of-force decisions must often be made in a matter of seconds (or
+less). The presence of a weapon may impact this decision-making process.
+Therefore, the speed and accuracy of weapon identification is especially
+important in use-of-force scenarios. The current study examined whether
+a brief vision-training program could increase the speed and accuracy in
+which participants identify an object as a gun in a use-of-force
+scenario. Results revealed that the participants who received the
+training were about 16 percent faster and made about 33 percent less
+errors when identifying the object compared to the participants who did
+not receive the training. These findings suggest that a simple
+vision-training program can significantly improve participants’ ability
+to correctly identify the presence of a firearm in a dynamic
+use-of-force scenario.
 
-[View the article here.](https://doi.org/10.1177/1098611120944387)
+[View the article here.](resources/articles/article_2021_improving_the_accuracy_of_firearm_identification_in_a_dynamic_use_of_force_scenario.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## An Evaluation of Light Positioning on Suspect Accuracy in Low Light Environments
 
-Police are sometimes required to conduct searches for hostile suspects in low light conditions. Police with routinely use a flashlight to help with their search. This study evaluated three of the most commonly taught flashlight tactics to assess if any could reduce the likelihood of a police officer being shot by a hostile suspect. Ultimately, the study found the Dagger technique reduced the likelihood that participants playing the role of a hostile suspect would successfully shoot the officer in a controlled setting.
+Police are sometimes required to conduct searches for hostile suspects
+in low light conditions. Police with routinely use a flashlight to help
+with their search. This study evaluated three of the most commonly
+taught flashlight tactics to assess if any could reduce the likelihood
+of a police officer being shot by a hostile suspect. Ultimately, the
+study found the Dagger technique reduced the likelihood that
+participants playing the role of a hostile suspect would successfully
+shoot the officer in a controlled setting.
 
-[View the article here.](https://doi.org/10.1080/24751979.2021.1970482)
+[View the article here.](resources/articles/article_2021_an_evaluation_of_light_positioning_on_suspect_accuracy_in_low_light_environments.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## “Shots Fired! We Have Many People Down!”: Common Recommendations for Managing High-Casualty Active Shooter Events in the USA
 
-Responses to active shooter events in our communities have continued to improve over the years. First responder organizations have used training to be better prepared for these disasters. Yet, there are still problems that can arise when responding. The purpose of this study is to analyze the recommendations given in after-action reports of these high-casualty active shooter events to try and identify improvements that can be made by first responders. Three main points are identified and discussed on a more effective response to these events. 
+Responses to active shooter events in our communities have continued to
+improve over the years. First responder organizations have used training
+to be better prepared for these disasters. Yet, there are still problems
+that can arise when responding. The purpose of this study is to analyze
+the recommendations given in after-action reports of these high-casualty
+active shooter events to try and identify improvements that can be made
+by first responders. Three main points are identified and discussed on a
+more effective response to these events.
 
-[View the article here.](https://doi.org/10.1016/j.ijdrr.2021.102548)
+[View the article here.](resources/articles/article_2021_shots_fired_we_have_many_people_down_common_recommendations_for_managing_high_casualty_active_shooter_events_in_the_usa.pdf){target="_blank"}
 :::
 
 # 2020
@@ -421,27 +580,54 @@ Responses to active shooter events in our communities have continued to improve 
 ::: {.callout-note collapse="true"}
 ## A Scientific Examination of the 21-Foot Rule
 
-The 21-foot rule is taught in training across the country to police officers as either a) the minimum distance that a suspect can cross and attack an officer with a knife before the officer can draw and fire his or her weapon, or b) a safe distance to deal with potentially dangerous suspects armed with knives. This article reports the results of four studies designed to test the adequacy of the 21-foot rule in practice. Results do not support the idea that 21 feet is a safe distance for an officer to stop a charging suspect. Further, having officers move while drawing and firing their weapon, as opposed to remaining stationary, may increase officer safety in these situations.
+The 21-foot rule is taught in training across the country to police
+officers as either a) the minimum distance that a suspect can cross and
+attack an officer with a knife before the officer can draw and fire his
+or her weapon, or b) a safe distance to deal with potentially dangerous
+suspects armed with knives. This article reports the results of four
+studies designed to test the adequacy of the 21-foot rule in practice.
+Results do not support the idea that 21 feet is a safe distance for an
+officer to stop a charging suspect. Further, having officers move while
+drawing and firing their weapon, as opposed to remaining stationary, may
+increase officer safety in these situations.
 
-[View the article here.](https://doi.org/10.1080/15614263.2020.1772785)
+[View the article here.](resources/articles/article_2021_a_scientific_examination_of_the_21_ft_rule.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Correlates of the Number Shot and Killed in Active Shooter Events
 
-Although there has been much research on various aspects of active shooter events, little attention has been given to the factors related to the number of people shot or killed in such events. The current study explored these factors. Results generally revealed that as the number of weapons brought to the scene
-increased, the number of people shot also increased, and this effect was larger for the number of rifles compared to other weapons. Weapon type and number had
-a smaller impact on the number of people killed than on the number of people shot. Schools were estimated to have one to two fewer people shot than other location types. Further, more recent attacks were estimated to have about one fewer person shot and one fewer person killed. Lastly, events in which potential victims stopped the attacker had the fewest estimated number of people shot.
+Although there has been much research on various aspects of active
+shooter events, little attention has been given to the factors related
+to the number of people shot or killed in such events. The current study
+explored these factors. Results generally revealed that as the number of
+weapons brought to the scene increased, the number of people shot also
+increased, and this effect was larger for the number of rifles compared
+to other weapons. Weapon type and number had a smaller impact on the
+number of people killed than on the number of people shot. Schools were
+estimated to have one to two fewer people shot than other location
+types. Further, more recent attacks were estimated to have about one
+fewer person shot and one fewer person killed. Lastly, events in which
+potential victims stopped the attacker had the fewest estimated number
+of people shot.
 
-[View the article here.](https://doi.org/10.1177/1088767920976727)
+[View the article here.](resources/articles/article_2020_correlates_of_the_number_shot_and_killed_in_active_shooter_events.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Active Shooter Training Drill Increases Blood and Salivary Markers of Stress
 
-Police often encounter high-stress situations, such as high-speed chases and other suspect conflicts. The current study examined changes in salivary and blood markers of stress in response to an active shooter training drill. Thirty-one participants took part in the training drill, which included professional actors playing the role of one gunman and four victims. Blood and saliva samples were collected from participants prior to and following the 50-second training drill. Results suggest that a short duration active shooter training drill can increase both blood and salivary marker of stress.
+Police often encounter high-stress situations, such as high-speed chases
+and other suspect conflicts. The current study examined changes in
+salivary and blood markers of stress in response to an active shooter
+training drill. Thirty-one participants took part in the training drill,
+which included professional actors playing the role of one gunman and
+four victims. Blood and saliva samples were collected from participants
+prior to and following the 50-second training drill. Results suggest
+that a short duration active shooter training drill can increase both
+blood and salivary marker of stress.
 
-[View the article here.](https://doi.org/10.3390/ijerph17145042)
+[View the article here.](resources/articles/article_2020_active_shooter_training_drill_increases_blood_and_salivary_markers_of_stress.pdf){target="_blank"}
 :::
 
 # 2019
@@ -449,18 +635,40 @@ Police often encounter high-stress situations, such as high-speed chases and oth
 ::: {.callout-note collapse="true"}
 ## The Evolution of Active Shooter Response Training Protocols Since Columbine: Lessons From the Advanced Law Enforcement Rapid Response Training Center
 
-The Columbine High School shooting that occurred on April 20, 1999 changed how law enforcement prepare for active attacks. Training centers were created in response to the need for this specific type of training, including the Advanced Law Enforcement Rapid Response Training (ALERRT) Center, which was formed in 2002 and named the national standard in active shooter training by the Federal Bureau of Investigation (FBI) in 2013. Since then, ALERRT has trained over 130,000 first
-responders from over 9,000 agencies. The current article describes how active shooter training has changed in the wake of the Columbine shooting.
+The Columbine High School shooting that occurred on April 20, 1999
+changed how law enforcement prepare for active attacks. Training centers
+were created in response to the need for this specific type of training,
+including the Advanced Law Enforcement Rapid Response Training (ALERRT)
+Center, which was formed in 2002 and named the national standard in
+active shooter training by the Federal Bureau of Investigation (FBI) in
+2013. Since then, ALERRT has trained over 130,000 first responders from
+over 9,000 agencies. The current article describes how active shooter
+training has changed in the wake of the Columbine shooting.
 
-[View the article here.](https://psycnet.apa.org/doi/10.1177/1043986219840237)
+[View the article here.](resources/articles/article_2019_the_evolution_of_active_shooter_response_training_protocols_since_columbine_lessons_from_the_alerrt_center.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Peek or Push: An Examination of Two Types of Room Clearing Tactics for Active Shooter Event Response
 
-Solo officer response has become a new trend in active shooter response. The current study evaluates two commonly taught solo officer techniques (the peek and the push) for clearing rooms to determine whether the technique affects the shooting accuracy of the suspect. During a peek entry, the officer keeps as much of his or her body in the hallway, allowing only the head, shoulders, arms, and weapon into the room. Conversely, the officer enters completely into the room when conducting a push entry. An experiment was conducted with 165 student participants playing the role of the suspect. Armed with a training pistol, participants were randomly assigned to a room entry with an officer using either the peek or push technique. Findings suggest limited differences in suspect shooting accuracy between the peek vs. push method of room entry, although officers in the peek condition were moderately more likely to be shot in the head with the training pistols. Findings also suggest that suspects in the push entry are more likely to shoot before the officer than suspects in the peek entry.
+Solo officer response has become a new trend in active shooter response.
+The current study evaluates two commonly taught solo officer techniques
+(the peek and the push) for clearing rooms to determine whether the
+technique affects the shooting accuracy of the suspect. During a peek
+entry, the officer keeps as much of his or her body in the hallway,
+allowing only the head, shoulders, arms, and weapon into the room.
+Conversely, the officer enters completely into the room when conducting
+a push entry. An experiment was conducted with 165 student participants
+playing the role of the suspect. Armed with a training pistol,
+participants were randomly assigned to a room entry with an officer
+using either the peek or push technique. Findings suggest limited
+differences in suspect shooting accuracy between the peek vs. push
+method of room entry, although officers in the peek condition were
+moderately more likely to be shot in the head with the training pistols.
+Findings also suggest that suspects in the push entry are more likely to
+shoot before the officer than suspects in the peek entry.
 
-[View the article here.](https://doi.org/10.1177/2158244019871052)
+[View the article here.](resources/articles/article_2019_peek_or_push_an_examination_of_two_types_of_room_clearing_tactics_for_active_shooter_event_response.pdf){target="_blank"}
 :::
 
 # 2017
@@ -468,18 +676,42 @@ Solo officer response has become a new trend in active shooter response. The cur
 ::: {.callout-note collapse="true"}
 ## Active-Shooter Events in the Workplace: Findings and Policy Implications
 
-The current article provides an in-depth examination of 105 active shooter events (ASEs) in the workplace that occurred from 2000-2015, which include three main
-categories: factories and warehouses (26), offices (29), and retail locations (50). Overall, 619 people were shot, and 282 people were killed in ASEs at businesses during this period. Attacks were more likely to occur during standard business hours, with a spike at 7pm. In all but two cases, the ASE involved a single shooter. Most (55%) of the events ended before police arrival. By contrast, 45 percent of the ASEs ended after police arrival. To promote a safe work environment, business owners and management may consider (1) utilizing a systematic strategy to detect, assess, and manage individuals that may pose a threat to others (threat assessment), (2) training employees how to respond effectively to ASEs, and (3) making physical security changes to buildings (access control).
+The current article provides an in-depth examination of 105 active
+shooter events (ASEs) in the workplace that occurred from 2000-2015,
+which include three main categories: factories and warehouses (26),
+offices (29), and retail locations (50). Overall, 619 people were shot,
+and 282 people were killed in ASEs at businesses during this period.
+Attacks were more likely to occur during standard business hours, with a
+spike at 7pm. In all but two cases, the ASE involved a single shooter.
+Most (55%) of the events ended before police arrival. By contrast, 45
+percent of the ASEs ended after police arrival. To promote a safe work
+environment, business owners and management may consider (1) utilizing a
+systematic strategy to detect, assess, and manage individuals that may
+pose a threat to others (threat assessment), (2) training employees how
+to respond effectively to ASEs, and (3) making physical security changes
+to buildings (access control).
 
-[View the article here.](https://doi.org/10.69554/LCYM6472)
+[View the article here.](resources/articles/article_2017_active_shooter_events_in_the_workplace_findings_and_policy_implications.pdf){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Throwing a Chair Could Save Officers’ Lives During Room Entries
 
-Conducting building searches and room entries can place law enforcement officers in danger. The purpose of this study was to examine whether throwing everyday objects at suspects could improve officer safety by distracting the suspect. The study involved an experiment using 113 participants playing the role of a suspect hiding in the “blind” corner of a room facing the door. The research team member playing the officer either made a traditional room entry or had another team member throw a chair into the room before making the traditional room entry. Throwing a chair distracted the participant suspects by slowing down their reaction time, although it did not affect their shooting accuracy. In addition, about one third of participants fired at the chair before officers entered the room. If an officer must conduct a room entry, throwing a chair or other plainly visible object might save the officer’s life.
+Conducting building searches and room entries can place law enforcement
+officers in danger. The purpose of this study was to examine whether
+throwing everyday objects at suspects could improve officer safety by
+distracting the suspect. The study involved an experiment using 113
+participants playing the role of a suspect hiding in the “blind” corner
+of a room facing the door. The research team member playing the officer
+either made a traditional room entry or had another team member throw a
+chair into the room before making the traditional room entry. Throwing a
+chair distracted the participant suspects by slowing down their reaction
+time, although it did not affect their shooting accuracy. In addition,
+about one third of participants fired at the chair before officers
+entered the room. If an officer must conduct a room entry, throwing a
+chair or other plainly visible object might save the officer’s life.
 
-[View the article here.](https://doi.org/10.1177/1461355717711452)
+[View the article here.](resources/articles/article_2017_throwing_a_chair_could_save_officers_lives_during_room_entries.pdf){target="_blank"}
 :::
 
 # 2011
@@ -487,10 +719,23 @@ Conducting building searches and room entries can place law enforcement officers
 ::: {.callout-note collapse="true"}
 ## Reasonableness and Reaction Time
 
-Decisions made by police officers are typically judged according to a reasonableness
-standard. This standard is based on what a well-trained, sensible officer would do in a particular situation. The current article used an experiment to assess the reasonableness of an officer’s response to an armed suspect using 30 participant “suspects” and 24 officers. Each officer in the experiment, with their gun drawn and aimed at a suspect, was presented with an armed suspect who was not initially aiming at the officer. The suspect either shot at the officer or surrendered. Reaction times were assessed, revealing that officers fired at the same time or later than the suspects 61 percent of the time. These results suggest that, in this scenario, officers cannot reasonably be expected to shoot before the suspect raises his or her gun and fires. Therefore, officers should avoid situations like the one depicted in the scenario, where they are without cover and distance when facing an armed suspect.
+Decisions made by police officers are typically judged according to a
+reasonableness standard. This standard is based on what a well-trained,
+sensible officer would do in a particular situation. The current article
+used an experiment to assess the reasonableness of an officer’s response
+to an armed suspect using 30 participant “suspects” and 24 officers.
+Each officer in the experiment, with their gun drawn and aimed at a
+suspect, was presented with an armed suspect who was not initially
+aiming at the officer. The suspect either shot at the officer or
+surrendered. Reaction times were assessed, revealing that officers fired
+at the same time or later than the suspects 61 percent of the time.
+These results suggest that, in this scenario, officers cannot reasonably
+be expected to shoot before the suspect raises his or her gun and fires.
+Therefore, officers should avoid situations like the one depicted in the
+scenario, where they are without cover and distance when facing an armed
+suspect.
 
-[View the article here.](https://doi.org/10.1177/1098611111423737)
+[View the article here.](resources/articles/article_2011_reasonableness_and_reaction_time.pdf){target="_blank"}
 :::
 
 # Contents
