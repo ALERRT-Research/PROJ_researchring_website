@@ -19,3 +19,21 @@
 .callout-note .callout-icon-container i {
   color: #501214 !important;
 }
+
+
+.hex-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hex-row img {
+  width: 120px;
+  height: auto;
+}
+
+.hex-row img:nth-child(even) {
+  transform: translateY(20px);
+}
