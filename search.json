@@ -124,188 +124,87 @@
     ]
   },
   {
-    "objectID": "public_reports.html",
-    "href": "public_reports.html",
-    "title": "Reports",
+    "objectID": "training_opxr.html",
+    "href": "training_opxr.html",
+    "title": "Operator XR Virtual Reality",
     "section": "",
-    "text": "Below are listed the public reports produced by the ALERRT Center.",
+    "text": "Headset: VIVE Focus 3\nWrist Tracker: VIVE Wrist Tracker\nWands:\nController for VIVE XR/Focus Series (L)\nController for VIVE XR/Focus Series (R)",
     "crumbs": [
-      "Home",
-      "Reports"
+      "Ring Resources",
+      "Training Materials",
+      "Operator XR Virtual Reality"
     ]
   },
   {
-    "objectID": "public_reports.html#after-action-reports",
-    "href": "public_reports.html#after-action-reports",
-    "title": "Reports",
-    "section": "After Action Reports",
-    "text": "After Action Reports\n\nRobb Elementry School, Uvalde, Texas (2022)\n\n\nFollowing the 2022 attack at Robb Elementary School in Uvalde, Texas, the ALERRT produced an after action report. The report documented all key details of the attack and law enforcement response. It also provided recommendations for preventing such attacks and/or responding more effectively to attacks in the future.\n\n\n\n\n\n\nClick image to view report",
+    "objectID": "training_opxr.html#pre-setup",
+    "href": "training_opxr.html#pre-setup",
+    "title": "Operator XR Virtual Reality",
+    "section": "Pre-setup",
+    "text": "Pre-setup\n\nEnsure all equipment is charged.\nEnsure you have extra CO2 canisters.\nTurn on router, headsets, instructor tablet, and laptop.\nMAKE SURE they are all on the same WiFi signal from the router.\nAlways have some various colors of masking tape on hand if the room seems very bland, has few recognizable patterns, reflective floors, furniture, wall decor, etc.",
     "crumbs": [
-      "Home",
-      "Reports"
+      "Ring Resources",
+      "Training Materials",
+      "Operator XR Virtual Reality"
     ]
   },
   {
-    "objectID": "public_reports.html#evaluations",
-    "href": "public_reports.html#evaluations",
-    "title": "Reports",
-    "section": "Evaluations",
-    "text": "Evaluations",
+    "objectID": "training_opxr.html#map-the-play-space",
+    "href": "training_opxr.html#map-the-play-space",
+    "title": "Operator XR Virtual Reality",
+    "section": "Map the play space",
+    "text": "Map the play space\n\n\n\n\n\n\nTip\n\n\n\nIf you are setting up a NEW play area start here, otherwise, turn everything on and play!\n\n\n\nStep 1: Use the laptop to clear the current tracking map from the headset\n\nOpen VBC on the laptop and connect the headset.\nSelect “Device Settings” and wait for the “Clear Tracking Map” button to be visible. Press it and wait for a success message.\n\n\n\n\n\n\n\nTip\n\n\n\nIt is helpful to have the laptop and headset with you while in the center of the play space BEFORE accepting the success message. It will immediately begin booting up the headset.\n\n\n\nAccept the success message and disconnect the headset. Allow the headset to boot and place you in the lobby. You can remove the headset.\n\n\n\nStep 2: Map the area\n\nRemove the headset and “paint” the room. Slowly walking through your space, let the front of the headset “see” where you are, what’s on the ground, what’s on the walls.\n\n\n\nStep 3: Set the floor height\n\nPut the headset on, navigate to Settings &gt; Boundary &gt; Reset Floor Level &gt; Reset. Follow the steps shown.\n\n\n\nStep 4: Save, export, and import the new map\n\nPower off the headset. Wait a few seconds. Power the headset back on. Plug it back into the laptop.\nIn the laptop VBC program go to device settings and wait for the export button to appear, then select it.\nRename the new map to something applicable.\nFor single-person scenarios, with only one headset being used, you can just jump into scenarios. There is no need to push the map to the headset not being used.\nNow, you can either import the new map to a device group that has been created. Or, you can import the map into the headsets directly.\n\nFor groups: navigate to the group tab, double click your group, and assign your new map with the browse button under map version. Now, make sure your map version numbers all match.\nFor direct upload: navigate to the enroll tab, select your map under import map, and import.",
     "crumbs": [
-      "Home",
-      "Reports"
+      "Ring Resources",
+      "Training Materials",
+      "Operator XR Virtual Reality"
     ]
   },
   {
-    "objectID": "public_reports.html#annual-research-reports",
-    "href": "public_reports.html#annual-research-reports",
-    "title": "Reports",
-    "section": "Annual research reports",
-    "text": "Annual research reports",
+    "objectID": "training_opxr.html#turn-on-devices",
+    "href": "training_opxr.html#turn-on-devices",
+    "title": "Operator XR Virtual Reality",
+    "section": "Turn on devices",
+    "text": "Turn on devices\n\nWrist Trackers\n\n\n\n\n\n\nTip\n\n\n\nMost of the time I have only needed one wrist tracker for what we were doing, you can change what the dominant hand is in the OPXR app.\n\n\nPress the L/R button on top of the tracker. If your wrist trackers were paired last time you used the set, they will remain paired. These also sleep and turn off on their own.\n\n\nEquipment\n\n\n\n\n\n\nTip\n\n\n\nMost of the time I only ever used the pistol, so that was the only item I would need to turn on. In this case, just go to the settings in the OPXR app and turn Launch Requirements &gt; Weapons &gt; OFF.\n\n\nTurn on the equipment you will be using. Between use, I turn these items off to save battery.",
     "crumbs": [
-      "Home",
-      "Reports"
+      "Ring Resources",
+      "Training Materials",
+      "Operator XR Virtual Reality"
     ]
   },
   {
-    "objectID": "public_reports.html#annual-alerrt-reports",
-    "href": "public_reports.html#annual-alerrt-reports",
-    "title": "Reports",
-    "section": "Annual ALERRT reports",
-    "text": "Annual ALERRT reports",
+    "objectID": "training_opxr.html#opxr-app",
+    "href": "training_opxr.html#opxr-app",
+    "title": "Operator XR Virtual Reality",
+    "section": "OPXR App",
+    "text": "OPXR App\nIn the app settings you will be able to adjust plenty of things. The most important and frequently used are:\n\nThe physical space: I usually leave this alone set at a large number and artificially measure and adjust the space through the “space offset”. The space offset will allow you to shift and rotate your virtual environment to fit your needs.\nLaunch requirements: This is the setting I mentioned earlier in the tip box. Here, I usually kept the start area requirement enabled, but disabled the weapons. This is because I wasn’t using ALL of the equipment available or currently paired to the headset, which, without turning on each item, would block launching scenarios.\n\n\n\n\n\n\n\nTip\n\n\n\nThere is also a menu for setting up player and NPC health points which proved to be useful. I typically would give players infinite HP so that the scene could continue until I wanted it to end, instead of the player “dying”.\n\n\n\nGetting into the headset\nUse your hands as controllers and make an “o.k.” (👌) hand gesture to select the OP-2 app in the VIVE library. The pinch motion with your pointer and thumb is what makes the selection. You should see a black zone with the tablet name (ALERRT) in a white box. Move the cursor with your gaze into the box, and fill it to select the session.\n\n\nPlayer setup\nWhen a headset joins your session you will see their user pop up in the tablet. They will have a menu available to adjust their player model, equipment, dominant hand, etc. Now, place a wrist tracker onto their dominant hand. I would usually just use one tracker, and adjust hand dominance in the user settings after they joined a session.\n\nCalibrate the pistol to the wrist tracker by using one of the user drop down menus to enable pass-through mode.\nInstruct them to just aim at the wall, keeping the pistol sights aligned and level.\nIn another drop down menu, IF the wrist tracker and gun are on and working with a proper grip, you will be able to select the calibrate button.\nDone. Now turn off pass-through.\n\n\n\nStarting a scenario\nNow, just select a scenario. They are all customizable as well.\n\nInstruct the participant to look around for a colored start area. The scenario description will show you the color and type of start area. They must stand in this box.\nYou have two options: if working with police who have holsters, or people with pockets, tell them to either holster the gun or pocket it. OR, hold onto the pistol for them until the scene starts. After the scene begins, hand them the gun.\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you hold the gun while the scene loads, it will not populate in your hand correctly when the scene begins. If there is an issue immediately after loading with the gun not appearing, just instruct them to re-grip the gun.\n\n\n\nLaunch the scene.\n\n\n\nControlling the scenario\nYou can control NPC actions through a radial menu by selecting characters, this also works for players as well.\nWhen ending the scenario, you will be asked to save the after-action review or not.",
     "crumbs": [
-      "Home",
-      "Reports"
+      "Ring Resources",
+      "Training Materials",
+      "Operator XR Virtual Reality"
     ]
   },
   {
-    "objectID": "public_grants.html",
-    "href": "public_grants.html",
-    "title": "Grants",
+    "objectID": "research_process_wrapping_up.html",
+    "href": "research_process_wrapping_up.html",
+    "title": "Wrapping up a project",
     "section": "",
-    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
-    "crumbs": [
-      "Home",
-      "Grants"
-    ]
-  },
-  {
-    "objectID": "public_grants.html#grant-portfolio",
-    "href": "public_grants.html#grant-portfolio",
-    "title": "Grants",
-    "section": "",
-    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
-    "crumbs": [
-      "Home",
-      "Grants"
-    ]
-  },
-  {
-    "objectID": "research_process_publishing_in_a_journal.html",
-    "href": "research_process_publishing_in_a_journal.html",
-    "title": "Publishing in a journal",
-    "section": "",
-    "text": "Unless there is a compelling reason, the first author should also serve as the corresponding author. The first author will coordinate all required manuscript formatting for the specific journal. Additionally, some journal outlets have required documents (e.g., author acknowledgement) that will require all authors to sign.\n\n\nPosting a preprint usually occurs simultaneously with the initial submission of a project to an outlet for publication. The purpose of preprints is to get results out as early as possible while manuscripts go through the review process. Preprints are usually not a problem with journals, but that is not universally the case, so always check the outlet’s preprint policy prior to preprinting manuscripts. Preprints should never be used for manuscripts that are considered in a “rough” state. An easy rule of thumb is the following: if the preprint were accepted to a high-visibility journal with no changes whatsoever, would you be embarrassed by the state it is in? If the answer is “yes”, it is not ready for preprinting. Preprints are public; they should be high quality.\n\n\n\n\nAfter receiving an R&R from a journal, the lead author should combine all reviewer comments into two documents: 1) a word document with reviewer and comment numbers clearly delineated (titled: reviewer_response.docx), and 2) a reviewer comment matrix (titled: reviewer_matrix.xlxs).\n\n\nA reviewer comment matrix is a useful tool for identifying areas of overlap between the comments of different reviewers (i.e., areas that must be addressed). Create a comment matrix as follows:\n\nExample comment matrix\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\n\n\n\n\nPower analysis\nMethods\n\nComment #1\n\n\n\nPower analysis\nMethods\n\n\nComment #1\n\n\n\nThe comment matrix should be in long format with respect to the section, so there will be multiple entries for some sections (possibly multiple section entries for a single reviewer). Once all the comments are added, comments that are common across reviewers can be merged into the same row to simply the matrix as follows:\n\nExample comment matrix (last row condensed)\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\nComment #1\nComment #1\n\n\n\nFinally, if multiple entries for a section are present in the matrix, an optional “theme” column can be useful for organizing specific topics within a specific section. (Protip: add a filter to the matrix to make rearranging comments easy). The comment matrix is an extremely useful tool for viewing all the comments from an R&R simultaneously (instead of linearly) and can help the team rank/prioritize the comments (or themes). An example comment matrix is provided in the research_prcesses directory.\nThe reviewer response document should list all the reviewer comments in the order they are received. For example, Reviewer 1 comments will come first and be presented in the same order as received. This helps the reviewers quickly check if their comments/questions were addressed.\n\n\n\nAlthough not required by all journals, drafting a response letter is a nice touch. The response letter should be addressed to the editor that you have been corresponding with. The response letter should provide additional context if needed. It can serve as the introduction for the reviewer response document.",
+    "text": "Save a copy of the final PDF version from the publisher in the “Published Articles” folder on OneDrive (OneDrive &gt; Research &gt; Published Articles). Follow the naming convention as established (YEAR – Article Title).\n\n\nALERRT has funding available to pay for open access (aka: article processing costs). The lead author should coordinate with the Director of Research to make sure the correct funding line is used. The lead author should then complete a purchase request form to start the process.\n\n\n\nThe lead author of a project (in collaboration with key members of the team) should draft a list of highlights from the study to be posted on various personal/official media sites. This list of highlights should be forwarded to James Keith (director of external relations) to be released upon publication of the project. The same highlights should be shared by the lead (or a designated team member) on social media sites (e.g., X, LinkedIn). Tag all authors and ALERRT in social media posts. All authors should repost/share the original post to increase awareness.\n\n\n\nIf the publication is using original data that is still in use for another project, wait to upload the analysis directory until the other project(s) have been completed. Once it is ready, change the project repository to “public” so it is available.\n\n\n\nA “gist” (or summary) should be a more verbose version of the highlights of the project drafted for media use. It should contain a few elements: 1) a study motivation, 2) the approach, 3) findings (highlights), 4) implications, and 5) all relevant links (e.g., article link, GH repo). If the media picks up an article, links to those pieces should be added to the gist as well. An example gist is located in the “research process” folder and on the current research section of the ALERRT website (https://alerrt.org/reading).\n\n\n\nThe Substack article allows for expansion beyond a “gist” writeup. Pete will add his $.02 description at the end of the Substack article – describing the relevance.\nMove the project folder from the OneDrive current_projects directory to the past_projects directory.",
     "crumbs": [
       "Ring Resources",
       "Conducting Research",
-      "Publishing in a journal"
+      "Wrapping up a project"
     ]
   },
   {
-    "objectID": "research_process_publishing_in_a_journal.html#publishing-in-a-journal",
-    "href": "research_process_publishing_in_a_journal.html#publishing-in-a-journal",
-    "title": "Publishing in a journal",
+    "objectID": "research_process_wrapping_up.html#wrapping-up-a-project-post-acceptance",
+    "href": "research_process_wrapping_up.html#wrapping-up-a-project-post-acceptance",
+    "title": "Wrapping up a project",
     "section": "",
-    "text": "Unless there is a compelling reason, the first author should also serve as the corresponding author. The first author will coordinate all required manuscript formatting for the specific journal. Additionally, some journal outlets have required documents (e.g., author acknowledgement) that will require all authors to sign.\n\n\nPosting a preprint usually occurs simultaneously with the initial submission of a project to an outlet for publication. The purpose of preprints is to get results out as early as possible while manuscripts go through the review process. Preprints are usually not a problem with journals, but that is not universally the case, so always check the outlet’s preprint policy prior to preprinting manuscripts. Preprints should never be used for manuscripts that are considered in a “rough” state. An easy rule of thumb is the following: if the preprint were accepted to a high-visibility journal with no changes whatsoever, would you be embarrassed by the state it is in? If the answer is “yes”, it is not ready for preprinting. Preprints are public; they should be high quality.\n\n\n\n\nAfter receiving an R&R from a journal, the lead author should combine all reviewer comments into two documents: 1) a word document with reviewer and comment numbers clearly delineated (titled: reviewer_response.docx), and 2) a reviewer comment matrix (titled: reviewer_matrix.xlxs).\n\n\nA reviewer comment matrix is a useful tool for identifying areas of overlap between the comments of different reviewers (i.e., areas that must be addressed). Create a comment matrix as follows:\n\nExample comment matrix\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\n\n\n\n\nPower analysis\nMethods\n\nComment #1\n\n\n\nPower analysis\nMethods\n\n\nComment #1\n\n\n\nThe comment matrix should be in long format with respect to the section, so there will be multiple entries for some sections (possibly multiple section entries for a single reviewer). Once all the comments are added, comments that are common across reviewers can be merged into the same row to simply the matrix as follows:\n\nExample comment matrix (last row condensed)\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\nComment #1\nComment #1\n\n\n\nFinally, if multiple entries for a section are present in the matrix, an optional “theme” column can be useful for organizing specific topics within a specific section. (Protip: add a filter to the matrix to make rearranging comments easy). The comment matrix is an extremely useful tool for viewing all the comments from an R&R simultaneously (instead of linearly) and can help the team rank/prioritize the comments (or themes). An example comment matrix is provided in the research_prcesses directory.\nThe reviewer response document should list all the reviewer comments in the order they are received. For example, Reviewer 1 comments will come first and be presented in the same order as received. This helps the reviewers quickly check if their comments/questions were addressed.\n\n\n\nAlthough not required by all journals, drafting a response letter is a nice touch. The response letter should be addressed to the editor that you have been corresponding with. The response letter should provide additional context if needed. It can serve as the introduction for the reviewer response document.",
+    "text": "Save a copy of the final PDF version from the publisher in the “Published Articles” folder on OneDrive (OneDrive &gt; Research &gt; Published Articles). Follow the naming convention as established (YEAR – Article Title).\n\n\nALERRT has funding available to pay for open access (aka: article processing costs). The lead author should coordinate with the Director of Research to make sure the correct funding line is used. The lead author should then complete a purchase request form to start the process.\n\n\n\nThe lead author of a project (in collaboration with key members of the team) should draft a list of highlights from the study to be posted on various personal/official media sites. This list of highlights should be forwarded to James Keith (director of external relations) to be released upon publication of the project. The same highlights should be shared by the lead (or a designated team member) on social media sites (e.g., X, LinkedIn). Tag all authors and ALERRT in social media posts. All authors should repost/share the original post to increase awareness.\n\n\n\nIf the publication is using original data that is still in use for another project, wait to upload the analysis directory until the other project(s) have been completed. Once it is ready, change the project repository to “public” so it is available.\n\n\n\nA “gist” (or summary) should be a more verbose version of the highlights of the project drafted for media use. It should contain a few elements: 1) a study motivation, 2) the approach, 3) findings (highlights), 4) implications, and 5) all relevant links (e.g., article link, GH repo). If the media picks up an article, links to those pieces should be added to the gist as well. An example gist is located in the “research process” folder and on the current research section of the ALERRT website (https://alerrt.org/reading).\n\n\n\nThe Substack article allows for expansion beyond a “gist” writeup. Pete will add his $.02 description at the end of the Substack article – describing the relevance.\nMove the project folder from the OneDrive current_projects directory to the past_projects directory.",
     "crumbs": [
       "Ring Resources",
       "Conducting Research",
-      "Publishing in a journal"
-    ]
-  },
-  {
-    "objectID": "txst_links.html",
-    "href": "txst_links.html",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "Here is where we list several helpful links for Texas State University resources.",
-    "crumbs": [
-      "Ring Resources",
-      "Texas State",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "txst_links.html#employer-information",
-    "href": "txst_links.html#employer-information",
-    "title": "Helpful Links",
-    "section": "Employer information",
-    "text": "Employer information\n\nInstitutional financial fact sheet (Division of Research)\n\nEIN number\nTax exempt status\n\n\n Download fact sheet \n\n\n\nTax exempt status (IRS letters)\n\n Download IRS Letters",
-    "crumbs": [
-      "Ring Resources",
-      "Texas State",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "txst_links.html#employee-information",
-    "href": "txst_links.html#employee-information",
-    "title": "Helpful Links",
-    "section": "Employee information",
-    "text": "Employee information\n\nSAP portal\n\nTime sheets\nSuccess Factors (in-service training)\nW2\n\n\n\nTravel Requests\n\n\nConcur\n\n\nParking Services\n\nPurchase parking permits\nPay parking tickets",
-    "crumbs": [
-      "Ring Resources",
-      "Texas State",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "txst_links.html#research",
-    "href": "txst_links.html#research",
-    "title": "Helpful Links",
-    "section": "Research",
-    "text": "Research\n\nKUALI\n\n\nData Management",
-    "crumbs": [
-      "Ring Resources",
-      "Texas State",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "research_process_working_with_a_team.html",
-    "href": "research_process_working_with_a_team.html",
-    "title": "Working with a team",
-    "section": "",
-    "text": "Authorship\nDiscuss author order and come up with said order from the beginning. It should be listed on the analysis plan so all contributors are aware of it. This includes ALERRT researchers and external collaborators. Authorship in RR projects requires substantive contribution. Every named author must have written portions of the document, conducted analyses, or developed plots, etc. Providing feedback does not constitute authorship, but those individuals should be listed in the acknowledgements.\n\n\nRoles\nRoles should be loosely laid out at the beginning of the project as well so each contributor knows what their time commitment will be. Generally, but not always, the lead author will serve as the project manager and ensure tasks are given an appropriate amount of time to complete. This role is vitally important so projects stay on task and avoid manuscript purgatory.\n\n\nCollaborative writing\nMore times than not writing a manuscript is a team sport. The RR should draft the manuscript using Quarto whenever possible. There are three different options for drafting the manuscript in Quarto.\n\nTrackdown (experimental)\nVersion Control\nLead author transfer from Word\n\nThe method chosen will depend on the makeup of the team. The RR is experimenting with using the Trackdown R package so external collaborators can make edits to a Google Doc version of the manuscript. If this is not available, the lead author will transfer text from a Word version of the manuscript.\n\n\nInternal peer review\nOnce the manuscript has been completed, the lead author should utilize an AI tool to conduct a “peer review” of the manuscript. The prompt should explicitly ask the AI tool to provide a critical review. There will be review items that do not apply, that is okay. The point is for the AI tool to point out logical gaps, structural issues, unclear results/discussion points, and so on to improve the manuscript prior to submission. The lead author will post the peer review in the “admin” subdirectory and let the appropriate team member know which comments to address.\n\n\nSharing results\nThe lead author should work with analysts to summarize and present results from a project to the wider RR team prior to the formal write-up. This gives the team the opportunity to understand how the analysis is proceeding and help shape how results are communicated in the manuscript by providing feedback.",
-    "crumbs": [
-      "Ring Resources",
-      "Conducting Research",
-      "Working with a team"
-    ]
-  },
-  {
-    "objectID": "research_process_getting_started.html#analysis-plan",
-    "href": "research_process_getting_started.html#analysis-plan",
-    "title": "Getting started",
-    "section": "Analysis plan",
-    "text": "Analysis plan\nAn analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover observational and experimental research projects, the two major types of projects we are likely to undertake. Download the appropriate template below and follow the instructions provided whenever you start a new project.\n\n\n\nObservational Research\n Download template \n\n\n\nExperimental Research\n Download template \n\n\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those below but first we need to talk about what the analysis plan is actually used for: proposing the project to the wider team.\n\nProposing a project\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nNoteParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
-    "crumbs": [
-      "Ring Resources",
-      "Conducting Research",
-      "Getting started"
-    ]
-  },
-  {
-    "objectID": "research_process_getting_started.html#after-the-initial-project-proposal",
-    "href": "research_process_getting_started.html#after-the-initial-project-proposal",
-    "title": "Getting started",
-    "section": "After the initial project proposal",
-    "text": "After the initial project proposal\nSo you’ve proposed a project, received feedback, and gotten the green light to move forward–well done! The next step is usually to formalize your analysis plan in one of two ways (and possibly both!). Analysis plans should be used to 1) post a preregistration for the project and/or 2) submit an IRB application. We’ll breifly talk about each.\n\nPreregistration\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will use the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account. OSF offers several resources that can help in formalizing a preregistration, much like the templates above. However, we will generally not use these as they can be too rigid and typically contain alot of material that is not actually needed for a good preregistration–they are generally designed fit many possible research designs so they end up fitting no particular research design well. Instead, use the analysis plan you began at the start of your project and add in the elements listed above to ensure that it covers all of the necessary topics.\n\n\nIRB applications\nMost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan. To submit an IRB proposal to Texas State University, you’ll need to access the Kuali System.",
-    "crumbs": [
-      "Ring Resources",
-      "Conducting Research",
-      "Getting started"
+      "Wrapping up a project"
     ]
   },
   {
@@ -441,27 +340,272 @@
     ]
   },
   {
-    "objectID": "research_process_wrapping_up.html",
-    "href": "research_process_wrapping_up.html",
-    "title": "Wrapping up a project",
-    "section": "",
-    "text": "Save a copy of the final PDF version from the publisher in the “Published Articles” folder on OneDrive (OneDrive &gt; Research &gt; Published Articles). Follow the naming convention as established (YEAR – Article Title).\n\n\nALERRT has funding available to pay for open access (aka: article processing costs). The lead author should coordinate with the Director of Research to make sure the correct funding line is used. The lead author should then complete a purchase request form to start the process.\n\n\n\nThe lead author of a project (in collaboration with key members of the team) should draft a list of highlights from the study to be posted on various personal/official media sites. This list of highlights should be forwarded to James Keith (director of external relations) to be released upon publication of the project. The same highlights should be shared by the lead (or a designated team member) on social media sites (e.g., X, LinkedIn). Tag all authors and ALERRT in social media posts. All authors should repost/share the original post to increase awareness.\n\n\n\nIf the publication is using original data that is still in use for another project, wait to upload the analysis directory until the other project(s) have been completed. Once it is ready, change the project repository to “public” so it is available.\n\n\n\nA “gist” (or summary) should be a more verbose version of the highlights of the project drafted for media use. It should contain a few elements: 1) a study motivation, 2) the approach, 3) findings (highlights), 4) implications, and 5) all relevant links (e.g., article link, GH repo). If the media picks up an article, links to those pieces should be added to the gist as well. An example gist is located in the “research process” folder and on the current research section of the ALERRT website (https://alerrt.org/reading).\n\n\n\nThe Substack article allows for expansion beyond a “gist” writeup. Pete will add his $.02 description at the end of the Substack article – describing the relevance.\nMove the project folder from the OneDrive current_projects directory to the past_projects directory.",
+    "objectID": "research_process_getting_started.html#analysis-plan",
+    "href": "research_process_getting_started.html#analysis-plan",
+    "title": "Getting started",
+    "section": "Analysis plan",
+    "text": "Analysis plan\nAn analysis plan is the very first part of any project. A good analysis plan should describe the project in broad strokes, including project motivation, hypotheses, data description, and proposed methods. Though not set in stone–an analysis plan is meant to be flexible–an analysis plan should bear a striking resemblance to the front end of the final article. The point of the analysis plan is to force the team working on it to think deeply about the topic, data, and methods they have at hand and how they can realistically bring those forces to bear to answer an scientific question.\nWe have created a set of template analysis plans for the Research Ring that cover observational and experimental research projects, the two major types of projects we are likely to undertake. Download the appropriate template below and follow the instructions provided whenever you start a new project.\n\n\n\nObservational Research\n Download template \n\n\n\nExperimental Research\n Download template \n\n\n\nWhile not every analysis will require all of the elements in a given template, these templates will be an excellent resource for getting started. Additionally, they will force you to formalize all of the information needed for other downstream documents needed for the study, like study preregistrations and Internal Review Board (IRB) applications. We’ll talk about those below but first we need to talk about what the analysis plan is actually used for: proposing the project to the wider team.\n\nProposing a project\nUsually a project begins with an idea, a quick Google search, and an overabundance of enthusiasm. After confirming with other team members that the project is worthy of pursuit, an analysis plan should be drafted. After an analysis plan is drafted, it should be shared with the whole team in the form of a “project proposal” (as in, the analysis plan is your proposed approach to accomplishing the project). The process looks like this:\n\n\n\n\n\ngraph LR\n    A[Initial idea] --&gt; B[Draft analysis plan]\n    B --&gt; C[Propose project to team]\n    C --&gt; D[Develop IRB / Preregistration, etc.]\n\n\n\n\n\n\nProposing a project like this is useful for several reasons. First, it makes you think concretely about the project (enough to propose it). Second, getting feedback early on (i.e., prior to submitting IRBs or preregistration) is immensely helpful for identifying issues early on (e.g., the core issue is mis-conceptualized) or avoid duplication of effort (e.g., another team mate or research group is already doing something similar). Third, proposing a project allows you to solicit contributions from interested team members.\n\n\n\n\n\n\nNoteParticipation\n\n\n\nAs a rule, anyone on the team is allowed to request participation in a project. As another rule, the lead author should try to accommodate these requests where it makes sense. Here’s the rub: participation should be based on contributions. Project teams should be kept lean, with every person making a substantive contribution (no freebies).\n\n\nAt the end of every project proposal (i.e., after discussing/ironing out all of the major details), the proposer should should provide two things: 1) tentative timeline and 2) a needs statement. Regarding the latter, a needs statement is just when the proposer says what they will need to complete the project (e.g., materials, funds, support from the team). This is also the point when the proposer lists all of the team members they envisioned helping on the project and what their role would be. This is a crucial step because this is where vision meets reality. For instance, if you imagined someone helping on the analysis but they do not have the bandwidth to help, plans will need to be adjusted–either a new team mate will need to take on the analysis role or the timeline can be adjusted.",
     "crumbs": [
       "Ring Resources",
       "Conducting Research",
-      "Wrapping up a project"
+      "Getting started"
     ]
   },
   {
-    "objectID": "research_process_wrapping_up.html#wrapping-up-a-project-post-acceptance",
-    "href": "research_process_wrapping_up.html#wrapping-up-a-project-post-acceptance",
-    "title": "Wrapping up a project",
-    "section": "",
-    "text": "Save a copy of the final PDF version from the publisher in the “Published Articles” folder on OneDrive (OneDrive &gt; Research &gt; Published Articles). Follow the naming convention as established (YEAR – Article Title).\n\n\nALERRT has funding available to pay for open access (aka: article processing costs). The lead author should coordinate with the Director of Research to make sure the correct funding line is used. The lead author should then complete a purchase request form to start the process.\n\n\n\nThe lead author of a project (in collaboration with key members of the team) should draft a list of highlights from the study to be posted on various personal/official media sites. This list of highlights should be forwarded to James Keith (director of external relations) to be released upon publication of the project. The same highlights should be shared by the lead (or a designated team member) on social media sites (e.g., X, LinkedIn). Tag all authors and ALERRT in social media posts. All authors should repost/share the original post to increase awareness.\n\n\n\nIf the publication is using original data that is still in use for another project, wait to upload the analysis directory until the other project(s) have been completed. Once it is ready, change the project repository to “public” so it is available.\n\n\n\nA “gist” (or summary) should be a more verbose version of the highlights of the project drafted for media use. It should contain a few elements: 1) a study motivation, 2) the approach, 3) findings (highlights), 4) implications, and 5) all relevant links (e.g., article link, GH repo). If the media picks up an article, links to those pieces should be added to the gist as well. An example gist is located in the “research process” folder and on the current research section of the ALERRT website (https://alerrt.org/reading).\n\n\n\nThe Substack article allows for expansion beyond a “gist” writeup. Pete will add his $.02 description at the end of the Substack article – describing the relevance.\nMove the project folder from the OneDrive current_projects directory to the past_projects directory.",
+    "objectID": "research_process_getting_started.html#after-the-initial-project-proposal",
+    "href": "research_process_getting_started.html#after-the-initial-project-proposal",
+    "title": "Getting started",
+    "section": "After the initial project proposal",
+    "text": "After the initial project proposal\nSo you’ve proposed a project, received feedback, and gotten the green light to move forward–well done! The next step is usually to formalize your analysis plan in one of two ways (and possibly both!). Analysis plans should be used to 1) post a preregistration for the project and/or 2) submit an IRB application. We’ll breifly talk about each.\n\nPreregistration\nFor experimental studies, additional steps will be required to develop the analysis plan into a preregistration (this is not optional). We will use the Open Science Framework (OSF) website. The preregistration must be posted publicly prior to any data collection. However, this is more than just a public analysis plan; preregistrations contain several additional elements that are not required for observational studies (i.e., surveys, interviews, secondary data). Extra elements include:\n\nPower analysis\nConfirmatory hypotheses\nCriteria for positive/negative results\n\nWhen posting a preregistration on the OSF website, make sure to use the ALERRT-research account. OSF offers several resources that can help in formalizing a preregistration, much like the templates above. However, we will generally not use these as they can be too rigid and typically contain alot of material that is not actually needed for a good preregistration–they are generally designed fit many possible research designs so they end up fitting no particular research design well. Instead, use the analysis plan you began at the start of your project and add in the elements listed above to ensure that it covers all of the necessary topics.\n\n\nIRB applications\nMost observational studies and all experimental studies will require IRB approval. Development of the analysis plan will almost always provide all the required elements for an IRB application—conversely, anything required in an IRB application should be included in a project’s analysis plan. To submit an IRB proposal to Texas State University, you’ll need to access the Kuali System.",
     "crumbs": [
       "Ring Resources",
       "Conducting Research",
-      "Wrapping up a project"
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html",
+    "href": "training_tobii.html",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "",
+    "text": "Tobii Pro Glasses 3\nRecording pack",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#pre-setup",
+    "href": "training_tobii.html#pre-setup",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Pre-setup",
+    "text": "Pre-setup\n\nMake sure you have charged the batteries.\nMake sure you have empty SD cards available for a new project.",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#video",
+    "href": "training_tobii.html#video",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Video",
+    "text": "Video\n\n\n\n\n\n\nNoteTobii Quick Start Video",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#powering-the-glasses-on",
+    "href": "training_tobii.html#powering-the-glasses-on",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Powering the glasses on",
+    "text": "Powering the glasses on\nThis is what I do first, so that the signal can start broadcasting.\n\nInsert a battery into the recording unit.\nHold a finger over the power button until it lights up green.\nPlug in glasses",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#get-the-tablet",
+    "href": "training_tobii.html#get-the-tablet",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Get the tablet",
+    "text": "Get the tablet\n\nLog into tablet.\nLaunch Glasses 3 Controller app.\nIt should auto connect to the glasses name (RU_#). If it doesn’t, you can find the signal from the glasses in the same menu as Wi-Fi connections. It could also broadcast the ID # of the recording unit.",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#begin-recording",
+    "href": "training_tobii.html#begin-recording",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Begin recording",
+    "text": "Begin recording\n\nEnter participant name.\nCalibrate glasses with the target card.\nBegin recording.",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "training_tobii.html#import-export-video",
+    "href": "training_tobii.html#import-export-video",
+    "title": "Tobii Vision Tracking Glasses",
+    "section": "Import / Export video",
+    "text": "Import / Export video\n\nTake the SD card out of the recording unit and insert it into a computer.\nFor just the raw footage without gaze overlay, navigate into the SD card and copy / paste the videos needed.\nFor gaze analysis and overlay, open the Tobii Pro Labs desktop app. Begin a new project, and select the SD card itself to import your videos.\n\n\n\n\n\n\n\nNoteImport tutorial video\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteExport gaze overlay tutorial video",
+    "crumbs": [
+      "Ring Resources",
+      "Training Materials",
+      "Tobii Vision Tracking Glasses"
+    ]
+  },
+  {
+    "objectID": "research_process_working_with_a_team.html",
+    "href": "research_process_working_with_a_team.html",
+    "title": "Working with a team",
+    "section": "",
+    "text": "Authorship\nDiscuss author order and come up with said order from the beginning. It should be listed on the analysis plan so all contributors are aware of it. This includes ALERRT researchers and external collaborators. Authorship in RR projects requires substantive contribution. Every named author must have written portions of the document, conducted analyses, or developed plots, etc. Providing feedback does not constitute authorship, but those individuals should be listed in the acknowledgements.\n\n\nRoles\nRoles should be loosely laid out at the beginning of the project as well so each contributor knows what their time commitment will be. Generally, but not always, the lead author will serve as the project manager and ensure tasks are given an appropriate amount of time to complete. This role is vitally important so projects stay on task and avoid manuscript purgatory.\n\n\nCollaborative writing\nMore times than not writing a manuscript is a team sport. The RR should draft the manuscript using Quarto whenever possible. There are three different options for drafting the manuscript in Quarto.\n\nTrackdown (experimental)\nVersion Control\nLead author transfer from Word\n\nThe method chosen will depend on the makeup of the team. The RR is experimenting with using the Trackdown R package so external collaborators can make edits to a Google Doc version of the manuscript. If this is not available, the lead author will transfer text from a Word version of the manuscript.\n\n\nInternal peer review\nOnce the manuscript has been completed, the lead author should utilize an AI tool to conduct a “peer review” of the manuscript. The prompt should explicitly ask the AI tool to provide a critical review. There will be review items that do not apply, that is okay. The point is for the AI tool to point out logical gaps, structural issues, unclear results/discussion points, and so on to improve the manuscript prior to submission. The lead author will post the peer review in the “admin” subdirectory and let the appropriate team member know which comments to address.\n\n\nSharing results\nThe lead author should work with analysts to summarize and present results from a project to the wider RR team prior to the formal write-up. This gives the team the opportunity to understand how the analysis is proceeding and help shape how results are communicated in the manuscript by providing feedback.",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Working with a team"
+    ]
+  },
+  {
+    "objectID": "txst_links.html",
+    "href": "txst_links.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Here is where we list several helpful links for Texas State University resources.",
+    "crumbs": [
+      "Ring Resources",
+      "Texas State",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "txst_links.html#employer-information",
+    "href": "txst_links.html#employer-information",
+    "title": "Helpful Links",
+    "section": "Employer information",
+    "text": "Employer information\n\nInstitutional financial fact sheet (Division of Research)\n\nEIN number\nTax exempt status\n\n\n Download fact sheet \n\n\n\nTax exempt status (IRS letters)\n\n Download IRS Letters",
+    "crumbs": [
+      "Ring Resources",
+      "Texas State",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "txst_links.html#employee-information",
+    "href": "txst_links.html#employee-information",
+    "title": "Helpful Links",
+    "section": "Employee information",
+    "text": "Employee information\n\nSAP portal\n\nTime sheets\nSuccess Factors (in-service training)\nW2\n\n\n\nTravel Requests\n\n\nConcur\n\n\nParking Services\n\nPurchase parking permits\nPay parking tickets",
+    "crumbs": [
+      "Ring Resources",
+      "Texas State",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "txst_links.html#research",
+    "href": "txst_links.html#research",
+    "title": "Helpful Links",
+    "section": "Research",
+    "text": "Research\n\nKUALI\n\n\nData Management",
+    "crumbs": [
+      "Ring Resources",
+      "Texas State",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "research_process_publishing_in_a_journal.html",
+    "href": "research_process_publishing_in_a_journal.html",
+    "title": "Publishing in a journal",
+    "section": "",
+    "text": "Unless there is a compelling reason, the first author should also serve as the corresponding author. The first author will coordinate all required manuscript formatting for the specific journal. Additionally, some journal outlets have required documents (e.g., author acknowledgement) that will require all authors to sign.\n\n\nPosting a preprint usually occurs simultaneously with the initial submission of a project to an outlet for publication. The purpose of preprints is to get results out as early as possible while manuscripts go through the review process. Preprints are usually not a problem with journals, but that is not universally the case, so always check the outlet’s preprint policy prior to preprinting manuscripts. Preprints should never be used for manuscripts that are considered in a “rough” state. An easy rule of thumb is the following: if the preprint were accepted to a high-visibility journal with no changes whatsoever, would you be embarrassed by the state it is in? If the answer is “yes”, it is not ready for preprinting. Preprints are public; they should be high quality.\n\n\n\n\nAfter receiving an R&R from a journal, the lead author should combine all reviewer comments into two documents: 1) a word document with reviewer and comment numbers clearly delineated (titled: reviewer_response.docx), and 2) a reviewer comment matrix (titled: reviewer_matrix.xlxs).\n\n\nA reviewer comment matrix is a useful tool for identifying areas of overlap between the comments of different reviewers (i.e., areas that must be addressed). Create a comment matrix as follows:\n\nExample comment matrix\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\n\n\n\n\nPower analysis\nMethods\n\nComment #1\n\n\n\nPower analysis\nMethods\n\n\nComment #1\n\n\n\nThe comment matrix should be in long format with respect to the section, so there will be multiple entries for some sections (possibly multiple section entries for a single reviewer). Once all the comments are added, comments that are common across reviewers can be merged into the same row to simply the matrix as follows:\n\nExample comment matrix (last row condensed)\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\nComment #1\nComment #1\n\n\n\nFinally, if multiple entries for a section are present in the matrix, an optional “theme” column can be useful for organizing specific topics within a specific section. (Protip: add a filter to the matrix to make rearranging comments easy). The comment matrix is an extremely useful tool for viewing all the comments from an R&R simultaneously (instead of linearly) and can help the team rank/prioritize the comments (or themes). An example comment matrix is provided in the research_prcesses directory.\nThe reviewer response document should list all the reviewer comments in the order they are received. For example, Reviewer 1 comments will come first and be presented in the same order as received. This helps the reviewers quickly check if their comments/questions were addressed.\n\n\n\nAlthough not required by all journals, drafting a response letter is a nice touch. The response letter should be addressed to the editor that you have been corresponding with. The response letter should provide additional context if needed. It can serve as the introduction for the reviewer response document.",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Publishing in a journal"
+    ]
+  },
+  {
+    "objectID": "research_process_publishing_in_a_journal.html#publishing-in-a-journal",
+    "href": "research_process_publishing_in_a_journal.html#publishing-in-a-journal",
+    "title": "Publishing in a journal",
+    "section": "",
+    "text": "Unless there is a compelling reason, the first author should also serve as the corresponding author. The first author will coordinate all required manuscript formatting for the specific journal. Additionally, some journal outlets have required documents (e.g., author acknowledgement) that will require all authors to sign.\n\n\nPosting a preprint usually occurs simultaneously with the initial submission of a project to an outlet for publication. The purpose of preprints is to get results out as early as possible while manuscripts go through the review process. Preprints are usually not a problem with journals, but that is not universally the case, so always check the outlet’s preprint policy prior to preprinting manuscripts. Preprints should never be used for manuscripts that are considered in a “rough” state. An easy rule of thumb is the following: if the preprint were accepted to a high-visibility journal with no changes whatsoever, would you be embarrassed by the state it is in? If the answer is “yes”, it is not ready for preprinting. Preprints are public; they should be high quality.\n\n\n\n\nAfter receiving an R&R from a journal, the lead author should combine all reviewer comments into two documents: 1) a word document with reviewer and comment numbers clearly delineated (titled: reviewer_response.docx), and 2) a reviewer comment matrix (titled: reviewer_matrix.xlxs).\n\n\nA reviewer comment matrix is a useful tool for identifying areas of overlap between the comments of different reviewers (i.e., areas that must be addressed). Create a comment matrix as follows:\n\nExample comment matrix\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\n\n\n\n\nPower analysis\nMethods\n\nComment #1\n\n\n\nPower analysis\nMethods\n\n\nComment #1\n\n\n\nThe comment matrix should be in long format with respect to the section, so there will be multiple entries for some sections (possibly multiple section entries for a single reviewer). Once all the comments are added, comments that are common across reviewers can be merged into the same row to simply the matrix as follows:\n\nExample comment matrix (last row condensed)\n\n\n\n\n\n\n\n\n\nTheme (optional)\nSection\nReviewer #1\nReviewer #2\nReviewer #3\n\n\n\n\n\nIntro.\nComment #1\n\n\n\n\n\nLit. Review.\nComment #2\n\n\n\n\nPower analysis\nMethods\nComment #3\nComment #1\nComment #1\n\n\n\nFinally, if multiple entries for a section are present in the matrix, an optional “theme” column can be useful for organizing specific topics within a specific section. (Protip: add a filter to the matrix to make rearranging comments easy). The comment matrix is an extremely useful tool for viewing all the comments from an R&R simultaneously (instead of linearly) and can help the team rank/prioritize the comments (or themes). An example comment matrix is provided in the research_prcesses directory.\nThe reviewer response document should list all the reviewer comments in the order they are received. For example, Reviewer 1 comments will come first and be presented in the same order as received. This helps the reviewers quickly check if their comments/questions were addressed.\n\n\n\nAlthough not required by all journals, drafting a response letter is a nice touch. The response letter should be addressed to the editor that you have been corresponding with. The response letter should provide additional context if needed. It can serve as the introduction for the reviewer response document.",
+    "crumbs": [
+      "Ring Resources",
+      "Conducting Research",
+      "Publishing in a journal"
+    ]
+  },
+  {
+    "objectID": "public_grants.html",
+    "href": "public_grants.html",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Home",
+      "Grants"
+    ]
+  },
+  {
+    "objectID": "public_grants.html#grant-portfolio",
+    "href": "public_grants.html#grant-portfolio",
+    "title": "Grants",
+    "section": "",
+    "text": "Current funding\nPast awards\nProject summaries\nDeliverables from prior awards",
+    "crumbs": [
+      "Home",
+      "Grants"
+    ]
+  },
+  {
+    "objectID": "public_reports.html",
+    "href": "public_reports.html",
+    "title": "Reports",
+    "section": "",
+    "text": "Below are listed the public reports produced by the ALERRT Center.",
+    "crumbs": [
+      "Home",
+      "Reports"
+    ]
+  },
+  {
+    "objectID": "public_reports.html#after-action-reports",
+    "href": "public_reports.html#after-action-reports",
+    "title": "Reports",
+    "section": "After Action Reports",
+    "text": "After Action Reports\n\nRobb Elementry School, Uvalde, Texas (2022)\n\n\nFollowing the 2022 attack at Robb Elementary School in Uvalde, Texas, the ALERRT produced an after action report. The report documented all key details of the attack and law enforcement response. It also provided recommendations for preventing such attacks and/or responding more effectively to attacks in the future.\n\n\n\n\n\n\nClick image to view report",
+    "crumbs": [
+      "Home",
+      "Reports"
+    ]
+  },
+  {
+    "objectID": "public_reports.html#evaluations",
+    "href": "public_reports.html#evaluations",
+    "title": "Reports",
+    "section": "Evaluations",
+    "text": "Evaluations",
+    "crumbs": [
+      "Home",
+      "Reports"
+    ]
+  },
+  {
+    "objectID": "public_reports.html#annual-research-reports",
+    "href": "public_reports.html#annual-research-reports",
+    "title": "Reports",
+    "section": "Annual research reports",
+    "text": "Annual research reports",
+    "crumbs": [
+      "Home",
+      "Reports"
+    ]
+  },
+  {
+    "objectID": "public_reports.html#annual-alerrt-reports",
+    "href": "public_reports.html#annual-alerrt-reports",
+    "title": "Reports",
+    "section": "Annual ALERRT reports",
+    "text": "Annual ALERRT reports",
+    "crumbs": [
+      "Home",
+      "Reports"
     ]
   },
   {
