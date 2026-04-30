@@ -7,7 +7,7 @@ website:
   title: "Research Ring"
   navbar:
     tools:
-    logo: "www/research_ring_hex.png"
+    logo: "resources/alerrt_banner.png"
     right:
       - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
         text: Home

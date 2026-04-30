@@ -3,6 +3,8 @@ title: "How to Publish a Quarto Website with GitHub Pages and Actions"
 
 ---
 
+![](resources/quarto_ghpages_noir.png){ width=180px fig-align="center" }
+
 This guide demonstrates how to create and publish a Quarto website using GitHub Pages and GitHub Actions, with automatic deployment so you never need to render files locally.
 
 ## Prerequisites
