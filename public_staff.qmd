@@ -8,19 +8,23 @@ title: "People"
 
 :::::: columns
 ::: {.column width="60%"}
-Hunter Martaindale is the Director of Research at the ALERRT Center. His research focuses on active shooter and threat response, police training evaluation, use of force, and law enforcement and public opinion survey methodology. He holds a doctorate in criminal justice and criminology from Texas State University. His work has been published in scholarly journals including the *Journal of Experimental Criminology*, *Police Quarterly*, and the *Journal of Criminal Justice*.
+Hunter is the Director of Research at the ALERRT Center. His research focuses on active shooter and threat response, police training evaluation, use of force, and law enforcement and public opinion survey methodology. He holds a doctorate in criminal justice and criminology from Texas State University. His work has been published in scholarly journals including the *Journal of Experimental Criminology*, *Police Quarterly*, and the *Journal of Criminal Justice*.
 
+::: {.rr-profile-fun-facts}
 Fun facts about Hunter:
 
 -   He makes Neapolitan-style pizza at home and has strong unprompted opinions about proper dough hydration levels — in his defense, he calls it "pie," which makes it sound much more sophisticated
 -   He nerds out on microcontrollers and single-board computers in the name of home automation
+:::
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
+::: {.hex-photo-wrap}
 ![](resources/martaindale_headshot.png){.hex-photo}
+:::
 :::
 ::::::
 
@@ -30,18 +34,22 @@ Fun facts about Hunter:
 ::: {.column width="60%"}
 Peter is a research scientist at the ALERRT Center. He works on topics like officer health and wellness, public and law enforcement opinion, and police training evaluation. His interests include applied statistical analysis, data visualization, and researching first responders from a public health perspective. He holds a doctorate in criminal justice from the University of Cincinnati and he completed a postdoctoral fellowship at the University of Texas at Austin where he studied social science genomics/epigenetics. His work has been published in scholarly journals like the *Journal of Experimental Criminology*, *PLoS ONE*, and *The Lancet Regional Health - Americas*.
 
+::: {.rr-profile-fun-facts}
 Fun facts about Peter:
 
 -   He judges people by whether or not they have seen (and are avid fans of) the Lord of the Rings trilogy directed by Peter Jackson
 -   He is the worst Cards Against Humanity player ever
 -   He is the third Pete/Peter at ALERRT (and thus is completely redundant)
 :::
+:::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
+::: {.hex-photo-wrap}
 ![](resources/tanksley_headshot.png){.hex-photo}
+:::
 :::
 ::::::
 
@@ -51,18 +59,22 @@ Fun facts about Peter:
 ::: {.column width="60%"}
 Jack is a Research Associate at the ALERRT Center, where he supports a variety of projects by providing data analysis, creating visualizations, and facilitating the use of technologies such as virtual reality and eye tracking. He is currently pursuing a Master's degree in Criminal Justice & Criminology at Texas State University. His work has been published in scholarly outlets including *Applied Police Briefings*, the *American Journal of Criminal Justice*, and the *Journal of Criminal Justice*.
 
+::: {.rr-profile-fun-facts}
 Fun facts about Jack:
 
 -   He can solve a Rubik's cube
 -   He likes to build computers
 -   He likes to game on said computers
 :::
+:::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
+::: {.hex-photo-wrap}
 ![](resources/johncox_headshot.png){.hex-photo}
+:::
 :::
 ::::::
 
@@ -72,6 +84,7 @@ Fun facts about Jack:
 ::: {.column width="60%"}
 Joe is a research associate at the ALERRT Center. His work focuses on police training, use of force, and other topics related to frontline policing. He favors primary data collection, usually through experimental designs in simulated environments. Joe holds a master's in psychology from the Federal University of Paraná (Brazil) and is a Ph.D. student in criminal justice at Texas State University. Before joining ALERRT, he served as a captain with a state police department in Brazil, where he contributed to major reforms in defensive tactics training and conducted several practice-driven research projects. His work has been published in the *Journal of Criminal Justice*, *Women & Criminal Justice*, the *Journal of Motor Learning and Development*, and the *Brazilian Journal of Public Safety*.
 
+::: {.rr-profile-fun-facts}
 Fun facts about Joe:
 
 -   He's not fun at all. His idea of fun would bore most people to death.
@@ -80,12 +93,15 @@ Fun facts about Joe:
 -   He enjoys cooking and barbecuing. His stereotypes stop at Brazilian jiu-jitsu and Brazilian barbecue—Brazilian waxing is where he draws the line.
 -   He likes military history.
 :::
+:::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
+::: {.hex-photo-wrap}
 ![](resources/eleuterio_headshot.png){.hex-photo}
+:::
 :::
 ::::::
 

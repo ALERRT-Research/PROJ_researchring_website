@@ -4,8 +4,10 @@ title: "Grants"
 
 ALERRT's programmatic and research work is supported by competitive grants from federal agencies, industry partners, and university programs. Below you'll find current funding and a record of past awards, grouped by funder. For each entry we provide a brief synopsis and, where applicable, links to deliverables produced under the award.
 
-::: {.callout-note appearance="simple" icon="false"}
-**Total portfolio to date: \$83,784,093** across 14 awards (2017–present)
+::: {.rr-portfolio-stat}
+<div class="rr-stat-label">Total portfolio to date</div>
+<div class="rr-stat-number">$83,784,093</div>
+<div class="rr-stat-sub">across 14 awards · 2017–present</div>
 :::
 
 ## Current funding

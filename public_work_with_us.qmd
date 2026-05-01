@@ -2,8 +2,64 @@
 title: "Work with us"
 ---
 
-## Contents
+The Research Ring is always looking to expand its work through meaningful partnerships — with agencies in the field and with scholars working on related questions. If either of the following sounds like you, we'd love to hear from you.
 
--   How can agencies participate in studies
--   How can researchers collaborate with us
--   Contact form for prospective partners? Or just the director of research email (whoever is in that position at the time)?
+:::::: columns
+::: {.column width="47%"}
+::: {.rr-partner-card}
+### Are you an agency?
+
+Are you a law enforcement, fire, or EMS agency interested in participating in ALERRT research? Our studies are designed to be minimally burdensome on agencies and their personnel, and participation can take many forms — from providing access to training records and administrative data to hosting on-site data collection. Agencies that partner with us receive findings before public release and a plain-language summary of results.
+:::
+:::
+
+::: {.column width="6%"}
+:::
+
+::: {.column width="47%"}
+::: {.rr-partner-card}
+### Are you a researcher?
+
+Are you a scholar interested in collaborating with the Research Ring? We welcome partnerships with researchers at other institutions who share our focus on first responder health, law enforcement training, active attack research, or public and law enforcement opinion. We have access to unique datasets, lab facilities, and an established network of agency partners that may complement your own work.
+:::
+:::
+::::::
+
+## Get in touch
+
+Fill out the form below and Hunter Martaindale, Director of Research, will follow up with you directly.
+
+```{=html}
+<form class="rr-contact-form" action="https://formspree.io/f/xojrvjzp" method="POST">
+  <div class="rr-form-row">
+    <div class="rr-form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+    <div class="rr-form-group">
+      <label for="org">Organization</label>
+      <input type="text" id="org" name="organization" placeholder="Agency or institution">
+    </div>
+  </div>
+  <div class="rr-form-row">
+    <div class="rr-form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+    </div>
+    <div class="rr-form-group">
+      <label for="type">I am a...</label>
+      <select id="type" name="inquiry_type">
+        <option value="">Select one</option>
+        <option value="agency">Agency / Organization</option>
+        <option value="researcher">Researcher / Academic</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+  </div>
+  <div class="rr-form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Tell us about your interest in working with the Research Ring..." required></textarea>
+  </div>
+  <button type="submit" class="rr-form-submit">Send Message</button>
+</form>
+```

@@ -164,7 +164,7 @@ pre code {
 }
 
 .navbar-brand img {
-  max-height: 48px;
+  max-height: 96px;
   width: auto;
 }
 
@@ -456,7 +456,7 @@ nav[role="doc-toc"] a.active {
 
 .rr-hero-hex {
   flex: 0 0 auto;
-  width: 155px;
+  width: 195px;
 }
 
 .rr-hero-hex img {
@@ -504,19 +504,293 @@ nav[role="doc-toc"] a.active {
    HEX PHOTO — pointy-top hexagon (R sticker shape & proportions)
    ================================================================ */
 
+.hex-photo-wrap {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: var(--rr-maroon);
+  width: 178px;
+  height: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+}
+
+.hex-photo-wrap p {
+  display: contents;
+}
+
+.hex-photo-wrap:hover {
+  transform: scale(1.04) rotate(-2deg);
+}
+
 .hex-photo {
-  width:  148px !important;
-  height: 171px !important;       /* width × 1.155 — pointy-top regular hexagon */
+  width:  170px !important;
+  height: 197px !important;
   object-fit: cover;
   object-position: center top;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: block;
-  transition: transform 0.25s ease, filter 0.25s ease;
 }
 
-.hex-photo:hover {
-  transform: scale(1.04) rotate(-2deg);
-  filter: brightness(1.06);
+/* ================================================================
+   WORK WITH US — partner cards + contact form
+   ================================================================ */
+
+.rr-partner-card {
+  background: #ffffff;
+  border-top: 4px solid var(--rr-maroon);
+  border-radius: 0 0 6px 6px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.rr-partner-card h3 {
+  color: var(--rr-maroon);
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.rr-contact-form {
+  max-width: 680px;
+  margin: 1.5rem 0;
+}
+
+.rr-form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0;
+}
+
+.rr-form-row .rr-form-group {
+  flex: 1;
+}
+
+.rr-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.rr-form-group label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--rr-maroon);
+  margin-bottom: 0.35rem;
+}
+
+.rr-form-group input,
+.rr-form-group select,
+.rr-form-group textarea {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.6rem 0.85rem;
+  border: 1.5px solid #d8d0c8;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #333333;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.rr-form-group input:focus,
+.rr-form-group select:focus,
+.rr-form-group textarea:focus {
+  border-color: var(--rr-maroon);
+  box-shadow: 0 0 0 3px rgba(80, 18, 20, 0.08);
+}
+
+.rr-form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.rr-form-submit {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--rr-maroon);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.rr-form-submit:hover {
+  background: var(--rr-maroon-light);
+  transform: translateY(-1px);
+}
+
+/* ================================================================
+   LANDING PAGE — MEDIA STRIP
+   ================================================================ */
+
+.rr-media-strip {
+  border-top: 2px solid var(--rr-maroon);
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+}
+
+.rr-media-strip-label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--rr-maroon);
+  margin-bottom: 0.85rem;
+}
+
+.rr-media-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rr-cream-dark);
+}
+
+.rr-media-meta {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem;
+  color: #999;
+  margin-bottom: 0.15rem;
+}
+
+.rr-media-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.rr-media-title:hover {
+  color: var(--rr-maroon);
+  text-decoration: underline;
+}
+
+.rr-media-see-all {
+  display: inline-block;
+  margin-top: 0.85rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--rr-maroon);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.rr-media-see-all:hover {
+  text-decoration: underline;
+}
+
+/* ================================================================
+   BOOK COVERS
+   ================================================================ */
+
+.rr-book-cover {
+  height: 240px !important;
+  width: auto !important;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left top;
+  border-radius: 4px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+}
+
+figure:has(img.rr-book-cover) {
+  text-align: left;
+  margin-left: 0;
+}
+
+figure:has(img.rr-book-cover) figcaption {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.35rem;
+}
+
+/* ================================================================
+   MEDIA PAGE
+   ================================================================ */
+
+.rr-media-citation {
+  border-left: 3px solid var(--rr-maroon);
+  padding: 0.6rem 0 0.6rem 1rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.5;
+}
+
+.rr-media-citation a {
+  font-weight: 600;
+}
+
+.rr-citation-note {
+  display: block;
+  font-size: 0.82rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
+
+.rr-podcast-entry {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid var(--rr-cream-dark);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.rr-podcast-entry strong {
+  color: var(--rr-maroon);
+}
+
+.rr-asset-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.rr-asset-card {
+  background: #ffffff;
+  border-top: 3px solid var(--rr-gold);
+  border-radius: 0 0 6px 6px;
+  padding: 1rem 1.1rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
+
+.rr-asset-card strong {
+  display: block;
+  color: #1a1a1a;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767.98px) {
+  .rr-asset-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================================================
+   PEOPLE PAGE — compact profile entries
+   ================================================================ */
+
+.rr-profile-fun-facts {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.rr-profile-fun-facts li {
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
 }
 
 /* ================================================================
@@ -613,4 +887,171 @@ nav[role="doc-toc"] a.active {
     width: 90px;
     align-self: center;
   }
+}
+
+/* ================================================================
+   PAGE TITLE
+   ================================================================ */
+
+.rr-page-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  line-height: 1.15;
+}
+
+.rr-title-muted {
+  color: #5a5a5a;
+  font-weight: 400;
+}
+
+.rr-title-accent {
+  color: var(--rr-maroon);
+  font-weight: 700;
+}
+
+/* ================================================================
+   PORTFOLIO STAT BLOCK
+   ================================================================ */
+
+.rr-portfolio-stat {
+  background: #111111;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.rr-stat-label {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rr-gold-light);
+  margin-bottom: 0.4rem;
+}
+
+.rr-stat-number {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.rr-stat-sub {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--rr-cream-mid);
+}
+
+/* ================================================================
+   RESEARCH PIPELINE TRACKER
+   ================================================================ */
+
+.rr-pipeline {
+  padding: 0.75rem 0 1.25rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.rr-pipeline-stages {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rr-pipeline-stages::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  right: 13px;
+  height: 2px;
+  background: #ddd;
+  z-index: 0;
+}
+
+.rr-pipeline-fill {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  height: 2px;
+  background: var(--rr-maroon);
+  z-index: 1;
+}
+
+.rr-pipeline-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+
+.rr-stage-node {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  flex-shrink: 0;
+}
+
+.rr-pipeline-stage.done .rr-stage-node {
+  background: var(--rr-maroon);
+  border: 2px solid var(--rr-maroon);
+  color: #ffffff;
+}
+
+.rr-pipeline-stage.current .rr-stage-node {
+  background: var(--rr-gold);
+  border: 2px solid var(--rr-gold-light);
+  color: #1a1a1a;
+  animation: rr-stage-pulse 2.2s ease-in-out infinite;
+}
+
+.rr-pipeline-stage.pending .rr-stage-node {
+  background: #ffffff;
+  border: 2px solid #d0d0d0;
+  color: #b8b8b8;
+}
+
+@keyframes rr-stage-pulse {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(196, 155, 34, 0.20); }
+  50%       { box-shadow: 0 0 0 7px rgba(196, 155, 34, 0.07); }
+}
+
+.rr-stage-label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.68rem;
+  text-align: center;
+  line-height: 1.3;
+  padding: 0 3px;
+  max-width: 84px;
+}
+
+.rr-pipeline-stage.done .rr-stage-label {
+  color: var(--rr-maroon);
+  font-weight: 500;
+}
+
+.rr-pipeline-stage.current .rr-stage-label {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.rr-pipeline-stage.pending .rr-stage-label {
+  color: #b0b0b0;
+  font-weight: 400;
 }

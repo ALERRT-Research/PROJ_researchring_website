@@ -1,6 +1,11 @@
 ---
-title: "Welcome to the Research Ring"
+title: ""
+pagetitle: "Welcome to the Research Ring"
+execute:
+  freeze: false
 ---
+
+<h1 class="rr-page-title"><span class="rr-title-muted">Welcome to the </span><span class="rr-title-accent">Research Ring</span></h1>
 
 ::: {.rr-hero}
 <div class="rr-hero-inner">
@@ -13,7 +18,7 @@ The Research Ring is the research division of the [ALERRT Center](https://alerrt
 </div>
 <div class="rr-hero-hex">
 
-![Research Ring](resources/research_ring_hex/hex_7.png)
+![](resources/research_ring_logos/research_ring_circle.png)
 
 </div>
 </div>
@@ -31,12 +36,6 @@ Within the ALERRT Center, our mandate is to improve the lives and operational ca
 - Public/law enforcement opinion
 :::
 
-::: {.column width="10%"}
-:::
-
-::: {.column width="30%"}
-![](resources/research_ring_hex/hex_7.png)
-:::
 ::::::
 
 
@@ -45,13 +44,21 @@ Within the ALERRT Center, our mandate is to improve the lives and operational ca
 :::::: columns
 ::: {.column width="60%"}
 
-At its core, the ALERRT Center is focused on preparing law enforcement and other first responders to respond to active attacks. Understanding the trends and commonalities between active attacks and how they change over time is critically important to this effort. The Research Ring maintains a database of active attacks that have occurred in the United States since 2000. We also host the website, [ActiveAttackData.org](https://activeattackdata.org/){target="_blank"}, to make that database publicly accessible. Visitors will find resources (static/interactive plots, maps, etc.) that unpack the data. Or visitors can download the data directly from the website as well. All of the media is downloadable and free to use.
+At its core, the ALERRT Center is focused on preparing law enforcement and other first responders to respond to active attacks. Understanding the trends and commonalities between active attacks and how they change over time is critically important to this effort. The Research Ring maintains a database of active attacks that have occurred in the United States since 2000. We also host the website, ActiveAttackData.org, to make that database publicly accessible. Visitors will find resources (static/interactive plots, maps, etc.) that unpack the data. Or visitors can download the data directly from the website as well. All of the media is downloadable and free to use.
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="30%"}
-![](resources/aade_screenshot.png)
+[![Click to visit website](resources/aade_screenshot.png)](https://activeattackdata.org/){target="_blank"}
 :::
 ::::::
+
+```{r}
+#| echo: false
+#| results: asis
+#| cache: false
+source("_render_media.R")
+render_news_strip_html(read_media_entries(), n = 5)
+```

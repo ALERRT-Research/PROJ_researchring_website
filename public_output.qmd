@@ -731,13 +731,3 @@ suspect.
 
 [View the article here.](resources/articles/article_2011_reasonableness_and_reaction_time.pdf){target="_blank"}
 :::
-
-# Contents
-
--   Replicate (actually, improve) on <https://alerrt.org/reading>
--   Include summaries like on the current page
--   Include things other than peer-reviewed pubs – white papers, AARs,
-    anything we do
--   Create infographics??
--   Links to preprints for articles under review. These would be
-    replaced when published and moved to the publication page

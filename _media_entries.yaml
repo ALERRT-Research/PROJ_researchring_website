@@ -1,0 +1,73 @@
+# _media_entries.yaml
+# ─────────────────────────────────────────────────────────────────
+# Research Ring — Media & News entries
+#
+# HOW TO ADD A NEW ENTRY
+# ──────────────────────
+# 1. Add a new block at the TOP of this list (keep newest first).
+# 2. Fill in all required fields: date, type, source, title, url.
+# 3. Add optional fields as needed.
+# 4. Re-render: `quarto render` or render index.qmd + public_media.qmd.
+#    Both pages update automatically — no other files need editing.
+#
+# FIELD REFERENCE
+# ───────────────
+# date          REQUIRED  ISO format: YYYY-MM-DD
+# type          REQUIRED  One of: news | podcast | announcement
+# source        REQUIRED  Outlet, show, or issuing org
+# title         REQUIRED  Headline or episode title — link text on media page
+# url           REQUIRED  Full URL
+# landing_title OPTIONAL  Short description for the landing page news strip.
+#                         If omitted, `title` is used instead.
+#                         ALWAYS mention a person. Two cases:
+#                           - Research team member: first name only is fine.
+#                             Example: "Hunter appears on X to discuss Y"
+#                           - External person: name + their connection to ALERRT.
+#                             Example: "J.C. Barnes, co-author on ALERRT-led Lancet
+#                             study, featured in Spectrum News piece on officer health"
+#                         Keep it under ~120 characters so it wraps cleanly on mobile.
+# episode       OPTIONAL  Episode label, e.g. "Episode 39" — podcasts only
+# description   OPTIONAL  1–3 sentences shown on the media page.
+#                         news:         cite ALERRT involvement and research context
+#                         podcast:      summarize what was discussed
+#                         announcement: full announcement body
+#
+# TYPE GUIDE
+# ──────────
+# news          Third-party coverage citing ALERRT research (newspaper, TV, web)
+# podcast       Podcast episodes, video interviews, or media appearances
+# announcement  Internal RR news: grants, awards, new projects, milestones
+# ─────────────────────────────────────────────────────────────────
+
+- date: "2026-03-20"
+  type: podcast
+  source: Texas State University Media
+  title: Advanced Law Enforcement Rapid Response Training (ALERRT) at TXST
+  landing_title: Hunter featured in Texas State University short on ALERRT's rapid response training mission
+  url: "https://youtube.com/shorts/Lsddw47BYDY?si=IJ-lDHawF5r1R4_F"
+  description: A short-form feature from Texas State University highlighting the ALERRT Center and its rapid response training mission.
+
+- date: "2026-01-01"
+  type: news
+  source: Spectrum News 1
+  title: Study finds police officers face higher long-term health risks than general population
+  landing_title: J.C. Barnes, co-author on ALERRT-led Lancet study, featured in Spectrum News on officer health risks
+  url: "https://spectrumnews1.com/oh/columbus/news/2025/12/31/blue-ash-police-department--chief-roger-pohlman--university-of-cincinnati--jc-barnes--officer-mortality--research-study--lancet-health"
+  description: "Features J.C. Barnes (University of Cincinnati), co-author of the ALERRT-led officer mortality study published in The Lancet Regional Health — Americas. The study analyzed over 15,000 law enforcement officer deaths, finding that officers face elevated long-term health risks from heart disease, cancer, and suicide compared to the general population."
+
+- date: "2025-12-17"
+  type: podcast
+  source: Policing Matters Podcast (Police1)
+  title: Can VR training create real stress for real-world police decisions?
+  landing_title: Hunter appears on Policing Matters to discuss whether VR training can create real stress for real-world police decisions
+  url: "https://www.police1.com/police-training/can-vr-training-create-real-stress-for-real-world-police-decisions"
+  description: Hunter Martaindale discusses ALERRT Center research examining whether virtual reality scenarios can trigger stress responses comparable to live training, and where VR can — and can't — replace hands-on physical skills training.
+
+- date: "2024-10-15"
+  type: podcast
+  source: "Trainer's Bullpen"
+  episode: Episode 39
+  title: VR Training Elicits Similar Stress Response as Scenario-Based Training
+  landing_title: Hunter appears on Trainer's Bullpen (Ep. 39) to discuss VR training stress response research
+  url: "https://www.youtube.com/watch?v=leollcSg-5E"
+  description: Hunter Martaindale discusses research findings showing that virtual reality-based training produces stress responses comparable to traditional scenario-based training — with implications for how agencies can use VR to prepare officers for high-stakes situations.

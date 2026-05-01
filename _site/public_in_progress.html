@@ -66,10 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -129,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome to the Research Ring</span></a>
+ <span class="menu-text">Research at the Heart of ALERRT</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -158,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reports</span></a>
+ <span class="menu-text">Books, Book Chapters &amp; Reports</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -176,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_media.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Media Resources</span></a>
+ <span class="menu-text">Media &amp; News</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -238,25 +234,50 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="status" class="level4">
 <h4 class="anchored" data-anchor-id="status">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.250000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+2
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+3
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -272,28 +293,50 @@ class B current;
 </section>
 <section id="status-1" class="level4">
 <h4 class="anchored" data-anchor-id="status-1">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(1.000000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B done;
-class C done;
-class D done;
-class E current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -309,26 +352,50 @@ class E current;
 </section>
 <section id="status-2" class="level4">
 <h4 class="anchored" data-anchor-id="status-2">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.500000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B done;
-class C current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+3
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -344,25 +411,50 @@ class C current;
 </section>
 <section id="status-3" class="level4">
 <h4 class="anchored" data-anchor-id="status-3">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.250000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+2
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+3
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -378,27 +470,50 @@ class B current;
 </section>
 <section id="status-4" class="level4">
 <h4 class="anchored" data-anchor-id="status-4">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.750000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B done;
-class C done;
-class D current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -414,25 +529,50 @@ class D current;
 </section>
 <section id="status-5" class="level4">
 <h4 class="anchored" data-anchor-id="status-5">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.250000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+2
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+3
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>
@@ -448,26 +588,50 @@ class B current;
 </section>
 <section id="status-6" class="level4">
 <h4 class="anchored" data-anchor-id="status-6">Status:</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-A[/Formal analysis plan/] ~~~ B[/Execute analysis/]
-B[/Execute analysis/] ~~~ C[/Draft manuscript/]
-C[/Draft manuscript/] ~~~ D[/Submit to journal/]
-D[/Submit to journal/] ~~~ E[/Manuscript accepted/]
+<div class="rr-pipeline">
+<div class="rr-pipeline-stages">
+<div class="rr-pipeline-fill" style="width:calc(0.500000 * (100% - 26px));">
 
-classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;
-classDef current fill:#fff3b0,stroke:#b58900,color:#000;
-
-class A done;
-class B done;
-class C current;
-</pre>
 </div>
-<p></p></figure><p></p>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Formal analysis plan
+</div>
+</div>
+<div class="rr-pipeline-stage done">
+<div class="rr-stage-node">
+✓
+</div>
+<div class="rr-stage-label">
+Execute analysis
+</div>
+</div>
+<div class="rr-pipeline-stage current">
+<div class="rr-stage-node">
+3
+</div>
+<div class="rr-stage-label">
+Draft manuscript
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+4
+</div>
+<div class="rr-stage-label">
+Submit to journal
+</div>
+</div>
+<div class="rr-pipeline-stage pending">
+<div class="rr-stage-node">
+5
+</div>
+<div class="rr-stage-label">
+Manuscript accepted
+</div>
 </div>
 </div>
 </div>

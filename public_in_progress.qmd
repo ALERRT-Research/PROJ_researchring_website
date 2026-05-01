@@ -1,10 +1,5 @@
 ---
 title: "Research in Progress"
-
-format:
-  html:
-    mermaid: 
-      theme: neutral
 ---
 
 ```{r}
@@ -13,10 +8,8 @@ format:
 
 source("0_packages.R")
 
-make_mermaid_flow <- function(current_level = "B") {
-  
+make_progress_tracker <- function(current_level = "B") {
   levels <- c("A", "B", "C", "D", "E")
-  
   labels <- c(
     A = "Formal analysis plan",
     B = "Execute analysis",
@@ -24,49 +17,36 @@ make_mermaid_flow <- function(current_level = "B") {
     D = "Submit to journal",
     E = "Manuscript accepted"
   )
-  
-  # Determine status
+
   current_idx <- match(current_level, levels)
-  
-  status <- purrr::map_chr(seq_along(levels), \(i) {
+  n <- length(levels)
+  fraction <- (current_idx - 1) / (n - 1)
+  fill_width <- sprintf("calc(%.6f * (100%% - 26px))", fraction)
+
+  stage_divs <- purrr::imap_chr(levels, \(lvl, i) {
     if (i < current_idx) {
-      "done"
+      status <- "done"; icon <- "&#10003;"
     } else if (i == current_idx) {
-      "current"
+      status <- "current"; icon <- as.character(i)
     } else {
-      NA_character_
+      status <- "pending"; icon <- as.character(i)
     }
+    paste0(
+      '<div class="rr-pipeline-stage ', status, '">',
+        '<div class="rr-stage-node">', icon, '</div>',
+        '<div class="rr-stage-label">', labels[[lvl]], '</div>',
+      '</div>'
+    )
   })
-  
-  names(status) <- levels
-  
-  # Build nodes + edges
-  edges <- paste0(
-    levels[-length(levels)], "[/", labels[levels[-length(levels)]], "/] ~~~ ",
-    levels[-1], "[/", labels[levels[-1]], "/]"
+
+  paste0(
+    '<div class="rr-pipeline">',
+      '<div class="rr-pipeline-stages">',
+        '<div class="rr-pipeline-fill" style="width:', fill_width, ';"></div>',
+        paste(stage_divs, collapse = "\n"),
+      '</div>',
+    '</div>'
   )
-  
-  # Build class statements
-  class_lines <- purrr::imap_chr(status, \(s, lvl) {
-    if (is.na(s)) return(NA_character_)
-    paste0("class ", lvl, " ", s, ";")
-  }) |> stats::na.omit()
-  
-  # Combine everything
-  mermaid_code <- paste(
-    "```{mermaid}",
-    "flowchart LR",
-    paste(edges, collapse = "\n"),
-    "",
-    "classDef done fill:#9be9a8,stroke:#2c7a2c,color:#000;",
-    "classDef current fill:#fff3b0,stroke:#b58900,color:#000;",
-    "",
-    paste(class_lines, collapse = "\n"),
-    "```",
-    sep = "\n"
-  )
-  
-  return(mermaid_code)
 }
 
 ```
@@ -87,7 +67,7 @@ This project will assess the burden of deaths of despair across major protective
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "B"))
+cat(make_progress_tracker(current_level = "B"))
 ```
 
 ------------------------------------------------------------------------
@@ -104,7 +84,7 @@ This randomized controlled trial examined the effects of two brief slow-breathin
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "E"))
+cat(make_progress_tracker(current_level = "E"))
 ```
 
 ------------------------------------------------------------------------
@@ -121,7 +101,7 @@ This project will examine longitudinal trends in active shooter incident resolut
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "C"))
+cat(make_progress_tracker(current_level = "C"))
 ```
 
 ------------------------------------------------------------------------
@@ -138,7 +118,7 @@ This project will examine the effects of repeated exposure to stressful virtual 
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "B"))
+cat(make_progress_tracker(current_level = "B"))
 ```
 
 ------------------------------------------------------------------------
@@ -159,7 +139,7 @@ of homicide rates. Preprint available on [CrimRxiv](https://doi.org/10.21428/cb6
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "D"))
+cat(make_progress_tracker(current_level = "D"))
 ```
 
 ------------------------------------------------------------------------
@@ -175,7 +155,7 @@ This project draws on data from the final evaluations of a defensive tactics cla
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "B"))
+cat(make_progress_tracker(current_level = "B"))
 ```
 
 ------------------------------------------------------------------------
@@ -192,6 +172,6 @@ This project is a collaboration between U.S.-based scholars and Brazilian pracad
 
 ```{r results='asis'}
 #| echo: false
-cat(make_mermaid_flow(current_level = "C"))
+cat(make_progress_tracker(current_level = "C"))
 ```
 
