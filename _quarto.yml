@@ -1,22 +1,29 @@
 project:
   type: website
-  resources: 
+  resources:
     - "resources/"
 
 website:
   title: "Research Ring"
+  page-footer:
+    left: "© 2026 [ALERRT Center](https://alerrt.org) · Texas State University"
+    right: "Research Ring"
   navbar:
-    tools:
+    background: "#501214"
+    foreground: "#f8f4ee"
     logo: "resources/alerrt_banner.png"
+    logo-alt: "ALERRT Center"
     right:
-      - href: index.qmd #this needs to stay "index.qmd" to be recognized as the landing page
+      - href: index.qmd
         text: Home
-      # - about.qmd
-      - research_process_home.qmd
-  sidebar: 
-    - title: "Ring-Facing"
-      collapse-level: 1
+      - href: research_process_home.qmd
+        text: Resources
+
+  sidebar:
+    - title: "Ring Resources"
       style: docked
+      background: dark
+      collapse-level: 1
       contents:
         - research_process_home.qmd
         - section: "Conducting Research"
@@ -27,29 +34,28 @@ website:
             - research_process_publishing_in_a_journal.qmd
             - research_process_wrapping_up.qmd
         - section: "Working with R"
-          contents: 
+          contents:
             - r_quarto_website_github_pages.qmd
         - section: "Datasets"
         - section: "Templates"
         - section: "Texas State"
-          contents: 
+          contents:
             - txst_travel.qmd
             - txst_links.qmd
         - section: "Training Materials"
-          contents: 
+          contents:
             - training_opxr.qmd
             - training_tobii.qmd
         - lexical_stowaways.qmd
-            
-        
-    - title: "Public-facing"
-      collapse-level: 1
+
+    - title: "Public-Facing"
       style: docked
-      contents: 
-        # - about.qmd
+      background: dark
+      collapse-level: 1
+      contents:
         - index.qmd
         - section: "Research"
-          contents: 
+          contents:
             - public_output.qmd
             - public_in_progress.qmd
         - public_reports.qmd
@@ -60,12 +66,9 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: lux
     css: styles.css
     toc: true
 
-execute: 
+execute:
   freeze: auto
-

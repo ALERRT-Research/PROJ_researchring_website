@@ -1,12 +1,29 @@
 ---
-title: "Welcome To The Research Ring"
+title: "Welcome to the Research Ring"
 ---
+
+::: {.rr-hero}
+<div class="rr-hero-inner">
+<div class="rr-hero-text">
+
+## Research at the Heart of ALERRT
+
+The Research Ring is the research division of the [ALERRT Center](https://alerrt.org/){target="_blank"} at Texas State University. We produce rigorous, evidence-based research to support the nation's standard in active shooter response training — and to improve the health and operational capacity of first responders.
+
+</div>
+<div class="rr-hero-hex">
+
+![Research Ring](resources/research_ring_hex/hex_7.png)
+
+</div>
+</div>
+:::
 
 :::::: columns
 ::: {.column width="60%"}
-The Research Ring is a division within the [Advanced Law Enforcement Rapid Response Training (ALERRT) Center](https://alerrt.org/){target="_blank"} at Texas State University. The Research Ring the supports the mission of the ALERRT Center to "...**provide the best *research-based* active shooter response training in the nation"** by producing research and other resources.
+The Research Ring supports the mission of the ALERRT Center to "...**provide the best *research-based* active shooter response training in the nation"** by producing research and other resources.
 
-Within the ALERRT Center, our mandate is improve the lives and operational capacity of first responders through rigorous research and evaluation. Our research covers several topic areas:
+Within the ALERRT Center, our mandate is to improve the lives and operational capacity of first responders through rigorous research and evaluation. Our research covers several topic areas:
 
 - Active attack trends
 - Law enforcement training
@@ -18,7 +35,7 @@ Within the ALERRT Center, our mandate is improve the lives and operational capac
 :::
 
 ::: {.column width="30%"}
-![](resources/research_ring_hex/hex_1.png)
+![](resources/research_ring_hex/hex_7.png)
 :::
 ::::::
 
@@ -38,5 +55,3 @@ At its core, the ALERRT Center is focused on preparing law enforcement and other
 ![](resources/aade_screenshot.png)
 :::
 ::::::
-
-
