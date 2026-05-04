@@ -23,11 +23,12 @@ render_news_strip_html <- function(entries, n = 5) {
   items <- sapply(top, function(e) {
     display_title <- if (!is.null(e$landing_title)) e$landing_title else e$title
     date_fmt <- trimws(format(as.Date(e$date), "%B %e, %Y"))
-    title_tag <- if (!is.null(e$url)) {
-      sprintf('<a class="rr-media-title" href="%s" target="_blank">%s</a>', e$url, display_title)
+    href <- if (!is.null(e$id)) {
+      sprintf("public_media.html#%s", e$id)
     } else {
-      sprintf('<span class="rr-media-title">%s</span>', display_title)
+      "public_media.html"
     }
+    title_tag <- sprintf('<a class="rr-media-title" href="%s">%s</a>', href, display_title)
     sprintf('<div class="rr-media-item">\n  <div class="rr-media-meta">%s</div>\n  %s\n</div>',
       date_fmt, title_tag)
   })
@@ -44,28 +45,31 @@ render_news_strip_html <- function(entries, n = 5) {
 
 render_news_html <- function(e) {
   date_fmt <- format(as.Date(e$date), "%B %d, %Y")
+  id_attr  <- if (!is.null(e$id)) sprintf("#%s ", e$id) else ""
   desc_html <- if (!is.null(e$description)) {
     sprintf('\n<span class="rr-citation-note">%s</span>', e$description)
   } else ""
   sprintf(
-    '::: {.rr-media-citation}\n**%s** · %s\\\n[%s](%s){target="_blank"}\\%s\n:::\n\n',
-    e$source, date_fmt, e$title, e$url, desc_html
+    '::: {%s.rr-media-citation}\n**%s** · %s\\\n[%s](%s){target="_blank"}\\%s\n:::\n\n',
+    id_attr, e$source, date_fmt, e$title, e$url, desc_html
   )
 }
 
 render_podcast_html <- function(e) {
-  date_fmt <- format(as.Date(e$date), "%B %d, %Y")
+  date_fmt     <- format(as.Date(e$date), "%B %d, %Y")
+  id_attr      <- if (!is.null(e$id)) sprintf("#%s ", e$id) else ""
   episode_part <- if (!is.null(e$episode)) sprintf(" · %s", e$episode) else ""
-  desc_html <- if (!is.null(e$description)) sprintf("%s ", e$description) else ""
-  link_label <- if (grepl("youtube\\.com|youtu\\.be", e$url, ignore.case = TRUE)) "Watch on YouTube" else "Listen"
+  desc_html    <- if (!is.null(e$description)) sprintf("%s ", e$description) else ""
+  link_label   <- if (grepl("youtube\\.com|youtu\\.be", e$url, ignore.case = TRUE)) "Watch on YouTube" else "Listen"
   sprintf(
-    '::: {.rr-podcast-entry}\n**%s**%s · %s\\\n*%s*\\\n%s[[%s](%s){target="_blank"}]\n:::\n\n',
-    e$source, episode_part, date_fmt, e$title, desc_html, link_label, e$url
+    '::: {%s.rr-podcast-entry}\n**%s**%s · %s\\\n*%s*\\\n%s[[%s](%s){target="_blank"}]\n:::\n\n',
+    id_attr, e$source, episode_part, date_fmt, e$title, desc_html, link_label, e$url
   )
 }
 
 render_announcement_html <- function(e) {
   date_fmt  <- format(as.Date(e$date), "%B %d, %Y")
+  id_attr   <- if (!is.null(e$id)) sprintf("#%s ", e$id) else ""
   imgs      <- if (!is.null(e$images)) e$images else if (!is.null(e$image)) list(e$image) else list()
   has_image <- length(imgs) > 0
   multi     <- length(imgs) > 1
@@ -79,8 +83,8 @@ render_announcement_html <- function(e) {
   } else ""
 
   if (!has_image) {
-    sprintf('::: {.rr-media-citation}\n**%s** · %s\\\n%s%s\n:::\n\n',
-      e$source, date_fmt, title_html, desc_part)
+    sprintf('::: {%s.rr-media-citation}\n**%s** · %s\\\n%s%s\n:::\n\n',
+      id_attr, e$source, date_fmt, title_html, desc_part)
   } else {
     group_id <- paste0("ann-", gsub("[^a-z0-9]", "", tolower(e$date)))
     main_img <- sprintf('![](%s){.lightbox .rr-announcement-thumb group="%s"}', imgs[[1]], group_id)
@@ -96,8 +100,8 @@ render_announcement_html <- function(e) {
     }
 
     # 4-colon outer fence so inner ::: fences don't close it prematurely
-    sprintf(':::: {.rr-media-citation .rr-has-thumb}\n**%s** · %s\\\n%s%s\n\n%s\n::::\n\n',
-      e$source, date_fmt, title_html, desc_part, image_block)
+    sprintf(':::: {%s.rr-media-citation .rr-has-thumb}\n**%s** · %s\\\n%s%s\n\n%s\n::::\n\n',
+      id_attr, e$source, date_fmt, title_html, desc_part, image_block)
   }
 }
 

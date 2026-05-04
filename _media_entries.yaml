@@ -16,7 +16,13 @@
 # type          REQUIRED  One of: news | podcast | announcement
 # source        REQUIRED  Outlet, show, or issuing org
 # title         REQUIRED  Headline or episode title — link text on media page
-# url           REQUIRED  Full URL
+# url           REQUIRED  Full URL (omit only for announcements with no external link)
+# id            OPTIONAL  Short slug, e.g. "perf-2026". When present, two things happen:
+#                         (1) The entry gets an HTML anchor on the media page.
+#                         (2) The landing page news strip links to that anchor
+#                             (public_media.html#<id>) instead of the external URL.
+#                         Always add an id. Without one, the landing strip item links
+#                         to the top of the media page rather than the specific entry.
 # landing_title OPTIONAL  Short description for the landing page news strip.
 #                         If omitted, `title` is used instead.
 #                         ALWAYS mention a person. Two cases:
@@ -40,6 +46,7 @@
 # ─────────────────────────────────────────────────────────────────
 
 - date: "2026-04-16"
+  id: "perf-2026"
   type: announcement
   source: Police Executive Research Forum (PERF) Annual Meeting
   title: "A national-level assessment of LEO mortality"
@@ -54,6 +61,7 @@
     collaborator Ian Adams (University of South Carolina).
 
 - date: "2026-03-20"
+  id: "txst-hunter-2026"
   type: podcast
   source: Texas State University Media
   title: Advanced Law Enforcement Rapid Response Training (ALERRT) at TXST
@@ -62,6 +70,7 @@
   description: A short-form feature from Texas State University highlighting the ALERRT Center and its rapid response training mission.
 
 - date: "2026-01-01"
+  id: "spectrum-news-2026"
   type: news
   source: Spectrum News 1
   title: Study finds police officers face higher long-term health risks than general population
@@ -70,6 +79,7 @@
   description: "Features J.C. Barnes (University of Cincinnati), co-author of the ALERRT-led officer mortality study published in The Lancet Regional Health — Americas. The study analyzed over 15,000 law enforcement officer deaths, finding that officers face elevated long-term health risks from heart disease, cancer, and suicide compared to the general population."
 
 - date: "2025-12-17"
+  id: "policing-matters-2025"
   type: podcast
   source: Policing Matters Podcast (Police1)
   title: Can VR training create real stress for real-world police decisions?
@@ -78,6 +88,7 @@
   description: Hunter Martaindale discusses ALERRT Center research examining whether virtual reality scenarios can trigger stress responses comparable to live training, and where VR can — and can't — replace hands-on physical skills training.
 
 - date: "2024-10-15"
+  id: "trainers-bullpen-2024"
   type: podcast
   source: "Trainer's Bullpen"
   episode: Episode 39
