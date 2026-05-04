@@ -2,7 +2,7 @@
 title: "Research Output"
 format:
   html:
-    css: styles.css          
+    css: [styles.css, output_styles.css]
     link-external-newwindow: true
     callout-appearance: minimal
     callout-icon: false
@@ -29,7 +29,12 @@ images as a transparent, reproducible, and scalable tool for researchers
 who need controlled visual stimuli in experiments about policing and
 related topics.
 
-[View the article here.](resources/articles/article_2026_ai_generated_human_stimuli_for_experimental_social_science.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Experimental Criminology
+:::
+
+[View the article here.](https://doi.org/10.1007/s11292-026-09731-x){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -45,7 +50,12 @@ comparisons to further contextualize the findings, noting that the work
 provides a valuable baseline for understanding officer mortality that
 future studies can build upon.
 
-[View the article here.](resources/articles/article_2026_clarifying_methods_and_interpretations_in_law_enfrocement_mortality_surveillance_reponse_to_kamal.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+The Lancet Regional Health - Americas
+:::
+
+[View the article here.](https://doi.org/10.1016/j.lana.2025.101330){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -64,11 +74,18 @@ that public expectations and law enforcement training may not always
 align, which has important implications for police legitimacy and
 community trust in the aftermath of high-profile events.
 
-[View the article here.](resources/articles/article_2026_public_opinion_and_the_immediate_entry_dilemma_a_factorial_survey_experiment_on_active_shooter_response.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Criminal Justice
+:::
+
+[View the article here.](https://doi.org/10.1016/j.jcrimjus.2025.102578){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Striking or Grappling? Comparing Public and Officers' Perceptions of Police Use of Force
+
+
 
 This experiment showed short video clips of a police encounter to nearly
 1,000 civilians and 744 law enforcement officers, with the clips varying
@@ -83,7 +100,12 @@ are shaped heavily by how the force looks, not just whether it is
 legally justified, underscoring the importance of both technique and
 appearance in public and professional evaluations.
 
-[View the article here.](resources/articles/article_2026_striking_or_grappling_comparing_public_and_officer_perceptions_of_police_use_of_force.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Criminal Justice
+:::
+
+[View the article here.](https://doi.org/10.1016/j.jcrimjus.2026.102601){.rr-article-pdf target="_blank"}
 :::
 
 # 2025
@@ -102,7 +124,12 @@ U.S. vehicle-based attacks from 2000 to 2025 and offers practical
 prevention recommendations, including the strategic placement of
 physical barriers at crowded public events.
 
-[View the article here.](resources/articles/article_2025_active_attacks_with_motor_vehicles_a_short_report.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+American Journal of Criminal Justice
+:::
+
+[View the article here.](https://doi.org/10.1007/s12103-025-09806-x){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -118,7 +145,12 @@ resistance. The results reinforce that maintaining physical fitness and
 a healthy body composition are important tools for protecting law
 enforcement officers from serious long-term health problems.
 
-[View the article here.](resources/articles/article_2025_markers_of_fitness_stress_and_cardiometabolic_disease_risk_among_law_enforcement_officers.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Occupational and Environmental Medicine
+:::
+
+[View the article here.](https://doi.org/10.1097/jom.0000000000003357){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -135,7 +167,12 @@ cause for female officers. These findings highlight the urgent need for
 targeted prevention efforts addressing cardiovascular health, cancer
 screening, and mental health support within law enforcement.
 
-[View the article here.](resources/articles/article_2025_mortality_among_leos_in_the_us_a_population_wide_analysis_of_the_noms_data.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+The Lancet Regional Health - Americas
+:::
+
+[View the article here.](https://doi.org/10.1016/j.lana.2025.101270){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -152,7 +189,12 @@ risk factors, suggesting that fitness and body composition play a more
 direct role in protecting firefighters' heart health than stress
 hormones measured in isolation.
 
-[View the article here.](resources/articles/article_2025_relationships_between_physiological_stress_biomarkers_and_cardiovascular_disease_risk_factors_among_career_firefighters.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Occupational and Environmental Medicine
+:::
+
+[View the article here.](https://doi.org/10.1097/jom.0000000000003389){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -167,11 +209,18 @@ and better overall quality of life. The findings suggest that giving
 firefighters more time to recover between shifts may meaningfully reduce
 the physical and mental toll of the job.
 
-[View the article here.](resources/articles/article_2025_shift_schedule_change_from_24_48_to_1323_improves_markers_of_stress_and_quality_of_life_in_career_firefighters.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Occupational and Environmental Medicine
+:::
+
+[View the article here.](https://doi.org/10.1097/jom.0000000000003638){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## To What Are We Inferring? The Widespread Misuse of Inferential Testing in the Most Cited Criminology and Criminal Justice Journals
+
+
 
 This study reviewed articles published in 18 of the top-ranked
 criminology and criminal justice journals to assess how often
@@ -185,7 +234,12 @@ education, reform of publishing standards, and greater use of
 exploratory research methods to strengthen the quality of evidence
 informing criminal justice policy.
 
-[View the article here.](resources/articles/article_2025_to_what_are_we_inferring_the_widespread_misuse_of_inferential_testing_in_the_most_cited_criminology_and_criminal_justice_journals.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+American Journal of Criminal Justice
+:::
+
+[View the article here.](https://doi.org/10.1007/s12103-025-09845-4){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -202,13 +256,20 @@ suggest that mental stress, such as that encountered in high-stakes
 training scenarios, adds meaningfully to perceived anxiety beyond what
 physical exertion produces on its own.
 
-[View the article here.](resources/articles/article_2025_virtual_reality_based_active_shooter_training_added_physical_stress_increases_anxiety_but_not_stress_biomarkers.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Psychoneuroendocrinology
+:::
+
+[View the article here.](https://doi.org/10.1016/j.psyneuen.2025.107628){.rr-article-pdf target="_blank"}
 :::
 
 # 2024
 
 ::: {.callout-note collapse="true"}
 ## Interviewing and Interrogation Practices and Beliefs, 20 Years Later
+
+
 
 This study surveyed 526 U.S. law enforcement officers to see whether
 beliefs and practices around interviewing and interrogation have changed
@@ -220,11 +281,18 @@ confessions happen. These results suggest that law enforcement has been
 moving in a more science-informed direction when it comes to questioning
 practices, even though the exact reasons for that shift remain unclear.
 
-[View the article here.](resources/articles/article_2024_interviewing_and_interrogation_practices_and_beliefs_20_years_later.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Law and Human Behavior
+:::
+
+[View the article here.](https://doi.org/10.1037/lhb0000570){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Impact of the Menstrual Cycle Phases and Time of Day on Markers of Stress
+
+
 
 Researchers tested whether the phase of the menstrual cycle affects
 common stress and immune markers in 17 female participants by measuring
@@ -237,11 +305,18 @@ important for researchers who rely on these biological markers when
 studying female participants, as controlling for time of day may be
 necessary to ensure accurate results.
 
-[View the article here.](resources/articles/article_2024_impact_of_the_menstrual_cycle_phases_and_time_of_day_on_markers_of_stress.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Stress
+:::
+
+[View the article here.](https://doi.org/10.1080/10253890.2024.2449098){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## #FalseFlag: Exploring themes in conspiracy theory tweets regarding the Robb Elementary active shooter event
+
+
 
 How do conspiracy theories affect the explanation of active shooter
 events? After confusing and tragic events like active attacks, the
@@ -251,7 +326,12 @@ show that many posts following the attack in Uvalde tried to casually
 explain what happened. But how do these theories affect the people
 involved in these events?
 
-[View the article here.](resources/articles/article_2024_falseflag_exploring_themes_in_conspiracy_theory_tweets_regarding_the_robb_elementary_school_active_shooter_event.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Qualitative Criminal Justice & Criminology
+:::
+
+[View the article here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -267,7 +347,12 @@ were grouped into three larger categories: value of armed teachers,
 training, and other considerations. Results and implications are
 discussed further.
 
-[View the article here.](resources/articles/article_2024_arm_the_educators_but_not_without_conditions_a_qualitative_assessment_of_leos_support_for_armed_teacher_policies.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Practice and Research
+:::
+
+[View the article here.](https://doi.org/10.1080/15614263.2023.2287218){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -283,7 +368,12 @@ experienced either the VR or the in-person scenario. Results were
 compared and overall stress responses were shown to be similar, thus
 further implications for training are discussed.
 
-[View the article here.](resources/articles/article_2024_can_a_virtual_reality_training_scenario_elicit_similar_stress_response_as_a_realistic_sbt.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Quarterly
+:::
+
+[View the article here.](https://doi.org/10.1177/10986111231182729){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -298,7 +388,12 @@ training drill. Saliva samples were taken before and after the drill and
 results were compared. It was found that L-theanine and L-tyrosine did
 not affect the markers of stress but could impact cognitive performance.
 
-[View the article here.](resources/articles/article_2024_impact_of_l_theanine_and_l_tyrosine_on_markers_of_stress_and_cognitive_performance_in_response_to_a_virtual_reality_based_active_shooter_training_dril.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Stress
+:::
+
+[View the article here.](https://doi.org/10.1080/10253890.2024.2375588){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -315,11 +410,18 @@ that caffeine consumption increased levels of
 
 α-amylase after performing the mental stress task.
 
-[View the article here.](resources/articles/article_2024_stress_response_to_virtual_reality_based_active_shooter_training_impact_of_caffeine_consumption.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Psychoneuroendocrinology
+:::
+
+[View the article here.](https://doi.org/10.1016/j.psyneuen.2023.106923){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Oh, \@#%\$!: a replication and expansion of Martaindale et al. (2023)
+
+
 
 A previous study looking into the effects of an officer’s use of vulgar
 language during use of force is elaborated on further. Originally, the
@@ -330,7 +432,12 @@ showing that public perception of use of force is affected by the use of
 profanity by the officer. With the presence of vulgar language,
 regardless of if only read or heard, being perceived as less reasonable.
 
-[View the article here.](resources/articles/article_2024_oh_a_replication_and_expansion_of_martaindale_et_al_2023.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Policing: An International Journal
+:::
+
+[View the article here.](https://doi.org/10.1108/PIJPSM-05-2024-0089){.rr-article-pdf target="_blank"}
 :::
 
 # 2023
@@ -347,7 +454,12 @@ the results show an importance of a strong cardiorespiratory fitness and
 low waist circumference could reduce the markers of cardiovascular
 disease.
 
-[View the article here.](resources/articles/article_2023_risk_factors_for_cardiometabolic_disease_in_professional_firefighters.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Occupational and Environmental Medicine
+:::
+
+[View the article here.](https://doi.org/10.1097/jom.0000000000002743){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -362,7 +474,12 @@ response to being assigned one of two slow breathing methods or normal
 breathing. It is shown that both slow breathing methods resulted in much
 lower stress markers when compared to normal breathing practices.
 
-[View the article here.](resources/articles/article_2023_slow_breathing_reduces_biomarkers_of_stress_in_response_to_a_virtual_reality_active_shooter_training_drill.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Healthcare
+:::
+
+[View the article here.](https://doi.org/10.3390/healthcare11162351){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -378,11 +495,18 @@ like gunfire or injured victims. If there is an ongoing threat, law
 enforcement agreed with the public that officers should immediately
 enter.
 
-[View the article here.](resources/articles/article_2023_wait_for_backup_or_not_how_police_officers_view_their_role_when_responding_to_an_active_shooter_event.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Experimental Criminology
+:::
+
+[View the article here.](https://doi.org/10.1007/s11292-023-09592-8){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Successfully securing a classroom door: Evaluating two types of door locks
+
+
 
 Can the type of door lock have an impact on someone’s ability to quickly
 and accurately secure? This study assessed two types of door locks, one
@@ -391,7 +515,12 @@ that required a key to activate the lock. Results showed that simple,
 push-button door locks can be secured with fewer errors and faster than
 a keyed door lock. Policy recommendations are included.
 
-[View the article here.](resources/articles/article_2023_successfully_securing_a_classroom_door_in_a_lockdown_evaluating_two_types_of_door_locks.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Mass Violence Research
+:::
+
+[View the article here.](https://doi.org/10.53076/JMVR74565){.rr-article-pdf target="_blank"}
 :::
 
 # 2022
@@ -407,7 +536,12 @@ Ultimately, we found that law enforcement overwhelmingly supports armed
 teacher policies, but the support is contingent upon concerns related to
 training.
 
-[View the article here.](resources/articles/article_2022_should_firearms_be_allowed_in_k_12_public_schools_an_analysis_of_le_perceptions_of_armed_teacher_policies.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Security Journal
+:::
+
+[View the article here.](https://doi.org/10.1057/s41284-022-00327-4){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -425,11 +559,18 @@ their attitudes regarding the capabilities of armed teachers, training
 considerations, as well as firearm and proficiency certification
 policies.
 
-[View the article here.](resources/articles/article_2022_armed_and_considered_capable_law_enforcement_officers_attitudes_about_armed_teacher_policies_in_the_us.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Crime Prevention and Community Safety
+:::
+
+[View the article here.](https://doi.org/10.1057/s41300-022-00142-4){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
 ## Virtual Reality Based Active Shooter Training Drill Increases Salivary and Subjective Markers of Stress
+
+
 
 Virtual reality (VR) has emerged as a training tool for law enforcement.
 While VR is expected to provide a stressful environment for law
@@ -440,7 +581,12 @@ using salivary based measures of stress (e.g., alpha-amylase and
 secretory immunoglobulin-A \[SIgA\]). Participating in the VR active
 shooter scenario resulted in an increase in salivary stress markers.
 
-[View the article here.](resources/articles/article_2022_vr_based_active_shooter_training_drill_increases_salivary_and_subjective_markers_of_stress.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Yale Journal of Biology and Medicine
+:::
+
+[View the article here.](https://pubmed.ncbi.nlm.nih.gov/35370487/){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -455,7 +601,12 @@ United States. We apply RE to better understand how these shootings
 occur so that police can improve their ability to anticipate, monitor,
 and respond during these attacks.
 
-[View the article here.](resources/articles/article_2022_how_police_officers_are_shot_and_killed_during_active_shooter_events_implications_for_response_and_training.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+The Police Journal Theory Practice and Principles
+:::
+
+[View the article here.](https://doi.org/10.1177/0032258x221087827){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -469,7 +620,12 @@ explore and elaborate more to define these cases with recorded examples.
 Databases that exist are discussed as well, along with their inclusion
 criteria.
 
-[View the article here.](resources/articles/article_2022_what_are_we_talking_about_definitional_confusion_within_active_and_mass_shooting_research.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Mass Violence Research
+:::
+
+[View the article here.](https://doi.org/10.53076/jmvr47829){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -483,7 +639,12 @@ for cardiovascular disease. It was found that high fitness firefighters
 show significantly lower markers of cardiovascular disease risk and
 should maintain high cardiorespiratory fitness.
 
-[View the article here.](resources/articles/article_2022_firefighters_with_higher_cardiorespiratory_fitness_demonstrate_lower_markers_of_cardiovascular_disease_risk.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Occupational and Environmental Medicine
+:::
+
+[View the article here.](https://doi.org/10.1097/jom.0000000000002632){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -497,7 +658,12 @@ excessive language to be less reasonable. Possible policy discussions
 are included due to police officer language can affect civilian
 perception.
 
-[View the article here.](resources/articles/article_2022__the_impact_of_officer_profanity_on_civilians_perception_of_what_constitutes_reasonable_use_of_force.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Quarterly
+:::
+
+[View the article here.](https://doi.org/10.1177/10986111221111332){.rr-article-pdf target="_blank"}
 :::
 
 # 2021
@@ -516,7 +682,12 @@ training drill. Results revealed increases in stress levels for both
 male and female participants. However, four of the seven stress markers
 were lower in female participants compared to male participants.
 
-[View the article here.](resources/articles/article_2021_women_demonstrate_lower_markers_of_stress_and_oxidative_stress_during_active_shooter_training_drill.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Comprehensive Psychoneuroendocrinology
+:::
+
+[View the article here.](https://doi.org/10.1016/j.cpnec.2021.100046){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -536,7 +707,12 @@ vision-training program can significantly improve participants’ ability
 to correctly identify the presence of a firearm in a dynamic
 use-of-force scenario.
 
-[View the article here.](resources/articles/article_2021_improving_the_accuracy_of_firearm_identification_in_a_dynamic_use_of_force_scenario.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Quarterly
+:::
+
+[View the article here.](https://doi.org/10.1177/1098611120944387){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -551,7 +727,12 @@ study found the Dagger technique reduced the likelihood that
 participants playing the role of a hostile suspect would successfully
 shoot the officer in a controlled setting.
 
-[View the article here.](resources/articles/article_2021_an_evaluation_of_light_positioning_on_suspect_accuracy_in_low_light_environments.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Justice Evaluation Journal
+:::
+
+[View the article here.](https://doi.org/10.1080/24751979.2021.1970482){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -566,7 +747,12 @@ active shooter events to try and identify improvements that can be made
 by first responders. Three main points are identified and discussed on a
 more effective response to these events.
 
-[View the article here.](resources/articles/article_2021_shots_fired_we_have_many_people_down_common_recommendations_for_managing_high_casualty_active_shooter_events_in_the_usa.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+International Journal of Disaster Risk Reduction
+:::
+
+[View the article here.](https://doi.org/10.1016/j.ijdrr.2021.102548){.rr-article-pdf target="_blank"}
 :::
 
 # 2020
@@ -585,7 +771,12 @@ officer to stop a charging suspect. Further, having officers move while
 drawing and firing their weapon, as opposed to remaining stationary, may
 increase officer safety in these situations.
 
-[View the article here.](resources/articles/article_2021_a_scientific_examination_of_the_21_ft_rule.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Practice and Research
+:::
+
+[View the article here.](https://doi.org/10.1080/15614263.2020.1772785){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -605,7 +796,12 @@ fewer person shot and one fewer person killed. Lastly, events in which
 potential victims stopped the attacker had the fewest estimated number
 of people shot.
 
-[View the article here.](resources/articles/article_2020_correlates_of_the_number_shot_and_killed_in_active_shooter_events.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Homicide Studies
+:::
+
+[View the article here.](https://doi.org/10.1177/1088767920976727){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -621,7 +817,12 @@ prior to and following the 50-second training drill. Results suggest
 that a short duration active shooter training drill can increase both
 blood and salivary marker of stress.
 
-[View the article here.](resources/articles/article_2020_active_shooter_training_drill_increases_blood_and_salivary_markers_of_stress.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+International Journal of Environmental Research and Public Health
+:::
+
+[View the article here.](https://doi.org/10.3390/ijerph17145042){.rr-article-pdf target="_blank"}
 :::
 
 # 2019
@@ -639,7 +840,12 @@ active shooter training by the Federal Bureau of Investigation (FBI) in
 over 9,000 agencies. The current article describes how active shooter
 training has changed in the wake of the Columbine shooting.
 
-[View the article here.](resources/articles/article_2019_the_evolution_of_active_shooter_response_training_protocols_since_columbine_lessons_from_the_alerrt_center.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Journal of Contemporary Criminal Justice
+:::
+
+[View the article here.](https://doi.org/10.1177/1043986219840237){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -662,13 +868,21 @@ moderately more likely to be shot in the head with the training pistols.
 Findings also suggest that suspects in the push entry are more likely to
 shoot before the officer than suspects in the peek entry.
 
-[View the article here.](resources/articles/article_2019_peek_or_push_an_examination_of_two_types_of_room_clearing_tactics_for_active_shooter_event_response.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+SAGE Open
+:::
+
+[View the article here.](https://doi.org/10.1177/2158244019871052){.rr-article-pdf target="_blank"}
 :::
 
 # 2017
 
 ::: {.callout-note collapse="true"}
 ## Active-Shooter Events in the Workplace: Findings and Policy Implications
+
+<!-- journal TK -->
+
 
 The current article provides an in-depth examination of 105 active
 shooter events (ASEs) in the workplace that occurred from 2000-2015,
@@ -685,7 +899,7 @@ pose a threat to others (threat assessment), (2) training employees how
 to respond effectively to ASEs, and (3) making physical security changes
 to buildings (access control).
 
-[View the article here.](resources/articles/article_2017_active_shooter_events_in_the_workplace_findings_and_policy_implications.pdf){target="_blank"}
+[View the article here.](https://doi.org/10.69554/lcym6472){.rr-article-pdf target="_blank"}
 :::
 
 ::: {.callout-note collapse="true"}
@@ -705,7 +919,12 @@ about one third of participants fired at the chair before officers
 entered the room. If an officer must conduct a room entry, throwing a
 chair or other plainly visible object might save the officer’s life.
 
-[View the article here.](resources/articles/article_2017_throwing_a_chair_could_save_officers_lives_during_room_entries.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+International Journal of Police Science & Management
+:::
+
+[View the article here.](https://doi.org/10.1177/1461355717711452){.rr-article-pdf target="_blank"}
 :::
 
 # 2011
@@ -729,5 +948,10 @@ Therefore, officers should avoid situations like the one depicted in the
 scenario, where they are without cover and distance when facing an armed
 suspect.
 
-[View the article here.](resources/articles/article_2011_reasonableness_and_reaction_time.pdf){target="_blank"}
+
+::: {.rr-journal-label}
+Police Quarterly
+:::
+
+[View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target="_blank"}
 :::

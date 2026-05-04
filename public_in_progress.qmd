@@ -1,5 +1,6 @@
 ---
 title: "Research in Progress"
+css: [styles.css, inprogress_styles.css]
 ---
 
 ```{r}
@@ -20,8 +21,8 @@ make_progress_tracker <- function(current_level = "B") {
 
   current_idx <- match(current_level, levels)
   n <- length(levels)
-  fraction <- (current_idx - 1) / (n - 1)
-  fill_width <- sprintf("calc(%.6f * (100%% - 26px))", fraction)
+  fill_left  <- sprintf("%.4f%%", 100 / (2 * n))
+  fill_width <- sprintf("%.4f%%", (current_idx - 1) / n * 100)
 
   stage_divs <- purrr::imap_chr(levels, \(lvl, i) {
     if (i < current_idx) {
@@ -42,7 +43,7 @@ make_progress_tracker <- function(current_level = "B") {
   paste0(
     '<div class="rr-pipeline">',
       '<div class="rr-pipeline-stages">',
-        '<div class="rr-pipeline-fill" style="width:', fill_width, ';"></div>',
+        '<div class="rr-pipeline-fill" style="left:', fill_left, '; width:', fill_width, ';"></div>',
         paste(stage_divs, collapse = "\n"),
       '</div>',
     '</div>'
@@ -89,19 +90,19 @@ cat(make_progress_tracker(current_level = "E"))
 
 ------------------------------------------------------------------------
 
-### "Moving Targets: Classification Drift and the Changing Profile of Active Shooter Events in the United States" 
+### "Moving Targets: Classification Drift and the Changing Profile of Active Shooter Events in the United States"
 
 ------------------------------------------------------------------------
 
 #### Synopsis:
 
-This project will examine longitudinal trends in active shooter incident resolutions using FBI data spanning 2000–2024, with a particular focus on whether the proportion of incidents ending with the attacker fleeing the scene has increased over time. Findings from this project will have direct implications for law enforcement training and operational preparedness, particularly as a growing share of active shooter responses may involve scene stabilization and suspect search operations rather than direct engagement. 
+This project will examine longitudinal trends in active shooter incident resolutions using FBI data spanning 2000–2024, with a particular focus on whether the proportion of incidents ending with the attacker fleeing the scene has increased over time. Findings from this project will have direct implications for law enforcement training and operational preparedness, particularly as a growing share of active shooter responses may involve scene stabilization and suspect search operations rather than direct engagement.
 
 #### Status:
 
 ```{r results='asis'}
 #| echo: false
-cat(make_progress_tracker(current_level = "C"))
+cat(make_progress_tracker(current_level = "D"))
 ```
 
 ------------------------------------------------------------------------

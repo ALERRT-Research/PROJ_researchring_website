@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a7891316002ed4a3885e1b7075784813.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,14 +152,14 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Research in Progress</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_reports.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books, Book Chapters &amp; Reports</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_staff.html" class="sidebar-item-text sidebar-link">
@@ -178,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./public_work_with_us.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Work with us</span></a>
+ <span class="menu-text">Get in Touch</span></a>
   </div>
 </li>
     </ul>
@@ -194,8 +197,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#announcements" id="toc-announcements" class="nav-link active" data-scroll-target="#announcements">Announcements</a></li>
   <li><a href="#in-the-news" id="toc-in-the-news" class="nav-link" data-scroll-target="#in-the-news">In the News</a></li>
   <li><a href="#podcasts-interviews" id="toc-podcasts-interviews" class="nav-link" data-scroll-target="#podcasts-interviews">Podcasts &amp; Interviews</a></li>
-  <li><a href="#downloadable-assets" id="toc-downloadable-assets" class="nav-link" data-scroll-target="#downloadable-assets">Downloadable Assets</a></li>
-  <li><a href="#media-contact" id="toc-media-contact" class="nav-link" data-scroll-target="#media-contact">Media Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -225,9 +226,17 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="announcements" class="level2">
 <h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
-<p>
-<em>Entries coming soon.</em>
-</p>
+<div class="rr-media-citation rr-has-thumb">
+<p><strong>Police Executive Research Forum (PERF) Annual Meeting</strong> · April 16, 2026<br>
+A national-level assessment of LEO mortality<br>
+Peter presented major findings from the Research Ring’s law enforcement mortality study, published in <em>Lancet Regional Health — Americas</em>, at the PERF Annual Meeting in Los Angeles, CA. The talk was delivered alongside Research Ring collaborator Ian Adams (University of South Carolina).</p>
+<div class="rr-thumb-stack">
+<p><a href="resources/media/tanksley_perf_2026.jpg" class="lightbox" data-gallery="ann-20260416"><img src="resources/media/tanksley_perf_2026.jpg" class="rr-announcement-thumb img-fluid"></a></p>
+<div class="rr-thumb-hidden">
+<p><a href="resources/media/tanksley_perf_2026_b.jpg" class="lightbox" data-gallery="ann-20260416"><img src="resources/media/tanksley_perf_2026_b.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 <section id="in-the-news" class="level2">
@@ -256,16 +265,6 @@ Hunter Martaindale discusses ALERRT Center research examining whether virtual re
 <em>VR Training Elicits Similar Stress Response as Scenario-Based Training</em><br>
 Hunter Martaindale discusses research findings showing that virtual reality-based training produces stress responses comparable to traditional scenario-based training — with implications for how agencies can use VR to prepare officers for high-stakes situations. [<a href="https://www.youtube.com/watch?v=leollcSg-5E" target="_blank">Watch on YouTube</a>]</p>
 </div>
-<hr>
-</section>
-<section id="downloadable-assets" class="level2">
-<h2 class="anchored" data-anchor-id="downloadable-assets">Downloadable Assets</h2>
-<p><em>Entries coming soon.</em></p>
-<hr>
-</section>
-<section id="media-contact" class="level2">
-<h2 class="anchored" data-anchor-id="media-contact">Media Contact</h2>
-<p>For interview requests, data inquiries, or press materials, use the contact form on our <a href="./public_work_with_us.html">Work With Us</a> page.</p>
 
 
 </section>
@@ -702,6 +701,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

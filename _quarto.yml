@@ -58,11 +58,12 @@ website:
           contents:
             - public_output.qmd
             - public_in_progress.qmd
-        - public_reports.qmd
+            - public_reports.qmd
         - public_staff.qmd
         - public_grants.qmd
         - public_media.qmd
-        - public_work_with_us.qmd
+        - text: "Get in Touch"
+          href: public_work_with_us.qmd
 
 format:
   html:

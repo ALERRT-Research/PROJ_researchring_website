@@ -2,6 +2,7 @@
 title: "Media & News"
 execute:
   freeze: false
+lightbox: true
 ---
 
 This page collects Research Ring news, announcements, media appearances, and assets available for press use. For interview requests or other inquiries, use the contact form on the [Work With Us](public_work_with_us.qmd) page.
@@ -42,14 +43,3 @@ source("_render_media.R")
 render_section_html(read_media_entries(), "podcast")
 ```
 
----
-
-## Downloadable Assets
-
-*Entries coming soon.*
-
----
-
-## Media Contact
-
-For interview requests, data inquiries, or press materials, use the contact form on our [Work With Us](public_work_with_us.qmd) page.

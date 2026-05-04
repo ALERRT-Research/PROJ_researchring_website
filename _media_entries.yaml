@@ -39,6 +39,20 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-04-16"
+  type: announcement
+  source: Police Executive Research Forum (PERF) Annual Meeting
+  title: "A national-level assessment of LEO mortality"
+  landing_title: Peter presents LEO mortality findings at PERF annual meeting in Los Angeles
+  images:
+    - "resources/media/tanksley_perf_2026.jpg"
+    - "resources/media/tanksley_perf_2026_b.jpg"
+  description: >
+    Peter presented major findings from the Research Ring's law enforcement
+    mortality study, published in *Lancet Regional Health — Americas*, at the PERF
+    Annual Meeting in Los Angeles, CA. The talk was delivered alongside Research Ring
+    collaborator Ian Adams (University of South Carolina).
+
 - date: "2026-03-20"
   type: podcast
   source: Texas State University Media

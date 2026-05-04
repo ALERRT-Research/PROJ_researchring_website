@@ -507,8 +507,8 @@ nav[role="doc-toc"] a.active {
 .hex-photo-wrap {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background: var(--rr-maroon);
-  width: 178px;
-  height: 205px;
+  width: 222px;
+  height: 256px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -524,8 +524,8 @@ nav[role="doc-toc"] a.active {
 }
 
 .hex-photo {
-  width:  170px !important;
-  height: 197px !important;
+  width:  213px !important;
+  height: 246px !important;
   object-fit: cover;
   object-position: center top;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -536,19 +536,49 @@ nav[role="doc-toc"] a.active {
    WORK WITH US — partner cards + contact form
    ================================================================ */
 
+.rr-partner-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
 .rr-partner-card {
   background: #ffffff;
-  border-top: 4px solid var(--rr-maroon);
-  border-radius: 0 0 6px 6px;
-  padding: 1.5rem;
+  border-radius: 6px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 160px 1fr;
 }
 
 .rr-partner-card h3 {
+  background: var(--rr-cream-mid);
+  border-right: 3px solid var(--rr-maroon);
   color: var(--rr-maroon);
-  font-size: 1.05rem;
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.rr-partner-card p {
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  align-self: center;
+}
+
+@media (max-width: 640px) {
+  .rr-partner-card {
+    grid-template-columns: 1fr;
+  }
+  .rr-partner-card h3 {
+    border-right: none;
+    border-bottom: 3px solid var(--rr-maroon);
+  }
 }
 
 .rr-contact-form {
@@ -648,7 +678,7 @@ nav[role="doc-toc"] a.active {
 }
 
 .rr-media-item {
-  padding: 0.6rem 0;
+  padding: 0.15rem 0;
   border-bottom: 1px solid var(--rr-cream-dark);
 }
 
@@ -656,7 +686,7 @@ nav[role="doc-toc"] a.active {
   font-family: 'Outfit', sans-serif;
   font-size: 0.72rem;
   color: #999;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.05rem;
 }
 
 .rr-media-title {
@@ -725,6 +755,65 @@ figure:has(img.rr-book-cover) figcaption {
 
 .rr-media-citation a {
   font-weight: 600;
+}
+
+.rr-media-citation.rr-has-thumb {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.rr-media-citation.rr-has-thumb > p:first-child {
+  flex: 1;
+}
+
+.rr-media-citation.rr-has-thumb > p:last-child {
+  flex-shrink: 0;
+}
+
+img.rr-announcement-thumb {
+  width: 150px;
+  border-radius: 6px;
+  border: 2px solid var(--rr-cream-dark);
+  box-shadow: var(--rr-shadow-sm);
+  display: block;
+  cursor: zoom-in;
+  position: relative;
+  z-index: 1;
+}
+
+.rr-thumb-stack {
+  position: relative;
+  display: inline-block;
+  padding: 0 4px 4px 0;
+}
+
+.rr-thumb-stack::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background: var(--rr-cream-dark);
+  border: 1.5px solid rgba(0,0,0,0.12);
+  border-radius: 6px;
+  z-index: 0;
+}
+
+.rr-thumb-stack > p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+.rr-thumb-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
 }
 
 .rr-citation-note {
@@ -950,6 +1039,34 @@ figure:has(img.rr-book-cover) figcaption {
 }
 
 /* ================================================================
+   GRANT METADATA BANNER
+   ================================================================ */
+
+.rr-grant-meta {
+  background: var(--rr-cream-mid);
+  border: 1px solid var(--rr-cream-dark);
+  border-left: 3px solid var(--rr-maroon);
+  border-radius: 4px;
+  padding: 0.65rem 1rem 0.65rem 1.1rem;
+  margin: 0.4rem 0 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.9;
+}
+
+.rr-grant-meta p {
+  margin: 0;
+  color: var(--rr-text);
+}
+
+.rr-grant-meta strong {
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--rr-text-muted);
+}
+
+/* ================================================================
    RESEARCH PIPELINE TRACKER
    ================================================================ */
 
@@ -969,8 +1086,8 @@ figure:has(img.rr-book-cover) figcaption {
   content: '';
   position: absolute;
   top: 12px;
-  left: 13px;
-  right: 13px;
+  left: 10%;
+  right: 10%;
   height: 2px;
   background: #ddd;
   z-index: 0;
@@ -979,7 +1096,6 @@ figure:has(img.rr-book-cover) figcaption {
 .rr-pipeline-fill {
   position: absolute;
   top: 12px;
-  left: 13px;
   height: 2px;
   background: var(--rr-maroon);
   z-index: 1;

@@ -23,10 +23,13 @@ render_news_strip_html <- function(entries, n = 5) {
   items <- sapply(top, function(e) {
     display_title <- if (!is.null(e$landing_title)) e$landing_title else e$title
     date_fmt <- trimws(format(as.Date(e$date), "%B %e, %Y"))
-    sprintf(
-      '<div class="rr-media-item">\n  <div class="rr-media-meta">%s</div>\n  <a class="rr-media-title" href="%s" target="_blank">%s</a>\n</div>',
-      date_fmt, e$url, display_title
-    )
+    title_tag <- if (!is.null(e$url)) {
+      sprintf('<a class="rr-media-title" href="%s" target="_blank">%s</a>', e$url, display_title)
+    } else {
+      sprintf('<span class="rr-media-title">%s</span>', display_title)
+    }
+    sprintf('<div class="rr-media-item">\n  <div class="rr-media-meta">%s</div>\n  %s\n</div>',
+      date_fmt, title_tag)
   })
   cat(paste(c(
     '<section class="rr-media-strip">',
@@ -62,12 +65,40 @@ render_podcast_html <- function(e) {
 }
 
 render_announcement_html <- function(e) {
-  date_fmt <- format(as.Date(e$date), "%B %d, %Y")
-  desc_html <- if (!is.null(e$description)) sprintf("\n\n%s", e$description) else ""
-  sprintf(
-    '::: {.rr-media-citation}\n**%s** · %s\\\n[%s](%s){target="_blank"}\\%s\n:::\n\n',
-    e$source, date_fmt, e$title, e$url, desc_html
-  )
+  date_fmt  <- format(as.Date(e$date), "%B %d, %Y")
+  imgs      <- if (!is.null(e$images)) e$images else if (!is.null(e$image)) list(e$image) else list()
+  has_image <- length(imgs) > 0
+  multi     <- length(imgs) > 1
+
+  title_html <- if (!is.null(e$url)) {
+    sprintf('[%s](%s){target="_blank"}', e$title, e$url)
+  } else e$title
+
+  desc_part <- if (!is.null(e$description)) {
+    if (has_image) sprintf("\\\n%s", e$description) else sprintf("\n\n%s", e$description)
+  } else ""
+
+  if (!has_image) {
+    sprintf('::: {.rr-media-citation}\n**%s** · %s\\\n%s%s\n:::\n\n',
+      e$source, date_fmt, title_html, desc_part)
+  } else {
+    group_id <- paste0("ann-", gsub("[^a-z0-9]", "", tolower(e$date)))
+    main_img <- sprintf('![](%s){.lightbox .rr-announcement-thumb group="%s"}', imgs[[1]], group_id)
+
+    image_block <- if (multi) {
+      hidden_imgs <- paste(sapply(imgs[-1], function(img) {
+        sprintf('![](%s){.lightbox group="%s"}', img, group_id)
+      }), collapse = "\n\n")
+      paste0('::: {.rr-thumb-stack}\n', main_img,
+             '\n\n::: {.rr-thumb-hidden}\n', hidden_imgs, '\n:::\n:::')
+    } else {
+      main_img
+    }
+
+    # 4-colon outer fence so inner ::: fences don't close it prematurely
+    sprintf(':::: {.rr-media-citation .rr-has-thumb}\n**%s** · %s\\\n%s%s\n\n%s\n::::\n\n',
+      e$source, date_fmt, title_html, desc_part, image_block)
+  }
 }
 
 render_section_html <- function(entries, type) {

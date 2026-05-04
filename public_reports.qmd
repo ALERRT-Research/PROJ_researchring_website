@@ -29,7 +29,7 @@ This book presents a five-link framework for improving responses to active attac
 
 :::::: columns
 ::: {.column width="60%"}
-Blair, J. P., Nichols, T., Burns, D., & Curnutt, J. R. (2013). *Active Shooter Events and Response.* CRC Press LLC. [[Publisher page](https://www.routledge.com/Active-Shooter-Events-and-Response/Blair-Nichols-Burns-Curnutt/p/book/9781466512290){target="_blank"}]
+Blair, J. P., Nichols, T., Burns, D., & Curnutt, J. R. (2013). *Active Shooter Events and Response.* CRC Press LLC.
 
 This textbook provides a comprehensive examination of active shooter events in the United States from 2000 to 2010, covering the historical context of these incidents, their increasing complexity, and how law enforcement response has evolved. Topics include event preparation, stopping the killing, room entry and threat confrontation, and civilian response — drawing on ALERRT's extensive training and research experience.
 :::
@@ -48,7 +48,7 @@ This textbook provides a comprehensive examination of active shooter events in t
 
 :::::: columns
 ::: {.column width="60%"}
-Blair, J. P., & Martaindale, M. H. (2013). *Evaluating police tactics: an empirical assessment of room entry techniques.* Elsevier. [[Publisher page](https://www.routledge.com/Evaluating-Police-Tactics-An-Empirical-Assessment-of-Room-Entry-Techniques/Blair-Martaindale/p/book/9780323280662){target="_blank"}]
+Blair, J. P., & Martaindale, M. H. (2013). *Evaluating police tactics: an empirical assessment of room entry techniques.* Elsevier.
 
 Based on five experiments conducted over two years, this work challenges conventional wisdom about police room entry tactics by systematically assessing current philosophies and techniques. It offers evidence-based recommendations for how patrol officers can safely and effectively enter scenes of ongoing violence, locate a shooter, and stop the threat.
 :::
