@@ -4,6 +4,38 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-05 (session 4)
+
+**Status:** Custom domain setup deferred — domains not yet purchased.
+
+**Work done:** Reverted CNAME file and `_quarto.yml` resource entry added in session 3. Nothing committed.
+
+**Open items:**
+- Purchase domains at **Namecheap** (namecheap.com): `alerrtresearch.org` (primary), `alerrtresearch.com`, `alerrt-research.org`, `alerrt-research.com`
+- Once purchased, follow this order:
+  1. Configure DNS at registrar — 4 A records for primary (`185.199.108.153`–`.111.153`), plus `www` CNAME to `alerrt-research.github.io`; set URL forwarding on the 3 secondary domains → `https://alerrtresearch.org`
+  2. Add `CNAME` file to project root (content: `alerrtresearch.org`), add `"CNAME"` to `resources:` in `_quarto.yml`, render, commit, push
+  3. GitHub repo → Settings → Pages → Custom domain → `alerrtresearch.org` → Save
+  4. Enable Enforce HTTPS once DNS check passes
+
+---
+
+## 2026-05-05 (session 3)
+
+**Status:** Resource cleanup. Pushed to remote. Render clean (20 pages).
+
+**Work done:**
+
+- Audited `resources/` against all source files for unused or broken references
+- Deleted 10 unused files: 4 headshot PNGs, 2 unused hex tile logos, 2 redundant book cover variants, 2 `.DS_Store` files
+- Removed dead `background-image: url('resources/research_ring_hex/hex_8.png')` rule from `.sidebar-title` in `styles.css` — file never existed and class never renders in Quarto output
+- Confirmed `resources/grants/sia_2026_report.pdf/.png` references in `public_grants.qmd` are intentionally commented out — files needed when the SIA door lock report ships (est. May 2026)
+
+**Open items:**
+- `resources/articles/` — 42 PDFs not linked from any page; decide whether to link from `public_output.qmd`, relocate, or delete
+
+---
+
 ## 2026-05-05 (session 2)
 
 **Status:** Landing page and people page updates. Pushed to remote. Render clean (20 pages).
