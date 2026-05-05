@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Working with a team – Research Ring</title>
+<title>Custom Domain Setup for GitHub Pages – Research Ring</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_working_with_a_team.html">Working with a team</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_custom_domain.html">Custom Domain Setup for GitHub Pages</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -136,13 +171,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Conducting Research</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./research_process_getting_started.html" class="sidebar-item-text sidebar-link">
@@ -157,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./research_process_working_with_a_team.html" class="sidebar-item-text sidebar-link active">
+  <a href="./research_process_working_with_a_team.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working with a team</span></a>
   </div>
 </li>
@@ -177,13 +212,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Working with R</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link">
@@ -192,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r_quarto_custom_domain.html" class="sidebar-item-text sidebar-link">
+  <a href="./r_quarto_custom_domain.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Custom Domain Setup for GitHub Pages</span></a>
   </div>
 </li>
@@ -268,20 +303,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#authorship" id="toc-authorship" class="nav-link active" data-scroll-target="#authorship">Authorship</a></li>
-  <li><a href="#roles" id="toc-roles" class="nav-link" data-scroll-target="#roles">Roles</a></li>
-  <li><a href="#collaborative-writing" id="toc-collaborative-writing" class="nav-link" data-scroll-target="#collaborative-writing">Collaborative writing</a></li>
-  <li><a href="#internal-peer-review" id="toc-internal-peer-review" class="nav-link" data-scroll-target="#internal-peer-review">Internal peer review</a></li>
-  <li><a href="#sharing-results" id="toc-sharing-results" class="nav-link" data-scroll-target="#sharing-results">Sharing results</a></li>
+  <li><a href="#purchase-your-domains" id="toc-purchase-your-domains" class="nav-link active" data-scroll-target="#purchase-your-domains">1. Purchase Your Domains</a></li>
+  <li><a href="#configure-dns-on-your-primary-domain" id="toc-configure-dns-on-your-primary-domain" class="nav-link" data-scroll-target="#configure-dns-on-your-primary-domain">2. Configure DNS on Your Primary Domain</a>
+  <ul class="collapse">
+  <li><a href="#a-records-required-four-of-them" id="toc-a-records-required-four-of-them" class="nav-link" data-scroll-target="#a-records-required-four-of-them">A Records (required — four of them)</a></li>
+  <li><a href="#cname-record-required-www-subdomain" id="toc-cname-record-required-www-subdomain" class="nav-link" data-scroll-target="#cname-record-required-www-subdomain">CNAME Record (required — www subdomain)</a></li>
+  </ul></li>
+  <li><a href="#configure-url-forwarding-on-secondary-domains" id="toc-configure-url-forwarding-on-secondary-domains" class="nav-link" data-scroll-target="#configure-url-forwarding-on-secondary-domains">3. Configure URL Forwarding on Secondary Domains</a></li>
+  <li><a href="#add-a-cname-file-to-your-project" id="toc-add-a-cname-file-to-your-project" class="nav-link" data-scroll-target="#add-a-cname-file-to-your-project">4. Add a CNAME File to Your Project</a></li>
+  <li><a href="#register-the-cname-file-in-_quarto.yml" id="toc-register-the-cname-file-in-_quarto.yml" class="nav-link" data-scroll-target="#register-the-cname-file-in-_quarto.yml">5. Register the CNAME File in <code>_quarto.yml</code></a></li>
+  <li><a href="#render-commit-and-push" id="toc-render-commit-and-push" class="nav-link" data-scroll-target="#render-commit-and-push">6. Render, Commit, and Push</a></li>
+  <li><a href="#configure-github-pages" id="toc-configure-github-pages" class="nav-link" data-scroll-target="#configure-github-pages">7. Configure GitHub Pages</a></li>
+  <li><a href="#verify" id="toc-verify" class="nav-link" data-scroll-target="#verify">8. Verify</a></li>
+  <li><a href="#tips-troubleshooting" id="toc-tips-troubleshooting" class="nav-link" data-scroll-target="#tips-troubleshooting">Tips &amp; Troubleshooting</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research_process_getting_started.html">Conducting Research</a></li><li class="breadcrumb-item"><a href="./research_process_working_with_a_team.html">Working with a team</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_custom_domain.html">Custom Domain Setup for GitHub Pages</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Working with a team</h1>
+<h1 class="title">Custom Domain Setup for GitHub Pages</h1>
 </div>
 
 
@@ -298,31 +341,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="authorship" class="level3">
-<h3 class="anchored" data-anchor-id="authorship">Authorship</h3>
-<p>Discuss author order and come up with said order from the beginning. It should be listed on the analysis plan so all contributors are aware of it. This includes ALERRT researchers and external collaborators. Authorship in RR projects requires substantive contribution. Every named author must have written portions of the document, conducted analyses, or developed plots, etc. Providing feedback does not constitute authorship, but those individuals should be listed in the acknowledgements.</p>
+<p>This guide covers connecting a custom domain to a Quarto website already published via GitHub Pages. By the end, your site will be reachable at your own domain (e.g., <code>https://alerrtresearch.org</code>) with HTTPS enforced.</p>
+<p><strong>Prerequisite:</strong> A working Quarto site published to GitHub Pages. If you haven’t done that yet, see <em>How to Publish a Quarto Website with GitHub Pages and Actions</em> first.</p>
+<hr>
+<section id="purchase-your-domains" class="level2">
+<h2 class="anchored" data-anchor-id="purchase-your-domains">1. Purchase Your Domains</h2>
+<p>We use <a href="https://www.namecheap.com">Namecheap</a>. The recommended approach is to buy one <strong>primary domain</strong> and a few <strong>secondary domains</strong> that redirect to it — this covers common spelling variations and prevents someone else from squatting on them.</p>
+<p>Example setup for this site:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Domain</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>alerrtresearch.org</code></td>
+<td>Primary — this is where the site actually lives</td>
+</tr>
+<tr class="even">
+<td><code>alerrtresearch.com</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+<tr class="odd">
+<td><code>alerrt-research.org</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+<tr class="even">
+<td><code>alerrt-research.com</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+</tbody>
+</table>
+<p>You only need to configure DNS in detail for the primary domain. The secondary domains just need URL forwarding enabled.</p>
+<hr>
 </section>
-<section id="roles" class="level3">
-<h3 class="anchored" data-anchor-id="roles">Roles</h3>
-<p>Roles should be loosely laid out at the beginning of the project as well so each contributor knows what their time commitment will be. Generally, but not always, the lead author will serve as the project manager and ensure tasks are given an appropriate amount of time to complete. This role is vitally important so projects stay on task and avoid manuscript purgatory.</p>
+<section id="configure-dns-on-your-primary-domain" class="level2">
+<h2 class="anchored" data-anchor-id="configure-dns-on-your-primary-domain">2. Configure DNS on Your Primary Domain</h2>
+<p>In Namecheap, go to <strong>Dashboard → Manage</strong> (next to your primary domain) → <strong>Advanced DNS</strong>.</p>
+<section id="a-records-required-four-of-them" class="level3">
+<h3 class="anchored" data-anchor-id="a-records-required-four-of-them">A Records (required — four of them)</h3>
+<p>Add four <strong>A Records</strong>, all pointing the <code>@</code> host to GitHub Pages’ IP addresses:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Host</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.108.153</td>
+</tr>
+<tr class="even">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.109.153</td>
+</tr>
+<tr class="odd">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.110.153</td>
+</tr>
+<tr class="even">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.111.153</td>
+</tr>
+</tbody>
+</table>
+<p>These are GitHub Pages’ current IP addresses. They rarely change, but you can verify them in the <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">GitHub Pages documentation</a>.</p>
 </section>
-<section id="collaborative-writing" class="level3">
-<h3 class="anchored" data-anchor-id="collaborative-writing">Collaborative writing</h3>
-<p>More times than not writing a manuscript is a team sport. The RR should draft the manuscript using Quarto whenever possible. There are three different options for drafting the manuscript in Quarto.</p>
+<section id="cname-record-required-www-subdomain" class="level3">
+<h3 class="anchored" data-anchor-id="cname-record-required-www-subdomain">CNAME Record (required — www subdomain)</h3>
+<p>Add one <strong>CNAME Record</strong>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Host</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CNAME Record</td>
+<td>www</td>
+<td><code>yourorg.github.io</code></td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code>yourorg</code> with your GitHub organization or username (e.g., <code>alerrt-research.github.io</code>). This makes <code>www.yourdomain.org</code> resolve correctly.</p>
+<p><strong>Note:</strong> Namecheap may already have a CNAME for <code>www</code> pointing somewhere else — delete it and replace with yours.</p>
+<hr>
+</section>
+</section>
+<section id="configure-url-forwarding-on-secondary-domains" class="level2">
+<h2 class="anchored" data-anchor-id="configure-url-forwarding-on-secondary-domains">3. Configure URL Forwarding on Secondary Domains</h2>
+<p>For each secondary domain, go to <strong>Dashboard → Manage → Redirect Domain</strong> (or find <strong>URL Redirect</strong> under Advanced DNS).</p>
+<p>Set up a <strong>301 Permanent Redirect</strong> from each secondary domain to your primary:</p>
 <ul>
-<li>Trackdown (experimental)</li>
-<li>Version Control</li>
-<li>Lead author transfer from Word</li>
+<li>From: <code>alerrtresearch.com</code> → To: <code>https://alerrtresearch.org</code></li>
+<li>From: <code>alerrt-research.org</code> → To: <code>https://alerrtresearch.org</code></li>
+<li>From: <code>alerrt-research.com</code> → To: <code>https://alerrtresearch.org</code></li>
 </ul>
-<p>The method chosen will depend on the makeup of the team. The RR is experimenting with using the <a href="https://github.com/ClaudioZandonella/trackdown" target="_blank"><em>Trackdown</em></a> R package so external collaborators can make edits to a Google Doc version of the manuscript. If this is not available, the lead author will transfer text from a Word version of the manuscript.</p>
+<p>Use <code>https://</code> (not <code>http://</code>) in the destination so visitors land on the secure version.</p>
+<hr>
 </section>
-<section id="internal-peer-review" class="level3">
-<h3 class="anchored" data-anchor-id="internal-peer-review">Internal peer review</h3>
-<p>Once the manuscript has been completed, the lead author should utilize an AI tool to conduct a “peer review” of the manuscript. The prompt should explicitly ask the AI tool to provide a critical review. There will be review items that do not apply, that is okay. The point is for the AI tool to point out logical gaps, structural issues, unclear results/discussion points, and so on to improve the manuscript prior to submission. The lead author will post the peer review in the “admin” subdirectory and let the appropriate team member know which comments to address.</p>
+<section id="add-a-cname-file-to-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="add-a-cname-file-to-your-project">4. Add a CNAME File to Your Project</h2>
+<p>In your Quarto project root, create a file named exactly <code>CNAME</code> (no extension) containing only your primary domain:</p>
+<pre><code>alerrtresearch.org</code></pre>
+<p>No trailing slash, no <code>https://</code>, just the bare domain.</p>
+<hr>
 </section>
-<section id="sharing-results" class="level3">
-<h3 class="anchored" data-anchor-id="sharing-results">Sharing results</h3>
-<p>The lead author should work with analysts to summarize and present results from a project to the wider RR team prior to the formal write-up. This gives the team the opportunity to understand how the analysis is proceeding and help shape how results are communicated in the manuscript by providing feedback.</p>
+<section id="register-the-cname-file-in-_quarto.yml" class="level2">
+<h2 class="anchored" data-anchor-id="register-the-cname-file-in-_quarto.yml">5. Register the CNAME File in <code>_quarto.yml</code></h2>
+<p>Quarto needs to know to copy the CNAME file into the rendered <code>_site/</code> output, otherwise it gets ignored during deployment.</p>
+<p>Open <code>_quarto.yml</code> and add <code>"CNAME"</code> to the <code>resources:</code> list:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">resources</span><span class="kw">:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"resources/"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"CNAME"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If <code>resources:</code> doesn’t exist yet under <code>project:</code>, add it.</p>
+<hr>
+</section>
+<section id="render-commit-and-push" class="level2">
+<h2 class="anchored" data-anchor-id="render-commit-and-push">6. Render, Commit, and Push</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add CNAME _quarto.yml _site/CNAME</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add custom domain configuration"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Confirm <code>_site/CNAME</code> appears in your rendered output before pushing — that’s the file GitHub Pages actually reads.</p>
+<hr>
+</section>
+<section id="configure-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="configure-github-pages">7. Configure GitHub Pages</h2>
+<ol type="1">
+<li>Go to your GitHub repository → <strong>Settings</strong> → <strong>Pages</strong>.</li>
+<li>Under <strong>Custom domain</strong>, type your primary domain (e.g., <code>alerrtresearch.org</code>) and click <strong>Save</strong>.</li>
+<li>GitHub will run a DNS check. This may take a few minutes. Wait for a green confirmation message.</li>
+<li>Once the DNS check passes, the <strong>Enforce HTTPS</strong> checkbox will appear — but it may still be grayed out. Do not panic. GitHub needs to provision a TLS certificate via Let’s Encrypt, which can take an additional 15–30 minutes even after the DNS check clears. The checkbox will become clickable on its own. If it’s still locked after an hour, then start troubleshooting.</li>
+<li>Enable <strong>Enforce HTTPS</strong>.</li>
+</ol>
+<hr>
+</section>
+<section id="verify" class="level2">
+<h2 class="anchored" data-anchor-id="verify">8. Verify</h2>
+<ul>
+<li>Navigate to <code>https://alerrtresearch.org</code> — site should load with a padlock (secure).</li>
+<li>Navigate to a secondary domain (e.g., <code>https://alerrtresearch.com</code>) — should redirect to the primary.</li>
+<li>Navigate to <code>https://www.alerrtresearch.org</code> — should also resolve correctly.</li>
+</ul>
+<hr>
+</section>
+<section id="tips-troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="tips-troubleshooting">Tips &amp; Troubleshooting</h2>
+<p><strong>DNS propagation takes time.</strong> Changes can take anywhere from a few minutes to 48 hours to fully propagate. If the GitHub DNS check is pending, wait and try again later.</p>
+<p><strong>“Enforce HTTPS” is grayed out.</strong> This means the DNS check hasn’t passed yet. Do not force it — just wait.</p>
+<p><strong>Secondary domain redirects aren’t working.</strong> Namecheap’s URL redirect feature can be slow to propagate. Give it a few hours before troubleshooting.</p>
+<p><strong>The CNAME file keeps disappearing.</strong> You forgot step 5 — Quarto overwrites <code>_site/</code> on every render. The CNAME must be listed under <code>resources:</code> in <code>_quarto.yml</code> or it won’t survive re-renders.</p>
+<p><strong>GitHub Pages reverts to the <code>.github.io</code> URL.</strong> This happens if the CNAME file is missing from the deployed branch. Confirm <code>_site/CNAME</code> exists and was committed before pushing.</p>
+<hr>
+<p><em>Guide based on setup completed for the ALERRT Research Ring website, May 2026.</em></p>
 
 
 </section>
