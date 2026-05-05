@@ -662,9 +662,7 @@ nav[role="doc-toc"] a.active {
    ================================================================ */
 
 .rr-media-strip {
-  border-top: 2px solid var(--rr-maroon);
-  margin-top: 2.5rem;
-  padding-top: 1.25rem;
+  padding-top: 0.25rem;
 }
 
 .rr-media-strip-label {
@@ -1332,4 +1330,31 @@ body.rr-body-gated { overflow: hidden; }
 
 .rr-gate-shake {
   animation: rr-gate-shake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* ================================================================
+   TOC-ONLY ANCHOR (visually hidden, TOC-visible heading)
+   ================================================================ */
+
+.rr-hex-placeholder {
+  color: rgba(248, 244, 238, 0.5);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h2.rr-toc-anchor {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }

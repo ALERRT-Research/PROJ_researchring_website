@@ -24,6 +24,8 @@ The Research Ring is the research division of the [ALERRT Center](https://alerrt
 </div>
 :::
 
+## Welcome {.rr-toc-anchor}
+
 :::::: columns
 ::: {.column width="60%"}
 The Research Ring supports the mission of the ALERRT Center to "...**provide the best *research-based* active shooter response training in the nation"** by producing research and other resources.
@@ -39,7 +41,7 @@ Within the ALERRT Center, our mandate is to improve the lives and operational ca
 ::::::
 
 
-### Active Attacks
+## Active Attacks
 
 :::::: columns
 ::: {.column width="60%"}
@@ -54,6 +56,8 @@ At its core, the ALERRT Center is focused on preparing law enforcement and other
 [![Click to visit website](resources/aade_screenshot.png)](https://activeattackdata.org/){target="_blank"}
 :::
 ::::::
+
+## News & Updates
 
 ```{r}
 #| echo: false

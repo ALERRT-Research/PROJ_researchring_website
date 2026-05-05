@@ -23,7 +23,7 @@ Fun facts about Hunter:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-![](resources/martaindale_headshot.png){.hex-photo}
+<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
 :::
 :::
 ::::::
@@ -48,7 +48,7 @@ Fun facts about Peter:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-![](resources/tanksley_headshot.png){.hex-photo}
+<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
 :::
 :::
 ::::::
@@ -73,7 +73,7 @@ Fun facts about Jack:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-![](resources/johncox_headshot.png){.hex-photo}
+<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
 :::
 :::
 ::::::
@@ -100,7 +100,7 @@ Fun facts about Joe:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-![](resources/eleuterio_headshot.png){.hex-photo}
+<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
 :::
 :::
 ::::::

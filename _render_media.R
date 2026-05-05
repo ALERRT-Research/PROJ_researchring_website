@@ -34,7 +34,6 @@ render_news_strip_html <- function(entries, n = 5) {
   })
   cat(paste(c(
     '<section class="rr-media-strip">',
-    '  <div class="rr-media-strip-label">News &amp; Updates</div>',
     items,
     '  <a class="rr-media-see-all" href="public_media.html">View all media &rarr;</a>',
     '</section>'
