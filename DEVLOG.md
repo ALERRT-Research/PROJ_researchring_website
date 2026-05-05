@@ -4,7 +4,27 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
-## 2026-05-05
+## 2026-05-05 (session 2)
+
+**Status:** Landing page and people page updates. Pushed to remote. Render clean (20 pages).
+
+**Work done:**
+
+- Landing page (`index.qmd`): Added three right-sidebar TOC entries — Welcome (hidden heading, anchor only), Active Attacks, News & Updates
+- Dropped the duplicate "News & Updates" label that was being rendered by `render_news_strip_html()` in `_render_media.R`
+- Removed redundant dark border and excess top margin from `.rr-media-strip` now that the H2 header handles visual separation
+- Fixed missing Oxford comma in `public_reports.qmd` page title: "Books, Book Chapters & Reports" → "Books, Book Chapters, and Reports"
+- People page (`public_staff.qmd`): Replaced placeholder headshot images with maroon hex + "Photo / Coming Soon" text via `.rr-hex-placeholder` CSS class
+- Added `CLAUDE.md` to project root with Oxford comma style rule (enforced going forward)
+- Set `project: render: ["*.qmd"]` in `_quarto.yml` to exclude `DEVLOG.md` and other `.md` files from site output
+
+**Decisions:**
+- Oxford comma is now a written rule in `CLAUDE.md` — applies to all site copy and headers
+- Placeholder headshots stay as text until real photos are provided; swap by replacing the `<div class="rr-hex-placeholder">` with a `![](path){.hex-photo}` inside `.hex-photo-wrap`
+
+---
+
+## 2026-05-05 (session 1)
 
 **Status:** Auth gate added to Ring Resources section. Render clean (21 pages).
 

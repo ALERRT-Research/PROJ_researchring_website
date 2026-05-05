@@ -218,11 +218,6 @@ pre code {
   color: rgba(248, 244, 238, 0.38) !important;
   padding: 1.5rem 1rem 0.6rem !important;
   border-bottom: none !important;
-  background-image: url('resources/research_ring_hex/hex_8.png');
-  background-repeat: no-repeat;
-  background-position: right 0.75rem center;
-  background-size: 26px auto;
-  background-blend-mode: screen;
   opacity: 0.85;
 }
 
