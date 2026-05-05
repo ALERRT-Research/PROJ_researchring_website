@@ -1,0 +1,148 @@
+---
+title: "Custom Domain Setup for GitHub Pages"
+---
+
+This guide covers connecting a custom domain to a Quarto website already published via GitHub Pages. By the end, your site will be reachable at your own domain (e.g., `https://alerrtresearch.org`) with HTTPS enforced.
+
+**Prerequisite:** A working Quarto site published to GitHub Pages. If you haven't done that yet, see *How to Publish a Quarto Website with GitHub Pages and Actions* first.
+
+---
+
+## 1. Purchase Your Domains
+
+We use [Namecheap](https://www.namecheap.com). The recommended approach is to buy one **primary domain** and a few **secondary domains** that redirect to it — this covers common spelling variations and prevents someone else from squatting on them.
+
+Example setup for this site:
+
+| Domain | Role |
+|---|---|
+| `alerrtresearch.org` | Primary — this is where the site actually lives |
+| `alerrtresearch.com` | Secondary — redirects to primary |
+| `alerrt-research.org` | Secondary — redirects to primary |
+| `alerrt-research.com` | Secondary — redirects to primary |
+
+You only need to configure DNS in detail for the primary domain. The secondary domains just need URL forwarding enabled.
+
+---
+
+## 2. Configure DNS on Your Primary Domain
+
+In Namecheap, go to **Dashboard → Manage** (next to your primary domain) → **Advanced DNS**.
+
+### A Records (required — four of them)
+
+Add four **A Records**, all pointing the `@` host to GitHub Pages' IP addresses:
+
+| Type | Host | Value |
+|---|---|---|
+| A Record | @ | 185.199.108.153 |
+| A Record | @ | 185.199.109.153 |
+| A Record | @ | 185.199.110.153 |
+| A Record | @ | 185.199.111.153 |
+
+These are GitHub Pages' current IP addresses. They rarely change, but you can verify them in the [GitHub Pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+### CNAME Record (required — www subdomain)
+
+Add one **CNAME Record**:
+
+| Type | Host | Value |
+|---|---|---|
+| CNAME Record | www | `yourorg.github.io` |
+
+Replace `yourorg` with your GitHub organization or username (e.g., `alerrt-research.github.io`). This makes `www.yourdomain.org` resolve correctly.
+
+**Note:** Namecheap may already have a CNAME for `www` pointing somewhere else — delete it and replace with yours.
+
+---
+
+## 3. Configure URL Forwarding on Secondary Domains
+
+For each secondary domain, go to **Dashboard → Manage → Redirect Domain** (or find **URL Redirect** under Advanced DNS).
+
+Set up a **301 Permanent Redirect** from each secondary domain to your primary:
+
+- From: `alerrtresearch.com` → To: `https://alerrtresearch.org`
+- From: `alerrt-research.org` → To: `https://alerrtresearch.org`
+- From: `alerrt-research.com` → To: `https://alerrtresearch.org`
+
+Use `https://` (not `http://`) in the destination so visitors land on the secure version.
+
+---
+
+## 4. Add a CNAME File to Your Project
+
+In your Quarto project root, create a file named exactly `CNAME` (no extension) containing only your primary domain:
+
+```
+alerrtresearch.org
+```
+
+No trailing slash, no `https://`, just the bare domain.
+
+---
+
+## 5. Register the CNAME File in `_quarto.yml`
+
+Quarto needs to know to copy the CNAME file into the rendered `_site/` output, otherwise it gets ignored during deployment.
+
+Open `_quarto.yml` and add `"CNAME"` to the `resources:` list:
+
+```yaml
+project:
+  type: website
+  resources:
+    - "resources/"
+    - "CNAME"
+```
+
+If `resources:` doesn't exist yet under `project:`, add it.
+
+---
+
+## 6. Render, Commit, and Push
+
+```bash
+quarto render
+git add CNAME _quarto.yml _site/CNAME
+git commit -m "Add custom domain configuration"
+git push
+```
+
+Confirm `_site/CNAME` appears in your rendered output before pushing — that's the file GitHub Pages actually reads.
+
+---
+
+## 7. Configure GitHub Pages
+
+1. Go to your GitHub repository → **Settings** → **Pages**.
+2. Under **Custom domain**, type your primary domain (e.g., `alerrtresearch.org`) and click **Save**.
+3. GitHub will run a DNS check. This may take a few minutes. Wait for a green confirmation message.
+4. Once the DNS check passes, the **Enforce HTTPS** checkbox will appear — but it may still be grayed out. Do not panic. GitHub needs to provision a TLS certificate via Let's Encrypt, which can take an additional 15–30 minutes even after the DNS check clears. The checkbox will become clickable on its own. If it's still locked after an hour, then start troubleshooting.
+5. Enable **Enforce HTTPS**.
+
+---
+
+## 8. Verify
+
+- Navigate to `https://alerrtresearch.org` — site should load with a padlock (secure).
+- Navigate to a secondary domain (e.g., `https://alerrtresearch.com`) — should redirect to the primary.
+- Navigate to `https://www.alerrtresearch.org` — should also resolve correctly.
+
+---
+
+## Tips & Troubleshooting
+
+**DNS propagation takes time.** Changes can take anywhere from a few minutes to 48 hours to fully propagate. If the GitHub DNS check is pending, wait and try again later.
+
+**"Enforce HTTPS" is grayed out.** This means the DNS check hasn't passed yet. Do not force it — just wait.
+
+**Secondary domain redirects aren't working.** Namecheap's URL redirect feature can be slow to propagate. Give it a few hours before troubleshooting.
+
+**The CNAME file keeps disappearing.** You forgot step 5 — Quarto overwrites `_site/` on every render. The CNAME must be listed under `resources:` in `_quarto.yml` or it won't survive re-renders.
+
+**GitHub Pages reverts to the `.github.io` URL.** This happens if the CNAME file is missing from the deployed branch. Confirm `_site/CNAME` exists and was committed before pushing.
+
+***
+
+*Guide based on setup completed for the ALERRT Research Ring website, May 2026.*

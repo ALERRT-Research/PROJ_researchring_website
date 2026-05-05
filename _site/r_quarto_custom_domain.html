@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Books, Book Chapters, and Reports – Research Ring</title>
+<title>Custom Domain Setup for GitHub Pages – Research Ring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -96,11 +130,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research_process_home.html"> 
+    <a class="nav-link active" href="./research_process_home.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -114,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./public_output.html">Research</a></li><li class="breadcrumb-item"><a href="./public_reports.html">Books, Book Chapters, and Reports</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_custom_domain.html">Custom Domain Setup for GitHub Pages</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -128,61 +162,132 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research at the Heart of ALERRT</span></a>
+  <a href="./research_process_home.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ring Resources</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Research</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Conducting Research</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Output</span></a>
+  <a href="./research_process_getting_started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting started</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_in_progress.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research in Progress</span></a>
+  <a href="./research_process_executing_a_proj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Executing a project</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_reports.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Books, Book Chapters, and Reports</span></a>
+  <a href="./research_process_working_with_a_team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Working with a team</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_process_publishing_in_a_journal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing in a journal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_process_wrapping_up.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wrapping up a project</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Working with R</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./r_quarto_website_github_pages.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to Publish a Quarto Website with GitHub Pages and Actions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./r_quarto_custom_domain.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Custom Domain Setup for GitHub Pages</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Datasets</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Templates</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Texas State</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./txst_travel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Travel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./txst_links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Helpful Links</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Training Materials</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./training_opxr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Operator XR Virtual Reality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./training_tobii.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tobii Vision Tracking Glasses</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./public_staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_grants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Grants</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_media.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Media &amp; News</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./public_work_with_us.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get in Touch</span></a>
+  <a href="./lexical_stowaways.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lexical Stowaways</span></a>
   </div>
 </li>
     </ul>
@@ -195,29 +300,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#books" id="toc-books" class="nav-link active" data-scroll-target="#books">Books</a>
+  <li><a href="#purchase-your-domains" id="toc-purchase-your-domains" class="nav-link active" data-scroll-target="#purchase-your-domains">1. Purchase Your Domains</a></li>
+  <li><a href="#configure-dns-on-your-primary-domain" id="toc-configure-dns-on-your-primary-domain" class="nav-link" data-scroll-target="#configure-dns-on-your-primary-domain">2. Configure DNS on Your Primary Domain</a>
   <ul class="collapse">
-  <li><a href="#the-chain-of-survival-responding-to-an-active-attack" id="toc-the-chain-of-survival-responding-to-an-active-attack" class="nav-link" data-scroll-target="#the-chain-of-survival-responding-to-an-active-attack">The Chain of Survival: Responding to an Active Attack</a></li>
-  <li><a href="#active-shooter-events-and-response" id="toc-active-shooter-events-and-response" class="nav-link" data-scroll-target="#active-shooter-events-and-response">Active Shooter Events and Response</a></li>
-  <li><a href="#evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques" id="toc-evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques" class="nav-link" data-scroll-target="#evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques">Evaluating Police Tactics: An Empirical Assessment of Room Entry Techniques</a></li>
+  <li><a href="#a-records-required-four-of-them" id="toc-a-records-required-four-of-them" class="nav-link" data-scroll-target="#a-records-required-four-of-them">A Records (required — four of them)</a></li>
+  <li><a href="#cname-record-required-www-subdomain" id="toc-cname-record-required-www-subdomain" class="nav-link" data-scroll-target="#cname-record-required-www-subdomain">CNAME Record (required — www subdomain)</a></li>
   </ul></li>
-  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book Chapters</a>
-  <ul class="collapse">
-  <li><a href="#active-shooterhostile-event-overview-data" id="toc-active-shooterhostile-event-overview-data" class="nav-link" data-scroll-target="#active-shooterhostile-event-overview-data">Active Shooter/Hostile Event Overview (Data)</a></li>
-  </ul></li>
-  <li><a href="#reports" id="toc-reports" class="nav-link" data-scroll-target="#reports">Reports</a>
-  <ul class="collapse">
-  <li><a href="#robb-elementary-school-uvalde-texas-after-action-report-2022" id="toc-robb-elementary-school-uvalde-texas-after-action-report-2022" class="nav-link" data-scroll-target="#robb-elementary-school-uvalde-texas-after-action-report-2022">Robb Elementary School, Uvalde, Texas — After Action Report (2022)</a></li>
-  </ul></li>
+  <li><a href="#configure-url-forwarding-on-secondary-domains" id="toc-configure-url-forwarding-on-secondary-domains" class="nav-link" data-scroll-target="#configure-url-forwarding-on-secondary-domains">3. Configure URL Forwarding on Secondary Domains</a></li>
+  <li><a href="#add-a-cname-file-to-your-project" id="toc-add-a-cname-file-to-your-project" class="nav-link" data-scroll-target="#add-a-cname-file-to-your-project">4. Add a CNAME File to Your Project</a></li>
+  <li><a href="#register-the-cname-file-in-_quarto.yml" id="toc-register-the-cname-file-in-_quarto.yml" class="nav-link" data-scroll-target="#register-the-cname-file-in-_quarto.yml">5. Register the CNAME File in <code>_quarto.yml</code></a></li>
+  <li><a href="#render-commit-and-push" id="toc-render-commit-and-push" class="nav-link" data-scroll-target="#render-commit-and-push">6. Render, Commit, and Push</a></li>
+  <li><a href="#configure-github-pages" id="toc-configure-github-pages" class="nav-link" data-scroll-target="#configure-github-pages">7. Configure GitHub Pages</a></li>
+  <li><a href="#verify" id="toc-verify" class="nav-link" data-scroll-target="#verify">8. Verify</a></li>
+  <li><a href="#tips-troubleshooting" id="toc-tips-troubleshooting" class="nav-link" data-scroll-target="#tips-troubleshooting">Tips &amp; Troubleshooting</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./public_output.html">Research</a></li><li class="breadcrumb-item"><a href="./public_reports.html">Books, Book Chapters, and Reports</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./r_quarto_website_github_pages.html">Working with R</a></li><li class="breadcrumb-item"><a href="./r_quarto_custom_domain.html">Custom Domain Setup for GitHub Pages</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Books, Book Chapters, and Reports</h1>
+<h1 class="title">Custom Domain Setup for GitHub Pages</h1>
 </div>
 
 
@@ -234,110 +338,180 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Below are books, book chapters, and public reports produced by members of the ALERRT Research Ring.</p>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
-<section id="the-chain-of-survival-responding-to-an-active-attack" class="level3">
-<h3 class="anchored" data-anchor-id="the-chain-of-survival-responding-to-an-active-attack">The Chain of Survival: Responding to an Active Attack</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Blair, J. P., &amp; Martaindale, M. H. (2024). <em>The Chain of Survival: Responding to an Active Attack.</em> TPPP, LLC.</p>
-<p>This book presents a five-link framework for improving responses to active attack events, covering civilian response, law enforcement response, stabilization, transport, and definitive care. Drawing on resilience engineering theory and operational experience, the authors equip both civilians and first responders with strategies to anticipate, monitor, and respond effectively to attacks with the goal of minimizing casualties.</p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.amazon.com/Chain-Survival-Responding-Active-Attack/dp/B0DFS3K8P8" target="_blank"><img src="resources/book_covers/chain_of_survival_2024.jpg" class="rr-book-cover img-fluid figure-img"></a></p>
-<figcaption>Click image to view on Amazon</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<p>This guide covers connecting a custom domain to a Quarto website already published via GitHub Pages. By the end, your site will be reachable at your own domain (e.g., <code>https://alerrtresearch.org</code>) with HTTPS enforced.</p>
+<p><strong>Prerequisite:</strong> A working Quarto site published to GitHub Pages. If you haven’t done that yet, see <em>How to Publish a Quarto Website with GitHub Pages and Actions</em> first.</p>
+<hr>
+<section id="purchase-your-domains" class="level2">
+<h2 class="anchored" data-anchor-id="purchase-your-domains">1. Purchase Your Domains</h2>
+<p>We use <a href="https://www.namecheap.com">Namecheap</a>. The recommended approach is to buy one <strong>primary domain</strong> and a few <strong>secondary domains</strong> that redirect to it — this covers common spelling variations and prevents someone else from squatting on them.</p>
+<p>Example setup for this site:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Domain</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>alerrtresearch.org</code></td>
+<td>Primary — this is where the site actually lives</td>
+</tr>
+<tr class="even">
+<td><code>alerrtresearch.com</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+<tr class="odd">
+<td><code>alerrt-research.org</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+<tr class="even">
+<td><code>alerrt-research.com</code></td>
+<td>Secondary — redirects to primary</td>
+</tr>
+</tbody>
+</table>
+<p>You only need to configure DNS in detail for the primary domain. The secondary domains just need URL forwarding enabled.</p>
 <hr>
 </section>
-<section id="active-shooter-events-and-response" class="level3">
-<h3 class="anchored" data-anchor-id="active-shooter-events-and-response">Active Shooter Events and Response</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Blair, J. P., Nichols, T., Burns, D., &amp; Curnutt, J. R. (2013). <em>Active Shooter Events and Response.</em> CRC Press LLC.</p>
-<p>This textbook provides a comprehensive examination of active shooter events in the United States from 2000 to 2010, covering the historical context of these incidents, their increasing complexity, and how law enforcement response has evolved. Topics include event preparation, stopping the killing, room entry and threat confrontation, and civilian response — drawing on ALERRT’s extensive training and research experience.</p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.routledge.com/Active-Shooter-Events-and-Response/Blair-Nichols-Burns-Curnutt/p/book/9781466512290" target="_blank"><img src="resources/book_covers/active_shooter_events_2013.jpg" class="rr-book-cover img-fluid figure-img"></a></p>
-<figcaption>Click image to view on publisher’s website</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="configure-dns-on-your-primary-domain" class="level2">
+<h2 class="anchored" data-anchor-id="configure-dns-on-your-primary-domain">2. Configure DNS on Your Primary Domain</h2>
+<p>In Namecheap, go to <strong>Dashboard → Manage</strong> (next to your primary domain) → <strong>Advanced DNS</strong>.</p>
+<section id="a-records-required-four-of-them" class="level3">
+<h3 class="anchored" data-anchor-id="a-records-required-four-of-them">A Records (required — four of them)</h3>
+<p>Add four <strong>A Records</strong>, all pointing the <code>@</code> host to GitHub Pages’ IP addresses:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Host</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.108.153</td>
+</tr>
+<tr class="even">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.109.153</td>
+</tr>
+<tr class="odd">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.110.153</td>
+</tr>
+<tr class="even">
+<td>A Record</td>
+<td>@</td>
+<td>185.199.111.153</td>
+</tr>
+</tbody>
+</table>
+<p>These are GitHub Pages’ current IP addresses. They rarely change, but you can verify them in the <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">GitHub Pages documentation</a>.</p>
+</section>
+<section id="cname-record-required-www-subdomain" class="level3">
+<h3 class="anchored" data-anchor-id="cname-record-required-www-subdomain">CNAME Record (required — www subdomain)</h3>
+<p>Add one <strong>CNAME Record</strong>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Host</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CNAME Record</td>
+<td>www</td>
+<td><code>yourorg.github.io</code></td>
+</tr>
+</tbody>
+</table>
+<p>Replace <code>yourorg</code> with your GitHub organization or username (e.g., <code>alerrt-research.github.io</code>). This makes <code>www.yourdomain.org</code> resolve correctly.</p>
+<p><strong>Note:</strong> Namecheap may already have a CNAME for <code>www</code> pointing somewhere else — delete it and replace with yours.</p>
 <hr>
 </section>
-<section id="evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques" class="level3">
-<h3 class="anchored" data-anchor-id="evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques">Evaluating Police Tactics: An Empirical Assessment of Room Entry Techniques</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Blair, J. P., &amp; Martaindale, M. H. (2013). <em>Evaluating police tactics: an empirical assessment of room entry techniques.</em> Elsevier.</p>
-<p>Based on five experiments conducted over two years, this work challenges conventional wisdom about police room entry tactics by systematically assessing current philosophies and techniques. It offers evidence-based recommendations for how patrol officers can safely and effectively enter scenes of ongoing violence, locate a shooter, and stop the threat.</p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.routledge.com/Evaluating-Police-Tactics-An-Empirical-Assessment-of-Room-Entry-Techniques/Blair-Martaindale/p/book/9780323280662" target="_blank"><img src="resources/book_covers/evaluating_police_tactics_2013_hires.gif" class="rr-book-cover img-fluid figure-img"></a></p>
-<figcaption>Click image to view on publisher’s website</figcaption>
-</figure>
-</div>
-</div>
-</div>
+</section>
+<section id="configure-url-forwarding-on-secondary-domains" class="level2">
+<h2 class="anchored" data-anchor-id="configure-url-forwarding-on-secondary-domains">3. Configure URL Forwarding on Secondary Domains</h2>
+<p>For each secondary domain, go to <strong>Dashboard → Manage → Redirect Domain</strong> (or find <strong>URL Redirect</strong> under Advanced DNS).</p>
+<p>Set up a <strong>301 Permanent Redirect</strong> from each secondary domain to your primary:</p>
+<ul>
+<li>From: <code>alerrtresearch.com</code> → To: <code>https://alerrtresearch.org</code></li>
+<li>From: <code>alerrt-research.org</code> → To: <code>https://alerrtresearch.org</code></li>
+<li>From: <code>alerrt-research.com</code> → To: <code>https://alerrtresearch.org</code></li>
+</ul>
+<p>Use <code>https://</code> (not <code>http://</code>) in the destination so visitors land on the secure version.</p>
 <hr>
 </section>
-</section>
-<section id="book-chapters" class="level2">
-<h2 class="anchored" data-anchor-id="book-chapters">Book Chapters</h2>
-<section id="active-shooterhostile-event-overview-data" class="level3">
-<h3 class="anchored" data-anchor-id="active-shooterhostile-event-overview-data">Active Shooter/Hostile Event Overview (Data)</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Martaindale, M. H. (2021). Active Shooter/Hostile Event Overview (Data). In <em>Introduction to Active Shooter/Hostile Event Response.</em> Fire Protection Publications, Oklahoma State University.</p>
-<p>This chapter provides a data-driven overview of active shooter and hostile event incidents in the United States, drawing on the ALERRT Center’s comprehensive event database. It contextualizes the scope, nature, and trends of these events to inform the training and response frameworks presented throughout the volume.</p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.amazon.com/Introduction-Active-Shooter-Hostile-Response/dp/0879397322" target="_blank"><img src="resources/book_covers/intro_active_shooter_2021.png" class="rr-book-cover img-fluid figure-img"></a></p>
-<figcaption>Click image to view on Amazon</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="add-a-cname-file-to-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="add-a-cname-file-to-your-project">4. Add a CNAME File to Your Project</h2>
+<p>In your Quarto project root, create a file named exactly <code>CNAME</code> (no extension) containing only your primary domain:</p>
+<pre><code>alerrtresearch.org</code></pre>
+<p>No trailing slash, no <code>https://</code>, just the bare domain.</p>
 <hr>
 </section>
+<section id="register-the-cname-file-in-_quarto.yml" class="level2">
+<h2 class="anchored" data-anchor-id="register-the-cname-file-in-_quarto.yml">5. Register the CNAME File in <code>_quarto.yml</code></h2>
+<p>Quarto needs to know to copy the CNAME file into the rendered <code>_site/</code> output, otherwise it gets ignored during deployment.</p>
+<p>Open <code>_quarto.yml</code> and add <code>"CNAME"</code> to the <code>resources:</code> list:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">resources</span><span class="kw">:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"resources/"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"CNAME"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If <code>resources:</code> doesn’t exist yet under <code>project:</code>, add it.</p>
+<hr>
 </section>
-<section id="reports" class="level2">
-<h2 class="anchored" data-anchor-id="reports">Reports</h2>
-<section id="robb-elementary-school-uvalde-texas-after-action-report-2022" class="level3">
-<h3 class="anchored" data-anchor-id="robb-elementary-school-uvalde-texas-after-action-report-2022">Robb Elementary School, Uvalde, Texas — After Action Report (2022)</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Following the 2022 attack at Robb Elementary School in Uvalde, Texas, the ALERRT Center produced an after action report documenting all key details of the attack and the law enforcement response. The report also provided recommendations for preventing such attacks and improving response effectiveness in the future.</p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="resources/reports/report_2022_uvalde_aar.pdf" target="_blank"><img src="resources/reports/report_2022_uvalde_aar.png" class="rr-book-cover img-fluid figure-img"></a></p>
-<figcaption>Click image to view report</figcaption>
-</figure>
-</div>
-</div>
-</div>
-
-
+<section id="render-commit-and-push" class="level2">
+<h2 class="anchored" data-anchor-id="render-commit-and-push">6. Render, Commit, and Push</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add CNAME _quarto.yml _site/CNAME</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add custom domain configuration"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Confirm <code>_site/CNAME</code> appears in your rendered output before pushing — that’s the file GitHub Pages actually reads.</p>
+<hr>
 </section>
+<section id="configure-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="configure-github-pages">7. Configure GitHub Pages</h2>
+<ol type="1">
+<li>Go to your GitHub repository → <strong>Settings</strong> → <strong>Pages</strong>.</li>
+<li>Under <strong>Custom domain</strong>, type your primary domain (e.g., <code>alerrtresearch.org</code>) and click <strong>Save</strong>.</li>
+<li>GitHub will run a DNS check. This may take a few minutes. Wait for a green confirmation message.</li>
+<li>Once the DNS check passes, the <strong>Enforce HTTPS</strong> checkbox will appear — but it may still be grayed out. Do not panic. GitHub needs to provision a TLS certificate via Let’s Encrypt, which can take an additional 15–30 minutes even after the DNS check clears. The checkbox will become clickable on its own. If it’s still locked after an hour, then start troubleshooting.</li>
+<li>Enable <strong>Enforce HTTPS</strong>.</li>
+</ol>
+<hr>
+</section>
+<section id="verify" class="level2">
+<h2 class="anchored" data-anchor-id="verify">8. Verify</h2>
+<ul>
+<li>Navigate to <code>https://alerrtresearch.org</code> — site should load with a padlock (secure).</li>
+<li>Navigate to a secondary domain (e.g., <code>https://alerrtresearch.com</code>) — should redirect to the primary.</li>
+<li>Navigate to <code>https://www.alerrtresearch.org</code> — should also resolve correctly.</li>
+</ul>
+<hr>
+</section>
+<section id="tips-troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="tips-troubleshooting">Tips &amp; Troubleshooting</h2>
+<p><strong>DNS propagation takes time.</strong> Changes can take anywhere from a few minutes to 48 hours to fully propagate. If the GitHub DNS check is pending, wait and try again later.</p>
+<p><strong>“Enforce HTTPS” is grayed out.</strong> This means the DNS check hasn’t passed yet. Do not force it — just wait.</p>
+<p><strong>Secondary domain redirects aren’t working.</strong> Namecheap’s URL redirect feature can be slow to propagate. Give it a few hours before troubleshooting.</p>
+<p><strong>The CNAME file keeps disappearing.</strong> You forgot step 5 — Quarto overwrites <code>_site/</code> on every render. The CNAME must be listed under <code>resources:</code> in <code>_quarto.yml</code> or it won’t survive re-renders.</p>
+<p><strong>GitHub Pages reverts to the <code>.github.io</code> URL.</strong> This happens if the CNAME file is missing from the deployed branch. Confirm <code>_site/CNAME</code> exists and was committed before pushing.</p>
+<hr>
+<p><em>Guide based on setup completed for the ALERRT Research Ring website, May 2026.</em></p>
+
+
 </section>
 
 </main> <!-- /main -->
