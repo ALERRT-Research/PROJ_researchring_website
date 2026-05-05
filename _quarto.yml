@@ -4,6 +4,7 @@ project:
     - "*.qmd"
   resources:
     - "resources/"
+    - "CNAME"
 
 website:
   title: "Research Ring"
