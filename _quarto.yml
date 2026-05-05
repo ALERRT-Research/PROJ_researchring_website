@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "*.qmd"
   resources:
     - "resources/"
 
@@ -70,6 +72,7 @@ format:
     theme: lux
     css: styles.css
     toc: true
+    include-in-header: _auth-gate-include.html
 
 execute:
   freeze: auto
