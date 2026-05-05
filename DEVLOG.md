@@ -4,6 +4,26 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-05 (session 5)
+
+**Status:** Custom domain live. HTTPS enforcement pending TLS cert provisioning.
+
+**Work done:**
+
+- Domains purchased at Namecheap: `alerrtresearch.org` (primary), `alerrtresearch.com`, `alerrt-research.org`, `alerrt-research.com`
+- DNS configured at Namecheap: 4 A records for primary, `www` CNAME to `alerrt-research.github.io`, URL forwarding on 3 secondary domains → `https://alerrtresearch.org`
+- Added `CNAME` file to project root (content: `alerrtresearch.org`), registered under `resources:` in `_quarto.yml`
+- GitHub Pages custom domain set to `alerrtresearch.org` — DNS check passed
+- Created `r_quarto_custom_domain.qmd` — step-by-step walkthrough guide for custom domain setup, added to "Working with R" section in Ring Resources sidebar
+- Added `README.md` to repo root — visible on GitHub repo page
+- Added GitHub icon (`bi-github`, 1.4rem) to footer right side, links to repo
+
+**Open items:**
+- Enable **Enforce HTTPS** in GitHub Pages settings once TLS cert finishes provisioning (should happen automatically — check Settings → Pages)
+- `resources/articles/` — 42 PDFs still not linked from any page; decide whether to link, relocate, or delete
+
+---
+
 ## 2026-05-05 (session 4)
 
 **Status:** Custom domain setup deferred — domains not yet purchased.
