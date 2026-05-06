@@ -57,6 +57,23 @@ At its core, the ALERRT Center is focused on preparing law enforcement and other
 :::
 ::::::
 
+## Tactical Science
+
+:::::: columns
+::: {.column width="60%"}
+
+Tactical Science is a Substack written by Pete Blair, Director of the ALERRT Center. Pete writes about police training research — including work coming out of the Research Ring — as well as findings from other corners of the training science world. His posts cover topics like training methodology, ecological dynamics, the constraints-led approach, and the broader culture and practice of law enforcement training. If you want the research translated into something you can actually use, this is the place to start.
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+[![Click to visit Tactical Science](resources/transparent_crosshair.png)](https://tacticalscience.substack.com/){target="_blank"}
+:::
+::::::
+
 ## News & Updates
 
 ```{r}

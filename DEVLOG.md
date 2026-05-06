@@ -4,6 +4,30 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 9)
+
+**Status:** Publications added, people page links added, Tactical Science section added to landing page.
+
+**Work done:**
+
+- Added `pub-2026-transfer-gap` (Blair 2026, *Evidence Base*) to `public_output.qmd`
+- Added `pub-2026-balkans` (Smailbegovic, Blair & Selimic 2026, *Varstvoslovje*) to `public_output.qmd`; placeholder URL used pending DOI
+- Added faculty/profile links for all alumni and collaborators in `public_staff.qmd`: Pete Blair, Bill Sandel, Madison Doyle, Beth Quinby, Ian Adams, Matthew McAllister
+- Removed Scott Mourtgos from Collaborators (does not meet 2+ projects/4-year rule); commented out with URL preserved for future reinstatement
+- Added Tactical Science section to `index.qmd` (between Active Attacks and News & Updates); links to Pete Blair's Substack via `transparent_crosshair.png` thumbnail
+- Copied `transparent_crosshair.png` to `resources/`
+
+**Decisions:**
+
+- Collaborator listing rule: 2+ active/completed projects in the past 4 years (Peter enforces manually)
+- Tactical Science section links image only; no inline text link
+
+**Open items:**
+- `pub-2026-balkans` — replace placeholder URL with DOI when located
+- `resources/articles/` — 42 PDFs still not linked from any page; decide whether to link, relocate, or delete
+
+---
+
 ## 2026-05-06 (session 8)
 
 **Status:** Favicon added.

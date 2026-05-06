@@ -108,16 +108,20 @@ Fun facts about Joe:
 ## Alumni
 
 ::: {layout-ncol="2"}
-Pete Blair, Texas State University
+[Pete Blair](https://faculty.txst.edu/profile/2073843), Texas State University
 
-William "Bill" Sandel, Missouri State University
+[William "Bill" Sandel](https://criminology.missouristate.edu/profile.asp?p=WSandel), Missouri State University
+
+[Madison Doyle](https://www.linkedin.com/in/madison-k-doyle-67283110b/), Austin Police Department
+
+[Elizabeth "Beth" Quinby](https://clarke.edu/person/beth-quinby/), Clarke University
 :::
 
 ## Collaborators
 
 ::: {layout-ncol="2"}
-Ian Adams, University of South Carolina\
-Matthew McAllister, Texas State University
+[Ian Adams](https://sc.edu/study/colleges_schools/artsandsciences/criminology_and_criminal_justice/our_people/directory/adams_ian.php), University of South Carolina\
+[Matthew McAllister](https://faculty.txst.edu/profile/2091780), Texas State University
 
-Scott Mourtgos, University of South Carolina
+<!-- Scott Mourtgos, University of South Carolina — https://sc.edu/study/colleges_schools/artsandsciences/criminology_and_criminal_justice/our_people/directory/mourtgos_scott.php — restore when 2+ active/completed projects in past 4 years -->
 :::

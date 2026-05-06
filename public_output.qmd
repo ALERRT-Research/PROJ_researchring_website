@@ -13,6 +13,49 @@ editor:
 
 # 2026
 
+::: {#pub-2026-transfer-gap .callout-note collapse="true"}
+## Beyond the Transfer Gap: An Ecological Dynamics Framework for Police Training Design
+
+Police training has long been constrained by a "transfer gap" — the
+persistent problem of skills learned in controlled settings failing to
+carry over into the complex, unpredictable situations officers encounter
+in practice. Drawing on ecological dynamics, a framework from motor
+learning science that emphasizes the ongoing interaction between the
+learner, the task, and the environment, this article proposes a
+reconceptualization of police training design around representative
+practice and task variability rather than repeated drills of isolated
+skills. The framework offers a principled basis for building the
+adaptable, context-sensitive competencies that real operational demands
+require.
+
+
+::: {.rr-journal-label}
+Evidence Base
+:::
+
+[View the article here.](https://doi.org/10.1080/30679125.2026.2662641){.rr-article-pdf target="_blank"}
+:::
+
+::: {#pub-2026-balkans .callout-note collapse="true"}
+## Providing Active-Shooter Response Training to Civilians and Educational Institutions in the Western Balkans
+
+This article describes the implementation of active-shooter response
+training for civilians and schools in the Western Balkans, a region with
+its own history of mass violence and distinct institutional context.
+The authors examine how training programs developed in the United States
+can be adapted and delivered to non-law-enforcement audiences in
+international settings, with attention to the practical and cultural
+considerations involved in preparing civilians and educators to respond
+effectively to active-attack events.
+
+
+::: {.rr-journal-label}
+Varstvoslovje: Journal of Criminal Justice and Security
+:::
+
+[View the article here.](https://www.fvv.um.si/rV/arhiv/2026/2026-03-Smailbegovic-Blair-Selimic-E.html){.rr-article-pdf target="_blank"}
+:::
+
 ::: {#pub-2026-ai-stimuli .callout-note collapse="true"}
 ## AI-Generated Human Stimuli for Experimental Social Science
 
