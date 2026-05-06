@@ -14,7 +14,7 @@ ALERRT's programmatic and research work is supported by competitive grants from 
 
 ------------------------------------------------------------------------
 
-### Assessing the effectiveness of door locks in school-based active shooter events
+### Assessing the effectiveness of door locks in school-based active shooter events {#grant-sia-2025}
 
 ::: {.rr-grant-meta}
 **Funder:** Security Industry Association &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$80,000\
@@ -37,7 +37,7 @@ School-based active shooter incidents, though rare, remain among the most conseq
 
 ------------------------------------------------------------------------
 
-### ALERRT micro-learning video creation and evaluation
+### ALERRT micro-learning video creation and evaluation {#grant-microlearning-2025}
 
 ::: {.rr-grant-meta}
 **Funder:** Texas State University Research Accelerator Program &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$101,205\
@@ -55,7 +55,7 @@ ALERRT's Level 1 course is the foundation of the Center's active-shooter respons
 
 ------------------------------------------------------------------------
 
-### Preparing for Active Shooter Situations (PASS)
+### Preparing for Active Shooter Situations (PASS) {#grant-pass-2025}
 
 ::: {.rr-grant-meta}
 **Funder:** COPS Office &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$10,200,000\
@@ -64,7 +64,7 @@ ALERRT's Level 1 course is the foundation of the Center's active-shooter respons
 
 #### Synopsis
 
-The PASS program — established under the 2016 *Protecting Our Lives by Initiating COPS Expansion (POLICE) Act* — funds a single national provider to deliver scenario-based, multi-disciplinary active-shooter response training at no cost to law enforcement, fire, and emergency medical services across the United States. ALERRT has held this award continuously since 2017, building on its 2013 designation by the FBI as the National Standard in Active Shooter Response Training. The 2025 award supports another year of nationwide course delivery, including the integrated, multi-disciplinary courses that prepare patrol officers, fire personnel, and EMS providers to coordinate during active-attack response. See [Past Awards](#preparing-for-active-shooter-situations-pass-past-awards) below for the program's full funding history.
+The PASS program — established under the 2016 *Protecting Our Lives by Initiating COPS Expansion (POLICE) Act* — funds a single national provider to deliver scenario-based, multi-disciplinary active-shooter response training at no cost to law enforcement, fire, and emergency medical services across the United States. ALERRT has held this award continuously since 2017, building on its 2013 designation by the FBI as the National Standard in Active Shooter Response Training. The 2025 award supports another year of nationwide course delivery, including the integrated, multi-disciplinary courses that prepare patrol officers, fire personnel, and EMS providers to coordinate during active-attack response. See [Past Awards](#grant-pass-hist) below for the program's full funding history.
 
 #### Deliverables
 
@@ -72,7 +72,7 @@ PASS is principally a training delivery program; however, peer-reviewed research
 
 ## Past Awards
 
-### Preparing for Active Shooter Situations (PASS) {#preparing-for-active-shooter-situations-pass-past-awards}
+### Preparing for Active Shooter Situations (PASS) {#grant-pass-hist}
 
 ::: {.rr-grant-meta}
 **Funder:** COPS Office &nbsp;·&nbsp; **Cumulative amount:** \$72,208,987 &nbsp;·&nbsp; **Years:** 2017–2024\
@@ -106,7 +106,7 @@ PASS is principally a training delivery program (see scope figures above). Peer-
 
 ------------------------------------------------------------------------
 
-### Integrated ICS training for all first responders
+### Integrated ICS training for all first responders {#grant-ics-2023}
 
 ::: {.rr-grant-meta}
 **Funder:** FEMA &nbsp;·&nbsp; **Year:** 2023 &nbsp;·&nbsp; **Amount:** \$621,971 &nbsp;·&nbsp; **Award #:** EMW-2022-FP-00779\
@@ -123,7 +123,7 @@ Self-paced eLearning course available on the [ALERRT eLearning platform](https:/
 
 ------------------------------------------------------------------------
 
-### Fire as a Weapon (FAAW) In-Person and eLearning Training Opportunities
+### Fire as a Weapon (FAAW) In-Person and eLearning Training Opportunities {#grant-faaw-2021}
 
 ::: {.rr-grant-meta}
 **Funder:** FEMA &nbsp;·&nbsp; **Year:** 2021 &nbsp;·&nbsp; **Amount:** \$439,210 &nbsp;·&nbsp; **Award #:** EMW-2020-FP-00930\
@@ -140,7 +140,7 @@ Self-paced eLearning course available on the [ALERRT eLearning platform](https:/
 
 ------------------------------------------------------------------------
 
-### Understanding the leakage that precedes mass public shootings and its utility for prevention efforts through public awareness
+### Understanding the leakage that precedes mass public shootings and its utility for prevention efforts through public awareness {#grant-leakage-2024}
 
 ::: {.rr-grant-meta}
 **Funder:** Department of Homeland Security &nbsp;·&nbsp; **Year:** 2024 &nbsp;·&nbsp; **Amount:** \$89,861 (subaward from \$339,368 total) &nbsp;·&nbsp; **Award #:** DHS-24-TTP-132-00-99\
@@ -157,7 +157,7 @@ Web-based public-awareness training programs designed to teach audiences how to 
 
 ------------------------------------------------------------------------
 
-### Adapting Commercial VR-Based Training to Support AFSOC Mission Sustainment Team Protection & Security Training Objectives
+### Adapting Commercial VR-Based Training to Support AFSOC Mission Sustainment Team Protection & Security Training Objectives {#grant-vr-afsoc-2023}
 
 ::: {.rr-grant-meta}
 **Funder:** SBIR/STTR &nbsp;·&nbsp; **Year:** 2023 &nbsp;·&nbsp; **Amount:** \$32,859 (subaward) &nbsp;·&nbsp; **Award #:** FA864924P0116 &nbsp;·&nbsp; **Phase:** 1\
@@ -174,7 +174,7 @@ Phase 1 white paper outlining an adaptive-training implementation plan for the S
 
 ------------------------------------------------------------------------
 
-### Firearm Detection Data
+### Firearm Detection Data {#grant-firearm-detection-2020}
 
 ::: {.rr-grant-meta}
 **Funder:** NEC Corporation &nbsp;·&nbsp; **Year:** 2020 &nbsp;·&nbsp; **Amount:** \$10,000\

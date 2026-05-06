@@ -13,7 +13,7 @@ editor:
 
 # 2026
 
-::: {.callout-note collapse="true"}
+::: {#pub-2026-ai-stimuli .callout-note collapse="true"}
 ## AI-Generated Human Stimuli for Experimental Social Science
 
 This study tested whether AI-generated images of police officers can
@@ -37,7 +37,7 @@ Journal of Experimental Criminology
 [View the article here.](https://doi.org/10.1007/s11292-026-09731-x){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2026-leo-mortality-response .callout-note collapse="true"}
 ## Clarifying Methods and Interpretations in Law Enforcement Mortality Surveillance: Response to Kamal
 
 This brief responds to a published commentary raising methodological
@@ -58,7 +58,7 @@ The Lancet Regional Health - Americas
 [View the article here.](https://doi.org/10.1016/j.lana.2025.101330){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2026-immediate-entry .callout-note collapse="true"}
 ## Public Opinion and the Immediate Entry Dilemma: A Factorial Survey Experiment on Active Shooter Response
 
 This study measured what the general public thinks law enforcement
@@ -82,7 +82,7 @@ Journal of Criminal Justice
 [View the article here.](https://doi.org/10.1016/j.jcrimjus.2025.102578){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2026-striking-grappling .callout-note collapse="true"}
 ## Striking or Grappling? Comparing Public and Officers' Perceptions of Police Use of Force
 
 
@@ -110,7 +110,7 @@ Journal of Criminal Justice
 
 # 2025
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-vehicle-attacks .callout-note collapse="true"}
 ## Active Attacks with Motor Vehicles: A Short Report and Case Study of the 2025 New Year’s Day Attack in New Orleans, LA
 
 Prompted by the deadly New Year’s Day 2025 truck attack on Bourbon
@@ -132,7 +132,7 @@ American Journal of Criminal Justice
 [View the article here.](https://doi.org/10.1007/s12103-025-09806-x){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-leo-fitness .callout-note collapse="true"}
 ## Markers of Fitness, Stress, and Cardiometabolic Disease Risk Among Law Enforcement Officers
 
 This study examined fitness and health data from 66 male law enforcement
@@ -153,7 +153,7 @@ Journal of Occupational and Environmental Medicine
 [View the article here.](https://doi.org/10.1097/jom.0000000000003357){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-leo-mortality .callout-note collapse="true"}
 ## Mortality Among Law Enforcement Officers in the United States: A Population-Wide Analysis of the National Occupational Mortality Surveillance Data, 2020 to 2023
 
 Using data from the National Occupational Mortality Surveillance program
@@ -175,7 +175,7 @@ The Lancet Regional Health - Americas
 [View the article here.](https://doi.org/10.1016/j.lana.2025.101270){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-ff-stress-biomarkers .callout-note collapse="true"}
 ## Relationships Between Physiological Stress Biomarkers and Cardiovascular Disease Risk Factors Among Career Firefighters
 
 This study examined the relationships between fitness, body composition,
@@ -197,7 +197,7 @@ Journal of Occupational and Environmental Medicine
 [View the article here.](https://doi.org/10.1097/jom.0000000000003389){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-ff-shift-schedule .callout-note collapse="true"}
 ## Shift Schedule Change from 24/48 to 1/3/2/3 Improves Markers of Stress and Quality of Life in Career Firefighters
 
 This study followed career firefighters from the Kyle Fire Department as
@@ -217,7 +217,7 @@ Journal of Occupational and Environmental Medicine
 [View the article here.](https://doi.org/10.1097/jom.0000000000003638){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-inferential-testing .callout-note collapse="true"}
 ## To What Are We Inferring? The Widespread Misuse of Inferential Testing in the Most Cited Criminology and Criminal Justice Journals
 
 
@@ -242,7 +242,7 @@ American Journal of Criminal Justice
 [View the article here.](https://doi.org/10.1007/s12103-025-09845-4){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2025-vr-physical-stress .callout-note collapse="true"}
 ## Virtual Reality Based Active Shooter Training: Added Physical Stress Increases Anxiety but Not Stress Biomarkers
 
 This study compared the stress responses of 54 participants who either
@@ -266,7 +266,7 @@ Psychoneuroendocrinology
 
 # 2024
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-interrogation .callout-note collapse="true"}
 ## Interviewing and Interrogation Practices and Beliefs, 20 Years Later
 
 
@@ -289,31 +289,8 @@ Law and Human Behavior
 [View the article here.](https://doi.org/10.1037/lhb0000570){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
-## Impact of the Menstrual Cycle Phases and Time of Day on Markers of Stress
 
-
-
-Researchers tested whether the phase of the menstrual cycle affects
-common stress and immune markers in 17 female participants by measuring
-saliva and vital signs across each phase of their cycle, both morning
-and afternoon. No significant differences were found based on menstrual
-cycle phase alone for any of the markers measured. However, time of day
-did matter, as certain stress markers were higher in the afternoon while
-immune markers were stronger in the morning. These findings are
-important for researchers who rely on these biological markers when
-studying female participants, as controlling for time of day may be
-necessary to ensure accurate results.
-
-
-::: {.rr-journal-label}
-Stress
-:::
-
-[View the article here.](https://doi.org/10.1080/10253890.2024.2449098){.rr-article-pdf target="_blank"}
-:::
-
-::: {.callout-note collapse="true"}
+::: {#pub-2024-falseflag .callout-note collapse="true"}
 ## #FalseFlag: Exploring themes in conspiracy theory tweets regarding the Robb Elementary active shooter event
 
 
@@ -334,7 +311,7 @@ Journal of Qualitative Criminal Justice & Criminology
 [View the article here.](https://qualitativecriminology.pubpub.org/pub/qrnxbx4v/release/2){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-armed-educators .callout-note collapse="true"}
 ## Arm the educators… but not without conditions: a qualitative assessment of law enforcement officers’ support for armed teacher policies
 
 When discussing options for protecting the safety of those in schools
@@ -355,7 +332,7 @@ Police Practice and Research
 [View the article here.](https://doi.org/10.1080/15614263.2023.2287218){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-vr-stress .callout-note collapse="true"}
 ## Can a Virtual Reality Training Scenario Elicit Similar Stress Response as a Realistic Scenario-Based Training Scenario?
 
 The main benefit of scenario-based training is to create realistic and
@@ -376,7 +353,7 @@ Police Quarterly
 [View the article here.](https://doi.org/10.1177/10986111231182729){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-ltheanine .callout-note collapse="true"}
 ## Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill
 
 The ingestion of L-theanine and L-tyrosine has been shown to reduce
@@ -396,7 +373,7 @@ Stress
 [View the article here.](https://doi.org/10.1080/10253890.2024.2375588){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-vr-caffeine .callout-note collapse="true"}
 ## Stress response to virtual reality based active shooter training: Impact of caffeine consumption
 
 Virtual reality based active shooter training drills have been shown to
@@ -418,7 +395,7 @@ Psychoneuroendocrinology
 [View the article here.](https://doi.org/10.1016/j.psyneuen.2023.106923){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2024-profanity-replication .callout-note collapse="true"}
 ## Oh, \@#%\$!: a replication and expansion of Martaindale et al. (2023)
 
 
@@ -442,7 +419,7 @@ Policing: An International Journal
 
 # 2023
 
-::: {.callout-note collapse="true"}
+::: {#pub-2023-ff-cardiometabolic .callout-note collapse="true"}
 ## Risk Factors for Cardiometabolic Disease in Professional Firefighters
 
 Firefighters are often diagnosed with cardiometabolic disease, which is
@@ -462,7 +439,7 @@ Journal of Occupational and Environmental Medicine
 [View the article here.](https://doi.org/10.1097/jom.0000000000002743){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2023-slow-breathing .callout-note collapse="true"}
 ## Slow Breathing Reduces Biomarkers of Stress in Response to a Virtual Reality Active Shooter Training Drill
 
 Police, military, and firefighters often experience life-threatening
@@ -482,7 +459,7 @@ Healthcare
 [View the article here.](https://doi.org/10.3390/healthcare11162351){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2023-wait-backup .callout-note collapse="true"}
 ## Wait for backup or not? How police officers view their role when responding to and active shooter event
 
 If there is an active threat to the public, would police officers wait
@@ -503,7 +480,7 @@ Journal of Experimental Criminology
 [View the article here.](https://doi.org/10.1007/s11292-023-09592-8){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2023-door-locks .callout-note collapse="true"}
 ## Successfully securing a classroom door: Evaluating two types of door locks
 
 
@@ -525,7 +502,7 @@ Journal of Mass Violence Research
 
 # 2022
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-armed-teachers-leo .callout-note collapse="true"}
 ## Should Firearms be Allowed in K-12 Public Schools? An Analysis of Law Enforcement’s Perceptions of Armed Teacher Policies
 
 Active shooter events occurring in schools generate widespread public
@@ -544,7 +521,7 @@ Security Journal
 [View the article here.](https://doi.org/10.1057/s41284-022-00327-4){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-armed-teachers-capable .callout-note collapse="true"}
 ## Armed and Considered Capable? Law Enforcement Officers’ Attitudes About Armed Teacher Policies in the USA
 
 This project utilized a nationally drawn sample of law enforcement
@@ -567,7 +544,7 @@ Crime Prevention and Community Safety
 [View the article here.](https://doi.org/10.1057/s41300-022-00142-4){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-vr-stress-salivary .callout-note collapse="true"}
 ## Virtual Reality Based Active Shooter Training Drill Increases Salivary and Subjective Markers of Stress
 
 
@@ -589,7 +566,7 @@ Yale Journal of Biology and Medicine
 [View the article here.](https://pubmed.ncbi.nlm.nih.gov/35370487/){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-officers-shot .callout-note collapse="true"}
 ## How Police Officers Are Shot and Killed During Active Shooter Events: Implications for Response and Training
 
 Active shooter events have driven police to change how they respond to
@@ -609,7 +586,7 @@ The Police Journal Theory Practice and Principles
 [View the article here.](https://doi.org/10.1177/0032258x221087827){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-definitional-confusion .callout-note collapse="true"}
 ## What Are We Talking About? Definitional Confusion Within Active and Mass Shooting Research
 
 Active-shooting events have become a big topic for many, including
@@ -628,7 +605,7 @@ Journal of Mass Violence Research
 [View the article here.](https://doi.org/10.53076/jmvr47829){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-ff-cardiorespiratory .callout-note collapse="true"}
 ## Firefighters With Higher Cardiorespiratory Fitness Demonstrate Lower Markers of Cardiovascular Disease Risk
 
 A stronger cardiorespiratory fitness level is associated with lower
@@ -647,7 +624,7 @@ Journal of Occupational and Environmental Medicine
 [View the article here.](https://doi.org/10.1097/jom.0000000000002632){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2022-profanity .callout-note collapse="true"}
 ## \@#%\$!: The Impact of Officer Profanity on Civilians’ Perception of What Constitutes Reasonable Use of Force
 
 Does an officer’s use of profanity affect how the public responds and
@@ -668,7 +645,7 @@ Police Quarterly
 
 # 2021
 
-::: {.callout-note collapse="true"}
+::: {#pub-2021-women-stress .callout-note collapse="true"}
 ## Women Demonstrate Lower Markers of Stress and Oxidative Stress During Active Shooter Training Drill
 
 Police frequently engage in high-stress situations that increase a
@@ -690,7 +667,7 @@ Comprehensive Psychoneuroendocrinology
 [View the article here.](https://doi.org/10.1016/j.cpnec.2021.100046){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2021-firearm-id .callout-note collapse="true"}
 ## Improving the Accuracy of Firearm Identification in a Dynamic Use of Force Scenario
 
 Use-of-force decisions must often be made in a matter of seconds (or
@@ -715,7 +692,7 @@ Police Quarterly
 [View the article here.](https://doi.org/10.1177/1098611120944387){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2021-light-positioning .callout-note collapse="true"}
 ## An Evaluation of Light Positioning on Suspect Accuracy in Low Light Environments
 
 Police are sometimes required to conduct searches for hostile suspects
@@ -735,7 +712,7 @@ Justice Evaluation Journal
 [View the article here.](https://doi.org/10.1080/24751979.2021.1970482){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2021-high-casualty .callout-note collapse=”true”}
 ## “Shots Fired! We Have Many People Down!”: Common Recommendations for Managing High-Casualty Active Shooter Events in the USA
 
 Responses to active shooter events in our communities have continued to
@@ -757,7 +734,7 @@ International Journal of Disaster Risk Reduction
 
 # 2020
 
-::: {.callout-note collapse="true"}
+::: {#pub-2020-21-foot-rule .callout-note collapse="true"}
 ## A Scientific Examination of the 21-Foot Rule
 
 The 21-foot rule is taught in training across the country to police
@@ -779,7 +756,7 @@ Police Practice and Research
 [View the article here.](https://doi.org/10.1080/15614263.2020.1772785){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2020-correlates-shot .callout-note collapse="true"}
 ## Correlates of the Number Shot and Killed in Active Shooter Events
 
 Although there has been much research on various aspects of active
@@ -804,7 +781,7 @@ Homicide Studies
 [View the article here.](https://doi.org/10.1177/1088767920976727){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2020-stress-markers .callout-note collapse="true"}
 ## Active Shooter Training Drill Increases Blood and Salivary Markers of Stress
 
 Police often encounter high-stress situations, such as high-speed chases
@@ -827,7 +804,7 @@ International Journal of Environmental Research and Public Health
 
 # 2019
 
-::: {.callout-note collapse="true"}
+::: {#pub-2019-evolution-protocols .callout-note collapse="true"}
 ## The Evolution of Active Shooter Response Training Protocols Since Columbine: Lessons From the Advanced Law Enforcement Rapid Response Training Center
 
 The Columbine High School shooting that occurred on April 20, 1999
@@ -848,7 +825,7 @@ Journal of Contemporary Criminal Justice
 [View the article here.](https://doi.org/10.1177/1043986219840237){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2019-peek-push .callout-note collapse="true"}
 ## Peek or Push: An Examination of Two Types of Room Clearing Tactics for Active Shooter Event Response
 
 Solo officer response has become a new trend in active shooter response.
@@ -878,7 +855,7 @@ SAGE Open
 
 # 2017
 
-::: {.callout-note collapse="true"}
+::: {#pub-2017-workplace .callout-note collapse="true"}
 ## Active-Shooter Events in the Workplace: Findings and Policy Implications
 
 <!-- journal TK -->
@@ -902,7 +879,7 @@ to buildings (access control).
 [View the article here.](https://doi.org/10.69554/lcym6472){.rr-article-pdf target="_blank"}
 :::
 
-::: {.callout-note collapse="true"}
+::: {#pub-2017-throw-chair .callout-note collapse="true"}
 ## Throwing a Chair Could Save Officers’ Lives During Room Entries
 
 Conducting building searches and room entries can place law enforcement
@@ -929,7 +906,7 @@ International Journal of Police Science & Management
 
 # 2011
 
-::: {.callout-note collapse="true"}
+::: {#pub-2011-reasonableness .callout-note collapse="true"}
 ## Reasonableness and Reaction Time
 
 Decisions made by police officers are typically judged according to a

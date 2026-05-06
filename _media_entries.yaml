@@ -45,6 +45,25 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-03-23"
+  id: "secured-doors-2026"
+  type: announcement
+  source: ISC West (International Security Conference & Exposition)
+  title: "Secured Doors Save Lives: Research on School-Based Active Shooter Events"
+  landing_title: Hunter, Jack, and Joe present SIA-funded school door security findings at ISC West
+  images:
+    - "resources/media/sia_conferences.png"
+  description: >
+    Hunter, Jack, and Joe presented findings from the Research Ring's
+    [SIA-funded study on door locks in school-based active shooter
+    events](public_grants.html#grant-sia-2025) at ISC West (International
+    Security Conference & Exposition) in Las Vegas, NV (March 23–27, 2026).
+    Their talk, "Secured Doors Save Lives: Research on School-Based Active
+    Shooter Events," examined how physical security features — particularly
+    door locks and access-control measures — affected outcomes across 54 K–12
+    shooting incidents. The same presentation will be given at the DHI Annual
+    Conference (Door and Hardware Institute) in Nashville, TN, May 27–29.
+
 - date: "2026-04-16"
   id: "perf-2026"
   type: announcement
@@ -55,10 +74,11 @@
     - "resources/media/tanksley_perf_2026.jpg"
     - "resources/media/tanksley_perf_2026_b.jpg"
   description: >
-    Peter presented major findings from the Research Ring's law enforcement
-    mortality study, published in *Lancet Regional Health — Americas*, at the PERF
-    Annual Meeting in Los Angeles, CA. The talk was delivered alongside Research Ring
-    collaborator Ian Adams (University of South Carolina).
+    Peter presented major findings from the Research Ring's [law enforcement
+    mortality study](public_output.html#pub-2025-leo-mortality), published in
+    *Lancet Regional Health — Americas*, at the PERF Annual Meeting in Los
+    Angeles, CA. The talk was delivered alongside Research Ring collaborator
+    Ian Adams (University of South Carolina).
 
 - date: "2026-03-20"
   id: "txst-hunter-2026"
