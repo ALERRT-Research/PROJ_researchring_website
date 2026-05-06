@@ -143,6 +143,8 @@ Confirm `_site/CNAME` appears in your rendered output before pushing — that's 
 
 **GitHub Pages reverts to the `.github.io` URL.** This happens if the CNAME file is missing from the deployed branch. Confirm `_site/CNAME` exists and was committed before pushing.
 
+**GitHub DNS check is stuck or failing for the primary domain.** Check whether you have a URL redirect (301 forward) set up in Namecheap for the primary domain itself — for example, a redirect from `alerrtresearch.org` or `www.alerrtresearch.org` pointing back to `https://alerrtresearch.org`. URL forwarding on the primary domain conflicts with the A Record / CNAME configuration that GitHub needs to perform its DNS check. URL forwarding is appropriate for secondary domains only. Remove any Namecheap redirect rules on the primary domain, leave only the A Records and CNAME Record in place, and the DNS check should clear.
+
 ***
 
 *Guide based on setup completed for the ALERRT Research Ring website, May 2026.*
