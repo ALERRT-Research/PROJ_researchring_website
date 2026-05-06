@@ -11,6 +11,12 @@ editor:
     wrap: 72
 ---
 
+This page collects peer-reviewed journal articles and other scholarly
+output from Research Ring projects. For a broader view of ALERRT
+research — including dissertations, technical studies, and after-action
+reports — visit the [ALERRT collection at the Texas State University
+Library](https://hdl.handle.net/10877/23878){target="_blank"}.
+
 # 2026
 
 ::: {#pub-2026-transfer-gap .callout-note collapse="true"}

@@ -4,6 +4,20 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 12)
+
+**Status:** People page updated; output page intro added.
+
+**Work done:**
+
+- Used OpenAlex API to audit author lists across 2022–2026 output entries and identify potential collaborators
+- Added Jaclyn Schildkraut (Rockefeller Institute of Government) to the Collaborators section
+- Removed two-column layout (`{layout-ncol="2"}`) from both Alumni and Collaborators sections
+- Normalized line-break spacing between Alumni and Collaborators entries
+- Added introductory paragraph to the Research Output page with a link to the ALERRT collection at the Texas State University Library
+
+---
+
 ## 2026-05-06 (session 11)
 
 **Status:** Image link captions updated on landing page.
