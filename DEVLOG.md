@@ -4,6 +4,31 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 7)
+
+**Status:** Announcements added, crosslink system established, ID naming convention locked in.
+
+**Work done:**
+
+- Added ISC West / DHI conference announcement (`secured-doors-2026`) to `_media_entries.yaml` with `sia_conferences.png` thumbnail, description focused on the ISC West talk, DHI upcoming mention at end, and link to `grant-sia-2025`
+- Updated PERF announcement (`perf-2026`) to link directly to the Lancet LEO mortality article (`pub-2025-leo-mortality`)
+- Added `pub-YYYY-slug` anchor IDs to all 32 entries in `public_output.qmd` (callout block syntax: `{#id .callout-note collapse="true"}`)
+- Retrofitted all 9 grant headings in `public_grants.qmd` from short slugs to `grant-` prefix convention; updated internal PASS crosslink accordingly
+- Removed menstrual cycle paper from `public_output.qmd` (not a Research Ring product)
+- Updated custom domain walkthrough (`r_quarto_custom_domain.qmd`) with troubleshooting note: URL forwarding on primary domain in Namecheap blocks GitHub DNS check; secondary domains only
+
+**Decisions:**
+
+- ID naming convention established:
+  - Publications (articles, book chapters): `pub-YYYY-slug`
+  - Grants: `grant-[funder/topic]-[year]`
+  - Media/announcement entries: no prefix (e.g., `perf-2026`, `secured-doors-2026`)
+
+**Open items:**
+- `resources/articles/` — 42 PDFs still not linked from any page; decide whether to link, relocate, or delete
+
+---
+
 ## 2026-05-06 (session 6)
 
 **Status:** Custom domain fully operational. Walkthrough updated with discovered gotcha.
