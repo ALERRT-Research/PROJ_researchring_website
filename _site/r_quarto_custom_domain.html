@@ -64,6 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -508,6 +509,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Secondary domain redirects aren’t working.</strong> Namecheap’s URL redirect feature can be slow to propagate. Give it a few hours before troubleshooting.</p>
 <p><strong>The CNAME file keeps disappearing.</strong> You forgot step 5 — Quarto overwrites <code>_site/</code> on every render. The CNAME must be listed under <code>resources:</code> in <code>_quarto.yml</code> or it won’t survive re-renders.</p>
 <p><strong>GitHub Pages reverts to the <code>.github.io</code> URL.</strong> This happens if the CNAME file is missing from the deployed branch. Confirm <code>_site/CNAME</code> exists and was committed before pushing.</p>
+<p><strong>GitHub DNS check is stuck or failing for the primary domain.</strong> Check whether you have a URL redirect (301 forward) set up in Namecheap for the primary domain itself — for example, a redirect from <code>alerrtresearch.org</code> or <code>www.alerrtresearch.org</code> pointing back to <code>https://alerrtresearch.org</code>. URL forwarding on the primary domain conflicts with the A Record / CNAME configuration that GitHub needs to perform its DNS check. URL forwarding is appropriate for secondary domains only. Remove any Namecheap redirect rules on the primary domain, leave only the A Records and CNAME Record in place, and the DNS check should clear.</p>
 <hr>
 <p><em>Guide based on setup completed for the ALERRT Research Ring website, May 2026.</em></p>
 

@@ -8,6 +8,7 @@ project:
 
 website:
   title: "Research Ring"
+  favicon: "favicon.png"
   page-footer:
     left: "© 2026 [ALERRT Center](https://alerrt.org) · Texas State University"
     right: "Research Ring &nbsp; [<i class='bi bi-github' style='font-size: 1.4rem;'></i>](https://github.com/ALERRT-Research/PROJ_researchring_website){target='_blank'}"

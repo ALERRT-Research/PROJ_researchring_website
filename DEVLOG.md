@@ -4,6 +4,17 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 8)
+
+**Status:** Favicon added.
+
+**Work done:**
+
+- Added `favicon.png` to project root (copy of `resources/research_ring_logos/research_ring_circle.png`)
+- Added `favicon: "favicon.png"` to `_quarto.yml` under `website:`
+
+---
+
 ## 2026-05-06 (session 7)
 
 **Status:** Announcements added, crosslink system established, ID naming convention locked in.
