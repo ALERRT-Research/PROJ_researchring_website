@@ -4,6 +4,20 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 6)
+
+**Status:** Custom domain fully operational. Walkthrough updated with discovered gotcha.
+
+**Work done:**
+
+- Identified root cause of GitHub DNS check failures: URL forwarding (301 redirect) was configured in Namecheap on the primary domain (`alerrtresearch.org`), which conflicts with the A Record / CNAME setup GitHub needs to perform DNS verification. Removing the redirect from the primary domain resolved the check immediately. Secondary domain redirects were unaffected and remain correct.
+- Added new troubleshooting entry to `r_quarto_custom_domain.qmd` documenting the conflict and fix.
+
+**Open items:**
+- `resources/articles/` — 42 PDFs still not linked from any page; decide whether to link, relocate, or delete
+
+---
+
 ## 2026-05-05 (session 5)
 
 **Status:** Custom domain live. HTTPS enforcement pending TLS cert provisioning.
@@ -19,7 +33,6 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 - Added GitHub icon (`bi-github`, 1.4rem) to footer right side, links to repo
 
 **Open items:**
-- Enable **Enforce HTTPS** in GitHub Pages settings once TLS cert finishes provisioning (should happen automatically — check Settings → Pages)
 - `resources/articles/` — 42 PDFs still not linked from any page; decide whether to link, relocate, or delete
 
 ---
