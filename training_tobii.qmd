@@ -74,7 +74,7 @@ This is what I do first, so that the signal can start broadcasting.
 
 There is a lot to unpack here. The best way to understand this app is through Tobii's academy. Run through some of the training available and mess around with a few fun projects to see what is available.
 
-[Tobii Academy](https://connect.tobii.com/s/tobii-academy?language=en_US)
+[Tobii Academy](https://connect.tobii.com/s/tobii-academy?language=en_US){target="_blank"}
 
 For the most basic use, all of the data you would be interested in exporting can be found in the "Metrics" tab, as well as the "Data Export" tab. Here, you can scroll through what data is available, select the information you would like, and export it as an excel file.
 
@@ -85,7 +85,7 @@ For example, in the cognitive load pilot study, each participant recording was t
 ::: {.callout-note collapse="true" icon="false"}
 ## Tobii support
 
-You can make an account or use mine, just ask. [Support HERE](https://connect.tobii.com/s/?language=en_US)
+You can make an account or use mine, just ask. [Support HERE](https://connect.tobii.com/s/?language=en_US){target="_blank"}
 :::
 
 ::: {.callout-note collapse="true" icon="false"}

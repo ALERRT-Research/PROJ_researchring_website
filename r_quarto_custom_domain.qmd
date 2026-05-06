@@ -10,7 +10,7 @@ This guide covers connecting a custom domain to a Quarto website already publish
 
 ## 1. Purchase Your Domains
 
-We use [Namecheap](https://www.namecheap.com). The recommended approach is to buy one **primary domain** and a few **secondary domains** that redirect to it — this covers common spelling variations and prevents someone else from squatting on them.
+We use [Namecheap](https://www.namecheap.com){target="_blank"}. The recommended approach is to buy one **primary domain** and a few **secondary domains** that redirect to it — this covers common spelling variations and prevents someone else from squatting on them.
 
 Example setup for this site:
 
@@ -40,7 +40,7 @@ Add four **A Records**, all pointing the `@` host to GitHub Pages' IP addresses:
 | A Record | @ | 185.199.110.153 |
 | A Record | @ | 185.199.111.153 |
 
-These are GitHub Pages' current IP addresses. They rarely change, but you can verify them in the [GitHub Pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+These are GitHub Pages' current IP addresses. They rarely change, but you can verify them in the [GitHub Pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site){target="_blank"}.
 
 ### CNAME Record (required — www subdomain)
 
