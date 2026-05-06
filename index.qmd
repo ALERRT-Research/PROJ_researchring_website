@@ -53,7 +53,7 @@ At its core, the ALERRT Center is focused on preparing law enforcement and other
 :::
 
 ::: {.column width="30%"}
-[![Click to visit website](resources/aade_screenshot.png)](https://activeattackdata.org/){target="_blank"}
+[![Click to visit ActiveAttackData.org](resources/aade_screenshot.png)](https://activeattackdata.org/){target="_blank"}
 :::
 ::::::
 
@@ -70,7 +70,7 @@ Tactical Science is a Substack written by Pete Blair, Director of the ALERRT Cen
 :::
 
 ::: {.column width="30%"}
-[![Click to visit Tactical Science](resources/transparent_crosshair.png)](https://tacticalscience.substack.com/){target="_blank"}
+[![Click to visit the Tactical Science Substack](resources/transparent_crosshair.png)](https://tacticalscience.substack.com/){target="_blank"}
 :::
 ::::::
 

@@ -4,6 +4,17 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 11)
+
+**Status:** Image link captions updated on landing page.
+
+**Work done:**
+
+- Updated alt text on AADE screenshot: "Click to visit website" → "Click to visit ActiveAttackData.org"
+- Updated alt text on Tactical Science thumbnail: "Click to visit Tactical Science" → "Click to visit the Tactical Science Substack"
+
+---
+
 ## 2026-05-06 (session 10)
 
 **Status:** External link rule enforced; all links updated.
