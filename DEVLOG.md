@@ -4,6 +4,18 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-06 (session 10)
+
+**Status:** External link rule enforced; all links updated.
+
+**Work done:**
+
+- Added rule to `CLAUDE.md`: all external links must include `{target="_blank"}`
+- Audited all `.qmd` files for external links missing `target="_blank"`
+- Fixed 10 links across `public_staff.qmd`, `r_quarto_custom_domain.qmd`, and `training_tobii.qmd`
+
+---
+
 ## 2026-05-06 (session 9)
 
 **Status:** Publications added, people page links added, Tactical Science section added to landing page.
