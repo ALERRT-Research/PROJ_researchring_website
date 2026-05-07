@@ -4,6 +4,16 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-07 (session 13)
+
+**Status:** Collaborator added.
+
+**Work done:**
+
+- Added Matthew Logan (Texas State University) to the Collaborators section of `public_staff.qmd`, alphabetically between J.C. Barnes and Matthew McAllister; linked to his faculty profile page
+
+---
+
 ## 2026-05-06 (session 12)
 
 **Status:** People page updated; output page intro added.
