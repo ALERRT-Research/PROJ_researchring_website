@@ -4,6 +4,16 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-07 (session 14)
+
+**Status:** Two collaborators added.
+
+**Work done:**
+
+- Added Andrew Gonzalez (Sam Houston State University) and Steven Martin (Texas A&M University) to the Collaborators section of `public_staff.qmd`, alphabetically slotted between existing entries
+
+---
+
 ## 2026-05-07 (session 13)
 
 **Status:** Collaborator added.
