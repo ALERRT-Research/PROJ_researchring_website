@@ -107,6 +107,27 @@
   url: "https://www.police1.com/police-training/can-vr-training-create-real-stress-for-real-world-police-decisions"
   description: Hunter Martaindale discusses ALERRT Center research examining whether virtual reality scenarios can trigger stress responses comparable to live training, and where VR can — and can't — replace hands-on physical skills training.
 
+- date: "2025-10-21"
+  id: "iacp-2025"
+  type: announcement
+  source: International Association of Chiefs of Police (IACP) Annual Conference
+  title: "Leading Causes of Death Among Law Enforcement Occupations: New Evidence from the National Occupational Mortality Surveillance Data"
+  landing_title: Peter presents LEO mortality findings at IACP Annual Conference in Denver
+  images:
+    - "resources/media/tanksley_iacp_2025.jpg"
+    - "resources/media/tanksley_iacp_2025_b.jpg"
+  description: >
+    Peter presented findings from the Research Ring's [law enforcement mortality
+    study](public_output.html#pub-2025-leo-mortality), published in *Lancet
+    Regional Health — Americas*, at the IACP Annual Conference in Denver, CO
+    (October 21, 2025). The talk drew on data from the CDC's National
+    Occupational Mortality Surveillance (NOMS) system to identify the leading
+    causes of death across all law enforcement occupations from 2020 to 2023,
+    calculate national-level cause-specific mortality rates, and compare those
+    rates with other first responder occupations and the general population.
+    The findings were used to offer policy recommendations for officer health
+    and wellness programs.
+
 - date: "2024-10-15"
   id: "trainers-bullpen-2024"
   type: podcast
