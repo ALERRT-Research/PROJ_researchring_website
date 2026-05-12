@@ -4,6 +4,20 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-12 (session 15)
+
+**Status:** All four team member headshots added; people page fully populated.
+
+**Work done:**
+
+- Added headshots for Hunter Martaindale, Peter Tanksley, Joe Eleuterio, and Jack Johncox to `resources/headshots/`
+- Replaced all "Photo Coming Soon" placeholders on `public_staff.qmd` with hex-cropped photos
+- Increased hex photo size globally (222×256 → 280×323) for a less zoomed-in look
+- Applied per-image `object-position` corrections for Joe (center 25%) and Jack (center 15%) to eliminate blank space above their heads
+- Dropped Peter's middle initial from his heading ("Peter T. Tanksley" → "Peter Tanksley")
+
+---
+
 ## 2026-05-07 (session 14)
 
 **Status:** Two collaborators added.

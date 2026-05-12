@@ -23,12 +23,12 @@ Fun facts about Hunter:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
+![](resources/headshots/headshot_martaindale.png){.hex-photo}
 :::
 :::
 ::::::
 
-### Peter T. Tanksley
+### Peter Tanksley
 
 :::::: columns
 ::: {.column width="60%"}
@@ -48,7 +48,7 @@ Fun facts about Peter:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
+![](resources/headshots/headshot_tanksley.jpg){.hex-photo}
 :::
 :::
 ::::::
@@ -73,7 +73,7 @@ Fun facts about Jack:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
+![](resources/headshots/headshot_jack.jpg){.hex-photo style="object-position: center 15%;"}
 :::
 :::
 ::::::
@@ -100,7 +100,7 @@ Fun facts about Joe:
 
 ::: {.column width="30%"}
 ::: {.hex-photo-wrap}
-<div class="rr-hex-placeholder">Photo<br>Coming Soon</div>
+![](resources/headshots/headshot_eleuterio.jpg){.hex-photo style="object-position: center 25%;"}
 :::
 :::
 ::::::
