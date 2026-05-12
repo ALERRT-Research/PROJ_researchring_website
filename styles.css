@@ -502,8 +502,8 @@ nav[role="doc-toc"] a.active {
 .hex-photo-wrap {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background: var(--rr-maroon);
-  width: 222px;
-  height: 256px;
+  width: 280px;
+  height: 323px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,8 +519,8 @@ nav[role="doc-toc"] a.active {
 }
 
 .hex-photo {
-  width:  213px !important;
-  height: 246px !important;
+  width:  271px !important;
+  height: 313px !important;
   object-fit: cover;
   object-position: center top;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
