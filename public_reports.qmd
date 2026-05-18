@@ -86,6 +86,23 @@ This chapter provides a data-driven overview of active shooter and hostile event
 
 ## Reports
 
+### The Role of Locked Doors and Access Control in School-Based Active Shooter Events (2026)
+
+:::::: columns
+::: {.column width="60%"}
+Funded by the [Security Industry Association (SIA)](public_grants.html#grant-sia-2025){target="_blank"} and prepared by the ALERRT Center at Texas State University, this report examines how door locks and physical access-control measures function in real-world K–12 school shootings. Drawing on 54 completed active shooter events between 2000 and 2025, four averted incidents, and structured case studies of Uvalde (2022) and Evergreen High School (2025), the study finds that noncompliance — not hardware failure — is the dominant failure mode: 61.7% of doors involved in attacks were unlocked or propped open at the time of the incident. Glass is identified as the primary point of mechanical vulnerability, and threat profiles differ meaningfully by school level, pointing to distinct security priorities for elementary versus secondary schools. The report concludes with eight evidence-based recommendations for improving physical security in K–12 settings.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+[![Click image to view report](resources/reports/report_2026_sia_locked_doors.png){.rr-book-cover}](resources/reports/report_2026_sia_locked_doors.pdf){target="_blank"}
+:::
+::::::
+
+---
+
 ### Robb Elementary School, Uvalde, Texas — After Action Report (2022)
 
 :::::: columns

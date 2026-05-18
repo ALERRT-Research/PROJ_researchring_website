@@ -4,6 +4,18 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-18 (session 16)
+
+**Status:** SIA report added to Books, Book Chapters, and Reports page.
+
+**Work done:**
+
+- Added `resources/reports/report_2026_sia_locked_doors.pdf` and title page thumbnail PNG
+- Added new entry in `public_reports.qmd` under Reports for *The Role of Locked Doors and Access Control in School-Based Active Shooter Events* (ALERRT Center, 2026)
+- Description links "Security Industry Association (SIA)" to the `#grant-sia-2025` anchor on the grants page
+
+---
+
 ## 2026-05-12 (session 15)
 
 **Status:** All four team member headshots added; people page fully populated.
