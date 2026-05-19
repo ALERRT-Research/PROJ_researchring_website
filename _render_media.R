@@ -23,7 +23,9 @@ render_news_strip_html <- function(entries, n = 5) {
   items <- sapply(top, function(e) {
     display_title <- if (!is.null(e$landing_title)) e$landing_title else e$title
     date_fmt <- trimws(format(as.Date(e$date), "%B %e, %Y"))
-    href <- if (!is.null(e$id)) {
+    href <- if (!is.null(e$landing_url)) {
+      e$landing_url
+    } else if (!is.null(e$id)) {
       sprintf("public_media.html#%s", e$id)
     } else {
       "public_media.html"

@@ -27,13 +27,7 @@ School-based active shooter incidents, though rare, remain among the most conseq
 
 #### Deliverables
 
-*Final report — coming May 2026*
-
-<!-- When report is released, replace the line above with:
-::: {layout-ncol="3"}
-[![Final report](resources/grants/sia_2026_report.png)](resources/grants/sia_2026_report.pdf){target="_blank"}
-:::
--->
+[![Final report](resources/reports/report_2026_sia_locked_doors.png){.rr-book-cover}](resources/reports/report_2026_sia_locked_doors.pdf){target="_blank"}
 
 ------------------------------------------------------------------------
 

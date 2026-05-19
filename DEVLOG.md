@@ -4,6 +4,21 @@ Entries are newest-first. Each entry: date, status summary, open items, decision
 
 ---
 
+## 2026-05-19 (session 17)
+
+**Status:** SIA report news announcement added; report linked from landing page news strip.
+
+**Work done:**
+
+- Added `announcement` entry to `_media_entries.yaml` for *The Role of Locked Doors and Access Control in School-Based Active Shower Events* (date: 2026-05-20, id: `sia-report-2026`) with report cover image, link to PDF, and description
+- Added optional `landing_url` field support to `render_news_strip_html()` in `_render_media.R` so individual entries can override the default `public_media.html#<id>` link destination
+- Set `landing_url: "public_reports.html#report-sia-2026"` on the new entry so the landing strip links directly to the report entry
+- Added explicit `{#report-sia-2026}` and `{#report-uvalde-2022}` IDs to report section headers in `public_reports.qmd`
+- Updated `public_grants.qmd` SIA grant deliverables: replaced "coming May 2026" placeholder with the published report cover image linking to the PDF
+- Documented `landing_url` field in the `_media_entries.yaml` header comments
+
+---
+
 ## 2026-05-18 (session 16)
 
 **Status:** SIA report added to Books, Book Chapters, and Reports page.

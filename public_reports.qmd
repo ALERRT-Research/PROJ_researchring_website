@@ -86,7 +86,7 @@ This chapter provides a data-driven overview of active shooter and hostile event
 
 ## Reports
 
-### The Role of Locked Doors and Access Control in School-Based Active Shooter Events (2026)
+### The Role of Locked Doors and Access Control in School-Based Active Shooter Events (2026) {#report-sia-2026}
 
 :::::: columns
 ::: {.column width="60%"}
@@ -103,7 +103,7 @@ Funded by the [Security Industry Association (SIA)](public_grants.html#grant-sia
 
 ---
 
-### Robb Elementary School, Uvalde, Texas — After Action Report (2022)
+### Robb Elementary School, Uvalde, Texas — After Action Report (2022) {#report-uvalde-2022}
 
 :::::: columns
 ::: {.column width="60%"}
