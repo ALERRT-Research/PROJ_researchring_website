@@ -1,0 +1,68 @@
+---
+title: "Research"
+format:
+  html:
+    css: [styles.css, research_styles.css]
+    link-external-newwindow: true
+    toc: false
+---
+
+Research is at the heart of ALERRT. The Research Ring operates under a broad mandate that guides all of its efforts:
+
+::: {.rr-mandate}
+Support first responders through original, rigorous research — improving their lives and their ability to execute their duties.
+:::
+
+That mandate has guided more than a decade of scholarship, producing a growing body of work across peer-reviewed journals, books, and technical reports — reflected in the figures below.
+
+```{=html}
+<div class="rr-collective-stats">
+  <div class="rr-collective-stat">
+    <div class="rr-collective-stat-num">58</div>
+    <div class="rr-collective-stat-label">Total Publications</div>
+  </div>
+  <div class="rr-collective-stat">
+    <div class="rr-collective-stat-num">1,710</div>
+    <div class="rr-collective-stat-label">Total Citations</div>
+  </div>
+  <div class="rr-collective-stat">
+    <div class="rr-collective-stat-num">18</div>
+    <div class="rr-collective-stat-label">h-index</div>
+  </div>
+</div>
+<p class="rr-stats-source">Data via collective Google Scholar analysis. Includes peer-reviewed articles, books, book chapters, and technical reports.</p>
+```
+
+```{=html}
+<div class="rr-page-nav-grid">
+
+  <div class="rr-page-nav-card">
+    <div class="rr-page-nav-icon"><i class="bi bi-journal-text"></i></div>
+    <p class="rr-page-nav-title">Research Output</p>
+    <p class="rr-page-nav-desc">Peer-reviewed journal articles and other scholarly publications, organized by year.</p>
+    <a class="rr-page-nav-link" href="public_output.html">Browse publications →</a>
+  </div>
+
+  <div class="rr-page-nav-card">
+    <div class="rr-page-nav-icon"><i class="bi bi-hourglass-split"></i></div>
+    <p class="rr-page-nav-title">In Progress</p>
+    <p class="rr-page-nav-desc">Active projects currently in the analysis, writing, or review pipeline.</p>
+    <a class="rr-page-nav-link" href="public_in_progress.html">See what's in the pipeline →</a>
+  </div>
+
+  <div class="rr-page-nav-card">
+    <div class="rr-page-nav-icon"><i class="bi bi-book"></i></div>
+    <p class="rr-page-nav-title">Books &amp; Reports</p>
+    <p class="rr-page-nav-desc">Books, book chapters, and publicly released technical reports from Research Ring members.</p>
+    <a class="rr-page-nav-link" href="public_reports.html">View books &amp; reports →</a>
+  </div>
+
+  <div class="rr-page-nav-card">
+    <div class="rr-page-nav-icon"><i class="bi bi-award"></i></div>
+    <p class="rr-page-nav-title">Grants &amp; Funding</p>
+    <p class="rr-page-nav-desc">Current and past awards supporting ALERRT's programmatic and research work.</p>
+    <a class="rr-page-nav-link" href="public_grants.html">View grant portfolio →</a>
+  </div>
+
+</div>
+```

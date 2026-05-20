@@ -60,6 +60,7 @@ website:
       contents:
         - index.qmd
         - section: "Research"
+          href: public_research.qmd
           contents:
             - public_output.qmd
             - public_in_progress.qmd

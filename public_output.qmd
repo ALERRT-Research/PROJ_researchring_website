@@ -955,7 +955,7 @@ International Journal of Police Science & Management
 
 # 2011
 
-::: {#pub-2011-reasonableness .callout-note collapse="true"}
+::: {#pub-2011-reasonableness .callout-note collapse=”true”}
 ## Reasonableness and Reaction Time
 
 Decisions made by police officers are typically judged according to a
@@ -979,5 +979,27 @@ suspect.
 Police Quarterly
 :::
 
-[View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target="_blank"}
+[View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target=”_blank”}
 :::
+
+<script>
+(function () {
+  function injectJournalLabels() {
+    document.querySelectorAll(‘.callout-note’).forEach(function (callout) {
+      var labelEl = callout.querySelector(‘.rr-journal-label p’);
+      var titleContainer = callout.querySelector(‘.callout-title-container’);
+      if (!labelEl || !titleContainer) return;
+      if (titleContainer.querySelector(‘.rr-journal-header-label’)) return;
+      var el = document.createElement(‘p’);
+      el.className = ‘rr-journal-header-label’;
+      el.textContent = labelEl.textContent.trim();
+      titleContainer.appendChild(el);
+    });
+  }
+  if (document.readyState === ‘loading’) {
+    document.addEventListener(‘DOMContentLoaded’, injectJournalLabels);
+  } else {
+    injectJournalLabels();
+  }
+})();
+</script>
