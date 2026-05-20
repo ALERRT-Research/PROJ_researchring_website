@@ -27,7 +27,7 @@ School-based active shooter incidents, though rare, remain among the most conseq
 
 #### Deliverables
 
-[![Final report](resources/reports/report_2026_sia_locked_doors.png){.rr-book-cover}](resources/reports/report_2026_sia_locked_doors.pdf){target="_blank"}
+[The Role of Locked Doors and Access Control in School-Based Active Shooter Events](public_reports.qmd#report-sia-2026)
 
 ------------------------------------------------------------------------
 
