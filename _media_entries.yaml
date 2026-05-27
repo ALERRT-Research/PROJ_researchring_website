@@ -50,6 +50,28 @@
 # ─────────────────────────────────────────────────────────────────
 
 - date: "2026-05-20"
+  id: "asebp-2026"
+  type: announcement
+  source: American Society of Evidence Based Policing Annual Conference
+  title: "ASEBP Annual Conference — Washington, D.C."
+  landing_title: Joe and Pete Blair present at ASEBP in DC; Joe recognized as Evidence Based Policing Trailblazer
+  images:
+    - "resources/media/joe_asebp_2026_presenting.jpg"
+    - "resources/media/joe_asebp_2026_coin.jpg"
+    - "resources/media/asebp_2026_blair.jpg"
+  description: >
+    The Research Ring traveled to Washington, D.C., for the American Society of
+    Evidence Based Policing (ASEBP) Annual Conference (May 20–22, 2026). Joe
+    presented Research Ring findings on [striking versus grappling
+    in law enforcement use-of-force](public_output.html#pub-2026-striking-grappling),
+    and ALERRT Director Pete Blair delivered a talk on ecological dynamics drawn
+    from his recent article on [ecological dynamics frameworks for police
+    training design](public_output.html#pub-2026-transfer-gap). Joe was also
+    recognized by ASEBP as an Evidence Based Policing Trailblazer — an honor
+    limited to 100 recipients worldwide — and received the Trailblazer coin at
+    the conference. Congratulations, Joe!
+
+- date: "2026-05-20"
   id: "sia-report-2026"
   type: announcement
   source: ALERRT Research Ring
