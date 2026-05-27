@@ -93,6 +93,21 @@
     recommendations for school administrators, security professionals, and
     policymakers.
 
+- date: "2026-05-20"
+  id: "business-insider-sia-2026"
+  type: news
+  source: Business Insider
+  title: "Texas State University's ALERRT Center Releases Groundbreaking Research on Active Shooter Events in Schools"
+  landing_title: Hunter and team's SIA-funded school shooting study covered by Business Insider
+  url: "https://markets.businessinsider.com/news/stocks/texas-state-university-s-alerrt-center-releases-groundbreaking-research-on-active-shooter-events-in-schools-1036180145"
+  description: >
+    Press coverage of the Research Ring's [SIA-funded report on door locks and
+    access control in K–12 active shooter events](public_reports.html#report-sia-2026).
+    Hunter Martaindale, director of research at ALERRT and lead researcher on the
+    report, is quoted: "Nearly two-thirds of the doors in our dataset were unlocked
+    or propped open at the moment of attack. The hardware only protects students,
+    teachers and staff when it is consistently used."
+
 - date: "2026-03-23"
   id: "secured-doors-2026"
   type: announcement
