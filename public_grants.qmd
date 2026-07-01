@@ -6,46 +6,24 @@ ALERRT's programmatic and research work is supported by competitive grants from 
 
 ::: {.rr-portfolio-stat}
 <div class="rr-stat-label">Total portfolio to date</div>
-<div class="rr-stat-number">$83,784,093</div>
-<div class="rr-stat-sub">across 14 awards · 2017–present</div>
+<div class="rr-stat-number">$83,834,092</div>
+<div class="rr-stat-sub">across 15 awards · 2017–present</div>
 :::
 
 ## Current Awards
 
 ------------------------------------------------------------------------
 
-### Assessing the effectiveness of door locks in school-based active shooter events {#grant-sia-2025}
+### Extreme Risk Protection Orders and Firearm Suicide in New York: A Multi-State and Within-State Evaluation {#grant-rgvrc-2026}
 
 ::: {.rr-grant-meta}
-**Funder:** Security Industry Association &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$80,000\
-**PI:** Hunter Martaindale
+**Funder:** Regional Gun Violence Research Consortium &nbsp;·&nbsp; **Year:** 2026 &nbsp;·&nbsp; **Amount:** \$49,999\
+**PI:** Hunter Martaindale &nbsp;·&nbsp; **Co-PI:** Peter Tanksley
 :::
 
 #### Synopsis
 
-School-based active shooter incidents, though rare, remain among the most consequential forms of targeted violence in the United States. Door locks and access-control measures are routinely cited in school-safety guidance, yet systematic evidence on how they function during real-world incidents has been limited. This study examines the role of door locks and related physical security features in K–12 active shooter events between 2000 and 2025, drawing on 54 completed events (66 doors), four averted incidents, and two in-depth case studies (Robb Elementary and Evergreen High School). The resulting report describes patterns in door status, breach modes, and offers eight evidence-based recommendations for school administrators, security professionals, and policymakers.
-
-#### Deliverables
-
-[The Role of Locked Doors and Access Control in School-Based Active Shooter Events](public_reports.qmd#report-sia-2026)
-
-------------------------------------------------------------------------
-
-### ALERRT micro-learning video creation and evaluation {#grant-microlearning-2025}
-
-::: {.rr-grant-meta}
-**Funder:** Texas State University Research Accelerator Program &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$101,205\
-**PI:** Hunter Martaindale
-:::
-
-#### Synopsis
-
-ALERRT's Level 1 course is the foundation of the Center's active-shooter response training, but as with most one-time training, the operational benefit can decay over time. This project develops 20 short-form "microlearning" videos drawn from the Level 1 curriculum, paired with discussion guides that allow shift leaders to facilitate brief reinforcement conversations during roll call. The aim is to "microdose" ALERRT training, embedding key concepts in routine shift-change briefings rather than relying solely on the initial multi-day course. To evaluate the approach, we are running a study with agencies that have never received ALERRT training, comparing knowledge retention and performance under standard delivery versus the same delivery followed by sustained microlearning exposure.
-
-#### Deliverables
-
-- 20 Level 1 microlearning videos
-- Instructor discussion guides for shift-leader-led roll-call sessions
+Firearm suicide accounts for the majority of firearm deaths in the United States, yet rigorous evidence on whether Extreme Risk Protection Orders (ERPOs), civil court orders that temporarily remove firearm access from people at acute risk of harm, actually reduce it remains limited, and most prior work predates New York's law. This project evaluates New York's ERPO law through two complementary quasi-experimental analyses: a multi-state staggered difference-in-differences design estimating the effect of ERPO adoption on firearm suicide rates across all U.S. states from 2010 to 2024, and a within-New York fixed-effects panel testing whether counties with higher ERPO petition rates show lower firearm suicide rates across the state's 62 counties. Together the analyses assess both whether the law matters and whether how actively it is used matters, producing findings to inform New York legislators, the Division of Criminal Justice Services, and county-level implementers on ERPO resource allocation and potential expansion.
 
 ------------------------------------------------------------------------
 
@@ -97,6 +75,41 @@ PI: Pete Blair · Co-PIs: John Curnutt, Hunter Martaindale (all years)
 #### Deliverables
 
 PASS is principally a training delivery program (see scope figures above). Peer-reviewed research conducted with PASS support is catalogued among the entries on the [Research Output](public_output.qmd) page. Because PASS has funded the Center continuously since 2017 and publications often follow funding by several years, individual papers are not attributed to specific award cycles.
+
+------------------------------------------------------------------------
+
+### Assessing the effectiveness of door locks in school-based active shooter events {#grant-sia-2025}
+
+::: {.rr-grant-meta}
+**Funder:** Security Industry Association &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$80,000\
+**PI:** Hunter Martaindale
+:::
+
+#### Synopsis
+
+School-based active shooter incidents, though rare, remain among the most consequential forms of targeted violence in the United States. Door locks and access-control measures are routinely cited in school-safety guidance, yet systematic evidence on how they function during real-world incidents has been limited. This study examines the role of door locks and related physical security features in K–12 active shooter events between 2000 and 2025, drawing on 54 completed events (66 doors), four averted incidents, and two in-depth case studies (Robb Elementary and Evergreen High School). The resulting report describes patterns in door status, breach modes, and offers eight evidence-based recommendations for school administrators, security professionals, and policymakers.
+
+#### Deliverables
+
+[The Role of Locked Doors and Access Control in School-Based Active Shooter Events](public_reports.qmd#report-sia-2026)
+
+------------------------------------------------------------------------
+
+### ALERRT micro-learning video creation and evaluation {#grant-microlearning-2025}
+
+::: {.rr-grant-meta}
+**Funder:** Texas State University Research Accelerator Program &nbsp;·&nbsp; **Year:** 2025 &nbsp;·&nbsp; **Amount:** \$101,205\
+**PI:** Hunter Martaindale
+:::
+
+#### Synopsis
+
+ALERRT's Level 1 course is the foundation of the Center's active-shooter response training, but as with most one-time training, the operational benefit can decay over time. This project develops 20 short-form "microlearning" videos drawn from the Level 1 curriculum, paired with discussion guides that allow shift leaders to facilitate brief reinforcement conversations during roll call. The aim is to "microdose" ALERRT training, embedding key concepts in routine shift-change briefings rather than relying solely on the initial multi-day course. To evaluate the approach, we are running a study with agencies that have never received ALERRT training, comparing knowledge retention and performance under standard delivery versus the same delivery followed by sustained microlearning exposure.
+
+#### Deliverables
+
+- 20 Level 1 microlearning videos
+- Instructor discussion guides for shift-leader-led roll-call sessions
 
 ------------------------------------------------------------------------
 
