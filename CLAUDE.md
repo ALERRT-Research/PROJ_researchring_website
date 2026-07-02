@@ -126,7 +126,7 @@ Add new entries at the **top** of the YAML list (newest first). The file header 
 Rules:
 - Always add an `id` — without it, the landing page news strip links to the top of the media page instead of the specific entry.
 - Dates must be ISO format: `YYYY-MM-DD`, in quotes.
-- For grant announcements, set `landing_url` to point to the grant entry on the grants page (e.g., `public_grants.html#grant-nida-r01-2026`) so the strip links directly there instead of the media page.
+- **Do not use `landing_url` for internal announcements** (grants, reports, conference appearances). The landing strip should always link to the media page announcement (`public_media.html#id`), which in turn cross-references the grant, report, or other item. This keeps the media page as the editorial record and ensures announcements are actually seen. Reserve `landing_url` only for entries that have no announcement body worth visiting — e.g., a bare news item where the external article IS the destination.
 
 **Cross-referencing:** When a news or announcement entry relates to content that already exists on the site (a publication, report, grant, or in-progress project), link to it in the `description` field using a relative HTML path to the anchor. This drives traffic between pages and keeps things connected. Examples:
 - Publication: `[Striking vs. Grappling](public_output.html#pub-2026-striking-grappling)`

@@ -25,8 +25,13 @@
 #                         to the top of the media page rather than the specific entry.
 # landing_url   OPTIONAL  Override the link destination on the landing page news strip.
 #                         By default, strip items link to public_media.html#<id>.
-#                         Set this to redirect to a different page (e.g. a report or
-#                         grant entry) instead of the media page.
+#                         POLICY: Do NOT use landing_url for internal announcements
+#                         (grants, reports, conferences). The strip should always link
+#                         to the announcement on the media page, which then cross-
+#                         references the grant/report/etc. This keeps the media page
+#                         as the editorial record. Only use landing_url for bare
+#                         external news items that have no announcement body worth
+#                         visiting (e.g. a news article where the URL is the destination).
 # landing_title OPTIONAL  Short description for the landing page news strip.
 #                         If omitted, `title` is used instead.
 #                         ALWAYS mention a person. Two cases:
@@ -55,7 +60,6 @@
   source: ALERRT Research Ring
   title: "New Grant — Extreme Risk Protection Orders and Firearm Suicide in New York"
   landing_title: "Hunter and Peter awarded RGVRC grant to study Extreme Risk Protection Order effects on firearm suicide"
-  landing_url: "public_grants.html#grant-rgvrc-2026"
   description: >
     The Research Ring has been awarded a grant from the Regional Gun Violence
     Research Consortium to study the effects of Extreme Risk Protection Orders
@@ -94,7 +98,6 @@
   title: "The Role of Locked Doors and Access Control in School-Based Active Shooter Events"
   landing_title: Hunter and team publish SIA-funded report on door locks in K–12 school shootings
   url: "resources/reports/report_2026_sia_locked_doors.pdf"
-  landing_url: "public_reports.html#report-sia-2026"
   images:
     - "resources/reports/report_2026_sia_locked_doors.png"
   description: >
