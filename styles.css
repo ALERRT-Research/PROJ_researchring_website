@@ -775,6 +775,12 @@ img.rr-announcement-thumb {
   z-index: 1;
 }
 
+img.rr-announcement-thumb.rr-thumb-borderless {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
 .rr-thumb-stack {
   position: relative;
   display: inline-block;
