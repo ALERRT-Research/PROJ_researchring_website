@@ -11,6 +11,7 @@ weekly_commitment: 1–2h
 last_updated: 2026-07-02
 blockers: null
 blocking_others: null
+last_updated: 2026-07-02
 ---
 
 ## Objectives
@@ -21,11 +22,7 @@ blocking_others: null
 
 ## Pending Content (Hunter's queue)
 
-Items Hunter has identified as needing to be added — work through these in a single session:
-
-- [ ] New publications (list TBD — confirm with Hunter)
-- [ ] News announcements (list TBD — confirm with Hunter)
-- [ ] New grant entry (list TBD — confirm with Hunter)
+- [ ] Additional news announcements — confirm with Hunter what's still outstanding
 
 ## Workflow Notes
 
@@ -39,6 +36,23 @@ GitHub Pages auto-deploys within ~1 minute of push.
 
 ## Recent Activity
 
-- 2026-07-02: Registered with bob; content-editing guidelines added to CLAUDE.md
+- 2026-07-02: Major session — see details below
 - 2026-05-19: SIA report announcement added; landing_url field added to media renderer
 - 2026-05-12: All four team member headshots added; staff page fully populated
+
+### 2026-07-02 Session Summary
+
+**Content added:**
+- Verified and merged Hunter's 5 new 2026 publications (SISMS, martial arts cadets, UoF integrative review, box breathing RCT, firefighter inflammation biomarkers)
+- Added RGVRC grant entry (ERPO/firearm suicide, $49,999, Hunter PI / Peter Co-PI)
+- Added ERPO grant announcement to media/news with RGVRC logo (borderless thumbnail)
+
+**Infrastructure improvements:**
+- `_grants_ledger.yaml` created — authoritative source for grant amounts; portfolio stat block on grants page now computed programmatically
+- `CLAUDE.md` expanded with full content-editing guidelines (publications, grants, media, cross-referencing, naming conventions, render/deploy workflow)
+- `.claude/settings.json` — PreToolUse hook blocks all `git push` attempts without explicit user approval; committed to repo so it applies to all teammates
+- `.gitignore` updated to track `.claude/settings.json` while keeping local settings gitignored
+- Landing strip navigation policy fixed: internal announcements now always link to media page (not directly to grant/report entries); `landing_url` reserved for bare external news only
+- Borderless thumbnail support added (`thumb_borderless: true` YAML field + CSS class) for logo/transparent-bg images
+- GitHub Pages deployment fixed: switched from quarto-actions publish to JamesIves deploy action pushing `_site/` directly to gh-pages branch; resolved `deployment_queued` timeout issue
+- Fixed smart-quote encoding bug on 2011 "Reasonableness" article link
