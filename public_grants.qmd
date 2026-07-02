@@ -2,12 +2,26 @@
 title: "Grants"
 ---
 
+```{r}
+#| include: false
+library(yaml)
+library(purrr)
+
+grants <- yaml::read_yaml("_grants_ledger.yaml")
+
+total_amount <- sum(map_dbl(grants, ~ .x$amount))
+total_count  <- sum(map_int(grants, ~ if (!isTRUE(.x$subaward)) .x$n_awards else 0L))
+
+fmt_amount <- paste0("$", formatC(total_amount, format = "d", big.mark = ","))
+fmt_sub    <- paste0("across ", total_count, " awards · 2017–present")
+```
+
 ALERRT's programmatic and research work is supported by competitive grants from federal agencies, industry partners, and university programs. Below you'll find current and past awards. For each entry we provide a brief synopsis and, where applicable, links to deliverables produced under the award.
 
 ::: {.rr-portfolio-stat}
 <div class="rr-stat-label">Total portfolio to date</div>
-<div class="rr-stat-number">$83,834,092</div>
-<div class="rr-stat-sub">across 15 awards · 2017–present</div>
+<div class="rr-stat-number">`r fmt_amount`</div>
+<div class="rr-stat-sub">`r fmt_sub`</div>
 :::
 
 ## Current Awards

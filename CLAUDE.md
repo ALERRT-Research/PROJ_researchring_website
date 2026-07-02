@@ -48,9 +48,13 @@ Rules:
 
 ---
 
-### Grants (`public_grants.qmd`)
+### Grants (`public_grants.qmd` + `_grants_ledger.yaml`)
 
-Current awards go under `## Current Awards`. Past/completed awards go under `## Past Awards`.
+**Adding a grant is always a two-file edit. Both files must be updated together:**
+
+1. **`_grants_ledger.yaml`** — add an entry at the top with `id`, `name`, `funder`, `year`, `amount` (plain integer — no `$`, no commas), and `n_awards`. This is the authoritative source for the portfolio total; the stat block on the grants page is computed from it automatically. Never manually edit the hardcoded dollar total in `public_grants.qmd`. See `_grants_ledger.yaml` for full field documentation. Set `subaward: true` if ALERRT is not the prime awardee — subawards count toward the dollar total but not the award count.
+
+2. **`public_grants.qmd`** — add the full narrative entry (pattern below). Current awards go under `## Current Awards`; past/completed awards go under `## Past Awards`.
 
 **Pattern:**
 
@@ -74,19 +78,9 @@ Two to four sentences describing what the project is and why it matters. No jarg
 ```
 
 Rules:
-- The anchor ID (`#grant-slug-YEAR`) must be unique. Use `grant-` prefix + a short slug + year (e.g., `grant-nida-r01-2026`).
+- The anchor ID (`#grant-slug-YEAR`) must match the `id` field in `_grants_ledger.yaml` exactly.
 - The horizontal rule (`---`) separates entries — keep it between every grant.
-- **Update the portfolio stat block** at the top of the page: add the new dollar amount to the running total and increment the award count. The stat block looks like this and is near the top of the file:
-
-```markdown
-::: {.rr-portfolio-stat}
-<div class="rr-stat-label">Total portfolio to date</div>
-<div class="rr-stat-number">$XX,XXX,XXX</div>
-<div class="rr-stat-sub">across N awards · 2017–present</div>
-:::
-```
-
-- Omit **Co-PIs** line if there are none. Omit **Amount** if it's confidential or not yet awarded.
+- Omit **Co-PIs** line if there are none. Omit **Amount** if confidential or not yet awarded (but still add a ledger entry with `amount: 0`).
 - Use `\$` to escape dollar signs in Quarto markdown.
 
 ---

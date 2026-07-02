@@ -1,0 +1,101 @@
+# _grants_ledger.yaml
+# ─────────────────────────────────────────────────────────────────
+# Authoritative source for grant amounts and award counts.
+# The portfolio stat block on public_grants.qmd is computed from this
+# file — do NOT manually edit the hardcoded total on that page.
+#
+# FIELD REFERENCE
+# ───────────────
+# id          REQUIRED  Must match the anchor ID in public_grants.qmd (e.g., grant-rgvrc-2026)
+# name        REQUIRED  Short display name
+# funder      REQUIRED  Funding agency or organization
+# year        REQUIRED  Award year (or first year for multi-year entries)
+# amount      REQUIRED  Dollar amount as a plain integer (ALERRT's share for subawards)
+# n_awards    REQUIRED  Number of individual awards this entry represents
+#                       (1 for most entries; 8 for PASS 2017–2024)
+# subaward    OPTIONAL  Set to true if this is a subaward (not a prime award).
+#                       Subawards are included in the dollar total but excluded
+#                       from the award count.
+# note        OPTIONAL  Free-text annotation (e.g., total project amount for subawards)
+#
+# HOW TO ADD A NEW GRANT
+# ──────────────────────
+# 1. Add a new entry at the TOP of this list.
+# 2. Add the full narrative entry to public_grants.qmd.
+# 3. Re-render: quarto render public_grants.qmd
+# 4. The portfolio stat updates automatically — no manual arithmetic needed.
+# ─────────────────────────────────────────────────────────────────
+
+- id: grant-rgvrc-2026
+  name: "Extreme Risk Protection Orders and Firearm Suicide in New York"
+  funder: "Regional Gun Violence Research Consortium"
+  year: 2026
+  amount: 49999
+  n_awards: 1
+
+- id: grant-pass-2025
+  name: "Preparing for Active Shooter Situations (PASS) — 2025"
+  funder: "COPS Office"
+  year: 2025
+  amount: 10200000
+  n_awards: 1
+
+- id: grant-pass-hist
+  name: "Preparing for Active Shooter Situations (PASS) — 2017–2024"
+  funder: "COPS Office"
+  year: 2017
+  amount: 72208987
+  n_awards: 8
+
+- id: grant-sia-2025
+  name: "Assessing the effectiveness of door locks in school-based active shooter events"
+  funder: "Security Industry Association"
+  year: 2025
+  amount: 80000
+  n_awards: 1
+
+- id: grant-microlearning-2025
+  name: "ALERRT micro-learning video creation and evaluation"
+  funder: "Texas State University Research Accelerator Program"
+  year: 2025
+  amount: 101205
+  n_awards: 1
+
+- id: grant-ics-2023
+  name: "Integrated ICS training for all first responders"
+  funder: "FEMA"
+  year: 2023
+  amount: 621971
+  n_awards: 1
+
+- id: grant-faaw-2021
+  name: "Fire as a Weapon (FAAW) In-Person and eLearning Training Opportunities"
+  funder: "FEMA"
+  year: 2021
+  amount: 439210
+  n_awards: 1
+
+- id: grant-leakage-2024
+  name: "Understanding the leakage that precedes mass public shootings"
+  funder: "Department of Homeland Security"
+  year: 2024
+  amount: 89861
+  n_awards: 1
+  subaward: true
+  note: "Subaward; total project amount $339,368 (Rockefeller Institute of Government prime)"
+
+- id: grant-vr-afsoc-2023
+  name: "Adapting Commercial VR-Based Training to Support AFSOC"
+  funder: "SBIR/STTR"
+  year: 2023
+  amount: 32859
+  n_awards: 1
+  subaward: true
+  note: "Subaward; Phase 1"
+
+- id: grant-firearm-detection-2020
+  name: "Firearm Detection Data"
+  funder: "NEC Corporation"
+  year: 2020
+  amount: 10000
+  n_awards: 1
