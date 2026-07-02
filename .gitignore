@@ -8,4 +8,5 @@
 **/*.quarto_ipynb
 .positai
 
-.claude/
+.claude/*
+!.claude/settings.json

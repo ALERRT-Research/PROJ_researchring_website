@@ -1,5 +1,13 @@
 # Research Ring Website — Project Instructions
 
+## Git Push Policy — MANDATORY
+
+**Never push to GitHub without explicit approval from Peter in a separate message.**
+
+This applies to everyone working in this project, every time, with no exceptions — even if Peter has already asked for a change to be made. Once the change is complete, present it and wait for a separate "go ahead" before pushing. A project-level hook in `.claude/settings.json` enforces this technically by blocking `git push` tool calls.
+
+---
+
 ## Writing Style
 
 - **Oxford comma required.** Always use the serial comma in lists of three or more items in any website copy, headings, or labels (e.g., "data collection, analysis, and reporting" — not "data collection, analysis and reporting").
@@ -22,7 +30,7 @@ Publications use Quarto callout blocks. Add new entries at the **top** of the co
 ::: {#pub-YEAR-slug .callout-note collapse="true"}
 ## Full Title of the Article
 
-One to three sentences summarizing the paper. Write for a general audience — no jargon. Focus on what the study did and what it found.
+Two to five sentences summarizing the paper. Write for a general audience — no jargon. Focus on what the study did and what it found.
 
 ::: {.rr-journal-label}
 Journal Name Here
