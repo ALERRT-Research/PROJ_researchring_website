@@ -49,6 +49,22 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-07-01"
+  id: "erpo-rgvrc-2026"
+  type: announcement
+  source: ALERRT Research Ring
+  title: "New Grant — Extreme Risk Protection Orders and Firearm Suicide in New York"
+  landing_title: "Hunter and Peter awarded RGVRC grant to study Extreme Risk Protection Order effects on firearm suicide"
+  landing_url: "public_grants.html#grant-rgvrc-2026"
+  description: >
+    The Research Ring has been awarded a grant from the Regional Gun Violence
+    Research Consortium to study the effects of Extreme Risk Protection Orders
+    (ERPOs) on firearm suicide in New York. The project, led by Hunter with
+    Peter as co-PI, uses two complementary quasi-experimental approaches: a
+    multi-state difference-in-differences design and a within-New York
+    county-level panel analysis. See the [full grant entry](public_grants.html#grant-rgvrc-2026)
+    for details.
+
 - date: "2026-05-20"
   id: "asebp-2026"
   type: announcement
