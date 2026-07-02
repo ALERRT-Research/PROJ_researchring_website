@@ -1106,7 +1106,7 @@ suspect.
 Police Quarterly
 :::
 
-[View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target=”_blank”}
+[View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target="_blank"}
 :::
 
 <script>
