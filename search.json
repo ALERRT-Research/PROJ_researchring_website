@@ -406,7 +406,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "",
     "text": "Welcome to the Research Ring",
     "crumbs": [
@@ -417,7 +417,7 @@
   {
     "objectID": "index.html#research-at-the-heart-of-alerrt",
     "href": "index.html#research-at-the-heart-of-alerrt",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "Research at the Heart of ALERRT",
     "text": "Research at the Heart of ALERRT\nThe Research Ring is the research division of the ALERRT Center at Texas State University. We produce rigorous, evidence-based research to support the nation’s standard in active shooter response training — and to improve the health and operational capacity of first responders.",
     "crumbs": [
@@ -428,7 +428,7 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "Welcome",
     "text": "Welcome\n\n\nThe Research Ring supports the mission of the ALERRT Center to “…provide the best research-based active shooter response training in the nation” by producing research and other resources.\nWithin the ALERRT Center, our mandate is to improve the lives and operational capacity of first responders through rigorous research and evaluation. Our research covers several topic areas:\n\nActive attack trends\nLaw enforcement training\nFirst responder health/wellness\nPublic/law enforcement opinion",
     "crumbs": [
@@ -439,7 +439,7 @@
   {
     "objectID": "index.html#active-attacks",
     "href": "index.html#active-attacks",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "Active Attacks",
     "text": "Active Attacks\n\n\nAt its core, the ALERRT Center is focused on preparing law enforcement and other first responders to respond to active attacks. Understanding the trends and commonalities between active attacks and how they change over time is critically important to this effort. The Research Ring maintains a database of active attacks that have occurred in the United States since 2000. We also host the website, ActiveAttackData.org, to make that database publicly accessible. Visitors will find resources (static/interactive plots, maps, etc.) that unpack the data. Or visitors can download the data directly from the website as well. All of the media is downloadable and free to use.\n\n\n\n\n\n\nClick to visit ActiveAttackData.org",
     "crumbs": [
@@ -450,7 +450,7 @@
   {
     "objectID": "index.html#tactical-science",
     "href": "index.html#tactical-science",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "Tactical Science",
     "text": "Tactical Science\n\n\nTactical Science is a Substack written by Pete Blair, Director of the ALERRT Center. Pete writes about police training research — including work coming out of the Research Ring — as well as findings from other corners of the training science world. His posts cover topics like training methodology, ecological dynamics, the constraints-led approach, and the broader culture and practice of law enforcement training. If you want the research translated into something you can actually use, this is the place to start.\n\n\n\n\n\n\nClick to visit the Tactical Science Substack",
     "crumbs": [
@@ -461,9 +461,9 @@
   {
     "objectID": "index.html#news-updates",
     "href": "index.html#news-updates",
-    "title": "\nWelcome to the Research Ring\n",
+    "title": "Media & News",
     "section": "News & Updates",
-    "text": "News & Updates\n\n\n\nJuly 1, 2026\n\nHunter and Peter awarded RGVRC grant to study Extreme Risk Protection Order effects on firearm suicide\n\n\n\nMay 20, 2026\n\nJoe and Pete Blair present at ASEBP in DC; Joe recognized as Evidence Based Policing Trailblazer\n\n\n\nMay 20, 2026\n\nHunter and team publish SIA-funded report on door locks in K–12 school shootings\n\n\n\nMay 20, 2026\n\nHunter and team’s SIA-funded school shooting study covered by Business Insider\n\n\n\nApril 16, 2026\n\nPeter presents LEO mortality findings at PERF annual meeting in Los Angeles\n\nView all media →",
+    "text": "News & Updates\n\n\n\nJuly 1, 2026\n\nHunter and Peter awarded RGVRC grant to study Extreme Risk Protection Order effects on firearm suicide\n\n\n\nMay 20, 2026\n\nJoe and Pete Blair present at ASEBP in DC; Joe recognized as Evidence Based Policing Trailblazer\n\n\n\nMay 20, 2026\n\nHunter and team publish SIA-funded report on door locks in K–12 school shootings\n\n\n\nMay 20, 2026\n\nHunter and team’s SIA-funded school shooting study covered by Business Insider\n\n\n\nApril 16, 2026\n\nPeter presents LEO mortality findings at PERF annual meeting in Los Angeles\n\nView all media →\n\n\n\nThis page collects Research Ring news, announcements, media appearances, and assets available for press use. For interview requests or other inquiries, use the contact form on the Work With Us page.",
     "crumbs": [
       "Home",
       "Research at the Heart of ALERRT"
@@ -922,6 +922,39 @@
       "Resources",
       "Texas State",
       "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "Media & News",
+    "section": "Announcements",
+    "text": "Announcements\n#| echo: false\n#| results: asis\n#| cache: false\nsource(\"_render_media.R\")\nrender_section_html(read_media_entries(), \"announcement\")",
+    "crumbs": [
+      "Home",
+      "Research at the Heart of ALERRT"
+    ]
+  },
+  {
+    "objectID": "index.html#in-the-news",
+    "href": "index.html#in-the-news",
+    "title": "Media & News",
+    "section": "In the News",
+    "text": "In the News\n#| echo: false\n#| results: asis\n#| cache: false\nsource(\"_render_media.R\")\nrender_section_html(read_media_entries(), \"news\")",
+    "crumbs": [
+      "Home",
+      "Research at the Heart of ALERRT"
+    ]
+  },
+  {
+    "objectID": "index.html#podcasts-interviews",
+    "href": "index.html#podcasts-interviews",
+    "title": "Media & News",
+    "section": "Podcasts & Interviews",
+    "text": "Podcasts & Interviews\n#| echo: false\n#| results: asis\n#| cache: false\nsource(\"_render_media.R\")\nrender_section_html(read_media_entries(), \"podcast\")",
+    "crumbs": [
+      "Home",
+      "Research at the Heart of ALERRT"
     ]
   }
 ]
