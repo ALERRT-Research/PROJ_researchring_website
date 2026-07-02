@@ -60,6 +60,9 @@
   source: ALERRT Research Ring
   title: "New Grant — Extreme Risk Protection Orders and Firearm Suicide in New York"
   landing_title: "Hunter and Peter awarded RGVRC grant to study Extreme Risk Protection Order effects on firearm suicide"
+  images:
+    - "resources/media/rgvrc_logo_black.png"
+  thumb_borderless: true
   description: >
     The Research Ring has been awarded a grant from the Regional Gun Violence
     Research Consortium to study the effects of Extreme Risk Protection Orders

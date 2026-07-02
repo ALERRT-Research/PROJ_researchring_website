@@ -71,9 +71,10 @@ render_podcast_html <- function(e) {
 render_announcement_html <- function(e) {
   date_fmt  <- format(as.Date(e$date), "%B %d, %Y")
   id_attr   <- if (!is.null(e$id)) sprintf("#%s ", e$id) else ""
-  imgs      <- if (!is.null(e$images)) e$images else if (!is.null(e$image)) list(e$image) else list()
-  has_image <- length(imgs) > 0
-  multi     <- length(imgs) > 1
+  imgs         <- if (!is.null(e$images)) e$images else if (!is.null(e$image)) list(e$image) else list()
+  has_image    <- length(imgs) > 0
+  multi        <- length(imgs) > 1
+  thumb_class  <- if (isTRUE(e$thumb_borderless)) ".rr-announcement-thumb .rr-thumb-borderless" else ".rr-announcement-thumb"
 
   title_html <- if (!is.null(e$url)) {
     sprintf('[%s](%s){target="_blank"}', e$title, e$url)
@@ -88,7 +89,7 @@ render_announcement_html <- function(e) {
       id_attr, e$source, date_fmt, title_html, desc_part)
   } else {
     group_id <- paste0("ann-", gsub("[^a-z0-9]", "", tolower(e$date)))
-    main_img <- sprintf('![](%s){.lightbox .rr-announcement-thumb group="%s"}', imgs[[1]], group_id)
+    main_img <- sprintf('![](%s){.lightbox %s group="%s"}', imgs[[1]], thumb_class, group_id)
 
     image_block <- if (multi) {
       hidden_imgs <- paste(sapply(imgs[-1], function(img) {
