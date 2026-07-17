@@ -19,6 +19,32 @@ Library](https://hdl.handle.net/10877/23878){target="_blank"}.
 
 # 2026
 
+::: {#pub-2026-cumulative-strains .callout-note collapse="true"}
+## Cumulative and Co-Occurring Strains Among Mass Public Shooting Perpetrators: Implications for Violence Prevention
+
+This study examined the life stressors, or strains, that accumulate in
+the lives of people who commit mass public shootings, drawing on a
+database of 171 incidents and 175 perpetrators in the United States
+between 1999 and 2024. Rather than looking for a single triggering
+grievance, the researchers coded eighteen different types of strain,
+such as psychiatric concerns, job-related difficulties, and
+interpersonal conflict, and measured how often they occurred together.
+Perpetrators typically experienced nearly five overlapping strains at
+once, with psychological and interpersonal stressors frequently
+clustering together and structural stressors often linked to
+ideological motivations. The findings suggest that mass public
+shootings are rarely the product of one isolated problem but instead
+reflect an accumulation of co-occurring stressors, pointing toward
+prevention efforts that focus on patterns of warning signs, early
+identification, and coordinated, systems-level threat assessment.
+
+::: {.rr-journal-label}
+Injury Epidemiology
+:::
+
+[View the article here.](https://doi.org/10.1186/s40621-026-00690-5){.rr-article-pdf target="_blank"}
+:::
+
 ::: {#pub-2026-known-to-the-system .callout-note collapse="true"}
 ## Known to the System? Criminal History, Pre-Attack Behaviors, and Firearms Acquisition Among Mass Public Shooters With Documented Warning Behaviors
 
