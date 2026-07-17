@@ -18,15 +18,15 @@ That mandate has guided more than a decade of scholarship, producing a growing b
 ```{=html}
 <div class="rr-collective-stats">
   <div class="rr-collective-stat">
-    <div class="rr-collective-stat-num">65</div>
+    <div class="rr-collective-stat-num">67</div>
     <div class="rr-collective-stat-label">Total Publications</div>
   </div>
   <div class="rr-collective-stat">
-    <div class="rr-collective-stat-num">1,803</div>
+    <div class="rr-collective-stat-num">1,811</div>
     <div class="rr-collective-stat-label">Total Citations</div>
   </div>
   <div class="rr-collective-stat">
-    <div class="rr-collective-stat-num">19</div>
+    <div class="rr-collective-stat-num">20</div>
     <div class="rr-collective-stat-label">h-index</div>
   </div>
 </div>

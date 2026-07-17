@@ -73,23 +73,6 @@ cat(make_progress_tracker(current_level = "B"))
 
 ------------------------------------------------------------------------
 
-### "Box breathing and prolonged exhalation reduces markers of physiological stress reactivity in response to a virtual trier social stress test" 
-
-------------------------------------------------------------------------
-
-#### Synopsis:
-
-This randomized controlled trial examined the effects of two brief slow-breathing techniques on physiological and subjective stress responses in a sample of 66 participants exposed to a virtual Trier Social Stress Test (TSST). Compared to a normal breathing control group, both breathing interventions attenuated post-stressor increases in heart rate, state anxiety, and salivary alpha-amylase, indicating a buffering effect on acute sympathetic and psychological stress responses. These findings support the practical utility of ultra-short breathing interventions for stress mitigation, with potential relevance for high-stress occupations such as law enforcement, firefighting, and military service.
-
-#### Status:
-
-```{r results='asis'}
-#| echo: false
-cat(make_progress_tracker(current_level = "E"))
-```
-
-------------------------------------------------------------------------
-
 ### "Moving Targets: Classification Drift and the Changing Profile of Active Shooter Events in the United States"
 
 ------------------------------------------------------------------------
