@@ -23,6 +23,7 @@ blocking_others: null
 ## Pending Content (Hunter's queue)
 
 - [ ] Additional news announcements — confirm with Hunter what's still outstanding
+- [ ] Scholar stats pipeline integration — Hunter has an automated process that computes the collective publication/citation/h-index numbers on the Research page banner. Currently those three numbers are hardcoded in `public_research.qmd` and updated manually whenever Hunter reports a refresh (see 2026-07-01 and 2026-07-17 commits). Need to talk to Hunter about his pipeline's output format, then wire it in the same way `_grants_ledger.yaml` feeds the grants portfolio stat block — an authoritative data file his pipeline writes to, with the banner computed from it programmatically instead of copy-pasted. Until this lands, don't treat mismatches between the banner and a manual Scholar-profile spot-check as bugs — the pipeline is the source of truth, not individual profile pages.
 
 ## Recent Activity
 
