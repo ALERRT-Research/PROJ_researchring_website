@@ -53,31 +53,6 @@ Fun facts about Peter:
 :::
 ::::::
 
-### Jack Johncox
-
-:::::: columns
-::: {.column width="60%"}
-Jack is a Research Associate at the ALERRT Center, where he supports a variety of projects by providing data analysis, creating visualizations, and facilitating the use of technologies such as virtual reality and eye tracking. He is currently pursuing a Master's degree in Criminal Justice & Criminology at Texas State University. His work has been published in scholarly outlets including *Applied Police Briefings*, the *American Journal of Criminal Justice*, and the *Journal of Criminal Justice*.
-
-::: {.rr-profile-fun-facts}
-Fun facts about Jack:
-
--   He can solve a Rubik's cube
--   He likes to build computers
--   He likes to game on said computers
-:::
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="30%"}
-::: {.hex-photo-wrap}
-![](resources/headshots/headshot_jack.jpg){.hex-photo style="object-position: center 15%;"}
-:::
-:::
-::::::
-
 ### Joe Eleuterio
 
 :::::: columns
@@ -110,7 +85,8 @@ Fun facts about Joe:
 [Pete Blair](https://faculty.txst.edu/profile/2073843){target="_blank"}, Texas State University\
 [William "Bill" Sandel](https://criminology.missouristate.edu/profile.asp?p=WSandel){target="_blank"}, Missouri State University\
 [Madison Doyle](https://www.linkedin.com/in/madison-k-doyle-67283110b/){target="_blank"}, Austin Police Department\
-[Elizabeth "Beth" Quinby](https://clarke.edu/person/beth-quinby/){target="_blank"}, Clarke University
+[Elizabeth "Beth" Quinby](https://clarke.edu/person/beth-quinby/){target="_blank"}, Clarke University\
+[Jack Johncox](https://www.linkedin.com/in/jack-johncox-154463221){target="_blank"}, Texas Department of Public Safety
 
 ## Collaborators
 
