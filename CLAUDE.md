@@ -2,9 +2,11 @@
 
 ## Git Push Policy — MANDATORY
 
-**Never push to GitHub without explicit approval from Peter in a separate message.**
+**Never push to GitHub without explicit approval from an approver in a separate message.**
 
-This applies to everyone working in this project, every time, with no exceptions — even if Peter has already asked for a change to be made. Once the change is complete, present it and wait for a separate "go ahead" before pushing. A project-level hook in `.claude/settings.json` enforces this technically by blocking `git push` tool calls.
+Approvers are **Peter** and **Hunter**. Approval from either one is sufficient.
+
+This applies to everyone working in this project, every time, with no exceptions, even if an approver has already asked for a change to be made. Once the change is complete, present it and wait for a separate "go ahead" before pushing. A project-level hook in `.claude/settings.json` enforces this technically by blocking `git push` tool calls.
 
 ---
 
