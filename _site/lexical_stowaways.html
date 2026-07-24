@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.18">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Lexical Stowaways – Research Ring</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,12 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2a7909330866b3c20f189e72479ef8f7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c1a710b87fdbbc261b299828f9835b21.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dark-a20c4c64c6cd2a6b6d65808e98dfad94.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-a20c4c64c6cd2a6b6d65808e98dfad94.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-eb0bab1c188fca7f382ead79204dfe4c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script defer="" src="resources/auth-gate.js"></script>
 
 
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -84,7 +86,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./resources/alerrt_banner.png" alt="ALERRT Center" class="navbar-logo">
+    <img src="./resources/alerrt_banner.png" alt="ALERRT Center" class="navbar-logo light-content">
+    <img src="./resources/alerrt_banner.png" alt="ALERRT Center" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Research Ring</span>
@@ -289,6 +292,9 @@ ul.task-list li input[type="checkbox"] {
 
 <ol reversed="">
 <li>
+<a href="https://doi.org/10.1016/j.jcrimjus.2026.102700" target="_blank">Congeries</a>: a disorderly collection or jumble of things gathered into a single mass.
+</li>
+<li>
 <a href="https://doi.org/10.1016/j.jcrimjus.2025.102578" target="_blank">Defugalty</a>: an informal, often humorous, or intentional mispronunciation of the word “difficulty”.
 </li>
 <li>
@@ -350,13 +356,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
