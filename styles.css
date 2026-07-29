@@ -411,6 +411,32 @@ nav[role="doc-toc"] ul {
 
 nav[role="doc-toc"] > ul > li { margin-bottom: 0.15rem; }
 
+/* Always show nested nav entries — Quarto's default hides child headings
+   in a collapsed sub-list until scrollspy marks the parent section
+   active, which makes them look missing rather than just not-yet-shown. */
+nav[role="doc-toc"] ul.collapse {
+  display: block !important;
+  height: auto !important;
+  visibility: visible !important;
+}
+
+/* Hide only the "Research Output" heading itself, not its content.
+   NOTE: don't use Bootstrap's .visually-hidden as a pandoc heading
+   attribute for this — with section-divs enabled, that class propagates
+   to the *wrapping section*, hiding the whole section's content (every
+   year and publication under it) instead of just the heading text. */
+#research-output > h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 nav[role="doc-toc"] a {
   color: var(--rr-text-muted) !important;
   text-decoration: none;
