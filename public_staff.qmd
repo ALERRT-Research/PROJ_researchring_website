@@ -4,7 +4,7 @@ title: "People"
 
 ## Research Ring
 
-### Hunter Martaindale
+### Hunter Martaindale [![](resources/icons/google_scholar.svg){.rr-scholar-icon}](https://scholar.google.com/citations?user=_7PlqKYAAAAJ){target="_blank" aria-label="Hunter Martaindale's Google Scholar profile"}
 
 :::::: columns
 ::: {.column width="60%"}
@@ -28,7 +28,7 @@ Fun facts about Hunter:
 :::
 ::::::
 
-### Peter Tanksley
+### Peter Tanksley [![](resources/icons/google_scholar.svg){.rr-scholar-icon}](https://scholar.google.com/citations?user=YnIBrB8AAAAJ){target="_blank" aria-label="Peter Tanksley's Google Scholar profile"}
 
 :::::: columns
 ::: {.column width="60%"}
@@ -53,7 +53,7 @@ Fun facts about Peter:
 :::
 ::::::
 
-### Joe Eleuterio
+### Joe Eleuterio [![](resources/icons/google_scholar.svg){.rr-scholar-icon}](https://scholar.google.com/citations?user=8WzLWRAAAAAJ){target="_blank" aria-label="Joe Eleuterio's Google Scholar profile"}
 
 :::::: columns
 ::: {.column width="60%"}
