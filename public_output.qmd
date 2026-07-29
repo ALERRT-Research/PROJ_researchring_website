@@ -17,7 +17,9 @@ research — including dissertations, technical studies, and after-action
 reports — visit the [ALERRT collection at the Texas State University
 Library](https://hdl.handle.net/10877/23878){target="_blank"}.
 
-# 2026
+# Research Output
+
+## 2026
 
 ::: {#pub-2026-cumulative-strains .callout-note collapse="true"}
 ## Cumulative and Co-Occurring Strains Among Mass Public Shooting Perpetrators: Implications for Violence Prevention
@@ -337,7 +339,7 @@ Journal of Criminal Justice
 [View the article here.](https://doi.org/10.1016/j.jcrimjus.2026.102601){.rr-article-pdf target="_blank"}
 :::
 
-# 2025
+## 2025
 
 ::: {#pub-2025-vehicle-attacks .callout-note collapse="true"}
 ## Active Attacks with Motor Vehicles: A Short Report and Case Study of the 2025 New Year’s Day Attack in New Orleans, LA
@@ -493,7 +495,7 @@ Psychoneuroendocrinology
 [View the article here.](https://doi.org/10.1016/j.psyneuen.2025.107628){.rr-article-pdf target="_blank"}
 :::
 
-# 2024
+## 2024
 
 ::: {#pub-2024-interrogation .callout-note collapse="true"}
 ## Interviewing and Interrogation Practices and Beliefs, 20 Years Later
@@ -646,7 +648,7 @@ Policing: An International Journal
 [View the article here.](https://doi.org/10.1108/PIJPSM-05-2024-0089){.rr-article-pdf target="_blank"}
 :::
 
-# 2023
+## 2023
 
 ::: {#pub-2023-ff-cardiometabolic .callout-note collapse="true"}
 ## Risk Factors for Cardiometabolic Disease in Professional Firefighters
@@ -729,7 +731,7 @@ Journal of Mass Violence Research
 [View the article here.](https://doi.org/10.53076/JMVR74565){.rr-article-pdf target="_blank"}
 :::
 
-# 2022
+## 2022
 
 ::: {#pub-2022-armed-teachers-leo .callout-note collapse="true"}
 ## Should Firearms be Allowed in K-12 Public Schools? An Analysis of Law Enforcement’s Perceptions of Armed Teacher Policies
@@ -872,7 +874,7 @@ Police Quarterly
 [View the article here.](https://doi.org/10.1177/10986111221111332){.rr-article-pdf target="_blank"}
 :::
 
-# 2021
+## 2021
 
 ::: {#pub-2021-women-stress .callout-note collapse="true"}
 ## Women Demonstrate Lower Markers of Stress and Oxidative Stress During Active Shooter Training Drill
@@ -941,7 +943,7 @@ Justice Evaluation Journal
 [View the article here.](https://doi.org/10.1080/24751979.2021.1970482){.rr-article-pdf target="_blank"}
 :::
 
-::: {#pub-2021-high-casualty .callout-note collapse=”true”}
+::: {#pub-2021-high-casualty .callout-note collapse="true"}
 ## “Shots Fired! We Have Many People Down!”: Common Recommendations for Managing High-Casualty Active Shooter Events in the USA
 
 Responses to active shooter events in our communities have continued to
@@ -961,7 +963,7 @@ International Journal of Disaster Risk Reduction
 [View the article here.](https://doi.org/10.1016/j.ijdrr.2021.102548){.rr-article-pdf target="_blank"}
 :::
 
-# 2020
+## 2020
 
 ::: {#pub-2020-21-foot-rule .callout-note collapse="true"}
 ## A Scientific Examination of the 21-Foot Rule
@@ -1031,7 +1033,7 @@ International Journal of Environmental Research and Public Health
 [View the article here.](https://doi.org/10.3390/ijerph17145042){.rr-article-pdf target="_blank"}
 :::
 
-# 2019
+## 2019
 
 ::: {#pub-2019-evolution-protocols .callout-note collapse="true"}
 ## The Evolution of Active Shooter Response Training Protocols Since Columbine: Lessons From the Advanced Law Enforcement Rapid Response Training Center
@@ -1082,7 +1084,7 @@ SAGE Open
 [View the article here.](https://doi.org/10.1177/2158244019871052){.rr-article-pdf target="_blank"}
 :::
 
-# 2017
+## 2017
 
 ::: {#pub-2017-workplace .callout-note collapse="true"}
 ## Active-Shooter Events in the Workplace: Findings and Policy Implications
@@ -1133,9 +1135,9 @@ International Journal of Police Science & Management
 [View the article here.](https://doi.org/10.1177/1461355717711452){.rr-article-pdf target="_blank"}
 :::
 
-# 2011
+## 2011
 
-::: {#pub-2011-reasonableness .callout-note collapse=”true”}
+::: {#pub-2011-reasonableness .callout-note collapse="true"}
 ## Reasonableness and Reaction Time
 
 Decisions made by police officers are typically judged according to a
@@ -1160,6 +1162,24 @@ Police Quarterly
 :::
 
 [View the article here.](https://doi.org/10.1177/1098611111423737){.rr-article-pdf target="_blank"}
+:::
+
+# Supported Output
+
+ALERRT sometimes contributes financial support to outside research
+projects without providing any research support of its own — no team
+member designs, conducts, or co-authors the work. These publications
+aren't Research Ring output, but the funding relationship is
+acknowledged here.
+
+## 2025
+
+::: {#supported-2025 .callout-note collapse="true"}
+Walker, J. K., Dillard, C. C., Gonzalez, D. E., Waldman, H. S., &
+McAllister, M. J. (2025). Impact of the menstrual cycle phases and time
+of day on markers of stress: salivary α-amylase and secretory
+immunoglobulin A. *[Stress](https://doi.org/10.1080/10253890.2024.2449098){target="_blank"}*,
+28(1), 2449098.
 :::
 
 <script>
