@@ -21,6 +21,36 @@ Library](https://hdl.handle.net/10877/23878){target="_blank"}.
 
 ## 2026
 
+::: {#pub-2026-drone-threat .callout-note collapse="true"}
+## The Threat of Drones and Police Preparedness: A Mixed-Methods Study
+
+Small drones have become cheap, capable, and easy to buy, but little
+research has examined how American law enforcement views the threats
+they pose or how prepared agencies are to respond. This study surveyed
+293 officers nationwide about the drone threats they perceive, their
+understanding of what the law allows them to do in response, and their
+agencies' readiness. About two-thirds of respondents rated the threat to
+their own jurisdiction as moderate or high, pointing to surveillance,
+contraband delivery, attacks on critical infrastructure, and the
+potential for mass-casualty attacks, yet only 19 percent said their
+agency had a counter-drone policy and only 16 percent had received any
+counter-drone training. Officers who had been trained consistently
+reported both greater awareness of the legal rules and higher perceived
+threat, and officers in local and county agencies were considerably less
+confident than federal officers about their authority and
+responsibility to respond. The authors conclude that the central problem
+is not a lack of awareness but a lack of clarity, capacity, and
+coordination, and they recommend standardized training, formal
+interagency collaboration, and clearer jurisdictional authority before a
+serious domestic drone incident occurs.
+
+::: {.rr-journal-label}
+Crime & Delinquency
+:::
+
+[View the article here.](https://doi.org/10.1177/00111287261474835){.rr-article-pdf target="_blank"}
+:::
+
 ::: {#pub-2026-cumulative-strains .callout-note collapse="true"}
 ## Cumulative and Co-Occurring Strains Among Mass Public Shooting Perpetrators: Implications for Violence Prevention
 
