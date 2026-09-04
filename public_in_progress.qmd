@@ -56,6 +56,23 @@ Below you will find brief descriptions of research projects that are in progress
 
 ------------------------------------------------------------------------
 
+### "Training Officers to Give Better LCAN Reports"
+
+------------------------------------------------------------------------
+
+#### Synopsis:
+
+LCAN (Location, Conditions, Actions, Needs) is the brief radio report officers give command on arrival at an active attack, and after-action reviews of major incidents repeatedly cite breakdowns in exactly this kind of communication as a contributing factor. LCAN is taught in ALERRT courses, but how it is taught has never been tested. This field experiment, embedded in several ALERRT courses, randomly assigns students within each course to different LCAN training blocks before the standard scenarios, keeping everything else identical. Students' arrival reports are recorded during the scenarios and scored on whether they contain all four core elements. The study will test whether the training received changes how complete officers' LCAN reports are under realistic conditions. Data collection is planned for fall 2026.
+
+#### Status:
+
+```{r results='asis'}
+#| echo: false
+cat(make_progress_tracker(current_level = "A"))
+```
+
+------------------------------------------------------------------------
+
 ### "Deaths of Despair among Protective Service Occupations"
 
 ------------------------------------------------------------------------
@@ -103,27 +120,6 @@ This project will examine the effects of repeated exposure to stressful virtual 
 ```{r results='asis'}
 #| echo: false
 cat(make_progress_tracker(current_level = "B"))
-```
-
-------------------------------------------------------------------------
-
-### "Legal gun ownership and homicides in Brazil" 
-
-------------------------------------------------------------------------
-
-#### Synopsis:
-
-This study uses Bayesian multilevel models to analyze the association between 
-legal gun ownership and homicide rates in Brazil. It used official data on 
-firearm possession and licenses to carry rather than proxy measures. The 
-results suggest that legal gun ownership is unlikely to be a significant driver 
-of homicide rates. Preprint available on [CrimRxiv](https://doi.org/10.21428/cb6ab371.b1300c2c){target="_blank"}. 
-
-#### Status:
-
-```{r results='asis'}
-#| echo: false
-cat(make_progress_tracker(current_level = "D"))
 ```
 
 ------------------------------------------------------------------------

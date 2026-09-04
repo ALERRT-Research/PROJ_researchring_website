@@ -21,6 +21,61 @@ Library](https://hdl.handle.net/10877/23878){target="_blank"}.
 
 ## 2026
 
+::: {#pub-2026-correctional-officer-mortality .callout-note collapse="true"}
+## Correctional Officer Mortality in the United States, 2020–2023: Evidence From the National Occupational Mortality Surveillance Program
+
+Prisons are among the most stressful workplaces in the country, yet the
+health of the officers who staff them has received little attention
+from public health research. This study provides the first national
+assessment of all-cause and cause-specific mortality among working-age
+correctional officers, drawing on death certificate records for 9,876
+officers in the National Occupational Mortality Surveillance program
+from 2020 to 2023 and comparing them with the wider working-age
+population. Male and female correctional officers experienced 27 percent
+and 129 percent excess all-cause mortality, respectively, with elevated
+death rates from circulatory disease, cancer, and external causes,
+including suicide. COVID-19 was uniquely damaging, becoming the leading
+cause of death among correctional officers in 2021. The authors argue
+that correctional facilities should be understood not only as sites of
+confinement and public safety but as important sites of public health
+intervention, calling for better surveillance, earlier identification of
+cardiometabolic and mental health risk, confidential access to
+treatment, and organizational reforms that reduce chronic occupational
+strain.
+
+::: {.rr-journal-label}
+American Journal of Public Health
+:::
+
+Article forthcoming.
+:::
+
+::: {#pub-2026-brazil-gun-ownership .callout-note collapse="true"}
+## Legal Gun Ownership and Carrying Are Not Associated With Homicides in Brazil: A Bayesian Analysis of State-Level Longitudinal Data
+
+Brazil has one of the most restrictive gun control regimes in the world
+and one of the highest homicide counts, and most prior research there
+has concluded that greater civilian access to firearms drives violence.
+That literature, however, relies on proxy measures of gun ownership
+validated in the United States, not on Brazilian data. This study is
+the first to use official counts of registered firearms, licensed
+hunters, sport shooters, and collectors, and civilian carry licenses
+across all 27 Brazilian states from 2013 to 2023, modeling the
+association with homicides using Bayesian multilevel models that account
+for differences between states. The results suggest that legal gun
+ownership and carrying are unlikely to be a meaningful driver of
+homicides. Instead, the large and persistent differences between states
+point to state-specific criminal justice policies and institutional
+contexts as the more decisive factors. A
+[preprint is available on CrimRxiv](https://doi.org/10.21428/cb6ab371.b1300c2c){target="_blank"}.
+
+::: {.rr-journal-label}
+International Journal of Comparative and Applied Criminal Justice
+:::
+
+Article forthcoming.
+:::
+
 ::: {#pub-2026-drone-threat .callout-note collapse="true"}
 ## The Threat of Drones and Police Preparedness: A Mixed-Methods Study
 

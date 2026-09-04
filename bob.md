@@ -9,7 +9,7 @@ deadline: null
 target: Ongoing — keep content current; add publications, grants, news as they occur
 effort_remaining: as-needed
 weekly_commitment: 1–2h
-last_updated: 2026-07-29
+last_updated: 2026-09-04
 blockers: null
 blocking_others: null
 ---
@@ -20,18 +20,32 @@ blocking_others: null
 - Keep publications, grants, media/news, staff, and in-progress project entries current
 - Support Hunter in adding content without requiring Peter's involvement for routine updates
 
-## Pending Content (Hunter's queue)
+## Team & Dependencies
 
-- [ ] Additional news announcements — confirm with Hunter what's still outstanding
-- [ ] Scholar stats pipeline / long-term architecture — paused 2026-07-29 pending a design conversation with Hunter. Dug into his `PROJ_alerrt_cv` repo; it's not clear yet whether that pipeline is the right long-term source for the Research page's collective pub/citation/h-index banner (still hardcoded in `public_research.qmd`). Open questions: decoupling the pipeline from a fixed team-member list, and separating ALERRT-mandate research from incidental outside collaborations for citation-counting purposes. Full detail in Claude's memory (`research_ring_scholar_stats_architecture.md`) — read that before resuming rather than re-investigating from scratch.
+| Name | Role | Affiliation | Waiting on Peter? |
+|------|------|-------------|-------------------|
+| Hunter Martaindale | Co-maintainer, content source, push approver | ALERRT / Texas State | No |
 
-## Recent Activity
+## This Week
 
-- 2026-07-29: Added Google Scholar profile icons/links to the three active team profiles on the People page (self-hosted Font Awesome icon, sourced IDs from Hunter's `PROJ_alerrt_cv`). Added a "Supported Output" section to the Research Output page, then restructured page nav so both Publications and Supported Output years show fully expanded/clickable in the sidebar (fixed two callouts silently stuck open from a curly-quote typo along the way). Redefined Supported Output with Hunter mid-session: it now covers projects ALERRT funds without providing research support (not any outside team-member collaboration) — swapped out a Wooldredge et al. paper and three preprints from Tanksley's prior institution for the ALERRT-funded menstrual cycle/stress markers study.
-- 2026-07-02: Merged Hunter's 5 new 2026 publications; added RGVRC grant + announcement entry; several infrastructure fixes (see git log / `CLAUDE.md` changelog for detail)
-- 2026-05-19: SIA report announcement added; landing_url field added to media renderer
-- 2026-05-12: All four team member headshots added; staff page fully populated
+- Commit and push the 2026-09-04 content update once Peter approves
+- When the AJPH DOI for the correctional officer mortality paper arrives, replace "Article forthcoming." with the article link
+- Scholar-stats pipeline: still live (confirmed 2026-09-04). Schedule the design conversation with Hunter; banner in `public_research.qmd` stays hardcoded until then
+
+## Upcoming Milestones
+
+- none — content-driven; no fixed dates
+
+## Start Here Next Session
+
+- Check `git log` for anything Hunter pushed since 2026-09-04. Uncommitted work from 2026-09-04 (two Research Output entries, LCAN added to In Progress, Brazil paper removed) is in `docs/logs/2026-09-04_content-update.md`.
+- If resuming the Scholar-stats question: read `docs/logs/2026-09-04_bob-prune.md` first — it holds the open design questions. Do not re-investigate `PROJ_alerrt_cv` from scratch.
+- Content-editing and render/deploy procedure: `CLAUDE.md`. Push requires separate explicit approval from Peter or Hunter.
 
 ## Notes
 
-Full content-editing and render/deploy workflow lives in `CLAUDE.md` — not duplicated here.
+- Scholar-stats banner on the Research page is hardcoded; a pipeline sourced from Hunter's `PROJ_alerrt_cv` is a candidate but unresolved — reasoning in `docs/logs/2026-09-04_bob-prune.md`. (The Claude memory file the earlier note pointed at does not exist on this machine; the log is now the only record.)
+- Supported Output = projects ALERRT funds without providing research support, not outside team-member collaborations (settled with Hunter 2026-07-29).
+- History: `DEVLOG.md` covers build-out through 2026-05-19; `docs/logs/` from 2026-09-04 onward. Conventions live in `CLAUDE.md`, not here.
+
+<!-- Budget: ≤ 150 lines total. History lives in docs/logs/, conventions in CLAUDE.md. -->
