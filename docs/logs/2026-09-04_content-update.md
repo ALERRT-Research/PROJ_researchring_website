@@ -27,3 +27,7 @@ Also this session: dropped the "outstanding news announcements" item (Peter: dea
 ## Addendum (same session): LCAN card rewritten after the redirection scoping
 
 Peter scoped the LCAN redirection in this session rather than waiting for 09-09. The card is now "Training Officers to Give Better LCAN Reports" — a within-course randomized training experiment scored on Core-4 completeness — still at stage A. The measurement-first synopsis written earlier in the session never left the working tree. Full redirection record: `PROJ_lcan/docs/logs/2026-09-04_redirection-scoping.md`.
+
+## Outcome
+
+Committed as `5743705` and pushed to `main` on Peter's explicit approval (2026-09-04, ~15:20). Working tree clean. Follow-ups carried in bob.md: swap in the AJPH DOI for the correctional officer paper, and link the Brazil paper once it appears online. LCAN card revisit after the 2026-09-09 design session.
