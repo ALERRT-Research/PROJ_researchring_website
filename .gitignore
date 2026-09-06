@@ -10,3 +10,8 @@
 
 .claude/*
 !.claude/settings.json
+
+# secrets
+.env
+.Renviron
+__pycache__/

@@ -11,6 +11,7 @@ Usage:
     python3 scripts/openalex_doi_links.py --dry-run
 """
 
+import os
 import re
 import sys
 import time
@@ -25,9 +26,12 @@ except ImportError:
 # ── Config ────────────────────────────────────────────────────────────────────
 
 QMD_PATH        = "public_output.qmd"
-API_KEY         = "czQWdVxoRuiWUTT8l3mdV1"
-EMAIL           = "ptt2@txstate.edu"
+API_KEY         = os.environ.get("OPENALEX_API_KEY")   # never hardcode; set in shell or .env
+EMAIL           = os.environ.get("OPENALEX_MAILTO")    # contact for OpenAlex polite pool
 BASE_URL        = "https://api.openalex.org"
+
+if not API_KEY or not EMAIL:
+    sys.exit("Set OPENALEX_API_KEY and OPENALEX_MAILTO in your environment before running.")
 MATCH_THRESHOLD = 0.75
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
