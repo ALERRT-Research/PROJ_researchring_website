@@ -10,6 +10,15 @@ This applies to everyone working in this project, every time, with no exceptions
 
 ---
 
+## Credentials — Never in Tracked Files
+
+This repo is **public**. No API keys, tokens, or passwords in any tracked file, not even a
+comment or a "free tier" key. Helper scripts in `scripts/` read credentials from the
+environment (`OPENALEX_API_KEY`, `OPENALEX_MAILTO`, set in each maintainer's `~/.zshrc`)
+and exit if they are unset. Before committing, `git diff` and look for anything that resembles
+a key. Background: an outside reader found a hardcoded OpenAlex key here on 2026-09-06 —
+see `docs/logs/2026-09-06_openalex-key-exposure.md`.
+
 ## Writing Style
 
 - **Oxford comma required.** Always use the serial comma in lists of three or more items in any website copy, headings, or labels (e.g., "data collection, analysis, and reporting" — not "data collection, analysis and reporting").
