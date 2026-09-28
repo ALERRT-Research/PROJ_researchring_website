@@ -54,6 +54,48 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-09-23"
+  id: "uc-face-2026"
+  type: announcement
+  source: Tri-State FACE Team
+  title: "Leading Causes of Death Among First Responders — Tri-State FACE Team Meeting, Cincinnati"
+  landing_title: Peter presents on leading causes of death among first responders to the Tri-State FACE team in Cincinnati
+  images:
+    - "resources/media/tanksley_uc_face_2026.jpg"
+    - "resources/media/uc_face_2026_flyer.jpg"
+  description: >
+    Peter traveled to the University of Cincinnati on September 23 to speak to
+    the Tri-State FACE Team (Firefighters Attacking the Cancer Epidemic), a
+    regional fire-service safety and health coalition spanning Ohio, Kentucky,
+    and Indiana. Presenting alongside J.C. Barnes, Professor and Director of
+    UC's School of Criminal Justice and co-author on the Research Ring's officer
+    mortality work, Peter gave an evidence-based overview of the leading causes
+    of death among first responders, drawing on the Research Ring's
+    [population-wide study of law enforcement officer
+    mortality](public_output.html#pub-2025-leo-mortality) and previewing
+    findings from the Research Ring's [in-progress study of mortality among
+    firefighters](public_in_progress.html#proj-ff-mortality).
+
+- date: "2026-09-22"
+  id: "force-science-2026"
+  type: announcement
+  source: Force Science Conference
+  title: "Force Science Conference — Austin, Texas"
+  landing_title: Pete Blair keynotes and Joe joins a panel at the Force Science Conference in Austin
+  images:
+    - "resources/media/force_science_2026_keynotes.jpg"
+    - "resources/media/force_science_2026_speakers.jpg"
+    - "resources/media/force_science_2026_sponsors.jpg"
+  description: >
+    The Research Ring was in Austin for the Force Science Conference
+    (September 22–24, 2026), a three-day gathering of more than 40 speakers on
+    use-of-force research and practice. ALERRT Director Pete Blair delivered
+    one of the conference keynotes, "Linking the Chain: From Course Hours to
+    Capability," on translating training time into operational skill. Joe
+    joined the expert panel "Controlling the Chaos: Human Performance and the
+    Science of Arrest and Control," and Hunter attended. The ALERRT Center also
+    supported the conference as a Silver Sponsor.
+
 - date: "2026-07-01"
   id: "erpo-rgvrc-2026"
   type: announcement

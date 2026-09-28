@@ -56,6 +56,23 @@ Below you will find brief descriptions of research projects that are in progress
 
 ------------------------------------------------------------------------
 
+### "Leading Causes of Death Among U.S. Firefighters" {#proj-ff-mortality}
+
+------------------------------------------------------------------------
+
+#### Synopsis:
+
+Firefighting carries well-documented occupational hazards, but population-wide evidence on what firefighters actually die from remains thin. This project uses the National Occupational Mortality Surveillance (NOMS) data to examine cause-specific mortality among U.S. career firefighters from 2020 to 2024, comparing their mortality profile to the working-age U.S. population and to the patterns the Research Ring has already documented for [law enforcement officers](public_output.html#pub-2025-leo-mortality) and [correctional officers](public_output.html#pub-2026-correctional-officer-mortality). The analysis applies the same population-based approach used in those earlier studies, with a supplementary analysis that adds EMS personnel. Preliminary findings were [presented to the Tri-State FACE Team](public_media.html#uc-face-2026) in Cincinnati in September 2026; a manuscript is in preparation.
+
+#### Status:
+
+```{r results='asis'}
+#| echo: false
+cat(make_progress_tracker(current_level = "B"))
+```
+
+------------------------------------------------------------------------
+
 ### "Training Officers to Give Better LCAN Reports"
 
 ------------------------------------------------------------------------

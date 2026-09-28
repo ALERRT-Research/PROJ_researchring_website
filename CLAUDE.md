@@ -288,8 +288,11 @@ quarto render
 # Faster: render only the pages you changed:
 quarto render public_output.qmd
 quarto render public_grants.qmd
-quarto render index.qmd public_media.qmd   # always render both when editing _media_entries.yaml
+quarto render index.qmd          # always render BOTH of these, as two separate
+quarto render public_media.qmd   # commands, when editing _media_entries.yaml
 ```
+
+**Never pass two `.qmd` files to one `quarto render` call** (e.g. `quarto render index.qmd public_media.qmd`). Quarto renders only the first and hands the second to pandoc as an extra input, so the second page's raw content — code chunks included — is appended to the bottom of the first page's HTML. The render reports success. Caught 2026-09-28 in a local render before commit; the landing page had the media page's source glued underneath it. One file per command.
 
 **Then commit and push:**
 
