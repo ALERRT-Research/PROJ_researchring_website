@@ -28,7 +28,6 @@ blocking_others: null
 
 ## This Week
 
-- Commit and push the 2026-09-28 update (two conference announcements: Tri-State FACE / Cincinnati, Force Science / Austin; firefighter mortality In Progress card; CLAUDE.md render-command fix) once Peter approves
 - Install gitleaks as a pre-commit hook (not installed; no hook in `.git/hooks`)
 - Decision for Peter: the Scholar-stats design conversation with Hunter has been unscheduled since 2026-07-29 — schedule it, or shelve the pipeline and accept the hardcoded banner
 - LCAN In Progress card: confirm it still matches the design fixed 2026-09-09 (first course Nov 2026)
