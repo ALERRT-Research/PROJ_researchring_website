@@ -54,6 +54,28 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-09-29"
+  id: "thrc-visit-2026"
+  type: announcement
+  source: ALERRT Research Ring
+  title: "Translational Health Research Center Leadership Tours the ALERRT Range"
+  landing_title: Hunter, Joe, and Peter host Texas State THRC leadership at the ALERRT range to explore collaboration
+  images:
+    - "resources/media/thrc_visit_2026.jpg"
+    - "resources/media/thrc_visit_2026_b.jpg"
+  description: >
+    Hunter, Joe, and Peter welcomed leadership from Texas State's
+    [Translational Health Research Center](https://healthresearch.txst.edu/){target="_blank"}
+    (THRC) to the ALERRT range on September 29: Melinda Villagran, THRC
+    Executive Director; Marsha Burney, Director of Community Relations; Carolyn
+    Chang, Director of Bioscience Education and Research Training Programs; and
+    Kelly Clary, Associate Professor in the School of Social Work. The group
+    toured ALERRT's training operation, including one of the doors from the
+    2022 Uvalde shooting, which anchors the Research Ring's [report on door
+    locks in school-based active shooter
+    events](public_reports.html#report-sia-2026), and discussed opportunities
+    for closer collaboration between ALERRT and the THRC.
+
 - date: "2026-09-23"
   id: "uc-face-2026"
   type: announcement
