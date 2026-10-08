@@ -68,7 +68,7 @@ Firefighting carries well-documented occupational hazards, but population-wide e
 
 ```{r results='asis'}
 #| echo: false
-cat(make_progress_tracker(current_level = "B"))
+cat(make_progress_tracker(current_level = "C"))
 ```
 
 ------------------------------------------------------------------------
@@ -79,7 +79,7 @@ cat(make_progress_tracker(current_level = "B"))
 
 #### Synopsis:
 
-LCAN (Location, Conditions, Actions, Needs) is the brief radio report officers give command on arrival at an active attack, and after-action reviews of major incidents repeatedly cite breakdowns in exactly this kind of communication as a contributing factor. LCAN is taught in ALERRT courses, but how it is taught has never been tested. This field experiment, embedded in several ALERRT courses, randomly assigns students within each course to different LCAN training blocks before the standard scenarios, keeping everything else identical. Students' arrival reports are recorded during the scenarios and scored on whether they contain all four core elements. The study will test whether the training received changes how complete officers' LCAN reports are under realistic conditions. Data collection is planned for fall 2026.
+LCAN (Location, Conditions, Actions, Needs) is the brief radio report officers give command on arrival at an active attack. After-action reviews of major incidents repeatedly cite breakdowns in this kind of communication. LCAN is taught in ALERRT courses, but how well that training works has never been tested. This program of three studies will test it in steps. The first is an online study with university students, the second moves into virtual reality, and the third works with officers. Each study measures how complete participants' spoken reports are. The first study is expected to begin data collection in spring 2027.
 
 #### Status:
 

@@ -29,17 +29,17 @@ blocking_others: null
 ## This Week
 
 - Decision for Peter: the Scholar-stats design conversation with Hunter has been unscheduled since 2026-07-29 — schedule it, or shelve the pipeline and accept the hardcoded banner
-- LCAN In Progress card: update to the three-study program redesigned 2026-10-01 (the 09-09 course-embedded description is stale; see `PROJ_lcan/bob.md`)
 - [ ] Add Jessie Beck (Research Associate, started 2026-10-05) to the team page; still need her title, photo, and bio
 
 ## Upcoming Milestones
 
 - ~Dec 2026 (AJPH First Look): replace "Article forthcoming." on the correctional officer mortality entry with the AJPH DOI — trigger is `PROJ_noms_co_cod` production
 - When the Brazil gun-ownership paper appears online at IJCACJ: replace its "Article forthcoming." with the article link
+- LCAN card stays at stage A until data collection starts; when the IRB clears, decide whether to add a "Data collection" stage to the tracker (changes every card)
 
 ## Start Here Next Session
 
-- Check `git log` for anything Hunter pushed since 2026-10-08 (last push: OperatorXR visit announcement + announcement headline restyle; see `docs/logs/2026-10-08_operatorxr-announcement.md`).
+- Check `git log` for anything Hunter pushed since 2026-10-08 (last push: In Progress updates — LCAN synopsis, firefighter card to Draft manuscript; earlier same day OperatorXR announcement + headline restyle; see `docs/logs/2026-10-08_operatorxr-announcement.md`).
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
 - Content-editing and render/deploy procedure: `CLAUDE.md`. Push requires separate explicit approval from Peter or Hunter.
