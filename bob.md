@@ -9,7 +9,7 @@ deadline: null
 target: Ongoing — keep content current; add publications, grants, news as they occur
 effort_remaining: as-needed
 weekly_commitment: 1–2h
-last_updated: 2026-09-29
+last_updated: 2026-10-08
 blockers: null
 blocking_others: null
 ---
@@ -29,7 +29,8 @@ blocking_others: null
 ## This Week
 
 - Decision for Peter: the Scholar-stats design conversation with Hunter has been unscheduled since 2026-07-29 — schedule it, or shelve the pipeline and accept the hardcoded banner
-- LCAN In Progress card: confirm it still matches the design fixed 2026-09-09 (first course Nov 2026)
+- LCAN In Progress card: update to the three-study program redesigned 2026-10-01 (the 09-09 course-embedded description is stale; see `PROJ_lcan/bob.md`)
+- [ ] Add Jessie Beck (Research Associate, started 2026-10-05) to the team page; still need her title, photo, and bio
 
 ## Upcoming Milestones
 
@@ -38,7 +39,7 @@ blocking_others: null
 
 ## Start Here Next Session
 
-- Check `git log` for anything Hunter pushed since 2026-09-29 (last push: THRC range-visit announcement).
+- Check `git log` for anything Hunter pushed since 2026-10-08 (last push: OperatorXR visit announcement + announcement headline restyle; see `docs/logs/2026-10-08_operatorxr-announcement.md`).
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
 - Content-editing and render/deploy procedure: `CLAUDE.md`. Push requires separate explicit approval from Peter or Hunter.

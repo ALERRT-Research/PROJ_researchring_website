@@ -54,6 +54,25 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-10-07"
+  id: "operatorxr-visit-2026"
+  type: announcement
+  source: ALERRT Research Ring
+  title: "OperatorXR Visits ALERRT to Train the Research Ring on Its VR System"
+  landing_title: Curry Newton and Matt Moore of OperatorXR train new research associate Jessie on the Research Ring's VR kit
+  images:
+    - "resources/media/operatorxr_visit_2026.jpg"
+    - "resources/media/operatorxr_visit_2026_b.jpg"
+  description: >
+    [OperatorXR](https://operatorxr.com/){target="_blank"} visited ALERRT on
+    October 7 to train Jessie, our new research associate, on its virtual
+    reality system. Curry Newton leads sales at OperatorXR. Matt Moore is a 3D
+    artist and customer success manager. They spent the day walking Jessie
+    through the headsets, controllers, and instructor tools. We also talked
+    about pizza for an unreasonable share of the day, and the research on
+    that question remains ongoing. We look forward to running new studies with
+    OperatorXR.
+
 - date: "2026-09-29"
   id: "thrc-visit-2026"
   type: announcement

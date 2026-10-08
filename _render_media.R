@@ -69,24 +69,28 @@ render_podcast_html <- function(e) {
 }
 
 render_announcement_html <- function(e) {
-  date_fmt  <- format(as.Date(e$date), "%B %d, %Y")
+  date_fmt  <- sub(" 0", " ", format(as.Date(e$date), "%B %d, %Y"))
   id_attr   <- if (!is.null(e$id)) sprintf("#%s ", e$id) else ""
   imgs         <- if (!is.null(e$images)) e$images else if (!is.null(e$image)) list(e$image) else list()
   has_image    <- length(imgs) > 0
   multi        <- length(imgs) > 1
   thumb_class  <- if (isTRUE(e$thumb_borderless)) ".rr-announcement-thumb .rr-thumb-borderless" else ".rr-announcement-thumb"
 
+  # Source/date is a small muted eyebrow; the title is the visual headline.
+  # Both are block-level spans (see .rr-ann-meta / .rr-ann-title in styles.css),
+  # so no hard line breaks are needed between them.
   title_html <- if (!is.null(e$url)) {
-    sprintf('[%s](%s){target="_blank"}', e$title, e$url)
-  } else e$title
+    sprintf('[[%s](%s){target="_blank"}]{.rr-ann-title}', e$title, e$url)
+  } else sprintf('[%s]{.rr-ann-title}', e$title)
+  meta_html <- sprintf('[%s · %s]{.rr-ann-meta}', e$source, date_fmt)
 
   desc_part <- if (!is.null(e$description)) {
-    if (has_image) sprintf("\\\n%s", e$description) else sprintf("\n\n%s", e$description)
+    if (has_image) sprintf("\n%s", e$description) else sprintf("\n\n%s", e$description)
   } else ""
 
   if (!has_image) {
-    sprintf('::: {%s.rr-media-citation}\n**%s** · %s\\\n%s%s\n:::\n\n',
-      id_attr, e$source, date_fmt, title_html, desc_part)
+    sprintf('::: {%s.rr-media-citation}\n%s\n%s%s\n:::\n\n',
+      id_attr, meta_html, title_html, desc_part)
   } else {
     group_id <- paste0("ann-", gsub("[^a-z0-9]", "", tolower(e$date)))
     main_img <- sprintf('![](%s){.lightbox %s group="%s"}', imgs[[1]], thumb_class, group_id)
@@ -102,8 +106,8 @@ render_announcement_html <- function(e) {
     }
 
     # 4-colon outer fence so inner ::: fences don't close it prematurely
-    sprintf(':::: {%s.rr-media-citation .rr-has-thumb}\n**%s** · %s\\\n%s%s\n\n%s\n::::\n\n',
-      id_attr, e$source, date_fmt, title_html, desc_part, image_block)
+    sprintf(':::: {%s.rr-media-citation .rr-has-thumb}\n%s\n%s%s\n\n%s\n::::\n\n',
+      id_attr, meta_html, title_html, desc_part, image_block)
   }
 }
 
