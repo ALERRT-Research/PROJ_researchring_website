@@ -1,4 +1,5 @@
 ---
+card_schema: bob/2
 project: Research Ring Website
 type: website
 status: active
