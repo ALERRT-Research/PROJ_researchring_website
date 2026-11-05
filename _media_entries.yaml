@@ -54,6 +54,45 @@
 # announcement  Internal RR news: grants, awards, new projects, milestones
 # ─────────────────────────────────────────────────────────────────
 
+- date: "2026-11-03"
+  id: "sord-2026"
+  type: announcement
+  source: ALERRT Research Ring
+  title: "Research Ring Takes ALERRT's Solo Officer Rapid Deployment Course"
+  landing_title: Jessie and Peter go through ALERRT's Solo Officer Rapid Deployment course
+  images:
+    - "resources/media/sord_2026.jpg"
+  description: >
+    Jessie and Peter spent the week of November 2 in ALERRT's Solo Officer
+    Rapid Deployment (SORD) course, which trains a single officer to enter
+    and stop an active attack before backup arrives. Studying police training
+    is easier when you have been through it yourself, and both now have a
+    firsthand feel for the scenarios the Research Ring evaluates. Peter's
+    expression in the photo is an accurate summary of the experience.
+
+- date: "2026-10-26"
+  id: "iacp-2026"
+  type: announcement
+  source: IACP Annual Conference
+  title: "Cancer and Deaths of Despair in Law Enforcement — Two Panels at IACP 2026, Orlando"
+  landing_title: Peter joins two IACP 2026 panels in Orlando, on cancer and on deaths of despair among officers
+  images:
+    - "resources/media/tanksley_iacp_2026.jpg"
+    - "resources/media/tanksley_iacp_2026_b.jpg"
+    - "resources/media/tanksley_iacp_2026_c.jpg"
+    - "resources/media/tanksley_iacp_2026_d.jpg"
+    - "resources/media/tanksley_iacp_2026_e.jpg"
+  description: >
+    Peter spoke on two panels at the IACP Annual Conference in Orlando, FL. On
+    October 24 he joined Vickie Speed of [Blue Cancer
+    Connect](https://bluecancerconnect.org){target="_blank"} for IACP's
+    first-ever panel on cancer in law enforcement. On October 26 he led a
+    session on deaths of despair among U.S. law enforcement officers with John
+    Violanti, Research Professor at SUNY at Buffalo, and Kathleen Padilla,
+    Assistant Professor at Texas State University. Both panels drew on the
+    Research Ring's [population-wide study of law enforcement officer
+    mortality](public_output.html#pub-2025-leo-mortality).
+
 - date: "2026-10-07"
   id: "operatorxr-visit-2026"
   type: announcement
