@@ -80,6 +80,31 @@ Fun facts about Joe:
 :::
 ::::::
 
+### Jessie Beck
+
+:::::: columns
+::: {.column width="60%"}
+Jessie is a research associate with the ALERRT Center, where she runs studies that use virtual reality to simulate law enforcement scenarios. She holds a bachelor's degree in exercise and sport science, and her research background includes exertional heat stroke, gait, and muscle cramping. Her work has been published in the *American Journal of Emergency Medicine*.
+
+::: {.rr-profile-fun-facts}
+Fun facts about Jessie:
+
+-   At 5 feet tall and 120 pounds, she's small but stout, and she loves metal. She's seen Metallica twice, Iron Maiden four times, Tool, Pantera, Ministry, Staind, and many other bands that she, her sister, and her dad all love. She has yet to mosh.
+-   She's a country girl at heart. When she isn't with friends, you'll find her at her grandfather's ranch working with her horse, hunting, making wine, or spending time with family.
+-   If Jessie ever goes off the grid, it will be somewhere with a beautiful river to float and swim in.
+:::
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+::: {.hex-photo-wrap}
+![](resources/headshots/headshot_beck.jpg){.hex-photo}
+:::
+:::
+::::::
+
 ## Alumni
 
 [Pete Blair](https://faculty.txst.edu/profile/2073843){target="_blank"}, Texas State University\
