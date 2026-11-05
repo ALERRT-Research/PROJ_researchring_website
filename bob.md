@@ -39,7 +39,7 @@ blocking_others: null
 
 ## Start Here Next Session
 
-- Jessie Beck added to People page 2026-11-05 (commit local; push pending approval) — see `docs/logs/2026-11-05_jessie-beck-people.md`.
+- Jessie Beck added to People page 2026-11-05 (pushed 9ba481c) — see `docs/logs/2026-11-05_jessie-beck-people.md`.
 - Check `git log` for anything Hunter pushed since 2026-10-08 (last push: In Progress updates — LCAN synopsis, firefighter card to Draft manuscript; earlier same day OperatorXR announcement + headline restyle; see `docs/logs/2026-10-08_operatorxr-announcement.md`).
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
