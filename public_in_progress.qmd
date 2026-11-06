@@ -90,7 +90,7 @@ cat(make_progress_tracker(current_level = "A"))
 
 ------------------------------------------------------------------------
 
-### "Deaths of Despair among Protective Service Occupations"
+### "Deaths of Despair among Protective Service Occupations" {#proj-dod-pso}
 
 ------------------------------------------------------------------------
 

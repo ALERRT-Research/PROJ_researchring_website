@@ -14,3 +14,9 @@
 - IACP entry rewritten per Peter as an ALERRT-wide account, not a Peter-only post: booth staffed by ALERRT
   employees (booth photo now leads), Joe presented with Pete Blair, Peter's two panels with short affiliations
   only (University at Buffalo, Texas State). Scott Coyne line and the dated per-panel detail dropped for length.
+- IACP entry, second pass: added Joe's session graphic (`joe_iacp_2026.jpg`, from Desktop) and the square
+  deaths-of-despair panel poster (`dod_iacp_2026_poster.jpg`, from `PROJ_noms_dod_pso/talks/iacp_2026/poster/`;
+  no NOMS figures on it). Joe and Pete's topics from the graphic: U.S./Brazil comparative research, principles
+  for police training. Peter's panel now links to the deaths of despair In Progress card, not the 2025 LEO
+  mortality paper (same data source, distinct project, per Peter). Added `{#proj-dod-pso}` anchor to that card
+  in `public_in_progress.qmd`.
