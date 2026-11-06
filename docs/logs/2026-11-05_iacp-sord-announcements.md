@@ -2,7 +2,7 @@
 
 - Two new `_media_entries.yaml` announcements, newest first:
   - `sord-2026` (2026-11-03): Jessie and Peter in ALERRT's Solo Officer Rapid Deployment course, week of
-    Nov 2. One photo (`resources/media/sord_2026.jpg`, from Peter's Desktop `IMG_1315.HEIC`). Jessie and Peter observed the course and took part as bystanders in the day-two force-on-force scenarios (hence the protective-gear photo). Description follows alerrt.org/course_types/SORD.
+    Nov 2. Two photos: Peter (`sord_2026.jpg`, from Desktop `IMG_1315.HEIC`) and Jessie (`sord_2026_b.jpg`, from Downloads `Image.jpeg`). Jessie and Peter observed the course and took part as bystanders in the day-two force-on-force scenarios (hence the protective-gear photo). Description follows alerrt.org/course_types/SORD.
   - `iacp-2026` (2026-10-26): Peter's two IACP 2026 panels in Orlando. Cancer in law enforcement with Vickie
     Speed (Blue Cancer Connect), Oct 24; deaths of despair with John Violanti (SUNY Buffalo) and Kathleen
     Padilla (Texas State), Oct 26. Panel days come from photo capture timestamps. Five photos
