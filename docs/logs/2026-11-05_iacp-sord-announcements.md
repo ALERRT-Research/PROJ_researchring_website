@@ -11,3 +11,6 @@
 - Cross-link: both IACP panels point to `public_output.html#pub-2025-leo-mortality`.
 - Verified: `quarto render index.qmd` and `quarto render public_media.qmd` as separate calls, no `#| echo`
   leakage, landing-strip anchors resolve, headless-Chrome screenshot of the media page.
+- IACP entry rewritten per Peter as an ALERRT-wide account, not a Peter-only post: booth staffed by ALERRT
+  employees (booth photo now leads), Joe presented with Pete Blair, Peter's two panels with short affiliations
+  only (University at Buffalo, Texas State). Scott Coyne line and the dated per-panel detail dropped for length.
