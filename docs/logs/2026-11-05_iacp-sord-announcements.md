@@ -20,3 +20,5 @@
   for police training. Peter's panel now links to the deaths of despair In Progress card, not the 2025 LEO
   mortality paper (same data source, distinct project, per Peter). Added `{#proj-dod-pso}` anchor to that card
   in `public_in_progress.qmd`.
+- Back-dated announcement `jessie-beck-joins-2026` (2026-10-05, her first day): headshot thumbnail, links to
+  `public_staff.html#jessie-beck` and to the OperatorXR entry two days later.
