@@ -39,9 +39,8 @@ blocking_others: null
 
 ## Start Here Next Session
 
-- Jessie Beck added to People page 2026-11-05 (pushed 9ba481c) — see `docs/logs/2026-11-05_jessie-beck-people.md`.
-- IACP 2026, SORD, and Jessie-joins (back-dated 2026-10-05) announcements pushed 2026-11-05 — see `docs/logs/2026-11-05_iacp-sord-announcements.md`.
-- Check `git log` for anything Hunter pushed since 2026-10-08 (last push: In Progress updates — LCAN synopsis, firefighter card to Draft manuscript; earlier same day OperatorXR announcement + headline restyle; see `docs/logs/2026-10-08_operatorxr-announcement.md`).
+- Last session (2026-11-05, all pushed through e8420f7): Jessie on People page; IACP, SORD, and Jessie-joins announcements; `{#proj-dod-pso}` anchor. See `docs/logs/2026-11-05_jessie-beck-people.md` and `docs/logs/2026-11-05_iacp-sord-announcements.md`.
+- `git fetch` and check `git log` for anything Hunter pushed since 2026-11-05 (e8420f7).
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
 - Content-editing and render/deploy procedure: `CLAUDE.md`. Push requires separate explicit approval from Peter or Hunter.
