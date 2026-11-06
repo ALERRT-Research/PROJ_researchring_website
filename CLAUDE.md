@@ -277,6 +277,100 @@ Rules:
 
 ---
 
+## Ring Resources (internal pages)
+
+Everything under **Resources** in the navbar is the team-only side of the site. Every
+page listed in the "Ring Resources" sidebar in `_quarto.yml` sits behind a passphrase
+overlay (`resources/auth-gate.js`, which detects these pages by the sidebar link to
+`research_process_home`). The gate is a courtesy, not security: the repo and the
+rendered HTML are public. **Never put anything on a Resources page that would be a
+problem if read by the public** (passwords, account logins, participant data, personal
+phone numbers).
+
+### Which file is which
+
+| Sidebar section | Files |
+|-----------------|-------|
+| (landing) | `research_process_home.qmd` |
+| Conducting Research | `research_process_getting_started.qmd`, `_executing_a_proj.qmd`, `_working_with_a_team.qmd`, `_publishing_in_a_journal.qmd`, `_wrapping_up.qmd` |
+| Working with R | `r_quarto_website_github_pages.qmd`, `r_quarto_custom_domain.qmd` |
+| Texas State | `txst_travel.qmd`, `txst_links.qmd` |
+| Training Materials | `training_opxr.qmd` (Operator XR VR rig), `training_tobii.qmd` (Tobii Pro Glasses 3) |
+| (bottom) | `lexical_stowaways.qmd` |
+
+"Datasets" and "Templates" are empty sidebar placeholders.
+
+### Equipment walkthroughs (Training Materials)
+
+The walkthrough pages are step-by-step guides for running lab equipment. Both existing
+pages share one skeleton, and new or rewritten walkthroughs should follow it so a team
+member can find the same thing in the same place on every page:
+
+```markdown
+---
+title: "Device Name"
+format: html
+toc: true
+---
+
+# Hardware
+-   Each physical component, by model name
+
+# Software
+-   Each app or program, plus any licensing quirk (e.g., one active key at a time)
+
+# Setup & Start
+## Pre-setup
+-   Charging, consumables, and network checks done before the session
+## <Each setup task, in the order you do them>
+### Step 1: <imperative verb phrase>
+1.  Numbered substeps
+
+# <Optional task sections, e.g., Creating a scenario, Import / Export>
+
+# FAQ
+::: {.callout-note collapse="true" icon="false"}
+## Question phrased the way a confused user would ask it
+Answer.
+:::
+```
+
+Conventions:
+- **Headings:** `#` for the four fixed sections, `##` for tasks, `### Step N:` for
+  ordered steps within a task. The page TOC is built from these, so keep them short.
+- **Warnings and tips** go in an un-collapsed callout right where they apply:
+  `::: callout-tip` for helpful hints, `::: callout-important` for "do not skip this"
+  steps. Not in the FAQ.
+- **FAQ entries** are collapsed callouts (`collapse="true" icon="false"`), one question
+  each. Straight quotes on `collapse="true"` (see the gotcha under Publications).
+- **Videos:** `{{< video https://youtu.be/ID >}}`. A video that supports a step goes
+  inside a collapsed `callout-note` titled after what it shows (see the Tobii page); a
+  standalone tutorial can sit bare under its section heading.
+- **Screenshots and photos:** put them in `resources/training/<device>/` (create it if
+  missing) and embed with `![Short description](resources/training/<device>/file.png)`.
+  Use lowercase, underscore-separated filenames. Crop to the relevant part of the
+  screen and keep each image under ~500 KB.
+- **Write for the next person, not for yourself.** Walkthroughs outlive their authors.
+  Do not write "use my account" or "ask me"; name the role or the shared account
+  instead ("ask the lab manager for the shared Tobii login").
+- Oxford comma and `{target="_blank"}` on external links apply here like everywhere
+  else.
+
+### Adding a new Resources page
+
+1. Create the `.qmd` in the project root, named by sidebar section prefix
+   (`training_`, `research_process_`, `r_quarto_`, `txst_`).
+2. Add it to the right `section:` under the **"Ring Resources"** sidebar in
+   `_quarto.yml`. Not the "Public-Facing" sidebar: a page listed there is public
+   and is not gated.
+3. Because `_quarto.yml` changed, run a **full** `quarto render` (every page carries
+   the sidebar), not a single-file render.
+4. Open `_site/<page>.html` and check that the passphrase overlay appears.
+
+Editing an existing page needs only `quarto render <that_page>.qmd`.
+
+---
+
 ## Render and Deploy Workflow
 
 **After editing any content file, always render before committing.**
@@ -320,3 +414,6 @@ GitHub Pages picks up the `_site/` folder automatically on push. The site update
 | Grant (current or past) | `public_grants.qmd` |
 | News, podcast, announcement | `_media_entries.yaml` |
 | Staff or collaborator | `public_staff.qmd` |
+| Equipment walkthrough (VR, eye tracking) | `training_*.qmd` — see Ring Resources |
+| Research process guide, R/Quarto how-to, TXST links | see Ring Resources table |
+| New Resources page | new `.qmd` + "Ring Resources" sidebar in `_quarto.yml` |

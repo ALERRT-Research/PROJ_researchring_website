@@ -26,3 +26,11 @@ operational throughout. Notes for next time: `rerun --failed` is useless after a
 because it reuses the already-cancelled deployment ID (the ID is the `gh-pages` commit
 SHA). Waiting ~45 min and sending one `gh api -X POST repos/<owner>/<repo>/pages/builds`
 worked (built 17:40Z). Live page confirmed.
+
+## Ring Resources notes for Jessie
+
+Jessie (RA since 2026-10-05) will be updating the equipment walkthroughs. CLAUDE.md only
+covered the public pages, so a "Ring Resources (internal pages)" section was added: file
+map, the auth gate's limits, the shared skeleton of `training_opxr.qmd`/`training_tobii.qmd`,
+image/video/callout conventions, and how to add a gated page to the sidebar. File Map rows
+added. Noted for her: the Tobii FAQ still says "use mine, just ask" (author has likely left).
