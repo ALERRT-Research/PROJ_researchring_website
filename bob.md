@@ -41,6 +41,7 @@ blocking_others: null
 ## Start Here Next Session
 
 - Last session (2026-11-06): In Progress page updates (habituation R&R → D; Brazil UoF submitted → D with CrimRxiv preprint; new USA UoF card at C). Live after a GitHub Pages publish stall; the recovery steps are in `docs/logs/2026-11-06_in-progress-updates.md`.
+- Jessie is taking over the equipment walkthroughs (`training_*.qmd`); editing notes are in CLAUDE.md under "Ring Resources". The Tobii FAQ "use mine, just ask" line needs a real shared-login answer.
 - `git fetch` and check `git log` for anything Hunter pushed since the last push.
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
