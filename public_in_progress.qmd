@@ -130,13 +130,13 @@ cat(make_progress_tracker(current_level = "D"))
 
 #### Synopsis:
 
-This project will examine the effects of repeated exposure to stressful virtual reality (VR) scenarios on acute physiological stress responses, with the aim of evaluating whether habituation occurs across multiple exposures. Participants will complete three separate scenario days using a VR system, with salivary biomarkers collected at each session to index acute stress reactivity. This study is being conducted in collaboration with the MAP Lab at Texas State University.
+This project examined the effects of repeated exposure to stressful virtual reality (VR) scenarios on acute physiological stress responses, with the aim of evaluating whether habituation occurs across multiple exposures. Participants completed three separate scenario days using a VR system, with salivary biomarkers collected at each session to index acute stress reactivity. This study was conducted in collaboration with the MAP Lab at Texas State University.
 
 #### Status:
 
 ```{r results='asis'}
 #| echo: false
-cat(make_progress_tracker(current_level = "B"))
+cat(make_progress_tracker(current_level = "D"))
 ```
 
 ------------------------------------------------------------------------
@@ -157,13 +157,30 @@ cat(make_progress_tracker(current_level = "B"))
 
 ------------------------------------------------------------------------
 
-### "What officers should be trained for? (Brazil)" 
+### "What officers should be trained for? (Brazil)" {#proj-uof-training-brazil}
 
 ------------------------------------------------------------------------
 
 #### Synopsis:
 
-This project is a collaboration between U.S.-based scholars and Brazilian pracademics. It uses a mixed-methods approach, combining a national-level survey with over 20,000 responses, data from police reports from a Brazilian police department, and a focus group. Together, these sources are used to identify the use-of-force situations most commonly experienced by officers, the contextual factors that increase risk in those incidents, and other critical situations—all with the goal of informing police use-of-force training. Results will be compared with an ongoing parallel study being conducted with U.S. law enforcement.
+This project is a collaboration between U.S.-based scholars and Brazilian pracademics. It uses a mixed-methods approach, combining a national-level survey with over 20,000 responses, data from police reports from a Brazilian police department, and a focus group. Together, these sources are used to identify the use-of-force situations most commonly experienced by officers, the contextual factors that increase risk in those incidents, and other critical situations—all with the goal of informing police use-of-force training. Results will be compared with a [parallel study](#proj-uof-training-usa) being conducted with U.S. law enforcement. The manuscript has been submitted for review; [a preprint is available here](https://doi.org/10.21428/cb6ab371.1ec94e98){target="_blank"}.
+
+#### Status:
+
+```{r results='asis'}
+#| echo: false
+cat(make_progress_tracker(current_level = "D"))
+```
+
+------------------------------------------------------------------------
+
+### "What officers should be trained for? (USA)" {#proj-uof-training-usa}
+
+------------------------------------------------------------------------
+
+#### Synopsis:
+
+This project replicates the [Brazilian study](#proj-uof-training-brazil) above with U.S. law enforcement. It uses the same mixed-methods approach, combining a national-level survey of U.S. officers, data from police reports, and a focus group. Together, these sources are used to identify the use-of-force situations most commonly experienced by officers, the contextual factors that increase risk in those incidents, and other critical situations—all with the goal of informing police use-of-force training. Results will be compared with those from the Brazilian study.
 
 #### Status:
 

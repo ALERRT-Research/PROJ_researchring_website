@@ -10,7 +10,7 @@ deadline: null
 target: Ongoing — keep content current; add publications, grants, news as they occur
 effort_remaining: as-needed
 weekly_commitment: 1–2h
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 blockers: null
 blocking_others: null
 ---
@@ -34,13 +34,14 @@ blocking_others: null
 ## Upcoming Milestones
 
 - ~Dec 2026 (AJPH First Look): replace "Article forthcoming." on the correctional officer mortality entry with the AJPH DOI — trigger is `PROJ_noms_co_cod` production
+- When the Brazil UoF training-needs paper is accepted: move it from In Progress to Research Output (preprint is CrimRxiv; confirm DOI use)
 - When the Brazil gun-ownership paper appears online at IJCACJ: replace its "Article forthcoming." with the article link
 - LCAN card stays at stage A until data collection starts; when the IRB clears, decide whether to add a "Data collection" stage to the tracker (changes every card)
 
 ## Start Here Next Session
 
-- Last session (2026-11-05, all pushed through e8420f7): Jessie on People page; IACP, SORD, and Jessie-joins announcements; `{#proj-dod-pso}` anchor. See `docs/logs/2026-11-05_jessie-beck-people.md` and `docs/logs/2026-11-05_iacp-sord-announcements.md`.
-- `git fetch` and check `git log` for anything Hunter pushed since 2026-11-05 (e8420f7).
+- Last session (2026-11-06): In Progress page updates (habituation R&R → D; Brazil UoF submitted → D with CrimRxiv preprint; new USA UoF card at C). See `docs/logs/2026-11-06_in-progress-updates.md`.
+- `git fetch` and check `git log` for anything Hunter pushed since the last push.
 - Scholar-stats question: read `~/.claude/projects/-Users-PTT2--claude/memory/research_ring_scholar_stats_architecture.md` (2026-07-29) and `docs/logs/2026-09-04_bob-prune.md` before resuming. Do not re-investigate `PROJ_alerrt_cv` from scratch.
 - Key-exposure record and open items: `docs/logs/2026-09-06_openalex-key-exposure.md`.
 - Content-editing and render/deploy procedure: `CLAUDE.md`. Push requires separate explicit approval from Peter or Hunter.
