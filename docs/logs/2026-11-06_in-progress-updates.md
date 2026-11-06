@@ -16,3 +16,13 @@ Peter reported three status changes; all on `public_in_progress.qmd`.
 
 Rendered single-file; verified 8 trackers, both anchors, preprint link `target="_blank"`,
 no leaked chunk options.
+
+## Deploy incident
+
+Pushed `4b49405`; the workflow built `gh-pages` (`6cb98de`) fine, but GitHub's Pages
+publish step hung (`updating_pages` / `syncing_files`) and timed out three times
+(first run, `gh run rerun --failed`, then `POST /pages/builds`). GitHub status showed
+operational throughout. Notes for next time: `rerun --failed` is useless after a timeout
+because it reuses the already-cancelled deployment ID (the ID is the `gh-pages` commit
+SHA). Waiting ~45 min and sending one `gh api -X POST repos/<owner>/<repo>/pages/builds`
+worked (built 17:40Z). Live page confirmed.
