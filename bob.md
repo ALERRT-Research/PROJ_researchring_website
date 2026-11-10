@@ -10,7 +10,7 @@ deadline: null
 target: Ongoing — keep content current; add publications, grants, news as they occur
 effort_remaining: as-needed
 weekly_commitment: 1–2h
-last_updated: 2026-11-06
+last_updated: 2026-11-10
 blockers: null
 blocking_others: null
 ---
@@ -52,6 +52,7 @@ blocking_others: null
 - Scholar-stats banner on the Research page is hardcoded; a pipeline sourced from Hunter's `PROJ_alerrt_cv` is a candidate but unresolved pending a design conversation with Hunter. Open questions in the memory file and `docs/logs/2026-09-04_bob-prune.md` (see Start Here).
 - Credentials never go in tracked files (convention in `CLAUDE.md`, added 2026-09-06 after an outside reader found a hardcoded OpenAlex key; key rotated, live tree scrubbed, history rewrite declined). Same habit exists in `PROJ_allostasis_stress/code/2_census.R` — fix when that project is next touched.
 - gitleaks pre-commit hook live on Peter's laptop (2026-09-29; `.git/hooks` is local, so Hunter/desktop need their own). History scan flags only the rotated OpenAlex key (commit dfc5a509), expected.
+- Landing-page AAD screenshot (`resources/aade_screenshot.png`) refreshed 2026-11-10 after the activeattackdata.org redesign; it bakes in the 2000–2025 counters, so retake it when the data year rolls over (headless Chrome, 1440x849 @2x, resized to 2364x1394).
 - Supported Output = projects ALERRT funds without providing research support, not outside team-member collaborations (settled with Hunter 2026-07-29).
 - History: `DEVLOG.md` covers build-out through 2026-05-19; `docs/logs/` from 2026-09-04 onward. Conventions live in `CLAUDE.md`, not here.
 
